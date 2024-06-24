@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Corporate Group Vértice || Nosotros</title>
+    @include('sistema.CGV.includes.head')
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    @include('sistema.CGV.includes.navbar')
+
+    <section class="section-about">
+        <div class="content-Conózcanos">
+            <p class="text-center titulo" id="animated-title">Conózcanos</p>
+            <p class="text-center texto" id="animated-text">
+                <i id="start-i" class="fas fa-quote-left"></i>
+                <span id="typed-text">Quiénes Somos y Nuestra Pasión por la Excelencia Empresarial.</span>
+                <i id="start-i" class="fas fa-quote-right"></i>
+            </p>
+        </div>
+    </section>
+    <section class="Acrostico-section">
+        <div class="container">
+            <div class="row" style="cursor: default">
+                <div class="col-12 text-center mt-5">
+                    <h3 class="acrostico">
+                        <span class="letter">C O R P O R A T E</span>
+                        <span class="letter" style="padding: 7px;">
+                            <!-- Espacio -->
+                        </span>
+                        <span class="letter">G R O U P</span>
+                        <span class="letter" style="padding: 7px;">
+                            <!-- Espacio -->
+                        </span>
+                        <span class="letter">V E R T I C E</span>
+                        <span class="letter" style="padding: 7px;">
+                            <!-- Espacio -->
+                        </span>
+                        <span class="letter">S.</span>
+                        <span class="letter">A.</span>
+                        <span class="letter">S.</span>
+                    </h3>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md 1"></div>
+                <div class="col-md-7">
+                    <p class="acrostico-text" style="cursor: default;">
+                        <a class="cgv" title="Validación de procesos">V<a style="color: #636363"> alidación de
+                                procesos</a></a> <br>
+                        <a class="cgv" title="Empresariales mediante la">E<a style="color: #636363"> mpresariales
+                                mediante la</a></a><br>
+                        <a class="cgv" title="Retroalimentación y gestión de riesgos que utiliza">R<a
+                                style="color: #636363">
+                                etroalimentación y gestión
+                                de riesgos que utiliza</astyle=></a> <br>
+                            <a class="cgv" title="Técnicas de trabajo orientadas a">T<a style="color: #636363">
+                                    écnicas de trabajo orientadas
+                                    a</a></a>
+                            <br>
+                            <a class="cgv"
+                                title="Inferir en el cambio organizacional, mediante el aprovechamiento de">I<a
+                                    style="color: #636363"> nferir en
+                                    el cambio organizacional, mediante el aprovechamiento de</a></a> <br>
+                            <a class="cgv"
+                                title="Características y capacidades individuales que permitan el desarrollo de">C<a
+                                    style="color: #636363">
+                                    aracterísticas
+                                    y capacidades individuales que permitan el desarrollo de</a></a> <br>
+                            <a class="cgv" title="Ecosistemas internos empoderados">E<a style="color: #636363">
+                                    cosistemas internos
+                                    empoderados.</a></a>
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="./img/isonew.png" alt="Corporate Group Vertice sas" style="width: 55%; height: auto;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-about-video">
+        <div class="container col-xxl-12 ">
+            <div class="row flex-lg-row-reverse">
+                <div class="col-12 col-sm-12 col-lg-9 align-items-center">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="100%" height="100%"
+                            src="https://www.youtube.com/embed/__PTxljtsgs?si=ylFDviGeaSflAxVq&start=1&autoplay=1&rel=0&cc_load_policy=1"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <br>
+                    <p><i class="fas fa-trophy"></i> Líderes</p>
+                    <hr>
+                    <p><i class="fas fa-check-circle"></i> Validación de Procesos</p>
+                    <p><i class="fas fa-exclamation-triangle"></i> Gestión de Riesgos</p>
+                    <p><i class="fas fa-cogs"></i> Técnicas de Trabajo</p>
+                    <hr>
+                    <p><i class="fas fa-exchange-alt"></i> Cambio Organizacional</p>
+                    <p><i class="fas fa-users"></i> Características y Capacidades</p>
+                    <p><i class="fas fa-chart-line"></i> Desarrollo Empresarial</p>
+                    <hr>
+                    <p><i class="fas fa-building"></i> Empresa Especializada</p>
+                    <p><i class="fas fa-handshake"></i> Compromiso</p>
+                    <p><i class="fas fa-award"></i> Excelencia Empresarial</p>
+                    <hr>
+                    <p><i class="fas fa-users"></i> Quiénes Somos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Timeline">
+        <div class="container py-5">
+            <div class="main-timeline-2">
+                {{-- Área de servicio al cliente --}}
+                <div class="timeline-2 left-2">
+                    <div class="card">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
+                            <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;"
+                                alt="Imagen 1">
+                        </a>
+                        <div class="card-body p-4">
+                            <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">Servicio
+                                al cliente</h3>
+                            <p class="mb-0">
+                                En nuestra empresa, el servicio al cliente es nuestra prioridad número uno. Nos
+                                esforzamos por brindar una experiencia excepcional a cada uno de nuestros clientes en
+                                cada interacción. Nuestro equipo de atención al cliente está altamente capacitado y
+                                dedicado a satisfacer tus necesidades y resolver cualquier pregunta o problema que
+                                puedas tener.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {{-- Espacio de SST-SG --}}
+                <div class="timeline-2 right-2">
+                    <div class="card">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline2">
+                            <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;"
+                                alt="Imagen 2">
+                        </a>
+                        <div class="card-body p-4">
+                            <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">SST-SG
+                            </h3>
+                            <p class="mb-0">
+                                SST-SG se dedica a garantizar la seguridad y el bienestar en el entorno laboral. Nuestra
+                                prioridad es proporcionar soluciones efectivas en seguridad y salud en el trabajo.
+                                Contamos con un equipo altamente capacitado en normativas y medidas preventivas. Estamos
+                                aquí para ayudarte en cualquier aspecto relacionado con la seguridad laboral. ¡Confía en
+                                SST-SG para un entorno laboral más seguro y saludable!.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {{-- Espacio de multimedia --}}
+                <div class="timeline-2 left-2">
+                    <div class="card">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline3">
+                            <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;"
+                                alt="Imagen 3">
+                        </a>
+                        <div class="card-body p-4">
+                            <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">
+                                Multimedia</h3>
+                            <p class="mb-0">
+                                Contamos con una variedad de recursos multimedia, incluyendo videos educativos,
+                                infografías informativas y testimonios de clientes satisfechos. Estos recursos están
+                                diseñados para brindar información relevante y útil sobre SST y servicio al cliente,
+                                ayudando a nuestros clientes a comprender mejor estos temas y cómo pueden beneficiar a
+                                sus empresas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal de la galleria de imagenes -->
+
+    <!-- imagen1 -->
+    <div tabindex="-1" aria-labelledby="modalImageTimeline1" aaria-hidden="true" class="modal fade"
+        id="modalImageTimeline1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./img/2.jpg" alt="imagen 1 galleria de imagenes del modal" height="auto" width="100%">
+            </div>
+        </div>
+    </div>
+    <!-- imagen2 -->
+    <div tabindex="-1" aria-labelledby="modalImageTimeline2" aaria-hidden="true" class="modal fade"
+        id="modalImageTimeline2">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./img/1.jpg" alt="imagen 1 galleria de imagenes del modal" height="auto" width="100%">
+            </div>
+        </div>
+    </div>
+    <!-- imagen3 -->
+    <div tabindex="-1" aria-labelledby="modalImageTimeline3" aaria-hidden="true" class="modal fade"
+        id="modalImageTimeline3">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./img/pambe.jpg" alt="imagen 1 galleria de imagenes del modal" height="auto"
+                    width="100%">
+            </div>
+        </div>
+    </div>
+    <!-- imagen4 -->
+    <div tabindex="-1" aria-labelledby="modalImageTimeline4" aaria-hidden="true" class="modal fade"
+        id="modalImageTimeline4">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./img/facebook.png" alt="imagen 1 galleria de imagenes del modal" height="auto"
+                    width="100%">
+            </div>
+        </div>
+    </div>
+
+    <section class="MapaGoogle">
+        <div class="container">
+            <div class="col-md-4">
+                <div class="text-center">
+                    <div style="position: relative; width: 300%; padding-top: 100%;">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0860002137592!2d-75.59203859023458!3d6.252398893709935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429091a87d505%3A0xf032d899690661de!2sCra.%2071%20%2346-28%2C%20Laureles%20-%20Estadio%2C%20Medell%C3%ADn%2C%20Laureles%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1693585283630!5m2!1ses-419!2sco"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container text-center mt-3">
+            <a href="https://wa.me/573147675259?text=Quiero%20mas%20informacion%20." target="_blank">
+                <img src="../img/whatsl.jpeg" alt="logo watsap" class="btn-wsp">
+            </a>
+        </div>
+    </section>
+
+    @include('sistema.CGV.includes.footer')
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+</script>
+</html>
