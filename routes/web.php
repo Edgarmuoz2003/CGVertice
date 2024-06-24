@@ -38,8 +38,7 @@ Route::get('/Blog', [ConvergeController::class, 'index'])->name('ruta_blog');
 Route::get('/Seguridad', [ProyectoController::class, 'indexSeguridad'])->name('ruta_Seguridad');
 Route::get('/V2/{id}', [ProductoController::class, 'show'])->name('producto.informacion');
 Route::get('/servicios', [ProyectoController::class, 'indexServicios'])->name('ruta_services');
-Route::get('/gestionDesarrollo', [ProyectoController::class, 'gestionDesarrollo'])->name('ruta_gestionDesarrollo');
-
+Route::get('/GestionCalidad', [ProyectoController::class, 'indexGestionCalidad'])->name('ruta_gestion_calidad');
 
 Route::middleware(['auth'])->group(function () {
 
