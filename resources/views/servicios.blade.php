@@ -110,8 +110,8 @@
                                             Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
                                             eum quia? Provident.
                                             <br><br>
-                                            <button type="button" class="btn btn-warning">
-                                                <a href="/GestionCalidad"
+                                            <button type="button" class="btn btn-warning" {{ asset('ruta_gestion_calidad') }}>
+                                                <a href=""
                                                     style="color: black">Ver</a></button>
                                         </div>
                                         <div class="container py-1">
