@@ -26,7 +26,7 @@ class ProyectoController extends Controller
         return view('EyF');
     }
 
-    public function GestionDesarrollo()
+    public function indexGestionDesarrollo()
     {
         return view('gestionDesarrollo');
     }

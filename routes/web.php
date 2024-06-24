@@ -39,6 +39,7 @@ Route::get('/Seguridad', [ProyectoController::class, 'indexSeguridad'])->name('r
 Route::get('/V2/{id}', [ProductoController::class, 'show'])->name('producto.informacion');
 Route::get('/servicios', [ProyectoController::class, 'indexServicios'])->name('ruta_services');
 Route::get('/GestionCalidad', [ProyectoController::class, 'indexGestionCalidad'])->name('ruta_gestion_calidad');
+Route::get('/gestionDesarrollo', [ProyectoController::class, 'indexGestionDesarrollo'])->name('ruta_gestion_desarrollo');
 
 Route::middleware(['auth'])->group(function () {
 
