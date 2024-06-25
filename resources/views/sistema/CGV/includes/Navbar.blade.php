@@ -272,8 +272,3 @@
         </div>
     </div>
 </body>
-<script src="{{ asset('js/code.jquery.com_jquery-3.7.1.js') }}"></script>
-<script src="{{ asset('js/cdnjs.cloudflare.com_ajax_libs_lightslider_1.1.6_js_lightslider.min.js') }}"></script>
-<script src="{{ asset('js/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('js/popper.min.js') }}"></script>
-<script src="{{ asset('js/script.js') }}"></script>
