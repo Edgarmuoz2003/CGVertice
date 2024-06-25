@@ -3939,3 +3939,9 @@ a:link {
 .espacio{
     height: 200px;
 }
+
+.titulo h1{
+    font-size: 30px;
+    color: #b8860b;
+    font-family: 'Swiss , sans-serif';
+}
