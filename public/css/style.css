@@ -1977,6 +1977,7 @@ table {
     max-width: 1140px;
     width: 100%;
 }
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -3854,7 +3855,7 @@ a:link {
 }
 
 .item-a {
-    width: 25%; /* Ancho de cada elemento del slider */
+    width: 50%; /* Ancho de cada elemento del slider */
 }
 
 
@@ -3959,4 +3960,27 @@ a:link {
     margin: 0;
     transition: background-color 0.3s;
     box-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra ligera */
+}
+
+/* Estilo por defecto (pantallas grandes) */
+.container-mapa {
+    position: relative; 
+    width: 280%; 
+    padding-top: 100%;
+}
+
+/* Pantallas medianas (tablet, entre 768px y 1024px) */
+@media (max-width: 1024px) {
+    .container-mapa {
+        width: 150%; /* Ajusta este valor según sea necesario */
+        padding-top: 75%; /* Ajusta este valor según sea necesario */
+    }
+}
+
+/* Pantallas pequeñas (móvil, menos de 768px) */
+@media (max-width: 768px) {
+    .container-mapa {
+        width: 100%; /* Ajusta este valor según sea necesario */
+        padding-top: 50%; /* Ajusta este valor según sea necesario */
+    }
 }

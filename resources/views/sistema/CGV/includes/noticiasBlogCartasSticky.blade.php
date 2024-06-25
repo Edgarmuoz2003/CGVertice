@@ -22,7 +22,7 @@
                                 </p>
                                 <br>
                                 <!-- Video de la carta -->
-                                <div class="embed-responsive embed-responsive-16by9" style="padding-left: 7%;">
+                                <div class="embed-responsive embed-responsive-16by9" >
                                     <iframe class="embed-responsive-item"
                                         src="https://www.youtube.com/embed/yd4S5qUNuMw?si=OvRZo7eIiFTWhL85"
                                         allowfullscreen></iframe>
@@ -46,7 +46,7 @@
                                 </p>
                                 <br>
                                 <!-- Aquí colocamos el video de YouTube -->
-                                <div class="embed-responsive embed-responsive-16by9" style="padding-left: 7%;">
+                                <div class="embed-responsive embed-responsive-16by9">
                                     <iframe class="embed-responsive-item"
                                         src="https://www.youtube.com/embed/4s8hv1ccXkQ?si=qoWsebdDwbeaHBIy"
                                         allowfullscreen></iframe>
@@ -73,7 +73,7 @@
                                     de deudas. ¡No te pierdas esta oportunidad de fortalecer tu negocio!"
                                 </p>
                                 <br>
-                                <div class="embed-responsive embed-responsive-16by9" style="padding-left: 7%;">
+                                <div class="embed-responsive embed-responsive-16by9" >
                                     <iframe class="embed-responsive-item"
                                         src="https://www.youtube.com/embed/mzY32px4SWE?si=lyDhE7kxD3gI7PTL"
                                         allowfullscreen></iframe>
@@ -98,7 +98,7 @@
                                 </p>
                                 <br>
                                 <!-- Aquí colocamos el video de YouTube -->
-                                <div class="embed-responsive embed-responsive-16by9" style="padding-left: 7%;">
+                                <div class="embed-responsive embed-responsive-16by9">
                                     <iframe class="embed-responsive-item"
                                         src="https://www.youtube.com/embed/mZIDY30c8Fk?si=l_Cho0cFl2BPN5qR"
                                         allowfullscreen></iframe>
@@ -125,7 +125,7 @@
                                     descubrir más.
                                 </p>
                                 <br>
-                                <div class="embed-responsive embed-responsive-16by9" style="padding-left: 7%;">
+                                <div class="embed-responsive embed-responsive-16by9">
                                     <iframe class="embed-responsive-item"
                                         src="https://www.youtube.com/embed/jGUKMJxUyac?si=0rAV0Ye3CNYJypZk"
                                         allowfullscreen></iframe>
@@ -148,7 +148,7 @@
                                     abordaremos tus necesidades de información, actualización y acompañamiento.
                                 </p>
                                 <br>
-                                <div class="embed-responsive embed-responsive-16by9" style="padding-left: 7%;">
+                                <div class="embed-responsive embed-responsive-16by9">
                                     <iframe class="embed-responsive-item"
                                         src="https://www.youtube.com/embed/Rjkiawshj50?si=ZOJLg-Jqqzvsqf3z"
                                         allowfullscreen></iframe>
