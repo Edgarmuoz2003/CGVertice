@@ -40,6 +40,8 @@ Route::get('/V2/{id}', [ProductoController::class, 'show'])->name('producto.info
 Route::get('/servicios', [ProyectoController::class, 'indexServicios'])->name('ruta_services');
 Route::get('/GestionCalidad', [ProyectoController::class, 'indexGestionCalidad'])->name('ruta_gestion_calidad');
 Route::get('/gestionDesarrollo', [ProyectoController::class, 'indexGestionDesarrollo'])->name('ruta_gestion_desarrollo');
+Route::get('/GestionIps', [ProyectoController::class, 'indexGestionIps'])->name('ruta_gestion_Ips');
+
 
 Route::middleware(['auth'])->group(function () {
 

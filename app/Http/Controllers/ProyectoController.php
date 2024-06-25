@@ -49,9 +49,9 @@ class ProyectoController extends Controller
     {
         return view("GestionEmpresas");
     }
-    public function indexIPS()
+    public function indexGestionIps()
     {
-        return view("IPSGerencial");
+        return view("GestionIps");
     }
     public function indexBotiquin()
     {

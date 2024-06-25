@@ -148,8 +148,8 @@
                                             eum quia? Provident.
                                             <br><br>
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
-                                                    style="color: black">Cotizar</a></button>
+                                                <a href="/GestionIps"
+                                                    style="color: black">Ver</a></button>
                                         </div>
                                         <div class="container py-1">
                                             <hr>
