@@ -3940,3 +3940,10 @@ a:link {
 .espacio{
     height: 200px;
 }
+
+.titulo-modal{
+    text-align: center;
+    color: #b8860b;
+    font-size: 30px;
+    
+}
