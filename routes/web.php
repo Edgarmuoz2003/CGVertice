@@ -41,7 +41,7 @@ Route::get('/servicios', [ProyectoController::class, 'indexServicios'])->name('r
 Route::get('/GestionCalidad', [ProyectoController::class, 'indexGestionCalidad'])->name('ruta_gestion_calidad');
 Route::get('/gestionDesarrollo', [ProyectoController::class, 'indexGestionDesarrollo'])->name('ruta_gestion_desarrollo');
 Route::get('/GestionIps', [ProyectoController::class, 'indexGestionIps'])->name('ruta_gestion_Ips');
-
+Route::get('/FormacionContinua', [ProyectoController::class, 'indexFormacionContinua'])->name('ruta_formacion_continua');
 
 Route::middleware(['auth'])->group(function () {
 

@@ -221,8 +221,7 @@
                                             Velit fuga soluta fugit provident dolores cum magni est nihil.
                                             Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
                                             eum quia? Provident.
-                                            <br><br>
-                                           
+                                            <br><br>                                         
                                             <button type="button" class="btn btn-warning">
                                                 <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
                                                     style="color: black">Cotizar</a></button>
@@ -240,7 +239,7 @@
                                             Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
                                             eum quia? Provident.
                                             <br><br>
-                                           
+
                                             <button type="button" class="btn btn-warning">
                                                 <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
                                                     style="color: black">Cotizar</a></button>
@@ -258,7 +257,7 @@
                                             Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
                                             eum quia? Provident.
                                             <br><br>
-                                           
+                                            
                                             <button type="button" class="btn btn-warning">
                                                 <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
                                                     style="color: black">Cotizar</a></button>
@@ -276,7 +275,7 @@
                                             Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
                                             eum quia? Provident.
                                             <br><br>
-                                           
+                                            
                                             <button type="button" class="btn btn-warning">
                                                 <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
                                                     style="color: black">Cotizar</a></button>
@@ -294,13 +293,12 @@
                                             Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
                                             eum quia? Provident.
                                             <br><br>
-                                           
+                                            
                                             <button type="button" class="btn btn-warning">
                                                 <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
-                                                    style="color: black">Cotizar</a></button>
+                                                    style="color: black">Cotizar</a>
+                                            </button>
                                         </div>
-
-
                                     </div>
                                 </div>
                             </div>
@@ -338,7 +336,8 @@
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="exampleModalLabel">Lorem ipsum dolor</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
+                                        aria-label="Close">
+                                    </button>
                                 </div>
                                 <div class="modal-body">
                                     <img src="img/img.jpeg" class="card-img-top imgpopup" alt="..."> <br><br>
@@ -351,9 +350,31 @@
                                         deleniti doloribus libero ab provident consequuntur beatae. Dolorum cum
                                         praesentium consectetur aut debitis nemo quos tenetur odit corrupti?
                                         <hr>
+                                        <div class="card-title text-center" style="padding: 1% 0% 2% 0%">
+                                            <h4 style="color: #b8860b">Servicios de gestión Instituciones Educativas</h4>
+                                        </div>
                                         <div>
                                             <b style="color: #b8860b">
-                                                IPS Gerencial
+                                                Formación continua
+                                            </b>
+                                            <br><br>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
+                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
+                                            eum quia? Provident.
+                                            <br><br>
+                                            
+                                            <button type="button" class="btn btn-warning">
+                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                    style="color: black">Cotizar</a>
+                                            </button>
+                                        </div>
+                                        <div class="container py-1">
+                                            <hr>
+                                        </div>
+                                        <div>
+                                            <b style="color: #b8860b">
+                                                Formación a la medida
                                             </b>
                                             <br><br>
                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -362,34 +383,9 @@
                                             eum quia? Provident.
                                             <br><br>
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
-                                                    style="color: black">Cotizar</a></button>
-                                        </div>
-                                        <br><br>
-                                        <b>
-                                            Servicios incluidos:
-                                        </b>
-                                        <br><br>
-                                        Lorem ipsum dolor
-                                        <br><br>
-                                        <b>
-                                            Técnicas de reparación:
-                                        </b>
-                                        <br><br>
-                                        Lorem ipsum dolor
-                                        <br><br>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <div style="font-size:15px">
-                                        <a>¿Estás interesado?</a>
-                                        <br>
-                                        <div>
-                                            <button style="margin-left: 5%" type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">No</button>
-                                            <button style="margin-left: 17%" type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Gestión%20de%20Empresas%20Educativas."
-                                                    style="color: black">Sí</a></button>
+                                                <a href="FormacionContinua"
+                                                    style="color: black">Ver</a>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>

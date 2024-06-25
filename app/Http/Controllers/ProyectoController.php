@@ -31,6 +31,11 @@ class ProyectoController extends Controller
         return view('gestionDesarrollo');
     }
 
+    public function indexFormacionContinua()
+    {
+        return view('FormacionContinua');
+    }
+
     public function indexFC()
     {
         return view('FormacionConsultores');
