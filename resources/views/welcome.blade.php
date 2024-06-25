@@ -5,11 +5,10 @@
     @include('sistema.CGV.includes.head')
 </head>
 
-<body class="fondo">
+<body>
 
     @include('sistema.CGV.includes.navbar')
     @include('sistema.CGV.includes.boton')
-
 
     <div class="container-fluid">
         <section class="Above-the-Fold">

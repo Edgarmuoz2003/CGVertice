@@ -14,7 +14,7 @@
                                 <strong class="d-inline-block mb-2 text-primary-emphasis">Categoria</strong>
                                 <h3 class="mb-0 text" style="color:#b8860b">¿Por qué nos cuesta tomar decisiones?</h3>
                                 <br>
-                                <p class="card-text mb-auto text-white">
+                                <p class="card-text mb-auto">
                                     ¡Únete a nuestro reto HOY DECIDO!
 
                                     En momentos de incertidumbre, tomar decisiones puede ser desafiante. ¿Te gustaría
@@ -37,7 +37,7 @@
                                 <h3 class="mb-0 text" style="color:#b8860b">Formación para el trabajo y el desarrollo
                                     humano</h3>
                                 <br>
-                                <p class="card-text mb-auto text-white">
+                                <p class="card-text mb-auto">
                                     ¡Descubre las ETDH de la mano de la rectora de COMPUEDU!
 
                                     ¿Interesado en conocer los fundamentos de las ETDH Estrategias de Transformación
@@ -67,7 +67,7 @@
                                 <h3 class="mb-0 text" style="color:#b8860b">Darte por Vencido o darle una oportunidad a
                                     tu empresa?</h3>
                                 <br>
-                                <p class="card-text mb-auto text-white">
+                                <p class="card-text mb-auto">
                                     "Descubre con el Abogado William Zapata cómo las leyes de insolvencia pueden salvar
                                     tus proyectos empresariales. Aprende sobre la insolvencia, su gestión y la caducidad
                                     de deudas. ¡No te pierdas esta oportunidad de fortalecer tu negocio!"
@@ -89,7 +89,7 @@
                                 <strong class="d-inline-block mb-2 text-primary-emphasis">Categoria</strong>
                                 <h3 class="mb-0 text" style="color:#b8860b">Mediciones y emisiones ambientales</h3>
                                 <br>
-                                <p class="card-text mb-auto text-white">
+                                <p class="card-text mb-auto">
                                     ¡¡Descubre las mediciones ambientales con Diagnóstico Ambiental y el Ingeniero
                                     Alexander Cubaque López! En este video, exploraremos cómo estas mediciones impactan
                                     en temas como empresas, salud laboral, convivencia y más. No te pierdas esta
@@ -118,7 +118,7 @@
                                 <h3 class="mb-0 text" style="color:#b8860b">De lo Legal a lo Social. Impactos de la
                                     Gestión en medio de la contingencia</h3>
                                 <br>
-                                <p class="card-text mb-auto text-white">
+                                <p class="card-text mb-auto">
                                     ¡No te pierdas nuestro próximo video!
                                     Exploraremos cómo las decisiones gubernamentales impactan en la vida de las personas
                                     y empresas. Únete a la Abogada Andrea Iglesias y al Sociólogo Oscar Chaparro para
@@ -141,7 +141,7 @@
                                 <h3 class="mb-0 text" style="color:#b8860b">Hacer empresa si se puede, pero con
                                     responsabilidad</h3>
                                 <br>
-                                <p class="card-text mb-auto text-white">
+                                <p class="card-text mb-auto">
                                     ¡No te pierdas el lanzamiento de Converge TV!
 
                                     Únete al primer programa diseñado por empresarios para empresarios, donde
