@@ -3875,7 +3875,7 @@ a:link {
     display: flex;
     flex-direction: column; /* Para alinear los elementos verticalmente */
     align-items: center; /* Alinea los elementos horizontalmente en el centro */
-    height: 94vh;
+    height: auto;
     background-image: url("../img/Desarollo Empresarial.jpg"); /* Ruta de tu imagen de fondo */
     background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
     background-position: center; /* Centra la imagen */
@@ -3886,9 +3886,10 @@ a:link {
 }
 
 .section-GestionD .titulo {
+    text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
-    color: #dcab18; /* Texto oscuro sobre fondo claro */
+    color: #b8860b; /* Texto oscuro sobre fondo claro */
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Sombra de texto */
     margin-bottom: 20px; /* Espacio debajo del título */
 }
@@ -3940,8 +3941,9 @@ a:link {
     height: 200px;
 }
 
-.titulo h1{
-    font-size: 30px;
+.titulo-modal{
+    text-align: center;
     color: #b8860b;
-    font-family: 'Swiss , sans-serif';
+    font-size: 30px;
+    
 }
