@@ -11,8 +11,16 @@
     <link rel="stylesheet" href="/public/css/style.css">
 </head>
 @include('sistema.CGV.includes.navbar')
+
 <body>
-    <h1>Hoa</h1>
+    <section class="section-aboutx">
+        <div class="content-GC">
+            @include('sistema.CGV.includes.tabgestioncalidad')
+        </div>
+    </section>
+    <br>
+    <br>
+    
     @include('sistema.CGV.includes.boton')
     @include('sistema.CGV.includes.footer')
 </body>

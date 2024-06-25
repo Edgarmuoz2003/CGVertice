@@ -2972,7 +2972,7 @@ ul li {
     transition: background-color 0.3s;
     box-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra ligera */
 }
-/* Estilos para el contenido de "Conózcanos" */
+/* Estilos para el contenido de "Servicios" */
 .section-abouts .content-Servicios {
     /* Agrega un fondo casi transparente al contenido */
     background-color: rgba(
@@ -3898,3 +3898,44 @@ a:link {
 }
 
 
+.section-aboutx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-image: url("../img/Ips.jpg"); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+    margin: 0;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra ligera */
+}
+/* Estilos para el contenido de "Servicios" */
+.section-aboutx .content-GC {
+    /* Agrega un fondo casi transparente al contenido */
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.2
+    ); /* Ajusta la transparencia según tus preferencias */
+    padding: 20px; /* Agrega espaciado alrededor del contenido */
+    height: auto;
+    width: auto;
+}
+
+.section-aboutx .titulo {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #000; /* Texto oscuro sobre fondo claro */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Sombra de texto */
+}
+.section-aboutx .texto {
+    font-size: 1.1rem;
+    color: #000; /* Texto oscuro */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3); /* Sombra de texto */
+}
+
+.espacio{
+    height: 200px;
+}
