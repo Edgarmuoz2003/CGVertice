@@ -6,7 +6,7 @@
             </div>
 
             <br>
-            <h2 class="text-black" styles="text-aling: center">Gestion de Desarrollo Empresarial</h2>
+            <h2 class="text titulo" styles="text-aling: center">Gestion de Desarrollo Empresarial</h2>
             <br>
 
             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">

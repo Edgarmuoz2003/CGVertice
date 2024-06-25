@@ -15,7 +15,7 @@
 </head>
 <body>
 @include('sistema.CGV.includes.Navbar')
-<section class="section-about">
+<section class="section-GestionD">
         <div class="content-Conózcanos">
          @include('sistema.CGV.includes.tabsgestiondesarrollo')
         </div>
