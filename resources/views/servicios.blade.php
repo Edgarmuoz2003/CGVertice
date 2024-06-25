@@ -11,8 +11,6 @@
 
     
     @include('sistema.CGV.includes.boton')
-    
-    @include('sistema.CGV.includes.boton')
     @include('sistema.CGV.includes.navbar')
 
     <section class="section-abouts">
@@ -112,9 +110,7 @@
                                             Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
                                             eum quia? Provident.
                                             <br><br>
-                                            <button type="button" class="btn btn-warning" {{ asset('ruta_gestion_calidad') }}>
-                                                <a href=""
-                                                    style="color: black">Ver</a></button>
+                                           
                                             <button type="button" class="btn btn-warning">
                                                 <a href="/GestionCalidad"
                                                     style="color: black">Ver</a></button>
@@ -133,8 +129,6 @@
                                             eum quia? Provident.
                                             <br><br>
                                             <button type="button" class="btn btn-warning">
-                                                <a href="/gestionDesarrollo
-                                                " style="color: black;">Ver</a>
                                                 <a href="/gestionDesarrollo
                                                 " style="color: black;">Ver</a>
                                             </button>
