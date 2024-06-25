@@ -20,7 +20,6 @@
     </section>
     <br>
     <br>
-    
     @include('sistema.CGV.includes.boton')
     @include('sistema.CGV.includes.footer')
 </body>

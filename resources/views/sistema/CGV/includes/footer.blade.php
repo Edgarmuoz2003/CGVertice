@@ -117,17 +117,20 @@
                     <a href="" class="text-gold mb-0 py-2"
                         style="color:rgb(121, 121, 121)">Soluciones.vertice@gmail.com</a>
                 </div>
+                <br>
                 <div class="col">
                     <a href="" class="text-gold mb-0 py-2"
                         style="color:rgb(121, 121, 121)">Mercadeo.vertice@gmail.com</a>
                 </div>
+                <br>
                 <div class="col">
-                    <a href="" class="text-gold mb-0 py-2" style="color:rgb(121, 121, 121)">( +57 ) 323 735 74
-                        03</a>
+                    <a href="" class="text-gold mb-0 py-2" 
+                    style="color:rgb(121, 121, 121)">(+57)3237357403</a>
                 </div>
+                <br>
                 <div class="col">
-                    <a href="" class="text-gold mb-0 py-2" style="color:rgb(121, 121, 121)">( +57 ) 000 000 00
-                        00</a>
+                    <a href="" class="text-gold mb-0 py-2" 
+                    style="color:rgb(121, 121, 121)">(+57)0000000000</a>
                 </div>
             </div>
         </div>

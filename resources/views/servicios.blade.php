@@ -60,7 +60,7 @@
                                 alt="Imagen 1">
                         </a>
                         <br>
-                        <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b">
+                        <h3 class="fw-bold mb-4 " style="font-family: 'Swiss', sans-serif; color:#b8860b">
                             Gestión de empresas
                         </h3>
                         <div class="card-body p-4">
@@ -80,8 +80,8 @@
                         aria-hidden="true">
                         <div class="modal-dialog modal-lg">
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Lorem ipsum dolor</h1>
+                                <div class="modal-header titulo-modal">
+                                    <h1 class="modal-title fs-5 " id="exampleModalLabel">Gestion Empresarial</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
@@ -110,7 +110,6 @@
                                             Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
                                             eum quia? Provident.
                                             <br><br>
-                                           
                                             <button type="button" class="btn btn-warning">
                                                 <a href="/GestionCalidad"
                                                     style="color: black">Ver</a></button>
@@ -190,14 +189,17 @@
                         <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b">
-                                        Gestión de Instituciones Educativas
-                                    </h1>
+                                    <h1 class="modal-title fs-5 titulo-modal" id="exampleModalLabel">Gestion Instituciones Educativas</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
+
+                                <!-- imagen de video al principio del modal -->
                                 <div class="modal-body">
-                                    <img src="img/img.jpeg" class="card-img-top imgpopup" alt="..."> <br><br>
+                                    <img src="img/img.jpeg" class="card-img-top imgpopup" alt="...">
+                                    <br><br>
+
+                                    <!-- texto debajo de la imagen del video -->
                                     <div class="container justify-content-around">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, minus
                                         provident ipsam sit voluptatibus nam aspernatur beatae tempora nostrum
@@ -207,40 +209,98 @@
                                         deleniti doloribus libero ab provident consequuntur beatae. Dolorum cum
                                         praesentium consectetur aut debitis nemo quos tenetur odit corrupti?
                                         <hr>
-                                        <div class="card-title text-center">
-                                            <h4>Detalles</h4>
+                                        <div class="card-title text-center" style="padding: 1% 0% 2% 0%">
+                                            <h4 style="color: #b8860b">Servicios de gestión Instituciones Educativas</h4>
                                         </div>
-                                        <b>
-                                            Tipos de tableros:
-                                        </b>
-                                        <br><br>
-                                        Lorem ipsum dolor
-                                        <br><br>
-                                        <b>
-                                            Servicios incluidos:
-                                        </b>
-                                        <br><br>
-                                        Lorem ipsum dolor
-                                        <br><br>
-                                        <b>
-                                            Técnicas de reparación:
-                                        </b>
-                                        <br><br>
-                                        Lorem ipsum dolor
-                                        <br><br>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <div style="font-size:15px">
-                                        <a>¿Estás interesado?</a>
-                                        <br>
                                         <div>
-                                            <button style="margin-left: 5%" type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">No</button>
-                                            <button style="margin-left: 17%" type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Gestión%20Empresarial."
-                                                    style="color: black">Sí</a></button>
+                                            <b style="color: #b8860b">
+                                                Manuales de Convivencia
+                                            </b>
+                                            <br><br>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
+                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
+                                            eum quia? Provident.
+                                            <br><br>
+                                           
+                                            <button type="button" class="btn btn-warning">
+                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                    style="color: black">Cotizar</a></button>
                                         </div>
+                                        <div class="container py-1">
+                                            <hr>
+                                        </div>
+                                        <div>
+                                            <b style="color: #b8860b">
+                                                Diseño de PEI
+                                            </b>
+                                            <br><br>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
+                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
+                                            eum quia? Provident.
+                                            <br><br>
+                                           
+                                            <button type="button" class="btn btn-warning">
+                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                    style="color: black">Cotizar</a></button>
+                                        </div>
+                                        <div class="container py-1">
+                                            <hr>
+                                        </div>
+                                        <div>
+                                            <b style="color: #b8860b">
+                                                Mayas Curriculares
+                                            </b>
+                                            <br><br>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
+                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
+                                            eum quia? Provident.
+                                            <br><br>
+                                           
+                                            <button type="button" class="btn btn-warning">
+                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                    style="color: black">Cotizar</a></button>
+                                        </div>
+                                        <div class="container py-1">
+                                            <hr>
+                                        </div>
+                                        <div>
+                                            <b style="color: #b8860b">
+                                                Evaluacion Docentes
+                                            </b>
+                                            <br><br>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
+                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
+                                            eum quia? Provident.
+                                            <br><br>
+                                           
+                                            <button type="button" class="btn btn-warning">
+                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                    style="color: black">Cotizar</a></button>
+                                        </div>
+                                        <div class="container py-1">
+                                            <hr>
+                                        </div>
+                                        <div>
+                                            <b style="color: #b8860b">
+                                                Evaluacion Institucional
+                                            </b>
+                                            <br><br>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
+                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
+                                            eum quia? Provident.
+                                            <br><br>
+                                           
+                                            <button type="button" class="btn btn-warning">
+                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                    style="color: black">Cotizar</a></button>
+                                        </div>
+
+
                                     </div>
                                 </div>
                             </div>
@@ -291,14 +351,20 @@
                                         deleniti doloribus libero ab provident consequuntur beatae. Dolorum cum
                                         praesentium consectetur aut debitis nemo quos tenetur odit corrupti?
                                         <hr>
-                                        <div class="card-title text-center">
-                                            <h4>Detalles</h4>
+                                        <div>
+                                            <b style="color: #b8860b">
+                                                IPS Gerencial
+                                            </b>
+                                            <br><br>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
+                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
+                                            eum quia? Provident.
+                                            <br><br>
+                                            <button type="button" class="btn btn-warning">
+                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                    style="color: black">Cotizar</a></button>
                                         </div>
-                                        <b>
-                                            Tipos de tableros:
-                                        </b>
-                                        <br><br>
-                                        Lorem ipsum dolor
                                         <br><br>
                                         <b>
                                             Servicios incluidos:
@@ -417,20 +483,6 @@
     <br>
     <br>
     <br>
-
-    <div class="container">
-        <div class="col-md-4">
-            <div class="text-center">
-                <div style="position: relative; width: 300%; padding-top: 100%;">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0860002137592!2d-75.59203859023458!3d6.252398893709935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429091a87d505%3A0xf032d899690661de!2sCra.%2071%20%2346-28%2C%20Laureles%20-%20Estadio%2C%20Medell%C3%ADn%2C%20Laureles%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1693585283630!5m2!1ses-419!2sco"
-                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-                    </iframe>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <br>
 
