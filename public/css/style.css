@@ -3947,3 +3947,16 @@ a:link {
     font-size: 30px;
     
 }
+
+.section-aboutips {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-image: url("../img/DD.jpg"); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+    margin: 0;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra ligera */
+}
