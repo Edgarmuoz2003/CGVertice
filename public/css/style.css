@@ -3855,7 +3855,7 @@ a:link {
 }
 
 .item-a {
-    width: 50%; /* Ancho de cada elemento del slider */
+    width: auto; /* Ancho de cada elemento del slider */
 }
 
 

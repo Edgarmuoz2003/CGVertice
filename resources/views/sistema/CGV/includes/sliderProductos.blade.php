@@ -38,8 +38,6 @@
             @endforeach
         </ul>
     </div>
-    
-
 </section>
 
 <script>

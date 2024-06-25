@@ -17,8 +17,10 @@
             @include('sistema.CGV.includes.tabsformacioncontinua')
             </div>
         </section>  
+        
         <br>
         <br>
+
         @include('sistema.CGV.includes.boton')    
         @include('sistema.CGV.includes.footer')
 
