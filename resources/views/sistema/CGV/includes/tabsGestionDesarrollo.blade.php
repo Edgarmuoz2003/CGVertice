@@ -50,7 +50,7 @@
                 </li>
             </ul>
 
-            <!-- Reclamento Interno de Trabajo -->
+            <!-- Reglamento Interno de Trabajo -->
 
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active text-black" id="one-tab-pane" role="tabpanel" aria-labelledby="1-tab"
@@ -109,14 +109,80 @@
 
                 <div class="tab-pane fade text-black" id="three-tab-pane" role="tabpanel" aria-labelledby="3-tab"
                     tabindex="0">
+                    
+                    <h4 class="text-center" styles="text-aling: center color:       #b8860d">Diseño de esteructura Interna</h4>
+                    <br>
+                    <div class="gestionD_P">
+                        <p >
+                        El buen funcionamiento de una organización depende en gran medida de su capacidad de clarificar y medir las acciones y funciones de sus colaboradores en relación sus procesos. La estructura empresarial es la forma en que se organiza internamente una empresa. No hay una única estructura organizativa válida, sino diferentes tipos en función de los objetivos de la compañía. Se entiende por estructura empresarial la organización que se dota a una empresa para funcionar. El diseño organizacional implica conocer bien las cadenas de mando, puestos de trabajo, jerarquías y dependencias, así como los diversos departamentos en los que se ordena la compañía. Los responsables de diseñar la estructura organizativa cuentan en primer lugar con el organigrama de la empresa, pero no sólo eso.
+                        
+                        </p>
+                    </div>
+                    
+                <br>
+                <p>
+                    La creación de la estructura organizacional de una empresa consta de dos pasos: 
+                </p>
+                <ul class="check-list">
+                        <li>
+                        	Analizar tareas, subtareas y definir metas de la organización 
+                        </li>
+                        <br>
+
+                        <li>
+                            llevar un control de la evaluación de objetivos.
+                        </li>
+                    </ul>
+                <br>
+                <p>
+                    Toda estructura organizacional cuenta con algunos componentes fundamentales que las distinguen de otras.
+                </p>
+                <ul class="check-list">
+                        <li>
+                        	<b>Cadena de Mando:</b> Es la base de todo modelo organizacional. Se trata de una línea de autoridad que fluye desde la más alta dirección hasta los puestos más bajos. Esta cadena define a quién hay que dirigirse según el tema que se trate. 
+                        </li>
+                        <br>
+
+                        <li>
+                            <b>Nivel de centralización: </b> 
+                            Que la organización esté centralizada o descentralizada contribuirá directamente en la velocidad del proceso de toma de decisiones. También tendrá un impacto en la percepción más o menos democrática de la forma de actuar. 
+
+                        </li>
+                        <br>
+                        <li>
+                            <b>Margen de control: </b> 
+                            Es un elemento muy influido por el tamaño de la compañía y el nivel de centralización. Cuantos más empleados controle un mando directivo, mayor será su margen de control.
+
+
+                        </li> 
+                        <br>
+                        <li>
+                            <b>Grado de especialización: </b> 
+                            
+                                Esta clave de la estructura organizacional aborda la división del trabajo. Dentro de una organización, las tareas se distribuyen en distintos niveles. Si los empleados cuentan con una especialización alta, estos serán expertos en su campo y serán más productivos.
+
+
+                        </li>
+                    </ul>
                     <br>
                     <br>
-                    <p id="pmaintabsQuienessomos" style="padding:5% 7% 0% 7%;">
-                        Más de 14 años de experiencia respaldan nuestro compromiso con la
-                        excelencia. Estamos aquí para ayudarte a alcanzar tus metas empresariales. Trabajamos
-                        incansablemente por la seguridad de nuestros empresarios y brindamos soluciones sólidas.
-                        Contáctanos hoy mismo para ser parte de tu viaje hacia el crecimiento y la prosperidad
-                        empresarial. ¡Esperamos trabajar contigo!</p>
+                    <div class="gestionD_P">
+                        <p >
+                        El diseño estructural se ocupa de la investigación metódica de la estabilidad, resistencia y rigidez de la estructura. El objetivo básico es crear una estructura que sea capaz de resistir todas las cargas aplicadas sin fallar durante su vida prevista
+                        Algunos componentes básicos son:
+                        </p>
+                    </div>
+
+                    <ul class="check-list">
+                        <li> Manuales de funciones </li>
+                        <li>llevar un control de la evaluación de objetivos.</li>
+                        <li>Herramientas de evaluación y desempeño</li>
+                        <li>Estructuración funcional y de líneas de mando</li>
+                        <li>Establecimiento de indicadores de gestión y operativos</li>
+                        <li>Análisis del contexto interno y externo de la empresa</li>
+                    </ul>
+                
+               
                 </div>
 
                 <div class="tab-pane fade text-black" id="four-tab-pane" role="tabpanel" aria-labelledby="3-tab"
