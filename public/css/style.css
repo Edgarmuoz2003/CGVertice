@@ -3995,3 +3995,38 @@ a:link {
     align-items: center;    
     text-align: justify;
 }
+=======
+    text-align: center;
+}
+
+.check-list {
+    list-style-type: none; /* Remove default bullets */
+}
+.check-list li::before {
+    content: '✔ '; /* Add check symbol before each list item */
+    color: #b8860b; /* Optional: color the check symbol */
+    font-size: 2rem;
+}
+
+.gestionD_P{
+    background-color: #00000011;
+    width: 100%;
+    border: 2px solid #b8860b;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.gestionD_P p{
+    margin: 0 auto;
+    text-align: justify;
+    width: 80%;
+}
+
+.DescipcionEstructura {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+>>>>>>> 1546a635037c40ddc54c5e710d5f278cff369894
