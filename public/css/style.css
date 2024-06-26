@@ -3993,10 +3993,7 @@ a:link {
     display: flex;
     justify-content: center;
     align-items: center;    
-<<<<<<< HEAD
     text-align: justify;
-}
-=======
     text-align: center;
 }
 
@@ -4029,5 +4026,3 @@ a:link {
     justify-content: center;
     align-items: center;
 }
-
->>>>>>> 1546a635037c40ddc54c5e710d5f278cff369894
