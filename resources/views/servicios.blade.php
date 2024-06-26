@@ -65,8 +65,7 @@
                         </h3>
                         <div class="card-body p-4">
                             <p class="mb-0">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil facere voluptas necessitatibus. Quaerat laudantium accusamus praesentium deserunt! Magnam perferendis praesentium nisi, totam a enim amet quibusdam tempora perspiciatis voluptate maiores! 
                             </p>
                         </div>
                     </div>
@@ -122,10 +121,8 @@
                                                 Gestión de desarrollo empresarial
                                             </b>
                                             <br><br>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
-                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
-                                            eum quia? Provident.
+                                            El modelo de gestión empresarial de CG Vértice acerca al empresario a productos 
+                                            y servicios de 2 categorías: Única Misión y Asistenciales permanentes.
                                             <br><br>
                                             <button type="button" class="btn btn-warning">
                                                 <a href="/gestionDesarrollo
