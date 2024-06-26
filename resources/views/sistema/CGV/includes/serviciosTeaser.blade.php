@@ -6,24 +6,24 @@
 
         <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3" style="color: #b8860b">SG - SST</h1>
-            <p class="card-text" style="color:white">La seguridad y salud en el trabajo son aspectos cruciales en
+            <p class="card-text">La seguridad y salud en el trabajo son aspectos cruciales en
                 cualquier empresa. Con
                 nuestro servicio SG - SST, CGV garantiza el cumplimiento de todas las normativas de seguridad,
                 reduce riesgos y protege a tus empleados. Al elegir nuestro servicio SG - SST, obtienes las
                 siguientes ventajas:</p>
-            <p class="card-text" style="color:white">1. <b style="color: #b8860b">Cumplimiento Normativo:</b> Te
+            <p class="card-text">1. <b style="color: #b8860b">Cumplimiento Normativo:</b> Te
                 ayudamos a cumplir todas
                 las normativas de
                 seguridad laboral vigentes, evitando posibles sanciones y multas.</p>
-            <p class="card-text" style="color:white">2. <b style="color: #b8860b">Reducción de Riesgos:</b> Nuestra
+            <p class="card-text">2. <b style="color: #b8860b">Reducción de Riesgos:</b> Nuestra
                 solución te permite
                 identificar y mitigar
                 los riesgos laborales, creando un entorno de trabajo más seguro.</p>
-            <p class="card-text" style="color:white">3. <b style="color: #b8860b">Protección del Personal:</b> Tu equipo
+            <p class="card-text">3. <b style="color: #b8860b">Protección del Personal:</b> Tu equipo
                 es tu activo más
                 valioso. Con SG -
                 SST, CGV asegura su bienestar y salud en el trabajo.</p>
-            <p class="card-text" style="color:white">La seguridad en el trabajo es nuestra prioridad. Contar con SG
+            <p class="card-text">La seguridad en el trabajo es nuestra prioridad. Contar con SG
                 - SST, CGV es
                 invertir en un entorno laboral seguro y en el bienestar de tus empleados.</p>
         </div>

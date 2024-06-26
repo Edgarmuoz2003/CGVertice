@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     @include('sistema.CGV.includes.navbar')
 
     <section class="section-about">

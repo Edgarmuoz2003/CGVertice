@@ -3985,6 +3985,17 @@ a:link {
     }
 }
 
+.EncabezadoSer{
+    width: 50%;
+}
+
+.Centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    text-align: center;
+}
+
 .check-list {
     list-style-type: none; /* Remove default bullets */
 }

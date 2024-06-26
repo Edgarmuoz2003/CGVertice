@@ -27,27 +27,24 @@
     <div class="container py-1">
         <hr>
     </div>
-    <section class="Acrostico-section">
-        <div class="container">
+    <div class="Centrar">
+        <div class="EncabezadoSer">
             <div class="row" style="cursor: default">
-                <div class="col-12 text-center mt-5">
+                <div class="col-12 text-center mt-8">
                     <h3 class="acrostico">
                         <span class="letter">Conozca todo acerca de...</span>
-                        <span class="letter" style="padding: 7px;">
-                            <!-- Espacio -->
-                        </span>
                     </h3>
-                    <div style="padding-top: 3%">
-                        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ad et laudantium iure ratione illum neque obcaecati aperiam
-                            voluptas amet numquam esse nam temporibus, commodi consequatur
-                            distinctio minus quam eum quas?
-                        </h5>
-                    </div>
+                </div>
+                <div class="mt-5">
+                    <p style="font-size: 20px">Corporate Group Vértice SAS, con más de 14 años de experiencia en procesos de consultoría de Gestión, 
+                        ha acompañado a más de 350 empresarios a nivel nacional en la gestión del cumplimiento normativo. 
+                        Con un amplio portafolio empresarial llegamos a nuestros usuarios con beneficios integradores, 
+                        que les permite efectividad y eficiencia en el alcance de sus objetivos. 
+                    </p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     &nbsp;
     <section class="Timeline">
         <div class="container py-4" style="pointer:default;">

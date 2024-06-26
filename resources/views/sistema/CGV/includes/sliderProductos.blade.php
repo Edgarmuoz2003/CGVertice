@@ -1,4 +1,4 @@
-<section class="product-slider">
+<section>
     <div class="slider-heading">
         <div class="nav nav-underline me-auto mb-0 mb-lg-0">
             <div class="nav-item">
