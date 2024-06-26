@@ -3984,3 +3984,14 @@ a:link {
         padding-top: 50%; /* Ajusta este valor según sea necesario */
     }
 }
+
+.EncabezadoSer{
+    width: 50%;
+}
+
+.Centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    text-align: center;
+}
