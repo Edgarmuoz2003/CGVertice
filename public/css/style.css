@@ -4089,4 +4089,13 @@ a:link {
     font-size: 8vb;
 }
 
+.tabla-index{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+
 
