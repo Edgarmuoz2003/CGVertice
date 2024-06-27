@@ -14,26 +14,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.bootstrap4.min.css">
+    @include('sistema.CGV.includes.head')
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
 
 <body>
 
     <div class="container-fluid">
-        <header class="border-bottom lh-1 py-3">
-            <div class="row flex-lg-nowrap flex-wrap justify-content-center align-items-center">
+        
+        <div class="row flex-lg-nowrap flex-wrap justify-content-center align-items-center">
 
-                <!-- Logo de la empresa -->
-                <div class="col-lg-4 col-md-6 col-6 text-center">
-                    <div class="Converge-div-logo">
-                        <img id="VerIniciobtn" src="/img/Converge.png" alt="Logotipo Converge" href="#"
-                            class="img-fluid" />
-                    </div>
+            <!-- Logo de la empresa -->
+            <div class="col-lg-4 col-md-6 col-6 text-center pt-5">
+                <div class="Converge-div-logo">
+                    <img id="VerIniciobtn" src="/img/Converge.png" alt="Logotipo Converge" href="#"
+                        class="img-fluid" />
                 </div>
             </div>
-        </header>
+        </div>
+        
 
-        <a href="{{ route('inicio') }}" class="btn btn-outline-primary">Regresar</a>
+        <div class="pl-4">
+            <a href="{{ route('inicio') }}" class="btn btn-outline-warning">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+        </div>
+
+        
 
         <main class="row">
             <div class="col-md-1"></div>
@@ -49,6 +58,8 @@
                     </div>
                 @endif
 
+                <br><br>
+
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
@@ -60,7 +71,7 @@
                         @endif
                         <form method="POST" action="{{ route('create-all-permisos') }}">
                             @csrf
-                            <button type="submit" class="btn btn-outline-primary">Crear todos los permisos</button>
+                            <button type="submit" class="btn btn-outline-warning">Cargar permisos</button>
                             &nbsp;
 
                         </form>
@@ -99,5 +110,6 @@
             </div>
         </main>
     </div>
+    @include('sistema.CGV.includes.boton')
 </body>
 </html>
