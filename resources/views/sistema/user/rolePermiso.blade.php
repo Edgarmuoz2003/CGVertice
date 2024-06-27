@@ -6,7 +6,7 @@
     <!-- Seccion de la Configuración y Metadatos -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Converge || Corporate Group Vértice</title>
+    <title>Converges || Corporate Group Vértice</title>
 
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="shortcut icon" href="../img/Converge.png" type="image/x-icon" />
@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.bootstrap4.min.css">
+    @include('sistema.CGV.includes.head')
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- Incluir jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -21,6 +24,47 @@
 
 <body>
 
+
+    <div class="botonAdmin">
+        <ul class="navbar-nav">
+            @can('Admin Configuracion')
+                <div class="nav-item dropdown">
+                    <a id="adminDropdown" class="nav-link dropdown-toggle" style="color: #b8860b" href="#"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Admin Configuración
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="adminDropdown">
+                        <li>
+                            <a class="dropdown-item" href="#" id="VerUsersbtn">Usuarios</a>
+                        </li>
+                        <script>
+                            document.getElementById('VerUsersbtn').addEventListener('click', function() {
+                                window.location.href = "{{ route('ruta_Users') }}";
+                            });
+                        </script>
+                        <li>
+                            <a class="dropdown-item" href="#" id="rolesBtn">Roles</a>
+                        </li>
+                        <script>
+                            document.getElementById('rolesBtn').addEventListener('click', function() {
+                                window.location.href = "{{ route('ruta_Roles') }}";
+                            });
+                        </script>
+                        <li>
+                            <a class="dropdown-item" href="#" id="permissionsBtn">Permisos</a>
+                        </li>
+                        <script>
+                            document.getElementById('permissionsBtn').addEventListener('click', function() {
+                                window.location.href = "{{ route('ruta_Perm') }}";
+                            });
+                        </script>
+                    </ul>
+                </div>
+            @endcan
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        </ul>
+    </div>
+    
     <div class="container-fluid">
         <header class="border-bottom lh-1 py-3">
             <div class="row flex-lg-nowrap flex-wrap justify-content-center align-items-center">
@@ -38,8 +82,9 @@
                 </script>
             </div>
         </header>
-        <a href="{{ route('roles.index') }}" class="btn btn-outline-primary">Regresar</a>
-
+        <a href="{{ route('roles.index') }}" class="btn btn-outline-warning">
+            <i class="fas fa-arrow-left"></i>
+        </a>
         <main class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10">
@@ -168,7 +213,7 @@
                         </label>
 
                         <br>
-                        {!! Form::submit('Actualizar Rol',['class'=>'btn btn-outline-primary mt-3']) !!}
+                        {!! Form::submit('Actualizar Rol',['class'=>'btn btn-outline-warning mt-3']) !!}
                         {!! Form::close() !!}
                     </div>
                 </div>
@@ -205,5 +250,7 @@
             </div>
         </main>
     </div>
+    @include('sistema.CGV.includes.boton')
+    @include('sistema.CGV.includes.footer')
 </body>
 </html>
