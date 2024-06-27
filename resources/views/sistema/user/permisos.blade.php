@@ -21,13 +21,52 @@
 </head>
 
 <body>
+    <div class="botonAdmin">
+        <ul class="navbar-nav">
+            @can('Admin Configuracion')
+                <div class="nav-item dropdown">
+                    <a id="adminDropdown" class="nav-link dropdown-toggle" style="color: #b8860b" href="#"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Admin Configuración
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="adminDropdown">
+                        <li>
+                            <a class="dropdown-item" href="#" id="VerUsersbtn">Usuarios</a>
+                        </li>
+                        <script>
+                            document.getElementById('VerUsersbtn').addEventListener('click', function() {
+                                window.location.href = "{{ route('ruta_Users') }}";
+                            });
+                        </script>
+                        <li>
+                            <a class="dropdown-item" href="#" id="rolesBtn">Roles</a>
+                        </li>
+                        <script>
+                            document.getElementById('rolesBtn').addEventListener('click', function() {
+                                window.location.href = "{{ route('ruta_Roles') }}";
+                            });
+                        </script>
+                        <li>
+                            <a class="dropdown-item" href="#" id="permissionsBtn">Permisos</a>
+                        </li>
+                        <script>
+                            document.getElementById('permissionsBtn').addEventListener('click', function() {
+                                window.location.href = "{{ route('ruta_Perm') }}";
+                            });
+                        </script>
+                    </ul>
+                </div>
+            @endcan
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        </ul>
+    </div>
 
     <div class="container-fluid">
         
         <div class="row flex-lg-nowrap flex-wrap justify-content-center align-items-center">
 
             <!-- Logo de la empresa -->
-            <div class="col-lg-4 col-md-6 col-6 text-center pt-5">
+            <div class="col-lg-4 col-md-4 col-6 text-center pt-5">
                 <div class="Converge-div-logo">
                     <img id="VerIniciobtn" src="/img/Converge.png" alt="Logotipo Converge" href="#"
                         class="img-fluid" />
