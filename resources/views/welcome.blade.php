@@ -2,6 +2,9 @@
     <head>
         <title>Corporate Group Vértice</title>
         @include('sistema.CGV.includes.head')
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/css/style.css">
     </head>
 
     <body>
@@ -13,12 +16,14 @@
             <section>
                 <div class="content">
                     <div class="container" style="padding-right:5%;">
-                        <div class="textBox" style="margin-left:10%;">
+                        <div class="MainTittle">
                             <h2>
                                 <span style="color:  #b8860b;">Trabajamos</span> por
                                 <br>la <span style="color: #b8860b;">tranquilidad</span> de los <span
                                     style="color:  #b8860b;">empresarios.</span>
                             </h2>
+                        </div>
+                        <div class="TextoInicio">
                             <p>
                                 En Vértice, nos dedicamos a salvaguardar la tranquilidad de los empresarios. Nuestro
                                 compromiso se centra en brindar soluciones que alivien las preocupaciones diarias de quienes

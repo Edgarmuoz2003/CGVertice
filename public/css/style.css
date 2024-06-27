@@ -1971,6 +1971,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 .container {
     margin: 10px auto;
     display: table;
@@ -3962,6 +3963,10 @@ a:link {
     box-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra ligera */
 }
 
+.MainContainerMap{
+    padding: 0% 0% 0% 18%;
+}
+
 /* Estilo por defecto (pantallas grandes) */
 .container-mapa {
     position: relative; 
@@ -4048,5 +4053,19 @@ a:link {
     text-align: center;
 }
 
+
+.TextoInicio{
+    padding: 2% 0% 0% 10%;
+    
+}
+
+.MainTittle{
+    padding: 0% 0% 0% 10%;
+
+}
+
+.MainTittle h2{
+    font-size: 8vb;
+}
 
 
