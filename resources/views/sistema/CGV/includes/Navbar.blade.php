@@ -111,9 +111,12 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <a class="dropdown-item" href="#" id="logoutBtn">Cerrar sesión</a>
+                                <a class="dropdown-item" href="#" id="logoutBtn">
+                                    <i class="fas fa-sign-out-alt"></i> Cerrar sesión
+                                </a>
                             </li>
                         </ul>
+
                     @else
                         <div class="nav-link" style="color: #b8860b; display: inline-block;">
                             <a href="{{ url('/login') }}" style="color: #b8860b;">Iniciar sesión</a>
