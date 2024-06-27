@@ -3993,12 +3993,9 @@ a:link {
     display: flex;
     justify-content: center;
     align-items: center;    
-<<<<<<< HEAD
     text-align: justify;
 }
-=======
-    text-align: center;
-}
+    
 
 .check-list {
     list-style-type: none; /* Remove default bullets */
@@ -4030,4 +4027,25 @@ a:link {
     align-items: center;
 }
 
->>>>>>> 1546a635037c40ddc54c5e710d5f278cff369894
+.parrafoNuestrosServicios{
+    color: black;
+}
+
+.imgNuestrosServicios{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.imgNuestrosServicios img{
+    width: 100%;
+    height: auto;
+}
+
+.tituloNuestrosServicios{
+    color: black;
+    text-align: center;
+}
+
+
+

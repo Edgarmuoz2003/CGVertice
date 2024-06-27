@@ -163,9 +163,51 @@
                     </div>
                     </p>
                 </div>
-                <div class="tab-pane fade" id="two-tab-pane" role="tabpanel" aria-labelledby="2-tab"
+
+                <br>
+                <br>
+
+                <div class="tab-pane fade" id="two-tab-pane" role="tabpanel"         aria-labelledby="2-tab"
                     tabindex="0">
-                    <p id="pmaintabsQuienessomos">En Vértice, ofrecemos un catálogo de servicios diseñados para abordar
+                    <p class="parrafoNuestrosServicios" >
+                    Corporate Group Vértice SAS, con más de 14 años de experiencia en procesos de consultoría de Gestión, ha acompañado a más de 350 empresarios a nivel nacional en la gestión del cumplimiento normativo. Con un amplio portafolio empresarial llegamos a nuestros usuarios con beneficios integradores, que les permite efectividad y eficiencia en el alcance de sus objetivos. 
+                    </p>
+                    <br>
+                    <p class="parrafoNuestrosServicios" >
+                    Para facilitarle al empresario el acceso a recurso humano de alta calidad, nuestros servicios son desarrollados y orientados bajo un modelo de gestión potencializador interno en el cual Vértice 
+                    </p>
+                    <br>
+                    <p class="parrafoNuestrosServicios" >
+                    Con el modelo de gestión KPO (Knowledge Process Outsourcing), la empresa entrega la gestión a un tercero denominado Grupo Corporativo Vértice en aras de garantizar ventajas competitivas y reducción de costos, logrando Potenciar las actividades de cumplimiento normativo asociadas al alcance mediante la tercerización de procesos de conocimiento.
+                    Es un modelo que garantiza el bienestar de la empresa por medio de procesos y equipos interdisciplinarios que se ponen a disposición de la organización, brindando acompañamiento permanente y apoyo con información actualizada sobre cambios de normativas y obligaciones empresariales. Adicionalmente, se puede obtener una reducción de costos en recurso humano para la empresa de hasta un 70%. y del riesgo de sanción hasta en un 89%. 
+
+                    </p>
+                    <br><br>
+                    <div class="imgNuestrosServicios">
+                        <img src="/img/descripcion2.png" alt="imagen de referencia">
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <div class="imgNuestrosServicios">
+                        <img src="/img/etapas_procesos.png" alt="imagen etapas de los procesos">
+                    </div>
+                    <br>
+                    <h2 class="tituloNuestrosServicios">METODOLOGIA DEL SERVICIO</h2>
+                    <br>
+                    <p class="parrafoNuestrosServicios" >
+                    Según el tamaño y las condiciones de la entidad se establecen una cantidad mínima de horas presenciales, que se distribuyen en el año a necesidad y según actividad, por ejemplo, una capacitación puede dorar 2 horas, pero una inspección locativa de 8 a 16 o más según el tamaño del edificio, por lo tanto, las actividades se distribuyen según horas asignadas en el plan de priorización que se desarrolla al iniciar el proceso. Las actividades a distancia por su parte no cuentan con límite de tiempo establecido, nuestro equipo empleara el tiempo que sea necesario para su gestión y desarrollo. Es muy importante tener en cuenta que muchas de las actividades requieren la ejecución previa de otras para su finalización. 
+                    </p>
+                    <br>
+                    <p class="parrafoNuestrosServicios" >
+                    Según informes presentados por el BBVA Las MiPymes son el 99,5% del universo empresarial formal colombiano. El 58% de las MiPymes formales tienen menos de 5 años de operación y el 22% son empresas consolidadas con más de 10 años de vida, el 20% de las micro están consolidadas, el 44% de las pequeñas, el 63% de las medianas y el 71% de las grandes.
+                    </p>
+                    <br>
+                    <p class="parrafoNuestrosServicios" >
+                    La capacidad de las microempresas de generar empleo contrasta con su tendencia a hacerlo de manera informal. El 15% del empleo que generan es formal y el 85% informal (lo que representa el 94% del empleo informal nacional). La formalidad empresarial no es fácil en el sector de las mipymes y es heterogénea por sectores y por tamaño de la empresa, los altos costos del recurso humano y los grandes cambios normativos obligan al empresario a dotarse de recurso humano diverso especialista, que de tenerlos de tiempo completo dispararía los costos de nómina volviéndolas insostenibles. Es por ello que la tendencia al outsourcing, que cada vez está más en crecimiento facilita al empresario el acceso a recurso humano cualificado a costos mas asequibles sin perder principios de calidad y eficiencia. 
+                    </p>
+                    <!-- <p id="pmaintabsQuienessomos">En Vértice, ofrecemos un catálogo de servicios diseñados para abordar
                         todas las necesidades de tu empresa, desde Gestión de la Calidad hasta Seguridad y Salud en el
                         Trabajo. Pero lo que realmente nos diferencia son nuestras ventajas:</p>
                     <div class="ventajas-vertice">
@@ -181,7 +223,7 @@
                             <li>Compromiso con la Excelencia: Nuestra misión es superar tus expectativas y garantizar tu
                                 satisfacción.</li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="tab-pane fade text-black" id="three-tab-pane" role="tabpanel" aria-labelledby="3-tab"
