@@ -1285,6 +1285,11 @@
         padding: 5px;
         border-radius: 10px;
     }
+
+    .Converge-div-logoCasa {
+        padding: 5px;
+        border-radius: 10px;
+    }
     .blog-header-logo:hover {
         text-decoration: none;
     }
