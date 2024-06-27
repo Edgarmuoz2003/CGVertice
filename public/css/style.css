@@ -4101,6 +4101,7 @@ a:link {
     align-items: center;
 }
  
+
 .botonAdmin{
     margin: 0% 0% 0% 1%;
     padding: 1%;
@@ -4112,5 +4113,9 @@ a:link {
     margin-bottom: 10%;
 }
 
+.dropdown-menu li a{
+    color: #b8860b;
+    padding: 10px;
+}
 
 
