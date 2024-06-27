@@ -4094,7 +4094,6 @@ a:link {
     font-size: 8vb;
 }
 
-<<<<<<< HEAD
 .tabla-index{
     display: flex;
     width: 100%;
@@ -4103,7 +4102,6 @@ a:link {
 }
  
 
-=======
 .botonAdmin{
     margin: 0% 0% 0% 1%;
     padding: 1%;
@@ -4114,6 +4112,10 @@ a:link {
     text-align: center;
     margin-bottom: 10%;
 }
->>>>>>> f840796dadda4db48a151a7466ac89c0d12cf409
+
+.dropdown-menu li a{
+    color: #b8860b;
+    padding: 10px;
+}
 
 
