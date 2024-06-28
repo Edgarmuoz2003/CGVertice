@@ -4100,7 +4100,7 @@ a:link {
     justify-content: center;
     align-items: center;
 }
- 
+
 
 .botonAdmin{
     margin: 0% 0% 0% 1%;
@@ -4124,4 +4124,3 @@ a:link {
     align-items: center; /* Centra verticalmente */
     height: 100vh; /* Opcional: asegura que el div ocupe toda la altura de la ventana */
 }
-
