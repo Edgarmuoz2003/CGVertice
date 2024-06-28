@@ -4124,3 +4124,11 @@ a:link {
     align-items: center; /* Centra verticalmente */
     height: 100vh; /* Opcional: asegura que el div ocupe toda la altura de la ventana */
 }
+
+.TituloAuth{
+    font-size: 2rem;
+    margin: 10px;
+    color: #b8860b;
+    font-weight: bold;
+}
+

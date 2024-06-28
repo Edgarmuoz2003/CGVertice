@@ -26,6 +26,7 @@
         <x-validation-errors class="mb-4" />
 
         <form class="text-center" method="POST" action="{{ route('login') }}">
+            <h2 class="TituloAuth">Iniciar Sesion</h2>
             @csrf
 
             <div class="mb-3">
