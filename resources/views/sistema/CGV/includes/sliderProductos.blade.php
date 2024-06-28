@@ -3,7 +3,7 @@
         <div class="nav nav-underline me-auto mb-0 mb-lg-0">
             <div class="nav-item">
                 <a class="nav-link" href="V2/">
-                    <h3 class="text-center" style="color: #b8860b;">V2 Suminisssstros</h3>
+                    <h3 class="text-center" style="color: #b8860b;">V2 Suministros</h3>
                 </a>
             </div>
         </div>
