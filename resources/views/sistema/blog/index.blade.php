@@ -261,7 +261,12 @@
             <div class="row py-5">
                 <div class="col-lg-12 text-center">
                     <h1 class="display-3" style="color:#b8860b">Explora más</h1>
-                    <p class="lead mb-0">Descubre contenido fascinante en nuestro blog.</p>
+                    <p class="lead mb-0">Descubre contenido fascinante en nuestro <a href="#" id="btnNosotros">blog.</a></p>
+                    <script>
+                        document.getElementById('btnNosotros').addEventListener('click', function() {
+                            window.location.href = "{{ route('nosotros') }}";
+                        });
+                    </script>
                     <p class="lead py-3">Diseñado con cariño para ti. ¡Disfruta de la lectura!</p>
                 </div>
             </div>
