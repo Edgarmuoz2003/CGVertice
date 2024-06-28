@@ -44,19 +44,16 @@
                     <ul class="nav nav-underline me-auto mb-0 mb-lg-0">
                         <div class="nav nav-underline me-auto mb-0 mb-lg-0">
                             <div class="nav-item">
-                                <a class="nav-link me-2" href="../V2/" style="color: #b8860b; font-size: 1.5rem; font-weight: bold">Inicio</a>
+                                <a class="nav-link me-2" href="../V2/" style="color: #b8860b; font-size: 1.5rem; font-weight: bold">V2Suministos</a>
                             </div>
                         </div>
                         <div class="nav nav-underline me-auto mb-0 mb-lg-0">
                             <div class="nav-item">
-                                <a class="nav-link me-2" href="../" style="color: #b8860b; font-size: 1.5rem; font-weight: bold">CGVértice</a>
+                                <a class="nav-link me-2" href="../" style="color: #b8860b; font-size: 1.5rem; font-weight: bold">Inicio</a>
                             </div>
                         </div>
                     </ul>
-                    <form class="d-flex me-3" role="search">
-                        <input class="form-control me-3" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
-                        <button class="btn btn-outline-warning me-3" type="submit">Buscar</button>
-                    </form>
+                    
 
                     {{-- <div class="btn-group dropstart">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
