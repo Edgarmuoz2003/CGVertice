@@ -20,6 +20,7 @@
         <x-validation-errors class="mb-4" />
 
         <form class="text-center" method="POST" action="{{ route('register') }}">
+            <h2 class="TituloAuth">Formulario de Registro</h2>
             @csrf
 
             <div>
