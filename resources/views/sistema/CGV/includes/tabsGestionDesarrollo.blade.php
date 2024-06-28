@@ -62,7 +62,7 @@
                     <br>
                     <br>
                     <div class="gestionD_P">
-                        <p >
+                        <p>
                         Las empresas que tienen más de 5 trabajadores de carácter permanente si son comerciales, o más de diez (10) si son industriales, o más de veinte (20) si son agrícolas, ganaderas o forestales, necesitas un reglamento de trabajo, sin embargo, es recomendable que todas las empresas los tengan ya que esta es la carta de navegación para regular las relaciones laborales, además de otros aspectos importantes a considerar: 
                         </p>
                     </div>

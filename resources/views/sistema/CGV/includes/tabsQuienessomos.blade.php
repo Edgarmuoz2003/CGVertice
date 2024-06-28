@@ -169,7 +169,7 @@
 
                 <div class="tab-pane fade" id="two-tab-pane" role="tabpanel" aria-labelledby="2-tab"
                     tabindex="0">
-                    <p class="parrafoNuestrosServicios">
+                    <p class="gestionD_P" style="color: #000000">
                         Corporate Group Vértice SAS, con más de 14 años de experiencia en procesos de consultoría de
                         Gestión, ha acompañado a más de 350 empresarios a nivel nacional en la gestión del cumplimiento
                         normativo. Con un amplio portafolio empresarial llegamos a nuestros usuarios con beneficios
