@@ -8,6 +8,15 @@
 <link rel="stylesheet" href="../css/cdnjs.cloudflare.com_ajax_libs_lightslider_1.1.6_css_lightslider.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
+
+<div class="col-lg-1 col-md-1 col-1 text-center mt-2">
+    <div class="Converge-div-logoCasa">
+        <a href="{{ route('inicio') }}" class="btn btn-outline-warning">
+            <i class="fas fa-home"></i>
+        </a>
+    </div>
+</div>
+
 <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
@@ -45,7 +54,7 @@
 
             <div class="text-center">
                 <x-button class="btn" style="background-color: #b8860b; color: black;">
-                    {{ __('Ingresar') }}
+                    {{ __('Iniciar Sesión') }}
                 </x-button>
             </div>
 
@@ -53,16 +62,4 @@
     </x-authentication-card>
 </x-guest-layout>
 
-
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-<!-- Bootstrap JS y Popper.js -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
-
-<!-- Otros scripts -->
-<script src="../js/code.jquery.com_jquery-3.7.1.js"></script>
-<script src="../js/cdnjs.cloudflare.com_ajax_libs_lightslider_1.1.6_js_lightslider.min.js"></script>
-<script src="../js/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
-<script src="../js/script.js"></script>

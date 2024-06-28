@@ -3,6 +3,14 @@
     @include('sistema.CGV.includes.head')
 </head>
 
+<div class="col-lg-1 col-md-1 col-1 text-center mt-2">
+    <div class="Converge-div-logoCasa">
+        <a href="{{ route('inicio') }}" class="btn btn-outline-warning">
+            <i class="fas fa-home"></i>
+        </a>
+    </div>
+</div>
+
 <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
