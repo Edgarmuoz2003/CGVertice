@@ -1,4 +1,4 @@
-<main class="container-just" style="color: #5e5e5e">
+<main class="container-just">
     {{-- Logos y links a redes sociales --}}
     <section class="social py-3">
         <div></div>
@@ -63,7 +63,7 @@
             <div class="row">
                 <!-- Sección "Ayuda" -->
                 <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4" style="color:rgb(121, 121, 121)">Ayuda</h6>
+                    <h6 class="text-uppercase font-weight-bold mb-4">Ayuda</h6>
                     <ul class="list-unstyled mb-0">
                         <li class="mb-2"><a href="#" class="text-gold link-underline-light"
                                 style="color:#b8860b">Condiciones de uso</a></li>
@@ -73,7 +73,7 @@
                 </div>
                 <!-- Sección "Compañia" -->
                 <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4" style="color:rgb(121, 121, 121)">Compañía</h6>
+                    <h6 class="text-uppercase font-weight-bold mb-4">Compañía</h6>
                     <ul class="list-unstyled mb-0">
                         <a href="#scrollspyHeading2" class="text-gold link-underline-light"
                             style="color:#b8860b">Nuestros productos</a>
@@ -81,7 +81,7 @@
                 </div>
                 <!-- Sección "Politica" -->
                 <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4" style="color:rgb(121, 121, 121)">Política</h6>
+                    <h6 class="text-uppercase font-weight-bold mb-4">Política</h6>
                     <ul class="list-unstyled mb-0">
                         <li class="mb-2"><a href="#" class="text-gold link-underline-light"
                                 style="color: #b8860b">Seguridad</a></li>
@@ -91,7 +91,7 @@
                 </div>
                 <!-- Sección "Acerca de " -->
                 <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4" style="color:rgb(121, 121, 121)">Acerca de</h6>
+                    <h6 class="text-uppercase font-weight-bold mb-4">Acerca de</h6>
                     <ul class="list-unstyled mb-0">
                         <a href="Nosotros" class="text-gold link-underline-light" style="color:#b8860b">Sobre
                             nosotros</a> <br>
@@ -103,7 +103,7 @@
                 </div>
                 <!-- Sección "Dirección" -->
                 <div class="col-lg-4 col-md-6 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4" style="color:rgb(121, 121, 121)">DIRECCIÓN</h6>
+                    <h6 class="text-uppercase font-weight-bold mb-4">DIRECCIÓN</h6>
                     <a href="https://maps.app.goo.gl/9ShyKWmtscka17Kw5" class="text-gold link-underline-light"
                         style="color:#b8860b"> Cra. 71 #46-28, Laureles - Estadio, Antioquia
                 </div>
