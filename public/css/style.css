@@ -2133,8 +2133,21 @@ ul li {
     }
 }
 
+.sliderP{
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+
+
+    .slide-track {
+        animation: scroll 15s linear infinite;
+    }
+}
+
 /* // Styling */
-.slider {
+.slider{
     background: #1a1a1a;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
     height: 100px;
@@ -4123,12 +4136,5 @@ a:link {
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     height: 100vh; /* Opcional: asegura que el div ocupe toda la altura de la ventana */
-}
-
-.TituloAuth{
-    font-size: 2rem;
-    margin: 10px;
-    color: #b8860b;
-    font-weight: bold;
 }
 
