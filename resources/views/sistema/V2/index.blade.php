@@ -70,12 +70,16 @@
                     <hr>
                 </div>
             </div>
+            <form class="d-flex me-3" role="search" action="{{ route('productos.search') }}" method="GET">
+                <input class="form-control me-3" type="search" name="query" placeholder="¿Qué estás buscando?" aria-label="Search">
+                <button class="btn btn-outline-warning me-3" type="submit">Buscar</button>
+            </form>
             <div class="album mt-4">
-                <div class="container">
-
+                <div class="container">                
+                    
                     <div class="container text-center mt-3">
                         <div class="container-just py-4">
-                            <h1 class="display-5" style="color: #b8860b">¡ Primeros auxilios !</h1>
+                            <h1 class="display-5" style="color: #b8860b">¡ Primeros auxilios !</h1>                            
                             <p class="card-text">Asegura tu bienestar con nuestro completo Kit de Primeros Auxilios.
                                 Estamos comprometidos con tu seguridad y salud. Recuerda que según la circulación 072 de
                                 noviembre 30 de 2021, los ciclos PHVA asociados a los SG-SST con vigencia anual se
@@ -163,9 +167,6 @@
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
-    <!-- Bootstrap JS y Popper.js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
 
     <!-- Otros scripts -->
     <script src="../js/code.jquery.com_jquery-3.7.1.js"></script>

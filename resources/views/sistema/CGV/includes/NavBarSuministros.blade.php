@@ -95,10 +95,6 @@
                 });
             </script>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            <form class="d-flex me-3" role="search" action="{{ route('productos.search') }}" method="GET">
-                <input class="form-control me-3" type="search" name="query" placeholder="¿Qué estás buscando?" aria-label="Search">
-                <button class="btn btn-outline-warning me-3" type="submit">Buscar</button>
-            </form>
 
             <div class="nav-item dropdown">
                 @auth
@@ -119,6 +115,7 @@
                     </div>
                 @endauth
             </div>
+            {{-- Poner aquí el boton de buscar --}}
 
             <script>
                 // Manejar clic en el botón de cerrar sesión
