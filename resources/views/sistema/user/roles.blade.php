@@ -134,7 +134,7 @@
 
                     <form method="POST" action="{{ route('create-all-roles') }}">
                         @csrf
-                        <button type="submit" class="btn btn-outline-warning">Crear todos los roles</button>
+                        <button type="submit" class="btn btn-outline-warning">Cargar roles</button>
                     </form>
                 </div>
 
