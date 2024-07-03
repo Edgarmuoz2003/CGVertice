@@ -76,7 +76,7 @@
             </form>
             <div class="album mt-4">
                 <div class="container">                
-                    
+
                     <div class="container text-center mt-3">
                         <div class="container-just py-4">
                             <h1 class="display-5" style="color: #b8860b">¡ Primeros auxilios !</h1>                            
@@ -117,9 +117,9 @@
                                             <div class="d-grid gap-2">
                                                 <a href="https://wa.me/573147675259?text=Quiero%20comprar%20sus%20productos."
                                                     target="_blank" rel="noopener noreferrer"
-                                                    class="btn btn-success btn-sm">Comprar Ahora en WhatsApp</a>
+                                                    class="btn btn-secondary btn-sm">Comprar Ahora en WhatsApp</a>
                                                 <a href="{{ route('producto.informacion', ['id' => $producto->idProducto]) }}"
-                                                    class="btn btn-outline-primary btn-sm">Más información</a>
+                                                    class="btn btn-outline-warning btn-sm">Más información</a>
                                             </div>
                                         </div>
                                     </div>
