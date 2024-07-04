@@ -28,11 +28,11 @@
                                     <div class="d-grid gap-2">
                                         <!-- Botón de comprar en WhatsApp -->
                                         <a onclick="window.location.href = 'https://wa.me/573147675259?text=Deseo%20adquirir%20uno%20de%20sus%20productos.'"
-                                            class="btn btn-success btn-sm">
+                                            class="btn btn-secondary btn-sm">
                                             Comprar Ahora en WhatsApp
                                         </a>
                                         <button onclick="redirectToProduct('{{ $producto->idProducto }}')"
-                                            class="btn btn-outline-primary btn-sm">
+                                            class="btn btn-warning btn-sm">
                                             Más información
                                         </button>
                                         <!-- Botón de más información -->

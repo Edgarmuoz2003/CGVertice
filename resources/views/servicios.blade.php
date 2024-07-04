@@ -387,40 +387,46 @@
                         </div>
                     </div>
                 </div>
-                <div class="timeline-2 right-2" id="IPS">
+                <div class="timeline-2 right-2" id="GestionE">
                     <div class="card">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
                             <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;"
-                                alt="Imagen 1">
+                                alt="Imagen de gestión empresarial">
                         </a>
                         <br>
                         <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b">
-                            PH (Propiedades horizontales)
+                            PH (Propiedades Horizontales)
                         </h3>
-                        <div class="card-body p-1">
+                        <div class="card-body p-4">
                             <p class="mb-0">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
                             </p>
                         </div>
                     </div>
+                    <!-- Button trigger modal -->
                     <br>
                     <button type="button" class="btn btn-warning boton4 botoninfo" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal4" style="background-color: #b8860b; border:#b8860b 1px solid;">
+                        data-bs-target="#exampleModal6" style="background-color: #b8860b; border:#b8860b 1px solid;">
                         Más información
                     </button>
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
                         <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Lorem ipsum dolor</h1>
+                                    <h1 class="modal-title fs-5 titulo-modal" id="exampleModalLabel">Propiedades Horizontales</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
+
+                                <!-- imagen de video al principio del modal -->
                                 <div class="modal-body">
-                                    <img src="img/img.jpeg" class="card-img-top imgpopup" alt="..."> <br><br>
+                                    <img src="img/img.jpeg" class="card-img-top imgpopup" alt="...">
+                                    <br><br>
+
+                                    <!-- texto debajo de la imagen del video -->
                                     <div class="container justify-content-around">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, minus
                                         provident ipsam sit voluptatibus nam aspernatur beatae tempora nostrum
@@ -430,36 +436,80 @@
                                         deleniti doloribus libero ab provident consequuntur beatae. Dolorum cum
                                         praesentium consectetur aut debitis nemo quos tenetur odit corrupti?
                                         <hr>
-                                        <div class="card-title text-center">
-                                            <h4>Detalles</h4>
+                                        <div class="card-title text-center" style="padding: 1% 0% 2% 0%">
+                                            <h4 style="color: #b8860b">Servicios de Propiedades Horizontales</h4>
                                         </div>
-                                        <b>
-                                            Tipos de tableros:
-                                        </b>
-                                        <br><br>
-                                        Lorem ipsum dolor
-                                        <br><br>
-                                        <b>
-                                            Servicios incluidos:
-                                        </b>
-                                        <br><br>
-                                        Lorem ipsum dolor
-                                        <br><br>
-                                        <b>
-                                            Técnicas de reparación:
-                                        </b>
-                                        <br><br>
-                                        Lorem ipsum dolor
-                                        <br><br>
-                                    </div>
-                                </div>
-                                <div style="padding: 2% 2% 2% 2%">
-                                    <a>¿Cuales son tus necesidades?</a>
-                                    <br>
-                                    <div class="containerModal">
-                                        <div class="itemModal"><a href="">SST</a></div>
-                                        <div class="itemModal"><a href="">Mayas curriculares</a></div>
-                                        <div class="itemModal"><a href="">PMIRS</a></div>
+                                        <div>
+                                            <b style="color: #b8860b">
+                                                SST
+                                            </b>
+                                            <br><br>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
+                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
+                                            eum quia? Provident.
+                                            <br><br>                                         
+                                            <button type="button" class="btn btn-warning">
+                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                    style="color: black">Cotizar</a></button>
+                                        </div>
+                                        <div class="container py-1">
+                                            <hr>
+                                        </div>
+                                        <div>
+                                            <b style="color: #b8860b">
+                                                PMIRS
+                                            </b>
+                                            <br><br>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
+                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
+                                            eum quia? Provident.
+                                            <br><br>
+
+                                            <button type="button" class="btn btn-warning">
+                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                    style="color: black">Cotizar</a></button>
+                                        </div>
+                                        <div class="container py-1">
+                                            <hr>
+                                        </div>
+                                        <div>
+                                            <b style="color: #b8860b">
+                                                BD
+                                            </b>
+                                            <br><br>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
+                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
+                                            eum quia? Provident.
+                                            <br><br>
+                                            
+                                            <button type="button" class="btn btn-warning">
+                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                    style="color: black">Cotizar</a></button>
+                                        </div>
+                                        <div class="container py-1">
+                                            <hr>
+                                        </div>
+                                        <div>
+                                            <b style="color: #b8860b">
+                                                Planes de Emergencia
+                                            </b>
+                                            <br><br>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
+                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
+                                            eum quia? Provident.
+                                            <br><br>
+                                            
+                                            <button type="button" class="btn btn-warning">
+                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                    style="color: black">Cotizar</a></button>
+                                        </div>
+                                        <div class="container py-1">
+                                            <hr>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
