@@ -55,7 +55,7 @@
         <!-- Botón para crear noticia -->
         @can('Crear Noticias')
             <div class="container text-center">
-                <button type="button" class="btn btn-outline-primary p-2" style="--bs-bg-opacity: .5;"
+                <button type="button" class="btn btn btn-outline-warning p-2" style="--bs-bg-opacity: .5;"
                     data-bs-toggle="modal" data-bs-target="#create">
                     Crear Noticia
                 </button>
@@ -63,12 +63,12 @@
         @endcan
         <div class="row">
             @foreach ($Blog as $blogg)
-                <div class="col-sm-6 col-lg-4 mb-3">
+                <div class="col-sm-4 col-lg-4 mb-3">
                     <div class="card">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-start">
-                                <strong class="d-inline-block mb-2 text-primary-emphasis">{{ $blogg->opcion }}</strong>
-                                <p class="d-inline-block mb-2 text-emphasis">{{ $blogg->nombre_noticia }}</p>
+                                <strong class="d-inline-block mb-2">{{ $blogg->opcion }}</strong>
+                                <p class="d-inline-block mb-2 text-emphasis" style="color: #b8860b">{{ $blogg->nombre_noticia }}</p>
                                 <div class="dropdown">
                                     @if (Auth::check() && (Auth::user()->can('Editar Noticias') || Auth::user()->can('Eliminar Noticias')))
                                         <button class="btn btn-secondary dropdown-toggle" type="button"
@@ -103,7 +103,7 @@
                             @if ($blogg->video)
                                 <p>Haz clic en "Mas información" para ver el video</p>
                             @endif
-                            <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                            <button type="button" class="btn btn-success mt-3" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal{{ $blogg->id }}">
                                 Mas información
                             </button>
