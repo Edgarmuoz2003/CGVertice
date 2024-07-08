@@ -20,16 +20,18 @@
                             Admin Configuración
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="adminDropdown">
-                            <li>
-                                <a class="dropdown-item" href="#" id="VerUsersbtn">Usuarios</a>
-                            </li>
+                            <a class="dropdown-item" href="#" id="VerUsersbtn">
+                                <i class="fas fa-users ml-2"></i> Usuarios
+                            </a>
                             <script>
                                 document.getElementById('VerUsersbtn').addEventListener('click', function() {
                                     window.location.href = "{{ route('ruta_Users') }}";
                                 });
                             </script>
                             <li>
-                                <a class="dropdown-item" href="#" id="rolesBtn">Roles</a>
+                                <a class="dropdown-item" href="#" id="rolesBtn">
+                                    <i class="fas fa-user-tag"></i> Roles
+                                </a>
                             </li>
                             <script>
                                 document.getElementById('rolesBtn').addEventListener('click', function() {
@@ -37,7 +39,9 @@
                                 });
                             </script>
                             <li>
-                                <a class="dropdown-item" href="#" id="permissionsBtn">Permisos</a>
+                                <a class="dropdown-item" href="#" id="permissionsBtn">
+                                    <i class="fas fa-key"></i> Permisos
+                                </a>
                             </li>
                             <script>
                                 document.getElementById('permissionsBtn').addEventListener('click', function() {
@@ -104,7 +108,9 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item" href="#" id="logoutBtn">Cerrar sesión</a>
+                            <a class="dropdown-item" href="#" id="logoutBtn">
+                                <i class="fas fa-sign-out-alt"></i> Cerrar sesión
+                            </a>
                         </li>
                     </ul>
                 @else
