@@ -55,7 +55,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-outline-primary" onclick="validarFormularioCliente('{{$producto->idProducto}}')">Guardar</button>
+                    <button type="button" class="btn btn-outline-warning" onclick="validarFormularioCliente('{{$producto->idProducto}}')">Guardar</button>
                 </div>
             </form>
         </div>

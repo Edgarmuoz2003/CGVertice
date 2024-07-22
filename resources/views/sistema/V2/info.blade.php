@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es" data-bs-theme="auto">
-
 <head>
     <meta charset="utf-8" />
     <!-- Seccion de la Configuración y Metadatos -->
@@ -151,7 +150,7 @@
                                                 <button type="button" class="btn btn-outline-secondary"
                                                     data-bs-toggle="modal"
                                                     data-bs-target="#edit{{ $producto->idProducto }}">Editar
-                                                    Producto</button>
+                                                    Productos</button>
                                             @endcan
                                             @can('Eliminar Productos')
                                                 <button type="button" class="btn btn-outline-danger"
@@ -471,7 +470,5 @@
             });
         }
     </script>
-
 </body>
-
 </html>

@@ -32,13 +32,12 @@
                                 <small class="text-danger" id="errorCantidad"></small>
                             </div>
                         </div>
-
                         <hr>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-outline-primary" onclick="validarFormularioDetalles('{{$detalle->idDetalle}}')">Guardar</button>
+                    <button type="button" class="btn btn-outline-secondary" onclick="validarFormularioDetalles('{{$detalle->idDetalle}}')">Guardar</button>
                 </div>
             </form>
         </div>
