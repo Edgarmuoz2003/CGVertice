@@ -74,7 +74,7 @@
             <!-- Logo de la empresa -->
             <div class="col-lg-4 col-md-6 col-6 text-center">
                 <div class="Converge-div-logo">
-                    <img id="VerIniciobtn" src="./img/Logonew.png" alt="Logotipo Converge" href="#"
+                    <img id="VerIniciobtn" src="{{ asset('img/LogoAgosto.png') }}" alt="Logotipo Converge" href="#"
                         class="img-fluid" />
                 </div>
             </div>

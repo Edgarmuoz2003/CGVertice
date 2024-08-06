@@ -3,7 +3,7 @@
         <div class="container">
             <!-- Logo -->
             <a id="logoInicio">
-                <img class="logo-cgv" src="{{ asset('img/Logonew.png') }}" alt="Logo de Vértice">
+                <img class="logo-cgv" src="{{ asset('img/LogoAgosto.png') }}" alt="Logo de Vértice">
             </a>
             <!-- Botón del menú Offcanvas para pantallas pequeñas -->
             <button class="navbar-toggler custom-toggler bg-dark" type="button" data-bs-toggle="offcanvas"

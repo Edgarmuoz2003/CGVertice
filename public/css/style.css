@@ -8,7 +8,8 @@
 .btn-wsp {
     width: 85px;
     background-color: #b8860b;
-    border: #b8860b;@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    border: #b8860b;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
     * {
         font-family: "Poppins", sans-serif;
     }
@@ -36,25 +37,25 @@
             box-shadow: 0 0 0 20px rgb(135, 201, 79, 0);
         }
     }
-    
+
     .custom-toggler {
         background-color: black;
         border-color: black;
         color: white;
     }
-    
+
     .contactos {
         text-decoration: none;
         color: #000;
     }
-    
+
     .custom-purple-border {
         border-color: #8a2be2; /* Código hexadecimal para el color púrpura */
     }
     .custom-light-bg {
         background-color: #b48b8b; /* Código hexadecimal para un tono más claro */
     }
-    
+
     article,
     aside,
     details,
@@ -196,7 +197,7 @@
     }
     .logo-cgv {
         position: relative;
-        max-width: 160px;
+        max-width: 100px;
         width: auto;
         height: auto;
         text-align: center;
@@ -230,7 +231,7 @@
         align-items: center; /* Centra verticalmente */
         margin: 0 auto; /* Centra horizontalmente */
     }
-    
+
     /* // Animation */
     @keyframes scroll {
         0% {
@@ -242,7 +243,7 @@
             ); /* Ajusta el valor según la cantidad de imágenes la mitad solo */
         }
     }
-    
+
     /* // Styling */
     .slider {
         background: #1a1a1a;
@@ -254,7 +255,7 @@
         width: 100%;
         align-items: center; /* Centra verticalmente */
         margin: 0 auto; /* Centra horizontalmente */
-    
+
         &::before,
         &::after {
             background: linear-gradient(
@@ -268,18 +269,18 @@
             width: 200px;
             z-index: 2;
         }
-    
+
         &::after {
             right: 0;
             top: 0;
             transform: rotateZ(180deg);
         }
-    
+
         &::before {
             left: 0;
             top: 0;
         }
-    
+
         .slide-track {
             animation: scroll 40s linear infinite;
             display: flex;
@@ -287,22 +288,22 @@
                 250px * 11
             ); /* Ajusta el valor según la cantidad de imágenes */
         }
-    
+
         .slide {
             height: 100px;
             width: 250px;
             align-items: center; /* Centra verticalmente */
             margin: 0 auto; /* Centra horizontalmente */
         }
-    
+
         .img-slider {
             height: 100%;
             width: auto;
         }
     }
-    
+
     /* --------------------- Media Queries --------------------- */
-    
+
     /* Pantallas Pequeñas (Móviles) */
     @media (max-width: 767px) {
         /* // Animation */
@@ -316,36 +317,36 @@
                 ); /* Ajusta el valor según la cantidad de imágenes la mitad solo */
             }
         }
-    
+
         /* // Styling */
         .slider {
             height: 80px;
-    
+
             &::before,
             &::after {
                 width: 70px;
             }
-    
+
             .slide-track {
                 animation: scroll 40s linear infinite;
                 display: flex;
                 width: calc(150px * 11);
             }
-    
+
             .slide {
                 height: 80px;
                 width: 150px;
                 align-items: center; /* Centra verticalmente */
                 margin: 0 auto; /* Centra horizontalmente */
             }
-    
+
             .img-slider {
                 height: 100%;
                 width: auto;
             }
         }
     }
-    
+
     /* Tablets en Modo Retrato */
     @media (min-width: 768px) and (max-width: 1023px) {
         /* // Animation */
@@ -359,7 +360,7 @@
                 ); /* Ajusta el valor según la cantidad de imágenes la mitad solo */
             }
         }
-    
+
         /* // Styling */
         .slider {
             height: 90px;
@@ -367,20 +368,20 @@
             &::after {
                 width: 170px;
             }
-    
+
             .slide-track {
                 animation: scroll 40s linear infinite;
                 display: flex;
                 width: calc(200px * 11);
             }
-    
+
             .slide {
                 height: 90px;
                 width: 200px;
                 align-items: center; /* Centra verticalmente */
                 margin: 0 auto; /* Centra horizontalmente */
             }
-    
+
             .img-slider {
                 height: 100%;
                 width: auto;
@@ -470,7 +471,9 @@
         background-color: #c72b29; /* Cambia el color de fondo a rojo en hover */
     }
     .learn-more:hover i {
-        transform: translateX(5px); /* Mueve el icono hacia la derecha en hover */
+        transform: translateX(
+            5px
+        ); /* Mueve el icono hacia la derecha en hover */
     }
     .content .textBox p {
         color: white;
@@ -697,7 +700,7 @@
         box-shadow: 0 5px 60px rgba(255, 255, 255, 0.2);
         transition: transform 0.3s ease-in-out;
     }
-    
+
     /* Estilos cuando se pasa el mouse sobre las tarjetas */
     .contenedorst .card:hover {
         height: auto;
@@ -896,7 +899,7 @@
     .lSPager {
         display: none;
     }
-    
+
     .lSAction > a {
         background-color: #000;
         width: 50px;
@@ -908,21 +911,21 @@
         align-items: center;
         position: relative;
     }
-    
+
     .lSAction > .lSNext::before {
         content: ">"; /* Utiliza el carácter ">" para la flecha siguiente */
         font-size: 3rem; /* Ajusta el tamaño de la fuente según tus preferencias */
         color: #ffffff; /* Color de la flecha */
         top: -17px; /* Ajusta la posición vertical hacia arriba */
     }
-    
+
     .lSAction > .lSPrev::before {
         content: "<"; /* Utiliza el carácter "<" para la flecha anterior */
         font-size: 3rem; /* Ajusta el tamaño de la fuente según tus preferencias */
         color: #ffffff; /* Color de la flecha */
         top: -17px; /* Ajusta la posición vertical hacia arriba */
     }
-    
+
     /* Añade un espacio entre el contenido y el borde del botón */
     .lSAction > a::before,
     .lSAction > a::after {
@@ -932,7 +935,7 @@
         height: 100%;
         background-color: transparent;
     }
-    
+
     /* making responsive */
     @media (max-width: 600px) {
         .slider-heading h3 {
@@ -1028,7 +1031,7 @@
     .nav-link {
         color: #333; /* Texto en color negro */
     }
-    
+
     .nav-link:not(.active) {
         color: #000; /* Puedes ajustar el color a tu preferencia */
     }
@@ -1255,7 +1258,7 @@
     }
     /* Estilo para las etiquetas 'a' con clase "cgv" */
     a.cgv {
-        text-decoration:none;
+        text-decoration: none;
         font-weight: bold;
         font-size: 1.2rem;
         padding: 10px 10px;
@@ -1308,7 +1311,7 @@
     .h-250 {
         height: 250px;
     }
-    
+
     /* Pagination */
     .blog-pagination {
         margin-bottom: 4rem;
@@ -1386,7 +1389,7 @@
     .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
     }
-    
+
     /* ---------------------------------------------------------------------------------------------------------------------------------- */
     /* ---------------------------------------------------------------------------------------------------------------------------------- */
     /* Efecctos en las cartas inicio */
@@ -1396,7 +1399,7 @@
         border: none !important;
         overflow: hidden;
     }
-    
+
     .card:hover {
         transform: scale(1.05);
     }
@@ -1454,44 +1457,44 @@
     /* -------------------------------------------------------------------------------------- */
     /* -------------------------------------------------------------------------------------- */
     /* la carta del slider inicio */
-    
+
     .card-slider {
         width: 300px;
         height: 400px;
     }
-    
+
     .img-slider {
         max-width: 100% !important;
         height: auto !important;
         object-fit: contain !important;
         border-radius: 5px !important;
     }
-    
+
     .card-body {
         padding: 15px;
         overflow: hidden;
         text-overflow: ellipsis;
         height: 100%; /* Ajusta la altura del cuerpo de la tarjeta según tus necesidades */
     }
-    
+
     .card-title {
         font-size: 1.25rem !important;
         margin-bottom: 10px !important;
     }
-    
+
     .card-text {
         font-size: 0.9rem !important;
     }
-    
+
     .text-muted {
         font-size: 0.8rem !important;
     }
     /* la carta fin */
-    
+
     .lSPager {
         display: none;
     }
-    
+
     .lSAction > a {
         background-color: #000;
         width: 50px;
@@ -1503,21 +1506,21 @@
         align-items: center;
         position: relative;
     }
-    
+
     .lSAction > .lSNext::before {
         content: ">";
         font-size: 3rem;
         color: #fff;
         top: -25px;
     }
-    
+
     .lSAction > .lSPrev::before {
         content: "<";
         font-size: 3rem;
         color: #fff;
         top: -25px;
     }
-    
+
     .lSAction > a::before,
     .lSAction > a::after {
         content: "";
@@ -1537,23 +1540,23 @@
         border-radius: 5px !important;
     }
     /* -------------------------------------------------------------------------------------- */
-    
+
     #button-addon1 {
         color: #ffc371;
     }
-    
+
     i {
         font-size: 20px;
     }
-    
+
     .form-control::placeholder {
         font-size: 0.95rem;
     }
-    
+
     .form-control.shadow-0:focus {
         box-shadow: none;
     }
-    
+
     /* -------------------------------------------------------------------------------------- */
     /* -------------------------------------------------------------------------------------- */
     /* stylelint-disable stylistic/selector-list-comma-newline-after */
@@ -1585,7 +1588,7 @@
     .h-250 {
         height: 250px;
     }
-    
+
     /* Pagination */
     .blog-pagination {
         margin-bottom: 4rem;
@@ -1627,7 +1630,7 @@
         vertical-align: -0.125em;
         fill: currentColor;
     }
-    
+
     .nav-scroller {
         position: relative;
         z-index: 2;
@@ -1664,34 +1667,34 @@
     .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
     }
-    
+
     /* ---------------------------------------------------------------------------------------------------------------------------------- */
     /* ---------------------------------------------------------------------------------------------------------------------------------- */
     /* Efecctos en las cartas inicio */
-    
+
     a:link {
         text-decoration: none;
     }
-    
+
     .card-title {
         font-size: 1.25rem !important;
         margin-bottom: 10px !important;
     }
-    
+
     .card-body {
         padding: 15px;
         overflow: hidden;
         text-overflow: ellipsis;
     }
-    
+
     .card-text {
         font-size: 1rem !important;
     }
-    
+
     .text-muted {
         font-size: 0.8rem !important;
     }
-    
+
     /* -------------------------------------------------------------------------------------- */
     @keyframes button-bounce {
         0%,
@@ -1700,21 +1703,21 @@
         100% {
             transform: translateY(0);
         }
-    
+
         20% {
             transform: translateY(-15px);
         }
-    
+
         40% {
             transform: translateY(-7px);
         }
     }
-    
+
     .btn-container {
         position: relative;
         overflow: hidden;
     }
-    
+
     .btn-jump {
         position: relative;
         z-index: 2;
@@ -1723,30 +1726,30 @@
         padding: 10px 20px;
         border-radius: 8px;
     }
-    
+
     .btn-container:hover .btn-jump {
         animation: button-bounce 1.2s;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
     /* -------------------------------------------------------------------------------------- */
     /* la carta del slider inicio */
-    
+
     .card-slider {
         width: 300px;
         height: 500px;
     }
-    
+
     .img-slider {
         max-width: 100% !important;
         height: auto !important;
         object-fit: contain !important;
         border-radius: 5px !important;
     }
-    
+
     .lSPager {
         display: none;
     }
-    
+
     .lSAction > a {
         background-color: #000;
         width: 50px;
@@ -1758,21 +1761,21 @@
         align-items: center;
         position: relative;
     }
-    
+
     .lSAction > .lSNext::before {
         content: ">";
         font-size: 3rem;
         color: #fff;
         top: -25px;
     }
-    
+
     .lSAction > .lSPrev::before {
         content: "<";
         font-size: 3rem;
         color: #fff;
         top: -25px;
     }
-    
+
     .lSAction > a::before,
     .lSAction > a::after {
         content: "";
@@ -1787,7 +1790,7 @@
         font-size: 20px;
     }
     /* -------------------------------------------------------------------------------------- */
-    
+
     /* Media Query para Pantallas Pequeñas (Móviles) */
     @media (max-width: 767px) {
         .h-md-250 {
@@ -1821,7 +1824,7 @@
             width: 1000px; /* Ancho personalizado para pantallas grandes (escritorios) */
         }
     }
-    
+
     /* -------------------------------------------------------------------------------------- */
     /* -------------------------------------------------------------------------------------- */
     /* Media Query para Pantallas Pequeñas (Móviles) */
@@ -1869,11 +1872,11 @@
     .zoom-effect {
         overflow: hidden;
     }
-    
+
     .zoom-effect img {
         transition: transform 0.3s ease;
     }
-    
+
     .zoom-effect img:hover {
         transform: scale(1.1);
     }
@@ -1881,32 +1884,32 @@
         background-color: #f8f9fa; /* Color de fondo para resaltar el carrusel */
         padding: 30px 0; /* Ajuste el relleno según sea necesario */
     }
-    
+
     .slider {
         overflow: hidden; /* Ocultar las partes del carrusel que están fuera de la vista */
     }
-    
+
     .slide-track {
         display: flex; /* Alinea las diapositivas horizontalmente */
     }
-    
+
     .slide {
         flex: 0 0 auto; /* Las diapositivas no se expanden para llenar el espacio */
         margin-right: 20px; /* Espacio entre las diapositivas */
     }
-    
+
     .img-slider {
         max-width: 200px; /* Ancho máximo de las imágenes */
         max-height: 100px; /* Altura máxima de las imágenes */
         display: block; /* Asegura que las imágenes se muestren correctamente */
         margin: 0 auto; /* Centra las imágenes horizontalmente */
     }
-    
+
     .dark-theme {
         background-color: rgb(36, 36, 36);
         color: white;
     }
-    
+
     position: fixed;
     z-index: 999;
     border-radius: 50% 50% 50% 15%;
@@ -2086,7 +2089,7 @@ ul li {
 }
 .logo-cgv {
     position: relative;
-    max-width: 160px;
+    max-width: 100px;
     width: auto;
     height: auto;
     text-align: center;
@@ -2133,13 +2136,12 @@ ul li {
     }
 }
 
-.sliderP{
+.sliderP {
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
     height: auto;
     overflow: hidden;
     position: relative;
     width: auto;
-
 
     .slide-track {
         animation: scroll 15s linear infinite;
@@ -2147,7 +2149,7 @@ ul li {
 }
 
 /* // Styling */
-.slider{
+.slider {
     background: #1a1a1a;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
     height: 100px;
@@ -2955,12 +2957,7 @@ ul li {
 }
 
 .section-about .content-Conózcanos {
-    background-color: rgba(
-        255,
-        255,
-        255,
-        0.2
-    );
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
     height: auto;
     width: auto;
@@ -2969,15 +2966,14 @@ ul li {
 .section-about .titulo {
     font-size: 2rem;
     text-transform: uppercase;
-    color: #000; 
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); 
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 .section-about .texto {
     font-size: 1.1rem;
     color: #000;
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
 }
-
 
 /* Estilos para la sección "Servicios" */
 .section-abouts {
@@ -3019,7 +3015,6 @@ ul li {
 }
 
 /* Estilo para el video de la pestaña "nosotros" */
-
 
 .section-about-video {
     padding-top: 50px;
@@ -3849,8 +3844,6 @@ a:link {
     color: white;
 }
 
-
-
 .scroll-container {
     width: 100%;
     overflow-x: auto;
@@ -3877,10 +3870,9 @@ a:link {
     width: auto; /* Ancho de cada elemento del slider */
 }
 
-
 .containerModal {
-    display: flex; 
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
     border: #0071e3 1px solid;
 }
 
@@ -3917,7 +3909,6 @@ a:link {
 .nav-tabs {
     margin-bottom: 20px; /* Espacio debajo de las pestañas */
 }
-
 
 .section-aboutx {
     display: flex;
@@ -3957,15 +3948,14 @@ a:link {
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3); /* Sombra de texto */
 }
 
-.espacio{
+.espacio {
     height: 200px;
 }
 
-.titulo-modal{
+.titulo-modal {
     text-align: center;
     color: #b8860b;
     font-size: 30px;
-    
 }
 
 .section-aboutips {
@@ -3981,14 +3971,14 @@ a:link {
     box-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra ligera */
 }
 
-.MainContainerMap{
+.MainContainerMap {
     padding: 0% 0% 0% 6%;
 }
 
 /* Estilo por defecto (pantallas grandes) */
 .container-mapa {
-    position: relative; 
-    width: 280%; 
+    position: relative;
+    width: 280%;
     padding-top: 100%;
 }
 
@@ -4008,28 +3998,27 @@ a:link {
     }
 }
 
-.EncabezadoSer{
+.EncabezadoSer {
     width: 50%;
 }
 
-.Centrar{
+.Centrar {
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     text-align: justify;
 }
-    
 
 .check-list {
     list-style-type: none; /* Remove default bullets */
 }
 .check-list li::before {
-    content: '✔ '; /* Add check symbol before each list item */
+    content: "✔ "; /* Add check symbol before each list item */
     color: #b8860b; /* Optional: color the check symbol */
     font-size: 2rem;
 }
 
-.gestionD_P{
+.gestionD_P {
     background-color: #00000011;
     width: 100%;
     border: 2px solid #b8860b;
@@ -4037,7 +4026,7 @@ a:link {
     border-radius: 20px;
 }
 
-.gestionD_P p{
+.gestionD_P p {
     margin: 0 auto;
     text-align: justify;
     width: 80%;
@@ -4050,35 +4039,36 @@ a:link {
     align-items: center;
 }
 
-.parrafoNuestrosServicios{
+.parrafoNuestrosServicios {
     color: black;
     font-size: 17px;
 }
 
-.imgNuestrosServicios{
+.imgNuestrosServicios {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
-.imgNuestrosServicios img{
+.imgNuestrosServicios img {
     width: 100%;
     height: auto;
 }
 
-.tituloNuestrosServicios{
+.tituloNuestrosServicios {
     color: black;
     text-align: center;
 }
 
-.userRol{
+.userRol {
     display: flex;
-    width: 100%; justify-content: center; 
-    align-items: center; 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
 }
 
-.userRol .card{
+.userRol .card {
     width: auto;
     text-align: justify;
     padding: 20px;
@@ -4087,54 +4077,50 @@ a:link {
     box-shadow: 0 0 10px #b8860b;
 }
 
-.titulo-roles{
+.titulo-roles {
     text-align: center;
     color: #b8860b;
     margin-top: 30px;
 }
 
-.TextoInicio{
+.TextoInicio {
     padding: 2% 0% 0% 10%;
-    
 }
 
-.MainTittle{
+.MainTittle {
     padding: 0% 0% 0% 10%;
-
 }
 
-.MainTittle h2{
+.MainTittle h2 {
     font-size: 8vb;
 }
 
-.tabla-index{
+.tabla-index {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
 
-
-.botonAdmin{
+.botonAdmin {
     margin: 0% 0% 0% 1%;
     padding: 1%;
 }
 
-.cardhead{
+.cardhead {
     font-size: 100%;
     text-align: center;
     margin-bottom: 10%;
 }
 
-.dropdown-menu li a{
+.dropdown-menu li a {
     color: #b8860b;
     padding: 10px;
 }
 
-.LoginForm{
+.LoginForm {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     height: 100vh; /* Opcional: asegura que el div ocupe toda la altura de la ventana */
 }
-

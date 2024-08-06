@@ -77,7 +77,7 @@
                     </p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="./img/isonew.png" alt="Corporate Group Vertice sas" style="width: 55%; height: auto;">
+                    <img src="{{ asset('img/LogoAgosto.png') }}" alt="Corporate Group Vertice sas" style="width: 55%; height: auto;">
                 </div>
             </div>
         </div>
