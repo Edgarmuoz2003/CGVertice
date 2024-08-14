@@ -7,6 +7,7 @@ padding-top: 1%;">
 
 </div>
 <div style="padding-bottom: 2%">
+    {{-- SliderAliados (Buscar en el css tal cual se muestra antes del parentesis) --}}
     <div class="slider">
         <div class="slide-track">
             <div class="slide">

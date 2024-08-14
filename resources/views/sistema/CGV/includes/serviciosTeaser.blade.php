@@ -1,4 +1,4 @@
-{{-- <div class="container col-xxl-10 px-5 py-5">
+<div class="container col-xxl-10 px-5 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
             <img src="img/img.jpeg" alt="Error al Cargar la Imagen" class="img-fluid rounded d-block mx-auto">
@@ -28,7 +28,7 @@
                 invertir en un entorno laboral seguro y en el bienestar de tus empleados.</p>
         </div>
     </div>
-</div> --}}
+</div>
 
 <div class="container py-1">
     <hr>
@@ -37,6 +37,7 @@
         <h2>Más déstacados</h2>
     </div>
 <section class="contenedorst body">
+    {{-- CardServiciosTeaser (Buscar asi tal cual en el css) --}}
     <div class="row">
         <div class="col-md-4">
             <a href="#!" style="text-decoration: none; color: white;">
@@ -85,7 +86,6 @@
                 </div>
             </a>
         </div>
-
         <div class="col-md-4">
             <a href="#!" style="text-decoration: none; color: white;">
                 <div class="card">
@@ -111,9 +111,7 @@
                 </div>
             </a>
         </div>
-    </div>
-    <div class="row"> <!-- Utiliza la clase "row" de Bootstrap para crear una fila -->
-        <div class="col-md-auto">
+        <div class="col-md-4">
             <!-- Utiliza las clases de Bootstrap para las columnas, en este caso, se divide en 3 columnas en dispositivos medianos (md) -->
             <a href="#!" style="text-decoration: none; color: white;">
                 <div class="card">
@@ -139,7 +137,7 @@
             </a>
         </div>
 
-        <div class="col-md-auto">
+        <div class="col-md-4">
             <a href="#!" style="text-decoration: none; color: white;">
                 <!-- Agrega la URL a la que deseas redirigir cuando se hace clic -->
                 <div class="card">
@@ -162,7 +160,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-auto">
+        <div class="col-md-4">
             <a href="#!" style="text-decoration: none; color: white;">
                 <!-- Agrega la URL a la que deseas redirigir cuando se hace clic -->
                 <div class="card">
@@ -186,4 +184,5 @@
             </a>
         </div>
     </div>
+
 </section>
