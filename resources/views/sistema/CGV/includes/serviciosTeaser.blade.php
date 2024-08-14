@@ -35,15 +35,12 @@
             <a href="#!" style="text-decoration: none; color: white;">
                 <div class="card">
                     <div class="imgBx">
-                        <img src="img/img.jpeg" alt="Gestion Empresarial.png" style="padding-top: 50px">
+                        <img src="img/PMIRS.png" alt="Gestion Empresarial.png" style="padding-top: 50px">
                         <h5 class="text-center" style="color: #b8860b; padding-top: 8px">PMIRS</h5>
                     </div>
                     <br>
                     <div class="content">
-                        <p>La gestión empresarial eficiente es esencial para el crecimiento y la prosperidad de tu
-                            empresa. Nuestro servicio de Gestión Empresarial ofrece soluciones a medida que
-                            optimizan tus procesos, mejoran la toma de decisiones y aumentan la eficiencia
-                            operativa. <br>
+                        <p>En CG VERTICE, diseñamos e implementamos Programas de Manejo Integral de Residuos Sólidos, enfocados en la gestión eficiente y responsable de los residuos generados en tu empresa. Nuestro objetivo es promover prácticas sostenibles que minimicen el impacto ambiental y cumplan con las normativas vigentes. <br>
                             <br>
                             <a href="/servicios#GestionE" class="btn btn-success btn-sm" target="_blank"
                                 rel="noopener noreferrer">

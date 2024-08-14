@@ -11,6 +11,7 @@
 
 <body>
     @include('sistema.CGV.includes.navbar')
+    @include('sistema.CGV.includes.regresarArriba')
 
     <section class="section-about">
         <div class="content-Conózcanos">

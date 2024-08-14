@@ -96,6 +96,8 @@
 
         @include('sistema.CGV.includes.mapa')
 
+        @include('sistema.CGV.includes.regresarArriba')
+
         <br>
 
         @include('sistema.CGV.includes.sliderGrandAliados')
