@@ -1725,12 +1725,9 @@ a:link {
         width: 1000px; /* Ancho personalizado para pantallas grandes (escritorios) */
     }
 }
-.zoom-effect {
-    overflow: hidden;
-}
 
 .zoom-effect img {
-    transition: transform 0.3s ease;
+    transition: transform 1s ease;
 }
 
 .zoom-effect img:hover {
