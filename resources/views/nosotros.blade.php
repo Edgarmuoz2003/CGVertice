@@ -52,8 +52,8 @@
                 <div class="col-md-7">
                     <p class="acrostico-text" style="cursor: default;">
                         <a class="cgv" title="Validación de procesos">V<a style="color: #636363"> alidación de
-                                procesos</a></a> 
-                                <br>
+                                procesos</a></a>
+                        <br>
                         <a class="cgv" title="Empresariales mediante la">E<a style="color: #636363"> mpresariales
                                 mediante la</a></a><br>
                         <a class="cgv" title="Retroalimentación y gestión de riesgos que utiliza">R<a
@@ -103,8 +103,7 @@
                 <div class="timeline-2 left-2">
                     {{-- CardsNosotros (Buscar así tal cual en el css) --}}
                     <div class="cardNosotros">
-                            <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;"
-                                alt="Imagen 1">
+                        <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;" alt="Imagen 1">
                         <div class="card-body p-4">
                             <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">Servicio
                                 al cliente</h3>
@@ -121,8 +120,7 @@
                 {{-- Espacio de SST-SG --}}
                 <div class="timeline-2 right-2">
                     <div class="cardNosotros">
-                            <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;"
-                                alt="Imagen 2">
+                        <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;" alt="Imagen 2">
                         <div class="card-body p-4">
                             <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">SST-SG
                             </h3>
@@ -139,8 +137,7 @@
                 {{-- Espacio de multimedia --}}
                 <div class="timeline-2 left-2">
                     <div class="cardNosotros">
-                            <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;"
-                                alt="Imagen 3">
+                        <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;" alt="Imagen 3">
                         <div class="card-body p-4">
                             <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">
                                 Multimedia</h3>
