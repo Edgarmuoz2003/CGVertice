@@ -42,16 +42,17 @@
             <a href="#!" style="text-decoration: none; color: white;">
                 <div class="card">
                     <div class="imgBx">
-                        <img src="img/logoAgosto.png" alt="Educación y Formación.png" style="padding-top: 50px">
+                        <img src="img/inicio-destacados-sst.jpg" alt="Educación y Formación.png" style="padding-top: 50px">
                     </div>
                     <br>
                     <div class="content">
                         <h5 class="text-center" style="color: #b8860b; padding-top:2%">SST (Seguridad y salud en el trabajo)</h5>
-                        <p>En el mundo empresarial en constante evolución, la formación y la educación son la clave
-                            para el éxito. Nuestro servicio de Educación y Formación está diseñado para capacitar a
-                            tu equipo y mantenerlos actualizados con las últimas tendencias y tecnologías. <br>
+                        <p>La seguridad y salud en el trabajo son aspectos cruciales en cualquier empresa. Con
+                            nuestro servicio SG - SST, puedes garantizar el cumplimiento de todas las normativas de
+                            seguridad, reducir riesgos y proteger a tus empleados. La seguridad en el trabajo es
+                            nuestra prioridad. <br>
                             <br>
-                            <a href="/servicios#EduYFor" class="btn btn-success btn-sm" target="_blank"
+                            <a href="/servicios#SST" class="btn btn-success btn-sm" target="_blank"
                                 rel="noopener noreferrer">
                                 Conozca más
                             </a>
