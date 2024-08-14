@@ -2,9 +2,12 @@
 * {
     font-family: "Poppins", sans-serif;
 }
+
 .fondo {
     background-color: #1a1a1a;
 }
+
+/* Botón de whatsapp que se encuentra en la pestaña "Nosotros" */
 .btn-wsp {
     width: 85px;
     background-color: #b8860b;
@@ -22,7 +25,7 @@
     animation: wsp 1.2s infinite;
 }
 
-/* Estilos de la barra de navegación */
+/* Estilos del navbar */
 .navbar {
     display: flex;
     justify-content: center;
@@ -44,8 +47,8 @@ ul li {
     border: 0px;
 }
 
-/* ------------------------------------------------------------- */
-
+/* Esta animación gradua el tamaño del elemento */
+/* !!!!!!!!!!!!!!!!!!!!!IMPORTANTE: NO MOVER¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ */
 /* // Animation */
 @keyframes scroll {
     0% {
@@ -58,6 +61,7 @@ ul li {
     }
 }
 
+/* Este es el slider de los productos que aparecen en el inicio. La ruta del modulo es: C:\xampp\htdocs\CGVertice\resources\views\sistema\CGV\includes\sliderProductos.blade.php */
 .sliderP {
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
     height: auto;
@@ -70,7 +74,8 @@ ul li {
     }
 }
 
-/* // Styling */
+/* Este es el slider de los aliados que aparecen en la parte inferior del inicio (y otrás pestañas) para computadoras. */
+/* SliderAliados */
 .slider {
     background: #1a1a1a;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
@@ -127,10 +132,13 @@ ul li {
         width: auto;
     }
 }
-
+/* ------------------------------------------------------------ */
 /* --------------------- Media Queries --------------------- */
+/* ------------------------------------------------------------ */
 
+/* Este es el slider de los aliados que aparecen en la parte inferior del inicio (y otrás pestañas)*/
 /* Pantallas Pequeñas (Móviles) */
+
 @media (max-width: 767px) {
     /* // Animation */
     @keyframes scroll {
@@ -143,10 +151,9 @@ ul li {
             ); /* Ajusta el valor según la cantidad de imágenes la mitad solo */
         }
     }
-
     /* // Styling */
     .slider {
-        height: 80px;
+        height: 100px;
 
         &::before,
         &::after {
@@ -160,20 +167,23 @@ ul li {
         }
 
         .slide {
-            height: 80px;
+            height: 100px;
             width: 150px;
             align-items: center; /* Centra verticalmente */
             margin: 0 auto; /* Centra horizontalmente */
         }
 
         .img-slider {
-            height: 100%;
+            height: 50%;
             width: auto;
         }
     }
 }
 
+
+/* Este es el slider de los aliados que aparecen en la parte inferior del inicio (y otrás pestañas)*/
 /* Tablets en Modo Retrato */
+
 @media (min-width: 768px) and (max-width: 1023px) {
     /* // Animation */
     @keyframes scroll {
@@ -214,25 +224,14 @@ ul li {
         }
     }
 }
+
+
+
+
+
 /* ------------------------------------------------------------- */
-.Above-the-Fold {
-    width: 99%;
-    min-height: 70vh;
-    padding: 10px;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    background: #1a1a1a;
-}
-.header-Above-the-Fold {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 99%;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
+/* Contenedor del la imagen y texto inductivo acerca de la empresa. Es el primero contenedor en la pagina de inicio */
+/* PrimerContenedor */
 .content {
     position: relative;
     width: 99%;
@@ -240,164 +239,11 @@ ul li {
     justify-content: space-between;
     align-items: center;
 }
-.content .textBox {
-    position: relative;
-    /* Ajusta el valor según la cantidad de desplazamiento que deseas */
-    /* left: 50px;  */
-}
-.content .textBox h2 {
-    color: white;
-    font-size: 4rem;
-    line-height: 5rem;
-    font-weight: 500;
-}
-.content .textBox h2 span {
-    font-size: 3.8rem;
-    font-weight: 460;
-    text-decoration: none;
-}
-.content .textBox h2 .rojo-span {
-    color: #b8860b;
-    /* Color de texto rojo */
-    border-bottom: 1.5px solid transparent; /* Línea roja transparente */
-    transition: border-width 0.5s;
-}
-.content .textBox h2 .verde-span {
-    color: #b8860b;
-    /* Color de texto verde */
-    border-bottom: 1.5px solid transparent; /* Línea verde transparente */
-    transition: border-width 0.5s;
-}
-.content .textBox h2 .rojo-span:hover {
-    border-image: linear-gradient(90deg, #fff, #b8860b) 1;
-    /* border-image: linear-gradient(90deg, #fff, #000) 1; */
-    border-image-slice: 1.5;
-}
-.content .textBox h2 .verde-span:hover {
-    border-image: linear-gradient(90deg, #fff, #287640) 1;
-    /* border-image: linear-gradient(90deg, #fff, #000) 1; */
-    border-image-slice: 1.5;
-}
-/* Estilos para el enlace "Learn More" */
-.learn-more {
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #287640; /* Color de fondo verde */
-    color: #fff; /* Color del texto blanco */
-    border-radius: 5px; /* Bordes redondeados */
-    transition: background-color 0.3s; /* Transición de color de fondo en hover */
-}
-.learn-more i {
-    margin-left: 5px; /* Espacio entre el texto y el icono */
-    transition: transform 0.3s; /* Transición para el efecto hover del icono */
-}
-/* Estilos para el efecto hover */
-.learn-more:hover {
-    background-color: #c72b29; /* Cambia el color de fondo a rojo en hover */
-}
-.learn-more:hover i {
-    transform: translateX(5px); /* Mueve el icono hacia la derecha en hover */
-}
-.content .textBox p {
-    color: white;
-}
-.content .textBox a {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 8px 20px;
-    background: #fff;
-    color: #5d5d5d;
-    border-radius: 40px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-}
-.content .imgBox {
-    width: auto;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
-    margin-top: 50px;
-    left: 50%;
-}
-.content .imgBox img {
-    max-width: 450px;
-    height: auto;
-    /* border-radius: 15%; */
-    /* border-radius: 30%; */
-    border-radius: 60%;
-    /* border-radius: 100%; */
-}
-.thumb {
-    position: absolute;
-    left: 45%;
-    bottom: 35px;
-    transform: translateX(-50%);
-    display: flex;
-}
-.thumb li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    cursor: pointer;
-}
-.thumb li:hover {
-    transform: translateY(-17px);
-}
-.thumb li img {
-    max-width: 60px;
-    height: auto;
-    /* border-radius: 15%; */
-    /* border-radius: 30%; */
-    border-radius: 60%;
-    /* border-radius: 100%; */
-}
-.sci {
-    position: absolute;
-    top: 50%;
-    right: 30px;
-    transform: translateY(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.sci li {
-    list-style: none;
-}
-.sci li a {
-    display: inline-block;
-    margin: 5px 0;
-    transform: scale(1.5);
-    color: #000;
-}
+
 @media (max-width: 991px) {
-    .Above-the-Fold {
-        /* Me descuadra el nabvar y el mega menu se va para atras y me tapa toda la informacion pero solo sucede cuando es en pantallas grandes*/
-        position: absolute;
-        padding: 20px 20px 120px;
-    }
     .content {
         flex-direction: column;
         margin-top: 10px;
-    }
-    .content .textBox h2 {
-        font-size: 1.7rem;
-        line-height: 2.5rem;
-        font-weight: 500;
-        text-decoration: none;
-    }
-    .content .textBox h2 span {
-        font-size: 1.7rem;
-        font-weight: 500;
-        text-decoration: none;
-    }
-    .content .textBox {
-        max-width: 90%;
-    }
-    .content .textBox p {
-        max-width: 90%;
     }
     .content .imgBox {
         max-width: 90%;
@@ -406,34 +252,10 @@ ul li {
     .content .imgBox img {
         max-width: 250px;
     }
-    .sci {
-        right: 50px;
-        width: 50px;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-    }
+
 }
-.separadorimgBox-tabsQuienessomos {
-    padding-top: 10px;
-}
-/* Media query para pantallas aún más pequeñas */
-@media (max-width: 768px) {
-    .separadorimgBox-tabsQuienessomos {
-        padding-top: 30px;
-        /* Espacio de píxeles en la parte superior */
-        padding-bottom: 30px;
-        /* Espacio de píxeles en la parte inferior */
-    }
-}
-/* Media query para pantallas aún más pequeñas */
-@media (max-width: 510px) {
-    .separadorimgBox-tabsQuienessomos {
-        padding-top: 25px;
-        /* Espacio de píxeles en la parte superior */
-        padding-bottom: 25px;
-        /* Espacio de píxeles en la parte inferior */
-    }
-}
+
+
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
 .heading {
@@ -1246,22 +1068,33 @@ h6 {
     display: block !important;
 }
 
-/* ---------------------------------------------------------------------------------------------------------------------------------- */
-/* ---------------------------------------------------------------------------------------------------------------------------------- */
-/* Efecctos en las cartas inicio */
+
+/* Efecctos en las cartas inicio. El modulo de estas carta es: C:\xampp\htdocs\CGVertice\resources\views\sistema\CGV\includes\serviciosTeaser.blade.php  */
+/* CardServiciosTeaser */
+
 .card {
-    transition: transform 0.2s ease-in-out;
-    --bs-card-border-color: transparent !important;
-    border: none !important;
     overflow: hidden;
+    transition: transform 1s;
 }
 
-.card:hover {
-    transform: scale(1.05);
+.card .content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 1s ease-in-out, max-height 1s ease-in-out;
 }
-/* Efecctos en las cartas fin */
-/* ---------------------------------------------------------------------------------------------------------------------------------- */
-/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+.card:hover .content {
+    opacity: 1;
+    max-height: 1000px; /* Aumenta esto según el contenido */
+}
+
+.card .imgBx img {
+    width: 100%;
+    transition: transform 1s ease-in-out;
+}
+
+
 .search {
     display: flex;
     justify-content: space-between;

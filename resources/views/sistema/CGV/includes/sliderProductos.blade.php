@@ -8,7 +8,7 @@
             </div>
         </div>
     </div>
-
+    
     <div class="sliderP">
         <div class="slide-track">
             <ul class="autoWidth">
