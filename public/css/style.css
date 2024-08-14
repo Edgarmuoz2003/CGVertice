@@ -22,166 +22,19 @@
     animation: wsp 1.2s infinite;
 }
 
-
-.custom-toggler {
-    background-color: black;
-    border-color: black;
-    color: white;
-}
-
-.contactos {
-    text-decoration: none;
-    color: #000;
-}
-
-.custom-purple-border {
-    border-color: #8a2be2; /* Código hexadecimal para el color púrpura */
-}
-.custom-light-bg {
-    background-color: #b48b8b; /* Código hexadecimal para un tono más claro */
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-    z-index: 2;
-}
-ol,
-ul {
-    list-style: none;
-}
-blockquote,
-q {
-    quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: "";
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-.container {
-    margin: 10px auto;
-    display: table;
-    max-width: 1140px;
-    width: 100%;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-nav.menu {
-    background: coral;
-    position: relative;
-    min-height: 45px;
-    height: 100%;
-}
-.displaynone {
-    display: none;
-}
-.xs-menu-cont {
-    display: none;
-}
-.mega-menu {
-    background: none repeat scroll 0 0 rgb(255, 255, 255, 0.9);
-    left: 5%;
-    margin-top: 0;
-    border-radius: 10px;
-    position: absolute;
-    display: none;
-    width: 90%;
-    padding: 15px;
-    transition-duration: 0.9s;
-    /* z-index: 999; */
-}
-#menutoggle i {
-    color: #fff;
-    font-size: 33px;
-    margin: 0;
-    padding: 0;
-}
-.categories-list li {
-    cursor: pointer;
-}
-.categories-list li :hover {
-    background: inherit !important;
-    color: #142114;
-    cursor: pointer;
-}
-.categories-list span {
-    text-transform: uppercase;
-    cursor: pointer;
-}
-.display-on {
-    display: block;
-    transition-duration: 0.9s;
-}
-/* /MediaQuerys/ */
-@media (max-width: 600px) {
-    .menu {
-        display: none;
-    }
-    .xs-menu li a {
-        padding: 0px;
-    }
-    .xs-menu-cont {
-        display: block;
-    }
-}
-/* /Animation--/ */
-.animated {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-.fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-}
+/* Estilos de la barra de navegación */
 .navbar {
     display: flex;
     justify-content: center;
 }
+/*  */
 ul {
     margin-bottom: 10px; /* Ajusta este valor según tus necesidades */
 }
 ul li {
     margin-bottom: 5px; /* Ajusta este valor según tus necesidades */
 }
+
 .logo-cgv {
     position: relative;
     max-width: 100px;
@@ -190,34 +43,8 @@ ul li {
     text-align: center;
     border: 0px;
 }
-.btn-bd-primary {
-    --bd-violet-bg: rgba(0, 0, 0, 0.7); /* Negro con transparencia */
-    --bd-violet-rgb: 0, 0, 0; /* Valor RGB correspondiente */
-    --bs-btn-font-weight: 600;
-    --bs-btn-color: var(--bs-white);
-    --bs-btn-bg: var(--bd-violet-bg);
-    --bs-btn-border-color: transparent; /* Sin borde */
-    --bs-btn-hover-color: var(--bs-white);
-    --bs-btn-hover-bg: #333; /* Cambio de color hover a un tono más oscuro de negro */
-    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-    --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: #222; /* Cambio de color active a un negro más oscuro */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Agrega un efecto de sombra */
-}
-.bd-mode-toggle {
-    z-index: 1500;
-}
-.bd-mode-toggle .dropdown-menu .active .bi {
-    display: block !important;
-}
+
 /* ------------------------------------------------------------- */
-.slider-grand {
-    align-items: center;
-    background: #b8860b;
-    display: flex;
-    align-items: center; /* Centra verticalmente */
-    margin: 0 auto; /* Centra horizontalmente */
-}
 
 /* // Animation */
 @keyframes scroll {
