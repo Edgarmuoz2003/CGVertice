@@ -290,13 +290,14 @@ ul li {
     position: relative;
     max-width: 380px;
     height: 280px;
-    background: #1a1a1a;
-    margin: 35px 15px;
-    padding: 25px 20px;
+    background: transparent;
+    margin: 30px 15px;
+    padding: 20px 25px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 2px 15px #b8860b;
     transition: transform 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .contenedorst .card:hover {
@@ -308,24 +309,24 @@ ul li {
     width: 100%;
     text-align: center;
     height: 100%;
-    top: -80px; 
+    top: -12px; 
 }
 
 .contenedorst .card .imgBx img {
-    max-width: 80%;
-    max-height: 800%; 
+    max-width: 100%;
+    max-height: 100%; 
     border-radius: 4px;
 }
 
-.contenedorst .card .imgBx h4 {
-    padding: 16px;
+.contenedorst .card h5 {
+    padding: 5px;
+    color: #b8860b;
 }
 
 .contenedorst .card .content {
     position: relative;
     margin-top: -140px;
     text-align: center;
-    color: white;
     visibility: hidden;
     opacity: 0;
     transition: 0.3s ease-in-out;
@@ -339,7 +340,7 @@ ul li {
 }
 
 .contenedorst .card:hover .content p {
-    margin-top: 35px;
+    margin-top: 80px;
 }
 
 /* MediaQuery de las tarjetas anteriormente mencionadas */
