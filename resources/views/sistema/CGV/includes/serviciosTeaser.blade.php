@@ -55,15 +55,14 @@
             <a href="#!" style="text-decoration: none; color: white;">
                 <div class="card">
                     <div class="imgBx">
-                        <img src="img/img.jpeg" alt="Gestion de Empresas Educativas.png" style="padding-top: 60px">
-                        <h5 class="text-center" style="color: #b8860b; padding-top:2%">BRP</h5>
+                        <img src="img/PBR.png" alt="Planificacion de Brigadas de Emergencia"
+                            style="padding-top: 50px">
+                        <h5 class="text-center" style="color: #b8860b; padding-top: 8px">BRP
+                        </h5>
                     </div>
                     <br>
                     <div class="content">
-                        <p>En el campo de la educación, la gestión efectiva es esencial. Nuestro servicio de Gestión
-                            de Empresas Educativas está diseñado específicamente para las instituciones educativas.
-                            Desde el seguimiento de estudiantes hasta la gestión académica, te ayudamos a
-                            administrar todos los aspectos de tu institución de manera eficiente. <br>
+                        <p>Formamos y capacitamos Brigadas de Respuesta a Emergencias, preparadas para actuar de manera eficiente y efectiva ante cualquier eventualidad. En CG VERTICE, nos aseguramos de que tu equipo esté listo para enfrentar emergencias, garantizando la seguridad de todos en el lugar de trabajo.<br>
                             <br>
                             <a href="/servicios#GestionEdu" class="btn btn-success btn-sm" target="_blank"
                                 rel="noopener noreferrer">
@@ -79,16 +78,12 @@
             <a href="#!" style="text-decoration: none; color: white;">
                 <div class="card">
                     <div class="imgBx">
-                        <img src="img/img.jpeg" alt="IPS Gerencial.png" style="padding-top: 60px">
-                        <h5 class="text-center" style="color: #b8860b; padding-top:2%">Diseño P.E.I.</h5>
+                        <img src="img/diseñoPEI.png" alt="IPS Gerencial.png" style="padding-top: 50px">
+                        <h5 class="text-center" style="color: #b8860b; padding-top: 10px">Diseño P.E.I.</h5>
                     </div>
                     <br>
                     <div class="content">
-                        <p class="p">¿Quiere eficiencia y ahorro de costos? Nuestro modelo de KPO (Knowledge
-                            Process Outsourcing) ofrece una gestión directiva especializada, entregando ventajas
-                            competitivas y reducción de gastos. Añada IPS Gerencial, que garantiza el bienestar y
-                            ahorro de hasta un 70% mediante procesos interdisciplinarios y acompañamiento en
-                            normativas. <br>
+                        <p class="p">En CG VERTICE, desarrollamos Planes de Emergencia Institucionales a medida, adaptados a las necesidades específicas de tu organización. Nuestro enfoque está en la prevención y la preparación, asegurando que cada miembro de tu equipo sepa cómo actuar en situaciones de crisis. <br>
                             <br>
                             <a href="/servicios#IPS" class="btn btn-success btn-sm" target="_blank"
                                 rel="noopener noreferrer">
@@ -105,14 +100,11 @@
                 <!-- Agrega la URL a la que deseas redirigir cuando se hace clic -->
                 <div class="card">
                     <div class="imgBx">
-                        <img src="img/img.jpeg" alt="Sistemas de Salud en el Trabajo.png" style="padding-top: 60px">
-                        <h5 class="text-center" style="color: #b8860b; padding-top:2%">Mayas Curriculares</h5>
+                        <img src="img/MallasCurriculares.png" alt="Sistemas de Salud en el Trabajo.png" style="padding-top: 60px">
+                        <h4 class="text-center" style="color: #b8860b; padding-top: 20px">Mallas Curriculares</h4>
                     </div>
                     <div class="content">
-                        <p>La seguridad y salud en el trabajo son aspectos cruciales en cualquier empresa. Con
-                            nuestro servicio SG - SST, puedes garantizar el cumplimiento de todas las normativas de
-                            seguridad, reducir riesgos y proteger a tus empleados. La seguridad en el trabajo es
-                            nuestra prioridad. <br>
+                        <p>Diseñamos mallas curriculares personalizadas para la formación en Seguridad y Salud en el Trabajo. En CG VERTICE, nos enfocamos en crear programas educativos que respondan a las necesidades específicas de tu empresa, promoviendo un aprendizaje efectivo y aplicable.<br>
                             <br>
                             <a href="/servicios#SST" class="btn btn-success btn-sm" target="_blank"
                                 rel="noopener noreferrer">
