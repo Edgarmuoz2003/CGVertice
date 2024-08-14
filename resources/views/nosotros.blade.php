@@ -85,41 +85,15 @@
         </div>
     </section>
 
-    <section class="section-about-video">
-        <div class="container col-xxl-12 ">
-            <div class="row flex-lg-row-reverse">
-                <div class="col-12 col-sm-12 col-lg-9 align-items-center">
-                    <div class="ratio ratio-16x9">
-                        <iframe width="100%" height="100%"
-                            src="https://www.youtube.com/embed/__PTxljtsgs?si=ylFDviGeaSflAxVq&start=1&autoplay=1&rel=0&cc_load_policy=1"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <div class="col-lg-3">
-                    <br>
-                    <p><i class="fas fa-trophy"></i> Líderes</p>
-                    <hr>
-                    <p><i class="fas fa-check-circle"></i> Validación de Procesos</p>
-                    <p><i class="fas fa-exclamation-triangle"></i> Gestión de Riesgos</p>
-                    <p><i class="fas fa-cogs"></i> Técnicas de Trabajo</p>
-                    <hr>
-                    <p><i class="fas fa-exchange-alt"></i> Cambio Organizacional</p>
-                    <p><i class="fas fa-users"></i> Características y Capacidades</p>
-                    <p><i class="fas fa-chart-line"></i> Desarrollo Empresarial</p>
-                    <hr>
-                    <p><i class="fas fa-building"></i> Empresa Especializada</p>
-                    <p><i class="fas fa-handshake"></i> Compromiso</p>
-                    <p><i class="fas fa-award"></i> Excelencia Empresarial</p>
-                    <hr>
-                    <p><i class="fas fa-users"></i> Quiénes Somos</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <br>
+    <br>
+    <br>
+
+    @include('sistema.CGV.includes.tabsQuienessomos')
+
+    <br>
+    <br>
+    <br>
 
     <section class="Timeline">
         <div class="container py-5">
