@@ -12,10 +12,10 @@
                 <div class="card">
                     <div class="imgBx">
                         <img src="img/inicio-destacados-sst.jpg" alt="Educación y Formación.png" style="padding-top: 50px">
+                        <h5 class="text-center" style="color: #b8860b; padding-top:2%">SST (Seguridad y salud en el trabajo)</h5>
                     </div>
                     <br>
                     <div class="content">
-                        <h5 class="text-center" style="color: #b8860b; padding-top:2%">SST (Seguridad y salud en el trabajo)</h5>
                         <p>La seguridad y salud en el trabajo son aspectos cruciales en cualquier empresa. Con
                             nuestro servicio SG - SST, puedes garantizar el cumplimiento de todas las normativas de
                             seguridad, reducir riesgos y proteger a tus empleados. La seguridad en el trabajo es
