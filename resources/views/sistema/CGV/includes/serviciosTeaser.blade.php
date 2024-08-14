@@ -2,7 +2,7 @@
     <hr>
 </div>
     <div style="padding: 2% 0% 0% 5%; color:#b8860b;">
-        <h2>Más déstacados</h2>
+        <h2>Nuestros Servicios más déstacados</h2>
     </div>
 <section class="contenedorst body">
     {{-- CardServiciosTeaser (Buscar asi tal cual en el css) --}}
@@ -73,7 +73,7 @@
                 <div class="card">
                     <div class="imgBx">
                         <img src="img/diseñoPEI.png" alt="IPS Gerencial.png">
-                        <h5 class="text-center">Diseño P.E.Idsadas.</h5>
+                        <h5 class="text-center">Diseño P.E.I</h5>
                     </div>
                     <br>
                     <div class="content">
@@ -112,14 +112,11 @@
                 <!-- Agrega la URL a la que deseas redirigir cuando se hace clic -->
                 <div class="card">
                     <div class="imgBx">
-                        <img src="img/img.jpeg" alt="Sistemas de Salud en el Trabajo.png">
+                        <img src="img/Capacitacion.png" alt="Sistemas de Salud en el Trabajo.png">
                         <h5 class="text-center">Formación a la medida</h5>
                     </div>
                     <div class="content">
-                        <p>La seguridad y salud en el trabajo son aspectos cruciales en cualquier empresa. Con
-                            nuestro servicio SG - SST, puedes garantizar el cumplimiento de todas las normativas de
-                            seguridad, reducir riesgos y proteger a tus empleados. La seguridad en el trabajo es
-                            nuestra prioridad. <br>
+                        <p>En CG VERTICE, ofrecemos formación a la medida, adaptada a las particularidades de tu organización. Desarrollamos programas de capacitación que no solo cumplen con las normativas de seguridad, sino que también impulsan el desarrollo profesional de tu equipo, fortaleciendo la cultura de seguridad en el trabajo. <br>
                             <br>
                             <a href="/servicios#SST" class="btn btn-success btn-sm" target="_blank"
                                 rel="noopener noreferrer">
