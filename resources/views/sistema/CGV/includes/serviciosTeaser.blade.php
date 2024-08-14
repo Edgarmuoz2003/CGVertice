@@ -1,4 +1,4 @@
-<div class="container col-xxl-10 px-5 py-5">
+{{-- <div class="container col-xxl-10 px-5 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
             <img src="img/img.jpeg" alt="Error al Cargar la Imagen" class="img-fluid rounded d-block mx-auto">
@@ -28,7 +28,7 @@
                 invertir en un entorno laboral seguro y en el bienestar de tus empleados.</p>
         </div>
     </div>
-</div>
+</div> --}}
 
 <div class="container py-1">
     <hr>
@@ -42,11 +42,11 @@
             <a href="#!" style="text-decoration: none; color: white;">
                 <div class="card">
                     <div class="imgBx">
-                        <img src="img/img.jpeg" alt="Educación y Formación.png" style="padding-top: 50px">
-                        <h5 class="text-center" style="color: #b8860b; padding-top:2%">SST (Seguridad y salud en el trabajo)</h6>
+                        <img src="img/logoAgosto.png" alt="Educación y Formación.png" style="padding-top: 50px">
                     </div>
                     <br>
                     <div class="content">
+                        <h5 class="text-center" style="color: #b8860b; padding-top:2%">SST (Seguridad y salud en el trabajo)</h5>
                         <p>En el mundo empresarial en constante evolución, la formación y la educación son la clave
                             para el éxito. Nuestro servicio de Educación y Formación está diseñado para capacitar a
                             tu equipo y mantenerlos actualizados con las últimas tendencias y tecnologías. <br>
