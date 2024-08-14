@@ -256,33 +256,13 @@ ul li {
 }
 
 
-/* ------------------------------------------------------------ */
-/* ------------------------------------------------------------ */
-.heading {
-    font-size: 20px;
-    font-weight: 600;
-    color: #3d5afe;
+
+/* Este es el código css para la modificación de las cards en la linea de tiempo en la pestaña "Nosotros" */
+/* CardsNosotros */
+.cardNosotros{
+    outline-style: none;
 }
-.line1 {
-    color: #000;
-    font-size: 12px;
-}
-.line2 {
-    color: #000;
-    font-size: 12px;
-}
-.line3 {
-    color: #000;
-    font-size: 12px;
-}
-.cards {
-    transition: all 0.2s ease;
-    cursor: pointer;
-}
-.cards:hover {
-    box-shadow: 5px 6px 6px 2px #e9ecef;
-    transform: scale(1.1);
-}
+
 /* botones */
 /* Estilo personalizado para el botón con colores invertidos */
 .btn-custom {

@@ -51,7 +51,8 @@
                 <div class="col-md-7">
                     <p class="acrostico-text" style="cursor: default;">
                         <a class="cgv" title="Validación de procesos">V<a style="color: #636363"> alidación de
-                                procesos</a></a> <br>
+                                procesos</a></a> 
+                                <br>
                         <a class="cgv" title="Empresariales mediante la">E<a style="color: #636363"> mpresariales
                                 mediante la</a></a><br>
                         <a class="cgv" title="Retroalimentación y gestión de riesgos que utiliza">R<a
@@ -77,7 +78,8 @@
                     </p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="{{ asset('img/LogoAgosto.png') }}" alt="Corporate Group Vertice sas" style="width: 55%; height: auto;">
+                    <img src="{{ asset('img/LogoAgosto.png') }}" alt="Corporate Group Vertice sas"
+                        style="width: 55%; height: auto;">
                 </div>
             </div>
         </div>
@@ -124,11 +126,10 @@
             <div class="main-timeline-2">
                 {{-- Área de servicio al cliente --}}
                 <div class="timeline-2 left-2">
-                    <div class="card">
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
+                    {{-- CardsNosotros (Buscar así tal cual en el css) --}}
+                    <div class="cardNosotros">
                             <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;"
                                 alt="Imagen 1">
-                        </a>
                         <div class="card-body p-4">
                             <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">Servicio
                                 al cliente</h3>
@@ -144,11 +145,9 @@
                 </div>
                 {{-- Espacio de SST-SG --}}
                 <div class="timeline-2 right-2">
-                    <div class="card">
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline2">
+                    <div class="cardNosotros">
                             <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;"
                                 alt="Imagen 2">
-                        </a>
                         <div class="card-body p-4">
                             <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">SST-SG
                             </h3>
@@ -164,11 +163,9 @@
                 </div>
                 {{-- Espacio de multimedia --}}
                 <div class="timeline-2 left-2">
-                    <div class="card">
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline3">
+                    <div class="cardNosotros">
                             <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;"
                                 alt="Imagen 3">
-                        </a>
                         <div class="card-body p-4">
                             <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">
                                 Multimedia</h3>
@@ -185,46 +182,6 @@
             </div>
         </div>
     </section>
-    <!-- Modal de la galleria de imagenes -->
-
-    <!-- imagen1 -->
-    <div tabindex="-1" aria-labelledby="modalImageTimeline1" aaria-hidden="true" class="modal fade"
-        id="modalImageTimeline1">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <img src="./img/2.jpg" alt="imagen 1 galleria de imagenes del modal" height="auto" width="100%">
-            </div>
-        </div>
-    </div>
-    <!-- imagen2 -->
-    <div tabindex="-1" aria-labelledby="modalImageTimeline2" aaria-hidden="true" class="modal fade"
-        id="modalImageTimeline2">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <img src="./img/1.jpg" alt="imagen 1 galleria de imagenes del modal" height="auto" width="100%">
-            </div>
-        </div>
-    </div>
-    <!-- imagen3 -->
-    <div tabindex="-1" aria-labelledby="modalImageTimeline3" aaria-hidden="true" class="modal fade"
-        id="modalImageTimeline3">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <img src="./img/pambe.jpg" alt="imagen 1 galleria de imagenes del modal" height="auto"
-                    width="100%">
-            </div>
-        </div>
-    </div>
-    <!-- imagen4 -->
-    <div tabindex="-1" aria-labelledby="modalImageTimeline4" aaria-hidden="true" class="modal fade"
-        id="modalImageTimeline4">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <img src="./img/facebook.png" alt="imagen 1 galleria de imagenes del modal" height="auto"
-                    width="100%">
-            </div>
-        </div>
-    </div>
 
     @include('sistema.CGV.includes.mapa')
 
@@ -237,6 +194,7 @@
     </section>
 
     @include('sistema.CGV.includes.footer')
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
@@ -245,7 +203,9 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
 </script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
 </script>
+
 </html>
