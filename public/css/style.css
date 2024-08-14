@@ -391,20 +391,17 @@ ul li {
 }
 .slider-heading h3 {
     font-size: 1.75rem;
-    color: #1d1d1f;
     font-weight: 500;
     letter-spacing: 0.5px;
     line-height: 34px;
 }
-.slider-heading h3 span {
-    color: #6e6e73;
-}
+
 .product-box {
     display: flex;
     flex-direction: column;
     width: 400px;
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #727272;
     border-radius: 20px;
     margin: 20px;
     padding: 25px;
@@ -420,7 +417,6 @@ ul li {
     transition: all ease 0.3s;
 }
 .product-box strong {
-    color: #29292c;
     font-size: 1.75rem;
     /* font-family: Arial, Helvetica, sans-serif; */
     font-weight: 600;
