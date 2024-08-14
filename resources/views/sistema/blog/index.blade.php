@@ -20,6 +20,7 @@
     <br>
 
     @include("sistema.CGV.includes.boton")
+    @include('sistema.CGV.includes.regresarArriba')
 
     <main class="container">
         <!-- Div del Bienvenidos y la imagen -->
@@ -55,7 +56,7 @@
         <!-- Botón para crear noticia -->
         @can('Crear Noticias')
             <div class="container text-center">
-                <button type="button" class="btn btn btn-outline-warning p-2" style="--bs-bg-opacity: .5;"
+                <button type="button" class="btn btn btn-outline-warning m-4"
                     data-bs-toggle="modal" data-bs-target="#create">
                     Crear Noticia
                 </button>
@@ -64,7 +65,8 @@
         <div class="row">
             @foreach ($Blog as $blogg)
                 <div class="col-sm-4 col-lg-4 mb-3">
-                    <div class="card">
+                    {{-- cardBlog (Buscar así tal cual en el archivo de css) --}}
+                    <div class="cardBlog">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-start">
                                 <strong class="d-inline-block mb-2">{{ $blogg->opcion }}</strong>
@@ -94,7 +96,6 @@
                                         </ul>
                                     @endif
                                 </div>
-
                             </div>
                             <div class="container">
                                 <img src="{{ asset('imagenesBlog/img/' . $blogg->foto) }}" class="img-fluid rounded"

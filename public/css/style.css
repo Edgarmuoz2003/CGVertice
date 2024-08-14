@@ -47,6 +47,8 @@ ul li {
     border: 0px;
 }
 
+
+
 /* Esta animación gradua el tamaño del elemento */
 /* !!!!!!!!!!!!!!!!!!!!!IMPORTANTE: NO MOVER¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ */
 /* // Animation */
@@ -263,57 +265,27 @@ ul li {
     outline-style: none;
 }
 
-/* botones */
-/* Estilo personalizado para el botón con colores invertidos */
-.btn-custom {
-    background-color: #fff;
-    color: #000;
-    border: none;
-    border-radius: 15px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+/* Este es el código css para la modificación de las cards en la linea de tiempo en la pestaña "Blog". La ruta es: C:\xampp\htdocs\CGVertice\resources\views\sistema\blog\index.blade.php */
+/* cardBlog */
+
+.cardBlog{
+    outline-style: none;
 }
-.btn-custom i {
-    margin-right: 5px;
-}
-/* Cambio de color y animación al pasar el mouse sobre el botón */
-.btn-custom:hover {
-    background-color: #000;
-    color: #fff;
-    transform: scale(1.05);
-    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s;
-}
-/* ----------------------------------------------------------------------------------- */
-/* ----------------------------------------------------------------------------------- */
+
+/* Estos estilos son para las  6 tarjetas de los principales servicios de la empresa. La ruta es: C:\xampp\htdocs\CGVertice\resources\views\sistema\CGV\includes\serviciosTeaser.blade.php */
+/* CardServiciosTeaser */
 /* Estilos generales para dispositivos grandes (computadoras de escritorio) */
 .contenedorst {
     position: relative;
-    /* width: 1100px; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
     margin: 0 auto;
-    /* max-width: 100%;  */
-    /* Ajusta el ancho máximo según tus necesidades */
+
 }
-/* Estilos para el cuerpo de la página */
-.contenedorst .body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #0000ff;
-    /* Agrega esta línea para que la sección ocupe toda la altura de la ventana */
-    height: 100vh;
-    /* Agrega esta línea para eliminar el margen predeterminado del cuerpo */
-    margin: 0;
-}
-/* Estilos para las tarjetas */
+
 .contenedorst .card {
     position: relative;
     max-width: 380px;
@@ -323,35 +295,32 @@ ul li {
     padding: 25px 20px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 5px 60px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 15px #b8860b;
     transition: transform 0.3s ease-in-out;
 }
 
-/* Estilos cuando se pasa el mouse sobre las tarjetas */
 .contenedorst .card:hover {
     height: auto;
-    transform: scaleY(
-        1.1
-    ); /* Ajusta el valor según sea necesario para la escala deseada */
+    transform: scaleY(1.1);
 }
-/* Estilos para la parte de la imagen en las tarjetas */
 .contenedorst .card .imgBx {
     position: relative;
     width: 100%;
+    text-align: center;
     height: 100%;
-    top: -60px; /* No es necesario ajustar la posición en este caso */
+    top: -80px; 
 }
-/* Estilos para las imágenes en las tarjetas */
+
 .contenedorst .card .imgBx img {
-    max-width: 100%;
-    max-height: 100%; /* Añade esta línea para asegurarte de que las imágenes no superen el tamaño de la tarjeta */
+    max-width: 80%;
+    max-height: 800%; 
     border-radius: 4px;
 }
-/* Estilos para el título h4 en las tarjetas */
+
 .contenedorst .card .imgBx h4 {
     padding: 16px;
 }
-/* Estilos para el contenido de las tarjetas */
+
 .contenedorst .card .content {
     position: relative;
     margin-top: -140px;
@@ -361,18 +330,19 @@ ul li {
     opacity: 0;
     transition: 0.3s ease-in-out;
 }
-/* Estilos para el contenido de las tarjetas cuando se pasa el mouse sobre ellas */
+
 .contenedorst .card:hover .content {
     visibility: visible;
     opacity: 1;
-    margin-top: -100px; /* Ajusta la posición vertical del contenido */
+    margin-top: -100px; 
     transition-delay: 0.3;
 }
-/* Estilos para el párrafo dentro del contenido de las tarjetas cuando se pasa el mouse sobre ellas */
+
 .contenedorst .card:hover .content p {
     margin-top: 35px;
-    /* Agrega espacio en la parte superior del párrafo */
 }
+
+/* MediaQuery de las tarjetas anteriormente mencionadas */
 /* Consulta @media para tabletas (768px de ancho o menos) */
 @media (max-width: 768px) {
     .contenedorst {
@@ -394,23 +364,11 @@ ul li {
         margin: 20px 0; /* Espacio inferior reducido */
     }
 }
-/* inicio carta con carrusel de boostrap y css nativo para modificar unas cosas */
-/* Estilo para el carrusel */
-#imageCarousel {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    background-color: transparent;
-}
-/* Estilos para las imágenes dentro de cada div */
-#imageCarousel .carousel-item img {
-    max-width: 100%;
-    max-height: 100%;
-    background-color: transparent;
-}
-/* fin */
+
+
+
+
+
 /* -------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------- */
 /* CGV tienda SG-SST */

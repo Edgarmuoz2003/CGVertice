@@ -17,6 +17,7 @@
     
 
     @include('sistema.CGV.includes.navbarsuministros')
+    @include('sistema.CGV.includes.regresarArriba')
 
     <main class="container-just">
 

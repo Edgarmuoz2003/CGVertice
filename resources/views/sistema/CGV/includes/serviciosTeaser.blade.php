@@ -11,7 +11,7 @@
             <a href="#!" style="text-decoration: none; color: white;">
                 <div class="card">
                     <div class="imgBx">
-                        <img src="img/inicio-destacados-sst.jpg" alt="Educación y Formación.png" style="padding-top: 50px">
+                        <img src="img/inicio-destacados-sst.jpg" alt="Educación y Formación.png" style="padding-top: 60px">
                         <h5 class="text-center" style="color: #b8860b; padding-top:2%">SST (Seguridad y salud en el trabajo)</h5>
                     </div>
                     <br>
@@ -35,8 +35,8 @@
             <a href="#!" style="text-decoration: none; color: white;">
                 <div class="card">
                     <div class="imgBx">
-                        <img src="img/PMIRS.png" alt="Gestion Empresarial.png" style="padding-top: 50px">
-                        <h5 class="text-center" style="color: #b8860b; padding-top: 8px">PMIRS</h5>
+                        <img src="img/PMIRS.png" alt="Gestion Empresarial.png" style="padding-top: 60px">
+                        <h5 class="text-center" style="color: #b8860b; padding-top:2%">PMIRS</h5>
                     </div>
                     <br>
                     <div class="content">
@@ -55,10 +55,8 @@
             <a href="#!" style="text-decoration: none; color: white;">
                 <div class="card">
                     <div class="imgBx">
-                        <img src="img/img.jpeg" alt="Gestion de Empresas Educativas.png"
-                            style="padding-top: 50px">
-                        <h5 class="text-center" style="color: #b8860b; padding-top: 8px">BRP
-                        </h5>
+                        <img src="img/img.jpeg" alt="Gestion de Empresas Educativas.png" style="padding-top: 60px">
+                        <h5 class="text-center" style="color: #b8860b; padding-top:2%">BRP</h5>
                     </div>
                     <br>
                     <div class="content">
@@ -81,8 +79,8 @@
             <a href="#!" style="text-decoration: none; color: white;">
                 <div class="card">
                     <div class="imgBx">
-                        <img src="img/img.jpeg" alt="IPS Gerencial.png" style="padding-top: 50px">
-                        <h5 class="text-center" style="color: #b8860b; padding-top: 10px">Diseño P.E.I.</h5>
+                        <img src="img/img.jpeg" alt="IPS Gerencial.png" style="padding-top: 60px">
+                        <h5 class="text-center" style="color: #b8860b; padding-top:2%">Diseño P.E.I.</h5>
                     </div>
                     <br>
                     <div class="content">
@@ -108,7 +106,7 @@
                 <div class="card">
                     <div class="imgBx">
                         <img src="img/img.jpeg" alt="Sistemas de Salud en el Trabajo.png" style="padding-top: 60px">
-                        <h4 class="text-center" style="color: #b8860b; padding-top: 20px">Mayas Curriculares</h4>
+                        <h5 class="text-center" style="color: #b8860b; padding-top:2%">Mayas Curriculares</h5>
                     </div>
                     <div class="content">
                         <p>La seguridad y salud en el trabajo son aspectos cruciales en cualquier empresa. Con
@@ -131,7 +129,7 @@
                 <div class="card">
                     <div class="imgBx">
                         <img src="img/img.jpeg" alt="Sistemas de Salud en el Trabajo.png" style="padding-top: 60px">
-                        <h4 class="text-center" style="color: #b8860b; padding-top: 20px">Formación a la medida</h4>
+                        <h5 class="text-center" style="color: #b8860b; padding-top:2%">Formación a la medida</h5>
                     </div>
                     <div class="content">
                         <p>La seguridad y salud en el trabajo son aspectos cruciales en cualquier empresa. Con
