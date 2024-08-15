@@ -268,8 +268,40 @@ ul li {
 /* Este es el código css para la modificación de las cards en la linea de tiempo en la pestaña "Blog". La ruta es: C:\xampp\htdocs\CGVertice\resources\views\sistema\blog\index.blade.php */
 /* cardBlog */
 
+.ContainerBlogSecond{
+    padding-left: 10%;
+}
+
 .cardBlog{
-    outline-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: #b8860b 1px solid;
+    border-radius: 5%;
+}
+
+.imgcontainer{
+    padding-top: 5px;
+}
+
+.imgcontainer img{
+    width: 250px;
+    height: 250px;
+}
+
+.CategoriaNoticias{
+    font-size: 25px;
+    color: #b8860b;
+}
+
+.NombreNoticias{
+    margin-top: 2%;
+}
+
+.btndropdown{
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 /* Estos estilos son para las  6 tarjetas de los principales servicios de la empresa. La ruta es: C:\xampp\htdocs\CGVertice\resources\views\sistema\CGV\includes\serviciosTeaser.blade.php */
@@ -1811,3 +1843,7 @@ a:link {
     align-items: center; /* Centra verticalmente */
     height: 100vh; /* Opcional: asegura que el div ocupe toda la altura de la ventana */
 }
+
+
+/* Estilo css de las cartas de las noticias, tanto de la página de inicio como la de converge */
+
