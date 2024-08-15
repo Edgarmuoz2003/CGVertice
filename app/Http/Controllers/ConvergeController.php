@@ -15,7 +15,8 @@ class ConvergeController extends Controller
     public function index()
     {
         $Blog = Converge::all();
-        return view('sistema.blog.index', compact('Blog'));
+        
+        return view('sistema.blog.index', compact('Blog', 'mainBlog'));
     }
 
     /**

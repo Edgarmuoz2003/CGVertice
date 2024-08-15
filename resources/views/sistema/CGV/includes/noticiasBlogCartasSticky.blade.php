@@ -11,7 +11,7 @@
     @endcan
     <div class="ContainerBlogSecond">
         <div class="row">
-            @foreach ($Blog as $blogg)
+            @foreach ($mainBlog as $blogg)
                 <div class="col-lg-3 m-4">
                     {{-- cardBlog (Buscar así tal cual en el archivo de css) --}}
                     <div class="cardBlog">
