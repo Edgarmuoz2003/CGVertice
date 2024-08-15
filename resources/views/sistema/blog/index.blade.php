@@ -62,24 +62,31 @@
                 </button>
             </div>
         @endcan
-        <div class="row">
-            @foreach ($Blog as $blogg)
-                <div class="col-sm-4 col-lg-4 mb-3">
-                    {{-- cardBlog (Buscar así tal cual en el archivo de css) --}}
-                    <div class="cardBlog">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-start">
-                                <strong class="d-inline-block mb-2">{{ $blogg->opcion }}</strong>
-                                <p class="d-inline-block mb-2 text-emphasis" style="color: #b8860b">{{ $blogg->nombre_noticia }}</p>
-                                <div class="dropdown">
+        <div class="ContainerBlogSecond">
+            <div class="row">
+                @foreach ($Blog as $blogg)
+                    <div class="col-lg-3 m-4">
+                        {{-- cardBlog (Buscar así tal cual en el archivo de css) --}}
+                        <div class="cardBlog">
+                            <div class="CardNoticias">
+                                <strong class="CategoriaNoticias">{{ $blogg->opcion }}</strong>
+                            </div>
+                            <div class="imgcontainer">
+                                <img src="{{ asset('imagenesBlog/img/' . $blogg->foto) }}" class="img-fluid rounded">
+                            </div>
+                            <p class="NombreNoticias">{{ $blogg->nombre_noticia }}</p>
+                            <div class="CardBlogBtn">
+                                <button type="button" class="btn btn-warning mt-3" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal{{ $blogg->id }}">
+                                    Más información
+                                </button>
+                                <div class="btndropdown">
                                     @if (Auth::check() && (Auth::user()->can('Editar Noticias') || Auth::user()->can('Eliminar Noticias')))
-                                        <button class="btn btn-secondary dropdown-toggle" type="button"
-                                            id="dropdownMenuButton{{ $blogg->id }}" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            <i class="fas fa-ellipsis-v"></i>
+                                        <button class="btn btn-warning" type="button"
+                                            id="dropdownMenuButton{{ $blogg->id }}" data-bs-toggle="dropdown">
+                                            Editar<i class="fas fa-ellipsis-v"></i>
                                         </button>
-                                        <ul class="dropdown-menu"
-                                            aria-labelledby="dropdownMenuButton{{ $blogg->id }}">
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton{{ $blogg->id }}">
                                             @can('Editar Noticias')
                                                 <li>
                                                     <button type="button" class="dropdown-item" data-bs-toggle="modal"
@@ -97,73 +104,58 @@
                                     @endif
                                 </div>
                             </div>
-                            <div class="container">
-                                <img src="{{ asset('imagenesBlog/img/' . $blogg->foto) }}" class="img-fluid rounded"
-                                    style="width: 250px; height: 250px;">
-                            </div>
-                            @if ($blogg->video)
-                                <p>Haz clic en "Mas información" para ver el video</p>
-                            @endif
-                            <button type="button" class="btn btn-success mt-3" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal{{ $blogg->id }}">
-                                Mas información
-                            </button>
                         </div>
                     </div>
-                </div>
-                <div class="modal fade" id="exampleModal{{ $blogg->id }}" tabindex="-1"
-                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">{{ $blogg->nombre_noticia }}</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="mb-3">
-                                    <hr>
-                                    @if ($blogg->video)
-                                        <video id="video{{ $blogg->id }}" width="100%" controls>
-                                            <source src="{{ asset($blogg->video) }}" type="video/mp4">
-                                            Tu navegador no soporta el elemento de video.
-                                        </video>
-                                    @else
-                                        <img src="{{ asset('imagenesBlog/img/' . $blogg->foto) }}"
-                                            alt="Imagen actual" style="max-width: 100%;">
-                                    @endif
+                    <div class="modal fade" id="exampleModal{{ $blogg->id }}" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">{{ $blogg->nombre_noticia }}</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"aria-label="Close"></button>
                                 </div>
-                                <hr>
-                                <p> Descripcion: <br>{{ $blogg->descripcion_noticia }}</p>
-                                <p>Fecha de Creación: {{ $blogg->created_at }}</p>
-                            </div>
-
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary"
-                                    data-bs-dismiss="modal">Close</button>
+                                <div class="modal-body">
+                                    <div class="mb-3">
+                                        <hr>
+                                        @if ($blogg->video)
+                                            <video id="video{{ $blogg->id }}" width="100%" controls>
+                                                <source src="{{ asset($blogg->video) }}" type="video/mp4">
+                                                Tu navegador no soporta el elemento de video.
+                                            </video>
+                                        @else
+                                            <img src="{{ asset('imagenesBlog/img/' . $blogg->foto) }}" alt="Imagen actual"
+                                                style="max-width: 100%;">
+                                        @endif
+                                    </div>
+                                    <hr>
+                                    <p> Descripcion: <br> {{ $blogg->descripcion_noticia }}</p>
+                                    <p>Fecha de publicación: {{ $blogg->created_at }}</p>
+                                </div>
+    
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-
-
-                <script>
-                    // Función para manejar errores de carga de video
-                    document.addEventListener('DOMContentLoaded', function() {
-                        var video = document.getElementById('video{{ $blogg->id }}');
-                        if (video) {
-                            video.addEventListener('error', function() {
-                                var errorMessage = document.createElement('p');
-                                errorMessage.textContent = 'El video no se puede cargar.';
-                                video.parentNode.insertBefore(errorMessage, video.nextSibling);
-                            });
-                        }
-                    });
-                </script>
-
-                @include('sistema.blog.editar')
-            @endforeach
+    
+                    <script>
+                        // Función para manejar errores de carga de video
+                        document.addEventListener('DOMContentLoaded', function() {
+                            var video = document.getElementById('video{{ $blogg->id }}');
+                            if (video) {
+                                video.addEventListener('error', function() {
+                                    var errorMessage = document.createElement('p');
+                                    errorMessage.textContent = 'El video no se puede cargar.';
+                                    video.parentNode.insertBefore(errorMessage, video.nextSibling);
+                                });
+                            }
+                        });
+                    </script>
+    
+                    @include('sistema.blog.editar')
+                @endforeach
+            </div>
         </div>
 
         @include('sistema.blog.create')
