@@ -277,6 +277,7 @@ ul li {
     justify-content: center;
     align-items: center;
     height: 100%;
+    width: 120%;
     border: #b8860b 1px solid;
     border-radius: 5%;
 }
