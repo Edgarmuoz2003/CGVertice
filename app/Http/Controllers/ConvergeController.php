@@ -16,7 +16,7 @@ class ConvergeController extends Controller
     {
         $Blog = Converge::all();
         
-        return view('sistema.blog.index', compact('Blog', 'mainBlog'));
+        return view('sistema.blog.index', compact('Blog'));
     }
 
     /**

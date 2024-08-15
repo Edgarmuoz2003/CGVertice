@@ -86,8 +86,6 @@
                     </div>
                 </div>
 
-
-
                 <script>
                     // Función para manejar errores de carga de video
                     document.addEventListener('DOMContentLoaded', function() {
