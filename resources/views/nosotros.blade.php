@@ -13,6 +13,7 @@
     @include('sistema.CGV.includes.navbar')
     @include('sistema.CGV.includes.regresarArriba')
 
+    {{-- Imagen del Inicio --}}
     <section class="section-about">
         <div class="content-Conózcanos">
             <p class="text-center titulo" id="animated-title">Conózcanos</p>
@@ -23,6 +24,9 @@
             </p>
         </div>
     </section>
+    {{-- FIn seccion de la imagen --}}
+
+    {{-- inicio Seccion Acrostico --}}
     <section class="Acrostico-section">
         <div class="container">
             <div class="row" style="cursor: default">
@@ -85,6 +89,37 @@
             </div>
         </div>
     </section>
+    {{-- Final Seccion Quienes SomosAcrostico --}}
+
+    <br><br><br>
+
+    {{-- inicio CEOS --}}
+    <section class="seccion-Ceos container text-center">
+        <div class="row">
+            <h1 style="color: #b8860b">C E O S</h1>
+            <div class="col-md-6">
+                <p class="lead font-italic mx-4 mx-md-5">
+                    Lina Maria Aristizabal
+                </p>
+                <div class="mt-5 mb-4">
+                    <img src="img/img.jpeg" class="rounded-circle img-fluid shadow-1-strong" alt="Imagn"
+                        width="200" height="200" />
+                </div>
+                <p class="text-White mb-0"> Gerente</p>
+            </div>
+            <div class="col-md-6">
+                <p class="lead font-italic mx-4 mx-md-5">
+                    Diego Perez
+                </p>
+                <div class="mt-5 mb-4">
+                    <img src="img/img.jpeg" class="rounded-circle img-fluid shadow-1-strong" alt="Imagn"
+                        width="200" height="200" />
+                </div>
+                <p class="text-White mb-0"> Sub-Gerente</p>
+            </div>
+        </div>
+    </section>
+    {{-- inicio CEOS --}}
 
     <br>
     <br>
@@ -103,7 +138,7 @@
                 <div class="timeline-2 left-2">
                     {{-- CardsNosotros (Buscar así tal cual en el css) --}}
                     <div class="cardNosotros">
-                        <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;" alt="Imagen 1">
+                        <img src="img/servicio-cliente.png" class="card-img-top" style="width: 100%; height: auto;" alt="Imagen 1">
                         <div class="card-body p-4">
                             <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">Servicio
                                 al cliente</h3>
@@ -120,12 +155,13 @@
                 {{-- Espacio de SST-SG --}}
                 <div class="timeline-2 right-2">
                     <div class="cardNosotros">
-                        <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;" alt="Imagen 2">
+                        <img src="img/SG-SST.png" class="card-img-top" style="width: 100%; height: auto;"
+                            alt="Imagen 2">
                         <div class="card-body p-4">
-                            <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">SST-SG
+                            <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">SG-SST
                             </h3>
                             <p class="mb-0">
-                                SST-SG se dedica a garantizar la seguridad y el bienestar en el entorno laboral. Nuestra
+                                SG - SST se dedica a garantizar la seguridad y el bienestar en el entorno laboral. Nuestra
                                 prioridad es proporcionar soluciones efectivas en seguridad y salud en el trabajo.
                                 Contamos con un equipo altamente capacitado en normativas y medidas preventivas. Estamos
                                 aquí para ayudarte en cualquier aspecto relacionado con la seguridad laboral. ¡Confía en
@@ -137,7 +173,8 @@
                 {{-- Espacio de multimedia --}}
                 <div class="timeline-2 left-2">
                     <div class="cardNosotros">
-                        <img src="img/img.jpeg" class="card-img-top" style="width: 100%; height: auto;" alt="Imagen 3">
+                        <img src="img/Multimedia.png" class="card-img-top" style="width: 100%; height: auto;"
+                            alt="Imagen 3">
                         <div class="card-body p-4">
                             <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">
                                 Multimedia</h3>
