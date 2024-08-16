@@ -101,22 +101,80 @@
             <h1 style="color: #b8860b">C E O S</h1>
             <div class="col-md-6">
                 <p class="lead font-italic mx-4 mx-md-5">
-                    Lina Maria Aristizabal
+                    Lina Maria Aristizabal Carvajal <br> <strong style="color: #b8860b"> Gerente </strong>
                 </p>
                 <div class="imgCEOS">
-                    <img src="img/LinaCEO.png" class="rounded-circle" alt="Imagn" width="200" height="200"/>
-                    <p class="text-White mb-0"> Gerente</p>
-                </div>    
+                    <img src="img/LinaCEO.png" class="rounded-circle" alt="Imagn" width="200"
+                        height="200"data-bs-toggle="modal" data-bs-target="#exampleModal1" />
+                </div>
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                <p class="lead font-italic mx-4 mx-md-5">
+                                    Lina Maria Aristizabal <br> <strong style="color: #b8860b"> Gerente </strong>
+                                </p>
+                                <div class="imgCEOS">
+                                    <img src="img/LinaCEO.png" class="rounded-circle" alt="Imagn" width="200" height="200"/>
+                                    <p class="text-White mb-0" id="Reseña">Gerente y Fundadora Corporate Group
+                                        Vértice S.A.S, especialista en
+                                        Diseño Curricular para IFTDH e IES, conferencista y especialista en SISTEMAS DE
+                                        GESTION.
+                                        Se ha desempeñado como directora de IFTDH, Cogestora y Cofundadora de más de 10
+                                        Instituciones
+                                        de educación para el trabajo y el desarrollo humano a nivel nacional y 7 de
+                                        educación Formal.
+                                        Y de más de 10 empresas en otros sectores. Ha sido consultora en Gestión y
+                                        Desarrollo de las
+                                        Organizaciones en más de 70 empresas. Cuenta con experiencia como consultora en
+                                        Diseño e
+                                        implementación de Sistemas de Gestión de Calidad de Diferentes sectores
+                                        empresariales, como
+                                        auditora de Sistemas de Gestión Ambientales, Calidad y SST, directora y rectora
+                                        de diversas
+                                        instituciones educativas, presidenta de la mesa Nacional de Consultoría
+                                        Empresarial del SENA,
+                                        evaluadora de Normas de competencia laboral y participe activa de otras mesas
+                                        como Gestión del
+                                        Riesgo, PIMES, BPO-KPO, y educativa.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-md-6">
                 <p class="lead font-italic mx-4 mx-md-5">
-                    Diego Perez
+                    Diego Pérez <br> <strong style="color: #b8860b"> Sub Gerente </strong>
                 </p>
                 <div class="imgCEOS">
-                    <img src="img/diegoCEO.png" class="rounded-circle" alt="Imagn" />
-                    <p class="text-White mb-0"> Sub Gerente</p>
+                    <img src="img/CeoD.png" class="rounded-circle" alt="Imagn" width="200"
+                        height="200"data-bs-toggle="modal" data-bs-target="#exampleModal2" />
                 </div>
-                
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                <p class="lead font-italic mx-4 mx-md-5">
+                                    Diego Pérez <br> <strong style="color: #b8860b"> Sub Gerente </strong>
+                                </p>
+                                <div class="imgCEOS">
+                                    <img src="img/CeoD.png" class="rounded-circle" alt="Imagn" width="200" height="200"/>
+                                    <p class="text-White mb-0" id="Reseña">Lorem, ipsum dolor sit amet
+                                        consectetur adipisicing elit. Quidem deserunt esse voluptatem minus pariatur
+                                        delectus consectetur hic magni numquam modi facilis eveniet vitae dolorum illo
+                                        nihil alias nesciunt, impedit maxime?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -139,7 +197,8 @@
                 <div class="timeline-2 left-2">
                     {{-- CardsNosotros (Buscar así tal cual en el css) --}}
                     <div class="cardNosotros">
-                        <img src="img/servicio-cliente.png" class="card-img-top" style="width: 100%; height: auto;" alt="Imagen 1">
+                        <img src="img/servicio-cliente.png" class="card-img-top" style="width: 100%; height: auto;"
+                            alt="Imagen 1">
                         <div class="card-body p-4">
                             <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">Servicio
                                 al cliente</h3>
@@ -162,7 +221,8 @@
                             <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">SG-SST
                             </h3>
                             <p class="mb-0">
-                                SG - SST se dedica a garantizar la seguridad y el bienestar en el entorno laboral. Nuestra
+                                SG - SST se dedica a garantizar la seguridad y el bienestar en el entorno laboral.
+                                Nuestra
                                 prioridad es proporcionar soluciones efectivas en seguridad y salud en el trabajo.
                                 Contamos con un equipo altamente capacitado en normativas y medidas preventivas. Estamos
                                 aquí para ayudarte en cualquier aspecto relacionado con la seguridad laboral. ¡Confía en
