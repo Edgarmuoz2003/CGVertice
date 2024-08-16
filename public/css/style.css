@@ -399,6 +399,52 @@ ul li {
     }
 }
 
+/* Estilos de la parte de los CEOS ubicada en la pestaña nosotros */
+/* CEOSStyle */
+
+
+.imgCEOS img{
+    border: #b8860b 1px solid;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    box-shadow: 0 2px 15px #b8860b;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+
+.imgCEOS img:hover{
+    transform: scale(1.1);
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+
+/* VideoTestimonio */
+ #TextoTestimonio{
+    padding-top: 3%;
+
+ }
+
+ #ContainerTestimonios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ #VideoID{
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-left: 12%;
+ }
+
+ .TextoAmplioNuestrosServicios{
+    padding: 3% 7% 2% 7%;
+ }
+
 
 
 
@@ -1765,13 +1811,14 @@ a:link {
 }
 
 .imgNuestrosServicios {
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .imgNuestrosServicios img {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 

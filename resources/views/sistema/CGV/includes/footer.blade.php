@@ -1,7 +1,6 @@
 <main class="container-just">
     {{-- Logos y links a redes sociales --}}
     <section class="social py-3">
-        <div></div>
         <div class="text-center">
             <a href="https://www.facebook.com/sivertice" target="_blank"
                 class="me-4 text-reset link-offset-2 link-underline link-underline-opacity-0">
