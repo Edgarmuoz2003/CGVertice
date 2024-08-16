@@ -26,7 +26,7 @@
                         Contáctanos
                     </button>
                 </li>
-               
+
             </ul>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="one-tab-pane" role="tabpanel" aria-labelledby="1-tab"
@@ -83,13 +83,10 @@
                         </ul>
                     </div>
                     <br>
-
                     </p>
                 </div>
-
                 <br>
                 <br>
-
                 <div class="tab-pane fade" id="two-tab-pane" role="tabpanel" aria-labelledby="2-tab" tabindex="0">
                     <p class="gestionD_P" style="color: #000000">
                         Corporate Group Vértice SAS, con más de 14 años de experiencia en procesos de consultoría de
@@ -114,14 +111,17 @@
                         permanente y apoyo con información actualizada sobre cambios de normativas y obligaciones
                         empresariales. Adicionalmente, se puede obtener una reducción de costos en recurso humano para
                         la empresa de hasta un 70%. y del riesgo de sanción hasta en un 89%.
-
                     </p>
+
                     <br><br>
                     <div class="imgNuestrosServicios">
                         <img src="/img/descripcion2.png" alt="imagen de referencia">
                     </div>
 
                     <br>
+                    <div class="container py-1">
+                        <hr>
+                    </div>
                     <br>
 
                     <div class="imgNuestrosServicios">
@@ -130,92 +130,98 @@
                     <br>
                     <h2 class="tituloNuestrosServicios">METODOLOGIA DEL SERVICIO</h2>
                     <br>
-                    <p class="parrafoNuestrosServicios">
-                        Según el tamaño y las condiciones de la entidad se establecen una cantidad mínima de horas
-                        presenciales, que se distribuyen en el año a necesidad y según actividad, por ejemplo, una
-                        capacitación puede dorar 2 horas, pero una inspección locativa de 8 a 16 o más según el tamaño
-                        del edificio, por lo tanto, las actividades se distribuyen según horas asignadas en el plan de
-                        priorización que se desarrolla al iniciar el proceso. Las actividades a distancia por su parte
-                        no cuentan con límite de tiempo establecido, nuestro equipo empleara el tiempo que sea necesario
-                        para su gestión y desarrollo. Es muy importante tener en cuenta que muchas de las actividades
-                        requieren la ejecución previa de otras para su finalización.
-                    </p>
-                    <br>
-                    <p class="parrafoNuestrosServicios">
-                        Según informes presentados por el BBVA Las MiPymes son el 99,5% del universo empresarial formal
-                        colombiano. El 58% de las MiPymes formales tienen menos de 5 años de operación y el 22% son
-                        empresas consolidadas con más de 10 años de vida, el 20% de las micro están consolidadas, el 44%
-                        de las pequeñas, el 63% de las medianas y el 71% de las grandes.
-                    </p>
-                    <br>
-                    <p class="parrafoNuestrosServicios">
-                        La capacidad de las microempresas de generar empleo contrasta con su tendencia a hacerlo de
-                        manera informal. El 15% del empleo que generan es formal y el 85% informal (lo que representa el
-                        94% del empleo informal nacional). La formalidad empresarial no es fácil en el sector de las
-                        mipymes y es heterogénea por sectores y por tamaño de la empresa, los altos costos del recurso
-                        humano y los grandes cambios normativos obligan al empresario a dotarse de recurso humano
-                        diverso especialista, que de tenerlos de tiempo completo dispararía los costos de nómina
-                        volviéndolas insostenibles. Es por ello que la tendencia al outsourcing, que cada vez está más
-                        en crecimiento facilita al empresario el acceso a recurso humano cualificado a costos mas
-                        asequibles sin perder principios de calidad y eficiencia.
-                    </p>
-                    <!-- <p id="pmaintabsQuienessomos">En Vértice, ofrecemos un catálogo de servicios diseñados para abordar
-                        todas las necesidades de tu empresa, desde Gestión de la Calidad hasta Seguridad y Salud en el
-                        Trabajo. Pero lo que realmente nos diferencia son nuestras ventajas:</p>
-                    <div class="ventajas-vertice">
-                        <ul>
-                            <li>Enfoque Personalizado: Trabajamos estrechamente contigo para entender tus necesidades y
-                                ofrecer soluciones a medida.</li>
-                            <li>Equipo Multidisciplinario: Contamos con un equipo de expertos en diversas áreas para
-                                brindarte un servicio integral.</li>
-                            <li>Experiencia Comprobada: Más de una década de experiencia respaldan nuestra calidad y
-                                excelencia.</li>
-                            <li>Reducción de Costos: Nuestras soluciones eficientes pueden ayudarte a ahorrar recursos.
-                            </li>
-                            <li>Compromiso con la Excelencia: Nuestra misión es superar tus expectativas y garantizar tu
-                                satisfacción.</li>
-                        </ul>
-                    </div> -->
+                    <div class="TextoAmplioNuestrosServicios">
+                        <p class="parrafoNuestrosServicios">
+                            Según el tamaño y las condiciones de la entidad se establecen una cantidad mínima de horas
+                            presenciales, que se distribuyen en el año a necesidad y según actividad, por ejemplo, una
+                            capacitación puede dorar 2 horas, pero una inspección locativa de 8 a 16 o más según el
+                            tamaño
+                            del edificio, por lo tanto, las actividades se distribuyen según horas asignadas en el plan
+                            de
+                            priorización que se desarrolla al iniciar el proceso. Las actividades a distancia por su
+                            parte
+                            no cuentan con límite de tiempo establecido, nuestro equipo empleara el tiempo que sea
+                            necesario
+                            para su gestión y desarrollo. Es muy importante tener en cuenta que muchas de las
+                            actividades
+                            requieren la ejecución previa de otras para su finalización.
+                        </p>
+                        <br>
+                        <p class="parrafoNuestrosServicios">
+                            Según informes presentados por el BBVA Las MiPymes son el 99,5% del universo empresarial
+                            formal
+                            colombiano. El 58% de las MiPymes formales tienen menos de 5 años de operación y el 22% son
+                            empresas consolidadas con más de 10 años de vida, el 20% de las micro están consolidadas, el
+                            44%
+                            de las pequeñas, el 63% de las medianas y el 71% de las grandes.
+                        </p>
+                        <br>
+                        <p class="parrafoNuestrosServicios">
+                            La capacidad de las microempresas de generar empleo contrasta con su tendencia a hacerlo de
+                            manera informal. El 15% del empleo que generan es formal y el 85% informal (lo que
+                            representa el
+                            94% del empleo informal nacional). La formalidad empresarial no es fácil en el sector de las
+                            mipymes y es heterogénea por sectores y por tamaño de la empresa, los altos costos del
+                            recurso
+                            humano y los grandes cambios normativos obligan al empresario a dotarse de recurso humano
+                            diverso especialista, que de tenerlos de tiempo completo dispararía los costos de nómina
+                            volviéndolas insostenibles. Es por ello que la tendencia al outsourcing, que cada vez está
+                            más
+                            en crecimiento facilita al empresario el acceso a recurso humano cualificado a costos mas
+                            asequibles sin perder principios de calidad y eficiencia.
+                        </p>
+                    </div>
+
                 </div>
 
                 <div class="tab-pane fade text-black" id="three-tab-pane" role="tabpanel" aria-labelledby="3-tab"
                     tabindex="0">
                     <!-------------------------- Inicio de la seccion "Testimonios" ------------------------>
                     <section>
-                        <div class="row text-center">
-                            <p id="pmaintabsQuienessomos" style="padding:5% 7% 0% 7%;">
+                        {{-- VideoTestimonio (Buscar así tal cual en el css) --}}
+                        <div class="row text-center" id="ContainerTestimonios">
+                            <p class="gestionD_P" style="color: #000000">
                                 Más de 14 años de experiencia respaldan nuestro compromiso con la
                                 excelencia. Estamos aquí para ayudarte a alcanzar tus metas empresariales. Trabajamos
                                 incansablemente por la seguridad de nuestros empresarios y brindamos soluciones sólidas.
                                 Contáctanos hoy mismo para ser parte de tu viaje hacia el crecimiento y la prosperidad
-                                empresarial. ¡Esperamos trabajar contigo!</p>
+                                empresarial. ¡Esperamos trabajar contigo!
+                            </p>
                             <div class="col-md-12">
                                 <!-- Carousel wrapper -->
                                 <div id="carouselBasicExample" class="carousel slide carousel-dark">
                                     <!-- Inner -->
                                     <div class="carousel-inner">
                                         <!-- Single item -->
-                                        <div class="carousel-item active">
+                                        <div class="carousel-item active" id="TextoTestimonio">
                                             <p class="lead font-italic mx-4 mx-md-5">
                                                 <i class="fas fa-quote-left"></i>
-                                                Debo decir que CG Vértice ha sido fundamental en nuestro crecimiento.
-                                                Sus capacitaciones
-                                                aclararon dudas legales y mejoraron nuestra implementación de procesos
-                                                de seguridad y
-                                                salud laboral. ¡Gracias a ellos, nuestra empresa es más segura y
-                                                saludable!
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                                perferendis magnam consequatur
+                                                necessitatibus est voluptatum molestias aliquid omnis laboriosam sit
+                                                sunt quisquam iste cumque
+                                                repellat quibusdam aperiam quidem perspiciatis praesentium error harum
+                                                earum velit, quia assumenda?
+                                                Dignissimos perspiciatis, autem ipsa amet aliquam laudantium illo
+                                                quaerat tempora facere laborum quas
+                                                quisquam.
                                                 <i class="fas fa-quote-right"></i>
                                             </p>
-                                            <div class="mt-5 mb-4">
-                                                <img src="img/img.jpeg"
-                                                    class="rounded-circle img-fluid shadow-1-strong" alt="Imagn"
-                                                    width="200" height="200" />
+                                            <div class="col-12 col-sm-12 col-lg-9 align-items-center" id="VideoID">
+                                                <div class="ratio ratio-16x9">
+                                                    <iframe width="100%" height="100%"
+                                                        src="/videos/VideoInicio.mp4" title="YouTube video player"
+                                                        frameborder="0"
+                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                        allowfullscreen>
+                                                    </iframe>
+                                                </div>
                                             </div>
                                             <p class="text-black mb-0">- Fernando Restrepo</p>
                                         </div>
 
                                         <!-- Single item -->
-                                        <div class="carousel-item text-black">
+                                        <div class="carousel-item text-black" id="TextoTestimonio">
                                             <p class="lead font-italic mx-4 mx-md-5">
                                                 <i class="fas fa-quote-left"></i>
                                                 Soy Rafael Angel Marín, director del Instituto Porfirio Barba Jacob.
@@ -225,16 +231,21 @@
                                                 calificados y recomendamos ampliamente sus servicios.
                                                 <i class="fas fa-quote-right"></i>
                                             </p>
-                                            <div class="mt-5 mb-4">
-                                                <img src="img/img.jpeg"
-                                                    class="rounded-circle img-fluid shadow-1-strong"
-                                                    alt="smaple image" width="200" height="200" />
+                                            <div class="col-12 col-sm-12 col-lg-9 align-items-center" id="VideoID">
+                                                <div class="ratio ratio-16x9">
+                                                    <iframe width="100%" height="100%"
+                                                        src="/videos/VideoInicio.mp4" title="YouTube video player"
+                                                        frameborder="0"
+                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                        allowfullscreen>
+                                                    </iframe>
+                                                </div>
                                             </div>
                                             <p class="text-black mb-0">- Rafael Angel Marín</p>
                                         </div>
 
                                         <!-- Single item -->
-                                        <div class="carousel-item text-black">
+                                        <div class="carousel-item text-black" id="TextoTestimonio">
                                             <p class="lead font-italic mx-4 mx-md-5">
                                                 <i class="fas fa-quote-left"></i>
                                                 Soy Michel Moncada de Perronalidad, y las capacitaciones de CG Vértice
@@ -244,16 +255,19 @@
                                                 Estas formaciones son esenciales para nuestro éxito.
                                                 <i class="fas fa-quote-right"></i>
                                             </p>
-                                            <div class="mt-5 mb-4">
-                                                <img src="img/img.jpeg"
-                                                    class="rounded-circle img-fluid shadow-1-strong"
-                                                    alt="smaple image" width="200" height="200" />
+                                            <div class="col-12 col-sm-12 col-lg-9 align-items-center" id="VideoID">
+                                                <div class="ratio ratio-16x9">
+                                                    <iframe width="100%" height="100%"
+                                                        src="/videos/VideoInicio.mp4" title="YouTube video player"
+                                                        frameborder="0"
+                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                        allowfullscreen>
+                                                    </iframe>
+                                                </div>
                                             </div>
                                             <p class="text-black mb-0">- Michel Moncada</p>
                                         </div>
-
                                     </div>
-                                    <!-- Inner -->
 
                                     <!-- Controls -->
                                     <button class="carousel-control-prev" type="button"
@@ -271,7 +285,7 @@
                             </div>
                         </div>
                     </section>
-                    
+
                 </div>
 
                 <div class="tab-pane fade text-black" id="four-tab-pane" role="tabpanel" aria-labelledby="3-tab"

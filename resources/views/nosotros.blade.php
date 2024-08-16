@@ -94,6 +94,8 @@
     <br><br><br>
 
     {{-- inicio CEOS --}}
+
+    {{-- CEOSStyle (Buscar así tal cual en el css) --}}
     <section class="seccion-Ceos container text-center">
         <div class="row">
             <h1 style="color: #b8860b">C E O S</h1>
@@ -101,21 +103,20 @@
                 <p class="lead font-italic mx-4 mx-md-5">
                     Lina Maria Aristizabal
                 </p>
-                <div class="mt-5 mb-4">
-                    <img src="img/img.jpeg" class="rounded-circle img-fluid shadow-1-strong" alt="Imagn"
-                        width="200" height="200" />
-                </div>
-                <p class="text-White mb-0"> Gerente</p>
+                <div class="imgCEOS">
+                    <img src="img/LinaCEO.png" class="rounded-circle" alt="Imagn" width="200" height="200"/>
+                    <p class="text-White mb-0"> Gerente</p>
+                </div>    
             </div>
             <div class="col-md-6">
                 <p class="lead font-italic mx-4 mx-md-5">
                     Diego Perez
                 </p>
-                <div class="mt-5 mb-4">
-                    <img src="img/img.jpeg" class="rounded-circle img-fluid shadow-1-strong" alt="Imagn"
-                        width="200" height="200" />
+                <div class="imgCEOS">
+                    <img src="img/diegoCEO.png" class="rounded-circle" alt="Imagn" />
+                    <p class="text-White mb-0"> Sub Gerente</p>
                 </div>
-                <p class="text-White mb-0"> Sub-Gerente</p>
+                
             </div>
         </div>
     </section>
