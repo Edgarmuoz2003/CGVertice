@@ -21,130 +21,70 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="one-tab-pane" role="tabpanel" aria-labelledby="1-tab"
                     tabindex="0">
-                    <p id="pmaintabsQuienessomos">En Vértice, ofrecemos un catálogo de servicios diseñados para abordar
-                        todas las necesidades de tu empresa, desde Gestión de la Calidad hasta Seguridad y Salud en el
-                        Trabajo. Pero lo que realmente nos diferencia son nuestras ventajas:</p>
-                    <div class="ventajas-vertice">
-                        <ul>
-                            <li>Enfoque Personalizado: Trabajamos estrechamente contigo para entender tus necesidades y
-                                ofrecer soluciones a medida.</li>
-                            <li>Equipo Multidisciplinario: Contamos con un equipo de expertos en diversas áreas para
-                                brindarte un servicio integral.</li>
-                            <li>Experiencia Comprobada: Más de una década de experiencia respaldan nuestra calidad y
-                                excelencia.</li>
-                            <li>Reducción de Costos: Nuestras soluciones eficientes pueden ayudarte a ahorrar recursos.
-                            </li>
-                            <li>Compromiso con la Excelencia: Nuestra misión es superar tus expectativas y garantizar tu
-                                satisfacción.</li>
-                        </ul>
-                    </div>
+                    <p id="pmaintabsQuienessomos"><strong>¿Que es ISO?</strong></p>
+
+                    <p class="text-black">ISO (Organización Internacional de Normalización) es una entidad independiente
+                        y no gubernamental que desarrolla y publica normas internacionales. Estas normas ayudan a
+                        asegurar la calidad, seguridad y eficiencia de productos, servicios y sistemas a nivel global.
+                    </p>
+                    <br>
+                    <p id="pmaintabsQuienessomos"><strong>¿Cómo contribuye CG-VERTICE al cumplimiento de la
+                            Norma?</strong></p>
+
+                    <p class="text-black">En CG-VERTICE, ofrecemos servicios de consultoría y soporte para la
+                        implementación y mantenimiento de sistemas de gestión basados en normas ISO. Trabajamos contigo
+                        para adaptar estas normas a las necesidades específicas de tu empresa, garantizando que cumplan
+                        con los requisitos internacionales y mejoren continuamente la calidad y eficiencia de tus
+                        procesos.</p>
+
+                    <p id="pmaintabsQuienessomos"><strong>Beneficios para tu empresa:</strong></p>
+
+                    <ul class="text-black">
+                        <li><strong>Certificación Internacional:</strong> Obtén certificaciones ISO que validen la calidad y eficiencia de tus operaciones.</li>
+                        <li><strong>Mejora Continua:</strong> Implementa prácticas que promuevan la mejora continua y la satisfacción del cliente.</li>
+                        <li><strong>Ventaja Competitiva:</strong> Destaca en el mercado al cumplir con estándares internacionales reconocidos.</li>
+                    </ul>
                 </div>
+
                 <div class="tab-pane fade" id="two-tab-pane" role="tabpanel" aria-labelledby="2-tab" tabindex="0">
-                    <p id="pmaintabsQuienessomos">En Vértice, ofrecemos un catálogo de servicios diseñados para abordar
-                        todas las necesidades de tu empresa, desde Gestión de la Calidad hasta Seguridad y Salud en el
-                        Trabajo. Pero lo que realmente nos diferencia son nuestras ventajas:</p>
-                    <div class="ventajas-vertice">
-                        <ul>
-                            <li>Enfoque Personalizado: Trabajamos estrechamente contigo para entender tus necesidades y
-                                ofrecer soluciones a medida.</li>
-                            <li>Equipo Multidisciplinario: Contamos con un equipo de expertos en diversas áreas para
-                                brindarte un servicio integral.</li>
-                            <li>Experiencia Comprobada: Más de una década de experiencia respaldan nuestra calidad y
-                                excelencia.</li>
-                            <li>Reducción de Costos: Nuestras soluciones eficientes pueden ayudarte a ahorrar recursos.
-                            </li>
-                            <li>Compromiso con la Excelencia: Nuestra misión es superar tus expectativas y garantizar tu
-                                satisfacción.</li>
-                        </ul>
-                    </div>
+                    <p id="pmaintabsQuienessomos"><strong>¿Que son las NTC?</strong></p>
+
+                    <p class="text-black">NTC (Normas Técnicas Colombianas) son normas elaboradas por la Oficina de Normas de Colombia para establecer especificaciones y criterios técnicos que aseguren la calidad y seguridad de productos y servicios en el país.
+                    </p>
+                    <br>
+                    <p id="pmaintabsQuienessomos"><strong>¿Cómo contribuye CG-VERTICE al cumplimiento de la
+                            Norma?</strong></p>
+
+                    <p class="text-black">CG-VERTICE facilita la integración de las NTC en tu empresa, ayudándote a cumplir con las regulaciones locales y asegurar que tus productos y servicios cumplan con los estándares nacionales. Nuestro equipo te guía en la implementación de estas normas, lo que te permite adaptarte a las exigencias del mercado colombiano.</p>
+
+                    <p id="pmaintabsQuienessomos"><strong>Beneficios para tu empresa:</strong></p>
+
+                    <ul class="text-black">
+                        <li><strong>Cumplimiento Regulatorio:</strong> Asegura que tus productos y servicios cumplan con las regulaciones locales.</li>
+                        <li><strong>Acceso a Mercados Locales:</strong> Mejora tu acceso y aceptación en el mercado colombiano.</li>
+                        <li><strong>Calidad Asegurada:</strong>Asegura la calidad y seguridad de tus productos y servicios conforme a estándares nacionales.</li>
+                    </ul>
                 </div>
 
                 <div class="tab-pane fade text-black" id="three-tab-pane" role="tabpanel" aria-labelledby="3-tab"
                     tabindex="0">
-                    <!-------------------------- Inicio de la seccion "Testimonios" ------------------------>
-                    <section>
-                        <div class="row text-center">
-                            <div class="col-md-12">
-                                <!-- Carousel wrapper -->
-                                <div id="carouselBasicExample" class="carousel slide carousel-dark">
-                                    <!-- Inner -->
-                                    <div class="carousel-inner">
-                                        <!-- Single item -->
-                                        <div class="carousel-item active">
-                                            <p class="lead font-italic mx-4 mx-md-5">
-                                                <i class="fas fa-quote-left"></i>
-                                                Debo decir que CG Vértice ha sido fundamental en nuestro crecimiento.
-                                                Sus capacitaciones
-                                                aclararon dudas legales y mejoraron nuestra implementación de procesos
-                                                de seguridad y
-                                                salud laboral. ¡Gracias a ellos, nuestra empresa es más segura y
-                                                saludable!
-                                                <i class="fas fa-quote-right"></i>
-                                            </p>
-                                            <div class="mt-5 mb-4">
-                                                <img src="img/img.jpeg" class="rounded-circle img-fluid shadow-1-strong"
-                                                    alt="Imagn" width="200" height="200" />
-                                            </div>
-                                            <p class="text-black mb-0">- Fernando Restrepo</p>
-                                        </div>
+                    <p id="pmaintabsQuienessomos"><strong>¿Que son las NTS?</strong></p>
 
-                                        <!-- Single item -->
-                                        <div class="carousel-item text-black">
-                                            <p class="lead font-italic mx-4 mx-md-5">
-                                                <i class="fas fa-quote-left"></i>
-                                                Soy Rafael Angel Marín, director del Instituto Porfirio Barba Jacob.
-                                                CG Vértice ha sido un aliado invaluable en nuestros proyectos educativos
-                                                y
-                                                sistemas de seguridad y salud en el trabajo. Son profesionales altamente
-                                                calificados y recomendamos ampliamente sus servicios.
-                                                <i class="fas fa-quote-right"></i>
-                                            </p>
-                                            <div class="mt-5 mb-4">
-                                                <img src="img/img.jpeg" class="rounded-circle img-fluid shadow-1-strong"
-                                                    alt="smaple image" width="200" height="200" />
-                                            </div>
-                                            <p class="text-black mb-0">- Rafael Angel Marín</p>
-                                        </div>
+                    <p class="text-black">Las NTS (Normas Técnicas Sectoriales) son normas específicas para diferentes sectores de la industria, desarrolladas para abordar requisitos y desafíos particulares en áreas como la construcción, alimentos, y más.
+                    </p>
+                    <br>
+                    <p id="pmaintabsQuienessomos"><strong>¿Cómo contribuye CG-VERTICE al cumplimiento de la
+                            Norma?</strong></p>
 
-                                        <!-- Single item -->
-                                        <div class="carousel-item text-black">
-                                            <p class="lead font-italic mx-4 mx-md-5">
-                                                <i class="fas fa-quote-left"></i>
-                                                Soy Michel Moncada de Perronalidad, y las capacitaciones de CG Vértice
-                                                son excelentes.
-                                                Han aclarado todas mis dudas y han mejorado la seguridad en nuestra
-                                                empresa.
-                                                Estas formaciones son esenciales para nuestro éxito.
-                                                <i class="fas fa-quote-right"></i>
-                                            </p>
-                                            <div class="mt-5 mb-4">
-                                                <img src="img/img.jpeg" class="rounded-circle img-fluid shadow-1-strong"
-                                                    alt="smaple image" width="200" height="200" />
-                                            </div>
-                                            <p class="text-black mb-0">- Michel Moncada</p>
-                                            
-                                        </div>  
+                    <p class="text-black">En CG-VERTICE, proporcionamos asesoría especializada para la implementación de NTS en tu sector. Nuestro objetivo es ayudarte a cumplir con las normas técnicas sectoriales relevantes, asegurando que tus procesos y productos se ajusten a las especificaciones requeridas para tu industria.</p>
 
-                                    </div>
-                                    <!-- Inner -->
-                                    <div>
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint quisquam hic culpa odit alias repudiandae dolorum temporibus, vitae, eius perspiciatis beatae consectetur tempora inventore eum assumenda rerum provident sed neque ut doloribus saepe veritatis. Perspiciatis laudantium suscipit eos dolor placeat corporis itaque. Dicta sunt atque amet! Inventore nisi in totam repellat odio ipsum ab dolores, accusamus ex autem optio repellendus unde sint delectus? Totam blanditiis voluptas repellat. Officiis commodi quo eligendi, debitis hic quae, numquam culpa inventore aperiam doloribus sequi repellendus non repudiandae sunt soluta obcaecati minus. Magnam illum deleniti itaque praesentium officiis a veniam impedit sed iure corporis sint quae assumenda, voluptatibus excepturi veritatis nobis error ipsa? Facilis, praesentium vero sapiente impedit illum aliquid voluptates et nostrum qui a harum ad esse commodi mollitia tenetur temporibus eos! Unde eos vel et ducimus doloremque nihil eum quos animi quaerat quam numquam, aperiam qui dolorum earum illum eius, vero a in delectus. Eveniet eos quaerat in odit deleniti cupiditate explicabo aut rem, veritatis at nam voluptatem assumenda officiis doloribus distinctio. Unde pariatur inventore excepturi animi adipisci optio laudantium, odio itaque odit quidem. Maxime, aut. Fugiat qui illo, voluptatum voluptate perspiciatis dolore. Natus, animi reprehenderit culpa autem saepe fuga delectus assumenda tempora.</p>
-                                    </div>
-                                    <!-- Controls -->
-                                    <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#carouselBasicExample" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button"
-                                        data-bs-target="#carouselBasicExample" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                    <p id="pmaintabsQuienessomos"><strong>Beneficios para tu empresa:</strong></p>
+
+                    <ul class="text-black">
+                        <li><strong>Cumplimiento Específico:</strong> Adapta tus operaciones a las normas técnicas específicas de tu sector.</li>
+                        <li><strong>Optimización del Proceso: </strong> Mejora la eficiencia y efectividad de tus procesos internos.</li>
+                        <li><strong>Conformidad Sectorial:</strong> Cumple con los requisitos y expectativas del sector en el que operas.</li>
+                    </ul>
                 </div>
             </div>
         </div>

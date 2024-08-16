@@ -83,7 +83,7 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="img/GestionEmpresas.png" class="card-img-top imgpopup" alt="...">
+                                    <img src="img/GestionEmpresas.png" class="card-img-top imgpopup" style="width: 600px; height: 400px;" alt="Gestion de empresas">
                                     <br><br>
                                     <div class="container justify-content-around">
                                         Ofrecemos soluciones integrales para optimizar la administración y operación de tu empresa, enfocándonos en el desarrollo estratégico, eficiencia operativa y cumplimiento normativo para impulsar el crecimiento sostenible y el éxito empresarial.

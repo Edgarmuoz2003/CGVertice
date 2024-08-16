@@ -27,7 +27,6 @@
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="4-tab" data-bs-toggle="tab" data-bs-target="#four-tab-pane"
                         type="button" role="tab" aria-controls="4-tab-pane" aria-selected="false">Manual de Funciones
-                        Contáctanos
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
