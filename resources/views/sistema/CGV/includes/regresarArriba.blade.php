@@ -1,5 +1,5 @@
 <!-- resources/views/includes/back-to-top.blade.php -->
-<button onclick="topFunction()" id="backToTopBtn" class="btn btn-primary">
+<button onclick="topFunction()" id="backToTopBtn" class="btn btn-warning">
     <i class="fas fa-arrow-up"></i>
 </button>
 
@@ -16,10 +16,16 @@
         padding: 15px;
         border-radius: 50%;
         font-size: 24px;
+        height: 50px;
     }
 
     #backToTopBtn:hover {
         background-color: #555; /* Cambiar el color al pasar el mouse */
+        
+    }
+
+    #backToTopBtn i {
+        color: white; /* Color del icono */
     }
 
     #backToTopBtn i {
