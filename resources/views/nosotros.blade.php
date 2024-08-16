@@ -11,6 +11,7 @@
 
 <body>
     @include('sistema.CGV.includes.navbar')
+    @include('sistema.CGV.includes.boton')
     @include('sistema.CGV.includes.regresarArriba')
 
     {{-- Imagen del Inicio --}}
@@ -254,15 +255,7 @@
     </section>
 
     @include('sistema.CGV.includes.mapa')
-
-    <section>
-        <div class="container text-center mt-3">
-            <a href="https://wa.me/573147675259?text=Quiero%20mas%20informacion%20." target="_blank">
-                <img src="../img/whatsl.jpeg" alt="logo watsap" class="btn-wsp">
-            </a>
-        </div>
-    </section>
-
+    @include('sistema.CGV.includes.botonWhatsapp')
     @include('sistema.CGV.includes.footer')
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: black; height:13.5%">
     <div class="container">
         <!-- Logo -->
         <a id="logoInicio">
-            <img class="logo-cgv" src="{{ asset('img/V2logoSinFondo.png') }}" alt="Logo de Vértice" style="width: 40%">
+            <img class="logo-cgv" src="{{ asset('img/V2logoSinFondo.png') }}" alt="Logo de Vértice" style="height: 80px" >
         </a>
         <!-- Botón del menú Offcanvas para pantallas pequeñas -->
         <button class="navbar-toggler custom-toggler bg-dark" type="button" data-bs-toggle="offcanvas"

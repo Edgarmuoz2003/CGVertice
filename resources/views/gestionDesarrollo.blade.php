@@ -24,6 +24,8 @@
     
    
     @include('sistema.CGV.includes.boton')
+    @include('sistema.CGV.includes.botonWhatsapp')
+    @include('sistema.CGV.includes.regresarArriba')
 
 
     

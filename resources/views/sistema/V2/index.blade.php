@@ -165,6 +165,7 @@
     </main>
 
     @include('sistema.CGV.includes.footer')
+    @include('sistema.CGV.includes.botonWhatsapp')
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 

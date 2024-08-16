@@ -179,6 +179,7 @@
         </div>
 
         @include('sistema.CGV.includes.footer')
+        @include('sistema.CGV.includes.botonWhatsapp')
 
     </main>
 

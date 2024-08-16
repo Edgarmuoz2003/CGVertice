@@ -102,8 +102,8 @@
     <br>
 
     @include('sistema.CGV.includes.sliderGrandAliados')
-
     @include('sistema.CGV.includes.footer')
+    @include('sistema.CGV.includes.botonWhatsapp')
 
 </body>
 
