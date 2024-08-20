@@ -123,10 +123,37 @@
                     <br>
                     <h3 class="text-center" styles="text-aling: center color: #b8860d">Vinculacion</h3>
                     <br>
-                    <p>Hi, its me Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatibus
-                        maiores harum saepe, quam quis nulla facilis, est expedita accusamus sint eaque, aspernatur
-                        ipsum earum iure. Ducimus obcaecati odio sit?
+                    <p>El proceso de vinculación inicia con un análisis detallado de los perfiles que la empresa
+                        requiere, seguido de una búsqueda exhaustiva en nuestro amplio banco de talentos. Luego,
+                        llevamos a cabo un proceso de selección riguroso, que incluye entrevistas, evaluaciones
+                        psicotécnicas y verificaciones de referencias, asegurando que los candidatos propuestos cumplan
+                        con los estándares exigidos.
                     </p>
+                    <strong style="font-size: 50px; color:#b8860b; text-align: center">De tu Interes!!!</strong>
+                    <div class="gestionD_P">
+                        <p>En Colombia, la vinculación de empleados está regida por el Código Sustantivo del Trabajo y
+                            otras normativas laborales, como la Ley 789 de 2002 y la Ley 1562 de 2012. Estas leyes
+                            exigen que las empresas contraten de manera formal, cumpliendo con las obligaciones de
+                            seguridad social, riesgos laborales y garantizando condiciones dignas de trabajo.
+                            <br><br>
+                            Las empresas que no cumplen con estas normativas pueden enfrentar sanciones como multas por
+                            parte del Ministerio del Trabajo, demandas laborales, y el riesgo de ser incluidas en listas
+                            negras que dificultan la contratación futura de personal. La falta de afiliación a la
+                            seguridad social o a riesgos laborales, por ejemplo, puede generar multas que varían entre 1
+                            y 5,000 salarios mínimos mensuales legales vigentes, dependiendo de la gravedad del
+                            incumplimiento.
+                        </p>
+                    </div>
+                    <br><br>
+                    <p>GC-VÉRTICE ofrece un servicio de vinculación integral que asegura que las empresas cumplan con
+                        todas las normativas laborales vigentes. Al gestionar el proceso de reclutamiento y selección de
+                        manera eficiente, GC-VÉRTICE garantiza que los empleados contratados estén debidamente afiliados
+                        a los sistemas de seguridad social y riesgos laborales, reduciendo así el riesgo de sanciones.
+                        Además, la empresa ofrece asesoría continua para mantener la conformidad con las leyes
+                        laborales.
+
+                    </p>
+
                 </div>
 
                 <!-- Diseño de Estructura Interna -->
@@ -134,7 +161,7 @@
                 <div class="tab-pane fade text-black" id="three-tab-pane" role="tabpanel" aria-labelledby="3-tab"
                     tabindex="0">
 
-                    <h4 class="text-center" styles="text-aling: center color:#b8860d">Diseño de esteructura Interna
+                    <h4 class="text-center" styles="text-align: center color:#b8860d">Diseño de esteructura Interna
                     </h4>
                     <br>
                     <div class="gestionD_P">
@@ -231,11 +258,47 @@
                     <h3 class="text-center" styles="text-aling: center color: #b8860d">Manual de funciones</h3>
                     <br>
                     <p id="pmaintabsQuienessomos">
-                        Más de 14 años de experiencia respaldan nuestro compromiso con la
-                        excelencia. Estamos aquí para ayudarte a alcanzar tus metas empresariales. Trabajamos
-                        incansablemente por la seguridad de nuestros empresarios y brindamos soluciones sólidas.
-                        Contáctanos hoy mismo para ser parte de tu viaje hacia el crecimiento y la prosperidad
-                        empresarial. ¡Esperamos trabajar contigo!</p>
+                        El Manual de Funciones es una herramienta clave para definir claramente las responsabilidades,
+                        funciones y procesos dentro de una empresa. GC-VÉRTICE ofrece la creación y actualización de
+                        manuales de funciones que alinean las operaciones con los objetivos estratégicos de la
+                        organización.
+                        <br>
+                        Este servicio incluye la elaboración de un documento exhaustivo que detalla las funciones de
+                        cada puesto dentro de la organización, así como las competencias necesarias, los flujos de
+                        trabajo y los indicadores de desempeño. Este manual es fundamental para mejorar la eficiencia
+                        operativa, facilitar la formación del personal y asegurar la claridad en los roles y
+                        responsabilidades.
+                    </p>
+                    <strong style="font-size: 24px; color:#b8860b; text-align: center">CG-Vertice te ofrece:</strong>
+                    <br>
+                    <ul class="check-list">
+                        <li><strong>Diagnóstico organizacional:</strong> Análisis de la estructura actual de la empresa
+                            para identificar áreas de mejora.</li>
+                        <li><strong>Definición de roles:</strong> Clarificación de funciones, responsabilidades y
+                            expectativas para cada puesto de trabajo.</li>
+                        <li><strong>Optimización de procesos:</strong> Mejora en la asignación de tareas y en la
+                            coordinación interdepartamental.</li>
+                        <li><strong>Herramienta de gestión:</strong> Un manual que se convierte en un referente para la
+                            gestión del talento y el desarrollo organizacional.</li>
+                    </ul>
+                    <br><br>
+                    <strong style="font-size: 40px; color:#b8860b; text-align: center">Recuerda:</strong>
+                    <div class="gestionD_P">
+                        <p>
+                            El Manual de Funciones es un documento fundamental para el cumplimiento de varias normativas
+                            laborales en Colombia, incluyendo el Código Sustantivo del Trabajo y el Decreto 1072 de
+                            2015. Este manual ayuda a formalizar y clarificar las responsabilidades de los empleados,
+                            facilitando la gestión de recursos humanos y asegurando que se cumplan los estándares de
+                            eficiencia y transparencia en las operaciones empresariales.
+                            <br><br>
+                            La ausencia de un manual de funciones o la falta de claridad en los roles y
+                            responsabilidades puede llevar a conflictos laborales, sanciones por parte de entidades de
+                            inspección laboral, y demandas por incumplimientos contractuales. Las sanciones pueden
+                            incluir multas y, en casos extremos, la suspensión temporal de actividades hasta que se
+                            subsanen las deficiencias en la organización.
+
+                        </p>
+                    </div>
                 </div>
 
                 <div class="tab-pane fade text-black" id="five-tab-pane" role="tabpanel" aria-labelledby="5-tab"
@@ -326,11 +389,28 @@
                     <h3 class="text-center" styles="text-aling: center color: #b8860d">Bases de datos</h3>
                     <br>
                     <p id="pmaintabsQuienessomos">
-                        Más de 14 años de experiencia respaldan nuestro compromiso con la
-                        excelencia. Estamos aquí para ayudarte a alcanzar tus metas empresariales. Trabajamos
-                        incansablemente por la seguridad de nuestros empresarios y brindamos soluciones sólidas.
-                        Contáctanos hoy mismo para ser parte de tu viaje hacia el crecimiento y la prosperidad
-                        empresarial. ¡Esperamos trabajar contigoss!</p>
+                        La gestión de bases de datos en Colombia está regulada principalmente por la Ley 1581 de 2012
+                        (Ley de Protección de Datos Personales) y su Decreto reglamentario 1377 de 2013. Estas
+                        normativas establecen que las empresas deben garantizar la seguridad, confidencialidad y
+                        correcto uso de los datos personales que manejan. También se exige la implementación de medidas
+                        técnicas y organizativas para proteger esta información.
+                        <br><br>
+                        GC-VÉRTICE ofrece un servicio especializado en la creación y gestión de bases de datos que
+                        asegura el cumplimiento con la Ley de Protección de Datos Personales. Esto incluye la
+                        implementación de políticas de tratamiento de datos, medidas de seguridad avanzadas, y la
+                        capacitación del personal para garantizar el manejo adecuado de la información. Con GC-VÉRTICE,
+                        las empresas pueden operar con la tranquilidad de estar alineadas con la normativa vigente,
+                        evitando sanciones costosas y protegiendo la reputación corporativa.
+                    </p>
+                    <strong style="font-size: 24px; color:#b8860b; text-align: center">Te ofrecemos:</strong>
+                    <ul class="check-list">
+                        <li><strong>Diseño personalizado:</strong> Bases de datos estructuradas según las necesidades y
+                            procesos específicos de la empresa.</li>
+                        <li><strong>Mantenimiento continuo:</strong> Actualización y optimización de las bases de datos
+                            para asegurar su eficiencia a largo plazo.</li>
+                        <li><strong>Integración de sistemas:</strong> Conexión de la base de datos con otros sistemas de
+                            la empresa para un flujo de información eficiente.</li>
+                    </ul>
                 </div>
             </div>
         </div>
