@@ -86,7 +86,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <img src="img/GestionEmpresas.png" class="card-img-top imgpopup"
-                                        style="width: 600px; height: 400px;" alt="Gestion de empresas">
+                                        style="width: 765px; height: 400px;" alt="Gestion de empresas">
                                     <br><br>
                                     <div class="container justify-content-around">
                                         Ofrecemos soluciones integrales para optimizar la administración y operación de
@@ -378,7 +378,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="img/img.jpeg" class="card-img-top imgpopup" alt="..."> <br><br>
+                                    <img src="img/formacion.png" class="card-img-top imgpopup" alt="..."> <br><br>
                                     <div class="container justify-content-around">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, minus
                                         provident ipsam sit voluptatibus nam aspernatur beatae tempora nostrum
