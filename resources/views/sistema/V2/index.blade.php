@@ -116,7 +116,7 @@
                                     <div class="card-body">
                                         <div class="container">
                                             <div class="d-grid gap-2">
-                                                <a href="https://wa.me/573147675259?text=Quiero%20comprar%20sus%20productos."
+                                                <a href="https://wa.me/573016280574?text=Quiero%20comprar%20sus%20productos."
                                                     target="_blank" rel="noopener noreferrer"
                                                     class="btn btn-secondary btn-sm">Comprar Ahora en WhatsApp</a>
                                                 <a href="{{ route('producto.informacion', ['id' => $producto->idProducto]) }}"

@@ -140,7 +140,7 @@
                                         </div>
 
                                         <div class="d-grid gap-2 d-md-flex justify-content-md-center mt-4">
-                                            <a href="https://wa.me/573147675259?text=Quiero%20cotizar%20el%20{{ $producto->nombre }}."
+                                            <a href="https://wa.me/573016280574?text=Quiero%20cotizar%20el%20{{ $producto->nombre }}."
                                                 target="_blank" rel="noopener noreferrer"
                                                 class="btn btn-outline-warning btn-sm">Comprar ahora
                                             </a>

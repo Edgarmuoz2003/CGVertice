@@ -304,8 +304,7 @@
                                 <p><strong>Correo Electrónico:</strong>
                                     <a class="contactos"
                                         href="mailto:Soluciones.vertice@gmail.com?subject=Asunto del correo&body=Contenido del correo">Soluciones.vertice@gmail.com</a>
-                                <p><strong>Teléfono:</strong> <a class="contactos" href="tel:+573147675259">+57 314
-                                        767 52 59</a></p>
+                                <p><strong>Teléfono:</strong> <a class="contactos" href="tel:+57573016280574">+573016280574</a></p>
                                 </p>
                             </div>
                         </div>
