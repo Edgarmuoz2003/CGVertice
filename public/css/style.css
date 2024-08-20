@@ -544,7 +544,6 @@ ul li {
     max-width: 250px;
     line-height: 20px;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
