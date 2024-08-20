@@ -196,28 +196,21 @@
                                         <div class="carousel-item active" id="TextoTestimonio">
                                             <p class="lead font-italic mx-4 mx-md-5">
                                                 <i class="fas fa-quote-left"></i>
-                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
-                                                perferendis magnam consequatur
-                                                necessitatibus est voluptatum molestias aliquid omnis laboriosam sit
-                                                sunt quisquam iste cumque
-                                                repellat quibusdam aperiam quidem perspiciatis praesentium error harum
-                                                earum velit, quia assumenda?
-                                                Dignissimos perspiciatis, autem ipsa amet aliquam laudantium illo
-                                                quaerat tempora facere laborum quas
-                                                quisquam.
+                                                Le doy un cordial saludo a la Doctora Lina Aristizabal y al grupo vértice. Dar las gracias por su gran aporte en el proyecto y proceso de legalización del centro étnico laboral de Colombia CETELCO en el uraba antioqueña y uraba chocuano. Recomiendo mucho sus servicios, soy una persona exigente y gracias a Dios han cumplido y superado las expectativas.
                                                 <i class="fas fa-quote-right"></i>
                                             </p>
                                             <div class="col-12 col-sm-12 col-lg-9 align-items-center" id="VideoID">
                                                 <div class="ratio ratio-16x9">
                                                     <iframe width="100%" height="100%"
-                                                        src="/videos/VideoInicio.mp4" title="YouTube video player"
+                                                        src="/videos/Testimonio1.mp4" title="YouTube video player"
                                                         frameborder="0"
                                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                                         allowfullscreen>
                                                     </iframe>
                                                 </div>
                                             </div>
-                                            <p class="text-black mb-0">- Fernando Restrepo</p>
+                                            <p class="text-black mb-0">Lic. Marco Bonet</p>
+                                            <p class="text-black mb-0">Representante legal del centro etnico de educación laboral de Colombia CETELCO</p>
                                         </div>
 
                                         <!-- Single item -->

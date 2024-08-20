@@ -86,7 +86,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <img src="img/GestionEmpresas.png" class="card-img-top imgpopup"
-                                        style="width: 600px; height: 400px;" alt="Gestion de empresas">
+                                        style="width: 765px; height: 400px;" alt="Gestion de empresas">
                                     <br><br>
                                     <div class="container justify-content-around">
                                         Ofrecemos soluciones integrales para optimizar la administración y operación de
