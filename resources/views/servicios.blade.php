@@ -35,10 +35,12 @@
                     </h3>
                 </div>
                 <div class="mt-5">
-                    <p style="font-size: 20px">Corporate Group Vértice SAS, con más de 15 años de experiencia en procesos de consultoría de Gestión, 
-                        ha acompañado a más de 350 empresarios a nivel nacional en la gestión del cumplimiento normativo. 
-                        Con un amplio portafolio empresarial llegamos a nuestros usuarios con beneficios integradores, 
-                        que les permite efectividad y eficiencia en el alcance de sus objetivos. 
+                    <p style="font-size: 20px">Corporate Group Vértice SAS, con más de 15 años de experiencia en
+                        procesos de consultoría de Gestión,
+                        ha acompañado a más de 350 empresarios a nivel nacional en la gestión del cumplimiento
+                        normativo.
+                        Con un amplio portafolio empresarial llegamos a nuestros usuarios con beneficios integradores,
+                        que les permite efectividad y eficiencia en el alcance de sus objetivos.
                     </p>
                 </div>
             </div>
@@ -61,7 +63,9 @@
                         </h3>
                         <div class="card-body p-4">
                             <p class="mb-0">
-                                Ofrecemos soluciones integrales para optimizar la administración y operación de tu empresa, enfocándonos en el desarrollo estratégico, eficiencia operativa y cumplimiento normativo para impulsar el crecimiento sostenible y el éxito empresarial.
+                                Ofrecemos soluciones integrales para optimizar la administración y operación de tu
+                                empresa, enfocándonos en el desarrollo estratégico, eficiencia operativa y cumplimiento
+                                normativo para impulsar el crecimiento sostenible y el éxito empresarial.
                             </p>
                         </div>
                     </div>
@@ -81,10 +85,14 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="img/GestionEmpresas.png" class="card-img-top imgpopup" style="width: 600px; height: 400px;" alt="Gestion de empresas">
+                                    <img src="img/GestionEmpresas.png" class="card-img-top imgpopup"
+                                        style="width: 600px; height: 400px;" alt="Gestion de empresas">
                                     <br><br>
                                     <div class="container justify-content-around">
-                                        Ofrecemos soluciones integrales para optimizar la administración y operación de tu empresa, enfocándonos en el desarrollo estratégico, eficiencia operativa y cumplimiento normativo para impulsar el crecimiento sostenible y el éxito empresarial.
+                                        Ofrecemos soluciones integrales para optimizar la administración y operación de
+                                        tu empresa, enfocándonos en el desarrollo estratégico, eficiencia operativa y
+                                        cumplimiento normativo para impulsar el crecimiento sostenible y el éxito
+                                        empresarial.
                                         <hr>
                                         <div class="card-title text-center" style="padding: 1% 0% 2% 0%">
                                             <h4 style="color: #b8860b">Servicios de gestión empresarial</h4>
@@ -94,11 +102,15 @@
                                                 Gestión de calidad de su empresa
                                             </b>
                                             <br><br>
-                                            En CG-VERTICE enfocamos nuestros esfuerzos para garantizar que su empresa cumpla con los más altos estándares de calidad. Implemendo sistemas de gestión de calidad personalizados que se alineen con sus objetivos y aseguren el cumplimiento normativo. Nuestra meta es mejorar la eficiencia operativa, reducir errores y aumentar la satisfacción de sus clientes, promoviendo una cultura organizacional orientada hacia la excelencia.
+                                            En CG-VERTICE enfocamos nuestros esfuerzos para garantizar que su empresa
+                                            cumpla con los más altos estándares de calidad. Implemendo sistemas de
+                                            gestión de calidad personalizados que se alineen con sus objetivos y
+                                            aseguren el cumplimiento normativo. Nuestra meta es mejorar la eficiencia
+                                            operativa, reducir errores y aumentar la satisfacción de sus clientes,
+                                            promoviendo una cultura organizacional orientada hacia la excelencia.
                                             <br><br>
                                             <button type="button" class="btn btn-warning">
-                                                <a href="/GestionCalidad"
-                                                    style="color: black">Ver</a></button>
+                                                <a href="/GestionCalidad" style="color: black">Ver</a></button>
                                         </div>
                                         <div class="container py-1">
                                             <hr>
@@ -108,13 +120,19 @@
                                                 Gestión de desarrollo empresarial
                                             </b>
                                             <br><br>
-                                            Ayudamos a su empresa a crecer de manera sostenible, desarrollando estrategias que potencian su competitividad en el mercado. Ofrecemos asesoramiento integral en la planificación estratégica, expansión de mercados y optimización de recursos. Nuestro enfoque está en identificar nuevas oportunidades de negocio, mejorar la eficiencia operativa y asegurar el crecimiento a largo plazo.
+                                            Ayudamos a su empresa a crecer de manera sostenible, desarrollando
+                                            estrategias que potencian su competitividad en el mercado. Ofrecemos
+                                            asesoramiento integral en la planificación estratégica, expansión de
+                                            mercados y optimización de recursos. Nuestro enfoque está en identificar
+                                            nuevas oportunidades de negocio, mejorar la eficiencia operativa y asegurar
+                                            el crecimiento a largo plazo.
                                             <br><br>
                                             <button type="button" class="btn btn-warning">
                                                 <a href="/gestionDesarrollo
-                                                " style="color: black;">Ver</a>
+                                                "
+                                                    style="color: black;">Ver</a>
                                             </button>
-                                            
+
                                         </div>
                                         <div class="container py-1">
                                             <hr>
@@ -124,11 +142,15 @@
                                                 IPS Gerencial
                                             </b>
                                             <br><br>
-                                            Proveemos a su empresa con un servicio integral de consultoría gerencial para fortalecer la toma de decisiones estratégicas. A través de nuestro enfoque en la Inteligencia y Planificación Estratégica (IPS), le ayudamos a anticipar cambios en el entorno empresarial, gestionar riesgos y aprovechar oportunidades. Trabajamos de la mano con la alta dirección para diseñar y ejecutar planes que maximicen el rendimiento de su empresa.
+                                            Proveemos a su empresa con un servicio integral de consultoría gerencial
+                                            para fortalecer la toma de decisiones estratégicas. A través de nuestro
+                                            enfoque en la Inteligencia y Planificación Estratégica (IPS), le ayudamos a
+                                            anticipar cambios en el entorno empresarial, gestionar riesgos y aprovechar
+                                            oportunidades. Trabajamos de la mano con la alta dirección para diseñar y
+                                            ejecutar planes que maximicen el rendimiento de su empresa.
                                             <br><br>
                                             <button type="button" class="btn btn-warning">
-                                                <a href="/GestionIps"
-                                                    style="color: black">Ver</a></button>
+                                                <a href="/GestionIps" style="color: black">Ver</a></button>
                                         </div>
                                         <div class="container py-1">
                                             <hr>
@@ -152,7 +174,10 @@
                         </h3>
                         <div class="card-body p-4">
                             <p class="mb-0">
-                                Ofrecemos un servicio integral para optimizar la administración de instituciones educativas, incluyendo la creación de manuales de convivencia, el diseño de Proyectos Educativos Institucionales (PEI), y el desarrollo de mallas curriculares, asegurando un entorno educativo organizado, eficiente y alineado con los estándares de calidad.
+                                Ofrecemos un servicio integral para optimizar la administración de instituciones
+                                educativas, incluyendo la creación de manuales de convivencia, el diseño de Proyectos
+                                Educativos Institucionales (PEI), y el desarrollo de mallas curriculares, asegurando un
+                                entorno educativo organizado, eficiente y alineado con los estándares de calidad.
                             </p>
                         </div>
                     </div>
@@ -168,42 +193,55 @@
                         <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5 titulo-modal" id="exampleModalLabel">Gestion Instituciones Educativas</h1>
+                                    <h1 class="modal-title fs-5 titulo-modal" id="exampleModalLabel">Gestión
+                                        Instituciones Educativas</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
 
                                 <!-- imagen de video al principio del modal -->
                                 <div class="modal-body">
-                                    <img src="img/img.jpeg" class="card-img-top imgpopup" alt="...">
+                                    <img src="img/gestionIE.png" class="card-img-top imgpopup" alt="...">
                                     <br><br>
 
                                     <!-- texto debajo de la imagen del video -->
                                     <div class="container justify-content-around">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, minus
-                                        provident ipsam sit voluptatibus nam aspernatur beatae tempora nostrum
-                                        numquam qui dolor, voluptate impedit itaque quia hic unde veritatis. Officia?
-                                        <br><br><br>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde et illo cum
-                                        deleniti doloribus libero ab provident consequuntur beatae. Dolorum cum
-                                        praesentium consectetur aut debitis nemo quos tenetur odit corrupti?
+                                        En CG-VÉRTICE, entendemos que la educación es la base para el desarrollo de una
+                                        sociedad próspera y equitativa. Por eso, hemos diseñado una gama de servicios
+                                        especializados en la Gestión de Instituciones Educativas que buscan fortalecer
+                                        la calidad y la eficiencia de los procesos educativos.
+                                        <br><br>
+                                        Desde la elaboración de <strong>Manuales de Convivencia</strong> que promuevan
+                                        un ambiente escolar saludable, hasta la <strong>Evaluación
+                                            Institucional</strong> que mide el desempeño general de la institución,
+                                        nuestros servicios están enfocados en el cumplimiento normativo y en la
+                                        implementación de prácticas educativas innovadoras. Nos comprometemos a ser un
+                                        aliado estratégico para las instituciones educativas, ayudándoles a alcanzar sus
+                                        metas y a ofrecer una educación de excelencia que prepare a los estudiantes para
+                                        los desafíos del futuro.
                                         <hr>
                                         <div class="card-title text-center" style="padding: 1% 0% 2% 0%">
-                                            <h4 style="color: #b8860b">Servicios de gestión Instituciones Educativas</h4>
+                                            <h4 style="color: #b8860b">Servicios de gestión Instituciones Educativas
+                                            </h4>
                                         </div>
                                         <div>
                                             <b style="color: #b8860b">
                                                 Manuales de Convivencia
                                             </b>
                                             <br><br>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
-                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
-                                            eum quia? Provident.
-                                            <br><br>                                         
+                                            El Manual de Convivencia es un documento esencial que establece las normas,
+                                            derechos, y deberes de todos los miembros de la comunidad educativa.
+                                            GC-VÉRTICE se especializa en la creación y actualización de manuales de
+                                            convivencia que cumplen con las normativas educativas vigentes en Colombia,
+                                            garantizando un ambiente escolar armonioso y respetuoso. Nuestro enfoque es
+                                            asegurar que el manual sea claro, inclusivo y adaptado a las necesidades
+                                            específicas de cada institución, promoviendo una cultura de paz y
+                                            convivencia dentro del entorno escolar.
+                                            <br><br>
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
-                                                    style="color: black">Cotizar</a></button>
+                                                <a href="https://wa.me/573016280574?text=Hola,%20Estoy%20interesado%20en%20el%20servicio%20de%20Manuales%20de%20Convivencia."
+                                                    style="color: black">Cotizar</a>
+                                            </button>
                                         </div>
                                         <div class="container py-1">
                                             <hr>
@@ -213,68 +251,86 @@
                                                 Diseño de PEI
                                             </b>
                                             <br><br>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
-                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
-                                            eum quia? Provident.
+                                            El Proyecto Educativo Institucional (PEI) es el documento que define la
+                                            identidad de la institución educativa, su misión, visión, objetivos y
+                                            estrategias pedagógicas. En GC-VÉRTICE, nos encargamos del diseño y la
+                                            implementación del PEI, asegurando que esté alineado con los principios y
+                                            objetivos de la institución, así como con las directrices del Ministerio de
+                                            Educación Nacional. Nuestro servicio incluye la formulación de planes
+                                            estratégicos que guían el desarrollo integral de la comunidad educativa,
+                                            fomentando una educación de calidad.
                                             <br><br>
 
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
-                                                    style="color: black">Cotizar</a></button>
+                                                <a href="https://wa.me/573016280574?text=Hola,%20Estoy%20interesado%20en%20el%20servicio%20de%20Diseño%20de%20PEI."
+                                                    style="color: black">Cotizar</a>
+                                            </button>
                                         </div>
                                         <div class="container py-1">
                                             <hr>
                                         </div>
                                         <div>
                                             <b style="color: #b8860b">
-                                                Mayas Curriculares
+                                                Mallas Curriculares
                                             </b>
                                             <br><br>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
-                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
-                                            eum quia? Provident.
+                                            Las Mallas Curriculares son la estructura que organiza los contenidos
+                                            educativos de manera secuencial y coherente, garantizando el desarrollo
+                                            progresivo de competencias en los estudiantes. GC-VÉRTICE ofrece la
+                                            elaboración y revisión de mallas curriculares adaptadas a las necesidades
+                                            específicas de cada institución, asegurando que estén en consonancia con los
+                                            estándares de calidad educativa establecidos por el gobierno. Nuestro
+                                            objetivo es facilitar el aprendizaje significativo y preparar a los
+                                            estudiantes para los retos del siglo XXI.
                                             <br><br>
-                                            
+
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
-                                                    style="color: black">Cotizar</a></button>
+                                                <a href="https://wa.me/573016280574?text=Hola,%20Estoy%20interesado%20en%20el%20servicio%20de%20Mallas%20Curriculares."
+                                                    style="color: black">Cotizar</a>
+                                            </button>
                                         </div>
                                         <div class="container py-1">
                                             <hr>
                                         </div>
                                         <div>
                                             <b style="color: #b8860b">
-                                                Evaluacion Docentes
+                                                Evaluación Docentes
                                             </b>
                                             <br><br>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
-                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
-                                            eum quia? Provident.
+                                            La Evaluación de Docentes es un proceso fundamental para asegurar la calidad
+                                            educativa dentro de una institución. GC-VÉRTICE proporciona un servicio
+                                            integral de evaluación de docentes, basado en criterios objetivos y alineado
+                                            con las normativas del Ministerio de Educación Nacional. Nuestro enfoque es
+                                            identificar fortalezas y áreas de mejora, ofreciendo recomendaciones para el
+                                            desarrollo profesional continuo de los educadores y garantizando así una
+                                            enseñanza efectiva y de alta calidad.
                                             <br><br>
-                                            
+
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
-                                                    style="color: black">Cotizar</a></button>
+                                                <a href="https://wa.me/573016280574?text=Hola,%20Estoy%20interesado%20en%20el%20servicio%20de%20Evaluación%20Docentes."
+                                                    style="color: black">Cotizar</a>
+                                            </button>
                                         </div>
                                         <div class="container py-1">
                                             <hr>
                                         </div>
                                         <div>
                                             <b style="color: #b8860b">
-                                                Evaluacion Institucional
+                                                Evaluación Institucional
                                             </b>
                                             <br><br>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
-                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
-                                            eum quia? Provident.
+                                            La Evaluación Institucional es un proceso de diagnóstico y análisis que
+                                            permite a las instituciones educativas medir su desempeño y efectividad en
+                                            la consecución de sus objetivos. GC-VÉRTICE ofrece un servicio de evaluación
+                                            institucional exhaustivo, que incluye la recolección y análisis de datos, la
+                                            identificación de áreas críticas y la propuesta de planes de mejora. Nuestro
+                                            objetivo es acompañar a las instituciones en su proceso de mejora continua,
+                                            asegurando la excelencia en la educación y el cumplimiento de las normativas
+                                            educativas nacionales.
                                             <br><br>
-                                            
+
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                <a href="https://wa.me/573016280574?text=Hola,%20Estoy%20interesado%20en%20el%20servicio%20de%20Evaluación%20Institucional."
                                                     style="color: black">Cotizar</a>
                                             </button>
                                         </div>
@@ -284,6 +340,7 @@
                         </div>
                     </div>
                 </div>
+
                 {{-- Espacio de multimedia --}}
                 <div class="timeline-2 left-2" id="GestionEdu">
                     <div class="card">
@@ -297,7 +354,10 @@
                         </h3>
                         <div class="card-body p-1">
                             <p class="mb-0">
-                                Proveemos capacitación especializada en Sistemas de Gestión de Seguridad y Salud en el Trabajo (SG-SST), orientada a empresas. Nuestro servicio asegura que los empleados y directivos estén plenamente capacitados en normativas, procedimientos y buenas prácticas para garantizar un entorno laboral seguro y saludable.
+                                Proveemos capacitación especializada en Sistemas de Gestión de Seguridad y Salud en el
+                                Trabajo (SG-SST), orientada a empresas. Nuestro servicio asegura que los empleados y
+                                directivos estén plenamente capacitados en normativas, procedimientos y buenas prácticas
+                                para garantizar un entorno laboral seguro y saludable.
                             </p>
                         </div>
                     </div>
@@ -329,7 +389,8 @@
                                         praesentium consectetur aut debitis nemo quos tenetur odit corrupti?
                                         <hr>
                                         <div class="card-title text-center" style="padding: 1% 0% 2% 0%">
-                                            <h4 style="color: #b8860b">Servicios de gestión Instituciones Educativas</h4>
+                                            <h4 style="color: #b8860b">Servicios de gestión Instituciones Educativas
+                                            </h4>
                                         </div>
                                         <div>
                                             <b style="color: #b8860b">
@@ -341,7 +402,7 @@
                                             Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
                                             eum quia? Provident.
                                             <br><br>
-                                            
+
                                             <button type="button" class="btn btn-warning">
                                                 <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
                                                     style="color: black">Cotizar</a>
@@ -361,8 +422,7 @@
                                             eum quia? Provident.
                                             <br><br>
                                             <button type="button" class="btn btn-warning">
-                                                <a href="FormacionContinua"
-                                                    style="color: black">Ver</a>
+                                                <a href="FormacionContinua" style="color: black">Ver</a>
                                             </button>
                                         </div>
                                     </div>
@@ -383,7 +443,12 @@
                         </h3>
                         <div class="card-body p-4">
                             <p class="mb-0">
-                                Nuestro servicio de Formación y Educación a Empresas en el Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST) está diseñado para capacitar y empoderar a los empleados y directivos en la implementación y mantenimiento de un entorno laboral seguro y saludable. Este servicio se adapta a las necesidades específicas de cada organización, asegurando el cumplimiento normativo y promoviendo la cultura de prevención de riesgos laborales
+                                Nuestro servicio de Formación y Educación a Empresas en el Sistema de Gestión de
+                                Seguridad y Salud en el Trabajo (SG-SST) está diseñado para capacitar y empoderar a los
+                                empleados y directivos en la implementación y mantenimiento de un entorno laboral seguro
+                                y saludable. Este servicio se adapta a las necesidades específicas de cada organización,
+                                asegurando el cumplimiento normativo y promoviendo la cultura de prevención de riesgos
+                                laborales
                             </p>
                         </div>
                     </div>
@@ -399,14 +464,16 @@
                         <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5 titulo-modal" id="exampleModalLabel">Propiedades Horizontales</h1>
+                                    <h1 class="modal-title fs-5 titulo-modal" id="exampleModalLabel">Propiedades
+                                        Horizontales</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
 
                                 <!-- imagen de video al principio del modal -->
                                 <div class="modal-body">
-                                    <img src="img/ph.png" class="card-img-top imgpopup" alt="Imagen de Referencia a PH">
+                                    <img src="img/ph.png" class="card-img-top imgpopup"
+                                        alt="Imagen de Referencia a PH">
                                     <br><br>
 
                                     <!-- texto debajo de la imagen del video -->
@@ -431,7 +498,7 @@
                                             Velit fuga soluta fugit provident dolores cum magni est nihil.
                                             Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
                                             eum quia? Provident.
-                                            <br><br>                                         
+                                            <br><br>
                                             <button type="button" class="btn btn-warning">
                                                 <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
                                                     style="color: black">Cotizar</a></button>
@@ -467,7 +534,7 @@
                                             Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
                                             eum quia? Provident.
                                             <br><br>
-                                            
+
                                             <button type="button" class="btn btn-warning">
                                                 <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
                                                     style="color: black">Cotizar</a></button>
@@ -485,7 +552,7 @@
                                             Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
                                             eum quia? Provident.
                                             <br><br>
-                                            
+
                                             <button type="button" class="btn btn-warning">
                                                 <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
                                                     style="color: black">Cotizar</a></button>
