@@ -125,7 +125,7 @@
                     <br>
 
                     <div class="imgNuestrosServicios">
-                        <img src="/img/etapas_procesos.png" alt="imagen etapas de los procesos">
+                        <img src="/img/etapas_procesos.jpeg" alt="imagen etapas de los procesos">
                     </div>
                     <br>
                     <h2 class="tituloNuestrosServicios">METODOLOGIA DEL SERVICIO</h2>
