@@ -353,7 +353,7 @@
                             Educación y formación
                         </h3>
                         <div class="card-body p-1">
-                            <p class="mb-0">
+                            <p class="m-4">
                                 Proveemos capacitación especializada en Sistemas de Gestión de Seguridad y Salud en el
                                 Trabajo (SG-SST), orientada a empresas. Nuestro servicio asegura que los empleados y
                                 directivos estén plenamente capacitados en normativas, procedimientos y buenas prácticas
