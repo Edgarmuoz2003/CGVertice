@@ -21,23 +21,17 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="one-tab-pane" role="tabpanel" aria-labelledby="1-tab"
                     tabindex="0">
-                    <p id="pmaintabsQuienessomos">En Vértice, ofrecemos un catálogo de servicios diseñados para abordar
-                        todas las necesidades de tu empresa, desde Gestión de la Calidad hasta Seguridad y Salud en el
-                        Trabajo. Pero lo que realmente nos diferencia son nuestras ventajas:</p>
-                    <div class="ventajas-vertice">
-                        <ul>
-                            <li>Enfoque Personalizado: Trabajamos estrechamente contigo para entender tus necesidades y
-                                ofrecer soluciones a medida.</li>
-                            <li>Equipo Multidisciplinario: Contamos con un equipo de expertos en diversas áreas para
-                                brindarte un servicio integral.</li>
-                            <li>Experiencia Comprobada: Más de una década de experiencia respaldan nuestra calidad y
-                                excelencia.</li>
-                            <li>Reducción de Costos: Nuestras soluciones eficientes pueden ayudarte a ahorrar recursos.
-                            </li>
-                            <li>Compromiso con la Excelencia: Nuestra misión es superar tus expectativas y garantizar tu
-                                satisfacción.</li>
-                        </ul>
-                    </div>
+                    <p id="pmaintabsQuienessomos"><strong>METODOLOGIA DEL SERVICIO</strong> </p>
+                    <p class="text-black">Según el tamaño y las condiciones de la entidad se establecen una cantidad mínima de horas 
+                        presenciales, que se distribuyen en el año a necesidad y según actividad, por ejemplo, una 
+                        capacitación puede dorar 2 horas, pero una inspección locativa de 8 a 16 o más según el tamaño del 
+                        6
+                        edificio, por lo tanto, las actividades se distribuyen según horas asignadas en el plan de priorización 
+                        que se desarrolla al iniciar el proceso. Las actividades a distancia por su parte no cuentan con limite 
+                        de tiempo establecido, nuestro equipo empleara el tiempo que sea necesario para su gestión y 
+                        desarrollo. Es muy importante tener en cuenta que muchas de las actividades requieren la ejecución 
+                        previa de otras para su finalización.</p>
+                    
                 </div>
                 <div class="tab-pane fade" id="two-tab-pane" role="tabpanel" aria-labelledby="2-tab" tabindex="0">
                     <p id="pmaintabsQuienessomos">En Vértice, ofrecemos un catálogo de servicios diseñados para abordar
