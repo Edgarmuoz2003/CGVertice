@@ -451,6 +451,9 @@ ul li {
 
 
 
+#MainTittle{
+    font-size: 75px;
+}
 
 
 /* -------------------------------------------------------------------------------------- */
@@ -1862,10 +1865,7 @@ a:link {
 
 .MainTittle {
     padding: 0% 0% 0% 10%;
-}
-
-.MainTittle h2 {
-    font-size: 8vb;
+    justify-content: center;
 }
 
 .tabla-index {
