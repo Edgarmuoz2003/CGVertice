@@ -378,11 +378,19 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="img/formacion.png" class="card-img-top imgpopup" alt="..."> <br><br>
+                                    <img src="img/formacion.png" class="card-img-top imgpopup" alt="...">
+                                    <br><br>
                                     <div class="container justify-content-around">
-                                        En GC-VÉRTICE, creemos que la capacitación continua es clave para el éxito y la adaptación de las empresas en un entorno en constante cambio. Nuestro segmento de Educación y Formación ofrece programas de capacitación tanto presenciales como virtuales, diseñados para abordar las necesidades específicas de cada organización en temas relacionados con el Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST) y otras áreas relevantes. 
+                                        En GC-VÉRTICE, creemos que la capacitación continua es clave para el éxito y la
+                                        adaptación de las empresas en un entorno en constante cambio. Nuestro segmento
+                                        de Educación y Formación ofrece programas de capacitación tanto presenciales
+                                        como virtuales, diseñados para abordar las necesidades específicas de cada
+                                        organización en temas relacionados con el Sistema de Gestión de Seguridad y
+                                        Salud en el Trabajo (SG-SST) y otras áreas relevantes.
                                         <br><br>
-                                        Nuestro objetivo es proporcionar a las empresas herramientas y conocimientos prácticos que les permitan cumplir con la normativa vigente, mejorar su desempeño y fomentar un ambiente laboral seguro y productivo.
+                                        Nuestro objetivo es proporcionar a las empresas herramientas y conocimientos
+                                        prácticos que les permitan cumplir con la normativa vigente, mejorar su
+                                        desempeño y fomentar un ambiente laboral seguro y productivo.
                                         <hr>
                                         <div class="card-title text-center" style="padding: 1% 0% 2% 0%">
                                             <h4 style="color: #b8860b">Servicios de gestión Instituciones Educativas
@@ -393,9 +401,16 @@
                                                 Formación continua
                                             </b>
                                             <br><br>
-                                            La Formación Continua de GC-VÉRTICE está orientada a proporcionar a los empleados y directivos de las empresas conocimientos actualizados y habilidades prácticas en temas relacionados con el SG-SST y otras áreas clave. Nuestros cursos, que se pueden realizar de manera presencial o virtual, están diseñados para mantener a los participantes al día con las últimas normativas y mejores prácticas, contribuyendo a la mejora continua de la organización.
+                                            La Formación Continua de GC-VÉRTICE está orientada a proporcionar a los
+                                            empleados y directivos de las empresas conocimientos actualizados y
+                                            habilidades prácticas en temas relacionados con el SG-SST y otras áreas
+                                            clave. Nuestros cursos, que se pueden realizar de manera presencial o
+                                            virtual, están diseñados para mantener a los participantes al día con las
+                                            últimas normativas y mejores prácticas, contribuyendo a la mejora continua
+                                            de la organización.
                                             <br><br>
-                                            <strong style="font-size: 24px; color:#b8860b; text-align: center">Te ofrecemos:</strong>
+                                            <strong style="font-size: 24px; color:#b8860b; text-align: center">Te
+                                                ofrecemos:</strong>
                                             <ul class="check-list">
                                                 <li><strong>Capacitación actualizada</strong></li>
                                                 <li><strong>Modalidades flexibles</strong></li>
@@ -416,14 +431,26 @@
                                                 Formación a la medida
                                             </b>
                                             <br><br>
-                                            La <strong>Formación a la Medida</strong> de GC-VÉRTICE está diseñada para ofrecer soluciones de capacitación personalizadas que se ajusten a las necesidades específicas de cada empresa. Este servicio permite desarrollar programas de formación adaptados a los desafíos particulares y objetivos estratégicos de la organización, garantizando que la capacitación sea relevante y directamente aplicable a su contexto.
+                                            La <strong>Formación a la Medida</strong> de GC-VÉRTICE está diseñada para
+                                            ofrecer soluciones de capacitación personalizadas que se ajusten a las
+                                            necesidades específicas de cada empresa. Este servicio permite desarrollar
+                                            programas de formación adaptados a los desafíos particulares y objetivos
+                                            estratégicos de la organización, garantizando que la capacitación sea
+                                            relevante y directamente aplicable a su contexto.
                                             <br><br>
-                                            <strong style="font-size: 24px; color:#b8860b; text-align: center">Obtendras:</strong>
+                                            <strong
+                                                style="font-size: 24px; color:#b8860b; text-align: center">Obtendras:</strong>
                                             <ul class="check-list">
-                                                <li><strong>Diseño personalizado:</strong> Programas de formación desarrollados con base a un análisis de las necesidades específicas de la empresa.</li>
-                                                <li><strong>Flexibilidad:</strong> Capacitación en horarios y formatos que se adapten a la dinámica laboral de la organización.</li>
-                                                <li><strong>Relevancia:</strong> Contenidos y metodologías ajustados a los retos y objetivos particulares de la empresa.</li>
-                                                <li><strong>Soporte continuo:</strong> Asesoramiento y seguimiento durante y después de la formación para asegurar la implementación efectiva de los conocimientos adquiridos.</li>
+                                                <li><strong>Diseño personalizado:</strong> Programas de formación
+                                                    desarrollados con base a un análisis de las necesidades específicas
+                                                    de la empresa.</li>
+                                                <li><strong>Flexibilidad:</strong> Capacitación en horarios y formatos
+                                                    que se adapten a la dinámica laboral de la organización.</li>
+                                                <li><strong>Relevancia:</strong> Contenidos y metodologías ajustados a
+                                                    los retos y objetivos particulares de la empresa.</li>
+                                                <li><strong>Soporte continuo:</strong> Asesoramiento y seguimiento
+                                                    durante y después de la formación para asegurar la implementación
+                                                    efectiva de los conocimientos adquiridos.</li>
                                             </ul>
                                             <button type="button" class="btn btn-warning">
                                                 <a href="FormacionContinua" style="color: black">Ver</a>
@@ -482,13 +509,16 @@
 
                                     <!-- texto debajo de la imagen del video -->
                                     <div class="container justify-content-around">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, minus
-                                        provident ipsam sit voluptatibus nam aspernatur beatae tempora nostrum
-                                        numquam qui dolor, voluptate impedit itaque quia hic unde veritatis. Officia?
-                                        <br><br><br>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde et illo cum
-                                        deleniti doloribus libero ab provident consequuntur beatae. Dolorum cum
-                                        praesentium consectetur aut debitis nemo quos tenetur odit corrupti?
+                                        En CG-VÉRTICE, entendemos que la gestión de Propiedades Horizontales requiere un
+                                        enfoque integral para garantizar un entorno seguro, saludable y bien organizado
+                                        para todos los residentes y usuarios. Nuestro segmento de Propiedades
+                                        Horizontales ofrece una gama de servicios especializados que ayudan a las
+                                        administraciones de conjuntos residenciales y edificios comerciales a cumplir
+                                        con las normativas vigentes, mantener la seguridad y el bienestar de sus
+                                        comunidades, y gestionar eficientemente sus recursos.
+                                        <br><br>
+                                        Con un enfoque en la prevención y el cumplimiento, GC-VÉRTICE se posiciona como
+                                        un aliado estratégico para la gestión efectiva de propiedades horizontales.
                                         <hr>
                                         <div class="card-title text-center" style="padding: 1% 0% 2% 0%">
                                             <h4 style="color: #b8860b">Servicios de Propiedades Horizontales</h4>
@@ -498,13 +528,14 @@
                                                 SST
                                             </b>
                                             <br><br>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
-                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
-                                            eum quia? Provident.
+                                            CG-VÉRTICE ofrece servicios de asesoría y gestión en Seguridad y Salud en el
+                                            Trabajo (SG-SST) para propiedades horizontales, asegurando que las áreas
+                                            comunes y laborales cumplan con las normativas vigentes. Nuestro objetivo es
+                                            prevenir riesgos laborales y garantizar un ambiente seguro para todos los
+                                            trabajadores y residentes.
                                             <br><br>
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                <a href="https://wa.me/573016280574?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
                                                     style="color: black">Cotizar</a></button>
                                         </div>
                                         <div class="container py-1">
@@ -515,14 +546,15 @@
                                                 PMIRS
                                             </b>
                                             <br><br>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
-                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
-                                            eum quia? Provident.
+                                            El Plan de Manejo Integral de Residuos Sólidos (PMIRS) es esencial para la
+                                            correcta gestión de los desechos en propiedades horizontales. GC-VÉRTICE se
+                                            encarga de diseñar e implementar planes de manejo que promuevan la
+                                            sostenibilidad y el cumplimiento normativo en la gestión de residuos,
+                                            reduciendo el impacto ambiental.
                                             <br><br>
 
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                <a href="https://wa.me/573016280574?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
                                                     style="color: black">Cotizar</a></button>
                                         </div>
                                         <div class="container py-1">
@@ -533,14 +565,11 @@
                                                 BD
                                             </b>
                                             <br><br>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
-                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
-                                            eum quia? Provident.
+                                            Nuestro servicio de <strong>gestión de Bases de Datos</strong> para propiedades horizontales, facilita la organización y el manejo eficiente de la información relacionada con residentes, trabajadores y procesos administrativos. Este servicio asegura que la información esté bien organizada y sea fácilmente accesible para la administración.
                                             <br><br>
 
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                <a href="https://wa.me/573016280574?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
                                                     style="color: black">Cotizar</a></button>
                                         </div>
                                         <div class="container py-1">
@@ -551,14 +580,11 @@
                                                 Planes de Emergencia
                                             </b>
                                             <br><br>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Velit fuga soluta fugit provident dolores cum magni est nihil.
-                                            Sunt nemo commodi sit maiores reprehenderit distinctio qui magnam
-                                            eum quia? Provident.
+                                            Elaboramos Planes de Emergencia adaptados a las necesidades de cada propiedad horizontal, proporcionando estrategias y procedimientos claros para la prevención y respuesta ante situaciones de emergencia. CG-VÉRTICE asegura que los planes cumplan con las normativas legales y estén diseñados para proteger la vida y los bienes de todos los residentes y usuarios.
                                             <br><br>
 
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573332371006?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                <a href="https://wa.me/573016280574?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
                                                     style="color: black">Cotizar</a></button>
                                         </div>
                                         <div class="container py-1">
