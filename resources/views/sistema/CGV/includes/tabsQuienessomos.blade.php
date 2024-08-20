@@ -196,7 +196,7 @@
                                         <div class="carousel-item active" id="TextoTestimonio">
                                             <p class="lead font-italic mx-4 mx-md-5">
                                                 <i class="fas fa-quote-left"></i>
-                                                Le doy un cordial saludo a la Doctora Lina Aristizabal y al grupo vértice. Dar las gracias por su gran aporte en el proyecto y proceso de legalización del centro étnico laboral de Colombia CETELCO en el uraba antioqueña y uraba chocuano. Recomiendo mucho sus servicios, soy una persona exigente y gracias a Dios han cumplido y superado las expectativas.
+                                                Le doy un cordial saludo a la Doctora Lina Aristizabal y al grupo vértice. Dar las gracias por su gran aporte en el proyecto y proceso de legalización del centro étnico laboral de Colombia CETELCO en el uraba antioqueño y chocuano. Recomiendo mucho sus servicios, soy una persona exigente y gracias a Dios han cumplido y superado las expectativas.
                                                 <i class="fas fa-quote-right"></i>
                                             </p>
                                             <div class="col-12 col-sm-12 col-lg-9 align-items-center" id="VideoID">
