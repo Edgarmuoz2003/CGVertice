@@ -149,7 +149,7 @@
             </div>
             <div class="col-md-6">
                 <p class="lead font-italic mx-4 mx-md-5">
-                    Diego Pérez <br> <strong style="color: #b8860b"> Sub Gerente </strong>
+                    Diego Alonso Pérez <br> <strong style="color: #b8860b"> Sub Gerente </strong>
                 </p>
                 <div class="imgCEOS">
                     <img src="img/CeoD.png" class="rounded-circle" alt="Imagn" width="200"
@@ -163,7 +163,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                                 <p class="lead font-italic mx-4 mx-md-5">
-                                    Diego Pérez <br> <strong style="color: #b8860b"> Sub Gerente </strong>
+                                    Diego Alonso Pérez <br> <strong style="color: #b8860b"> Sub Gerente </strong>
                                 </p>
                                 <div class="imgCEOS">
                                     <img src="img/CeoD.png" class="rounded-circle" alt="Imagn" width="200" height="200"/>
