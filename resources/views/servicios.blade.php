@@ -535,7 +535,7 @@
                                             trabajadores y residentes.
                                             <br><br>
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573016280574?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                <a href="https://wa.me/573016280574?text=Estoy%20interesado%20en%20el%20servicio%20de%20SG-SST."
                                                     style="color: black">Cotizar</a></button>
                                         </div>
                                         <div class="container py-1">
@@ -554,7 +554,7 @@
                                             <br><br>
 
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573016280574?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                <a href="https://wa.me/573016280574?text=Estoy%20interesado%20en%20el%20servicio%20de%20PMIRS."
                                                     style="color: black">Cotizar</a></button>
                                         </div>
                                         <div class="container py-1">
@@ -569,7 +569,7 @@
                                             <br><br>
 
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573016280574?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
+                                                <a href="https://wa.me/573016280574?text=Estoy%20interesado%20en%20el%20servicio%20de%20Bases%20de%20Datos."
                                                     style="color: black">Cotizar</a></button>
                                         </div>
                                         <div class="container py-1">
