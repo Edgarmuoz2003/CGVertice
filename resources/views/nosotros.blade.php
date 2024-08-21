@@ -119,7 +119,8 @@
                                     Lina Maria Aristizabal <br> <strong style="color: #b8860b"> Gerente </strong>
                                 </p>
                                 <div class="imgCEOS">
-                                    <img src="img/LinaCEO.png" class="rounded-circle" alt="Imagn" width="200" height="200"/>
+                                    <img src="img/LinaCEO.png" class="rounded-circle" alt="Imagn" width="200"
+                                        height="200" />
                                     <p class="text-White mb-0" id="Reseña">Gerente y Fundadora Corporate Group
                                         Vértice S.A.S, especialista en
                                         Diseño Curricular para IFTDH e IES, conferencista y especialista en SISTEMAS DE
@@ -166,11 +167,23 @@
                                     Diego Alonso Pérez <br> <strong style="color: #b8860b"> Sub Gerente </strong>
                                 </p>
                                 <div class="imgCEOS">
-                                    <img src="img/CeoD.png" class="rounded-circle" alt="Imagn" width="200" height="200"/>
-                                    <p class="text-White mb-0" id="Reseña">Lorem, ipsum dolor sit amet
-                                        consectetur adipisicing elit. Quidem deserunt esse voluptatem minus pariatur
-                                        delectus consectetur hic magni numquam modi facilis eveniet vitae dolorum illo
-                                        nihil alias nesciunt, impedit maxime?</p>
+                                    <img src="img/CeoD.png" class="rounded-circle" alt="Imagn" width="200"
+                                        height="200" />
+                                    <p class="text-White mb-0" id="Reseña">Gerente y fundador de Hydrobombas S.A.S
+                                        con Experiencia de 17 años en puestos directivos, desde hace 4 años asumió el
+                                        rol de subgerente de Corporate Group Vértice. Tecnólogo e ingeniero mecánico de
+                                        profesión, con amplios conocimientos en neumática, hidráulica, manejo de
+                                        herramientas técnicas y desarrollo de mediciones del campo. Ha recibido y
+                                        perfeccionado sus habilidades con entrenamientos en enfermería, espacios
+                                        confinados, trabajo en alturas, seguridad vial y manejo de extintores y
+                                        protocolos contra incendios. Actualmente cuenta con certificaciones en primeros
+                                        auxilios, supervisor de espacios confinados y coordinador de alturas, además de
+                                        ser tallerista y conferencista en estas áreas. Su amplia experiencia le ha
+                                        permitido especializarse en redes contra incendios RCI y mecanismos de
+                                        prevención y control, esta misma trayectoria le ha aportado madurez y solidas
+                                        estructuras en la gestión del recurso Humano, llevándolo a considerarse más que
+                                        un líder un miembro mas de los equipos de intervención y auto caracterizándose
+                                        en tres palabras “Conocimiento, experiencia y humanidad”</p>
                                 </div>
                             </div>
                         </div>
