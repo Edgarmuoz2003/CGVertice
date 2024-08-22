@@ -210,7 +210,7 @@
                                                     </video>
                                                 </div>
                                             </div>
-                                            <p class="text-black mb-0">Lic. Marco Bonet</p>
+                                            <p class="text-black mb-0">Lic. Marco Bonett</p>
                                             <p class="text-black mb-0">Representante legal del centro etnico de
                                                 educación laboral de Colombia CETELCO</p>
                                         </div>
