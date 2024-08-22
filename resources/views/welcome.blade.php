@@ -50,7 +50,7 @@
             <div class="row flex-lg-row-reverse">
                 <div class="col-12 col-sm-12 col-lg-9 align-items-center">
                     <div class="ratio ratio-16x9">
-                        <iframe width="100%" height="100%" src="/videos/VideoInicio.mp4" title="YouTube video player"
+                        <iframe width="100%" height="100%" src={{ asset('/videos/VideoInicio.mp4') }} title="YouTube video player"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen>

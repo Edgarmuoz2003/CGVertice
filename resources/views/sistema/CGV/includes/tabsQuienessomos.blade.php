@@ -205,12 +205,9 @@
                                             </p>
                                             <div class="col-12 col-sm-12 col-lg-9 align-items-center" id="VideoID">
                                                 <div class="ratio ratio-16x9">
-                                                    <iframe width="100%" height="100%"
-                                                        src="/videos/Testimonio1.mp4" title="YouTube video player"
-                                                        frameborder="0"
-                                                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                        allowfullscreen>
-                                                    </iframe>
+                                                    <video width="100%" height="100%" controls>
+                                                        <source src={{ asset('/videos/Testimonio1.mp4') }}>
+                                                    </video>
                                                 </div>
                                             </div>
                                             <p class="text-black mb-0">Lic. Marco Bonet</p>
@@ -231,12 +228,11 @@
                                             </p>
                                             <div class="col-12 col-sm-12 col-lg-9 align-items-center" id="VideoID">
                                                 <div class="ratio ratio-16x9">
-                                                    <iframe width="100%" height="100%"
-                                                        src="/videos/VideoInicio.mp4" title="YouTube video player"
-                                                        frameborder="0"
-                                                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                        allowfullscreen>
-                                                    </iframe>
+                                                    <div class="ratio ratio-16x9">
+                                                        <video width="100%" height="100%" controls>
+                                                            <source src={{ asset('/videos/VideoInicio.mp4') }}>
+                                                        </video>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <p class="text-black mb-0">- Rafael Angel Marín</p>
@@ -255,12 +251,11 @@
                                             </p>
                                             <div class="col-12 col-sm-12 col-lg-9 align-items-center" id="VideoID">
                                                 <div class="ratio ratio-16x9">
-                                                    <iframe width="100%" height="100%"
-                                                        src="/videos/VideoInicio.mp4" title="YouTube video player"
-                                                        frameborder="0"
-                                                        allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                        allowfullscreen>
-                                                    </iframe>
+                                                    <div class="ratio ratio-16x9">
+                                                        <video width="100%" height="100%" controls>
+                                                            <source src={{ asset('/videos/VideoInicio.mp4') }}>
+                                                        </video>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <p class="text-black mb-0">- Michel Moncada</p>
