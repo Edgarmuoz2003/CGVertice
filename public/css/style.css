@@ -1839,10 +1839,11 @@ a:link {
 
 .gestionD_PU{
     background-color: #00000011;
-    width: 100%;
+    width: 55%;
     border: 2px solid #b8860b;
-    padding: 20px;
-    border-radius: 20px;
+    padding: 2%;
+    border-radius: 40px;
+    margin-left: 22.5%;
 }
 
 .gestionD_PU p{
