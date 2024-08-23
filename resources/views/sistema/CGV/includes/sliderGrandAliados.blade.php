@@ -13,7 +13,7 @@ padding-top: 1%;">
                 <img src={{ asset('./img/Converge.png') }} class="img-slider" alt="" />
             </div>
             <div class="slide">
-                <img src={{ asset('img/LogoAgosto.png') }} class="img-slider" alt="" />
+                <img src={{ asset('img/logoo.png') }} class="img-slider" alt="" />
             </div>
             <div class="slide">
                 <img src={{ asset('./img/V2logoSinFondo.png') }} class="img-slider" alt="" />
@@ -25,7 +25,7 @@ padding-top: 1%;">
                 <img src={{ asset('./img/Converge.png') }} class="img-slider" alt="" />
             </div>
             <div class="slide">
-                <img src={{ asset('img/LogoAgosto.png') }} class="img-slider" alt="" />
+                <img src={{ asset('img/logoo.png') }} class="img-slider" alt="" />
             </div>
             <div class="slide">
                 <img src={{ asset('./img/V2logoSinFondo.png') }} class="img-slider" alt="" />

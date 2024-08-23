@@ -3,7 +3,7 @@
         <div class="container">
             <!-- Logo -->
             <a id="logoInicio">
-                <img class="logo-cgv" src="{{ asset('img/LogoAgosto.png') }}" alt="Logo de Vértice">
+                <img class="logo-cgv" src="{{ asset('img/logoo.png') }}" alt="Logo de Vértice">
             </a>
             <!-- Botón del menú Offcanvas para pantallas pequeñas -->
             <button class="navbar-toggler custom-toggler bg-dark" type="button" data-bs-toggle="offcanvas"
@@ -21,7 +21,7 @@
                                 Admin Configuración
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="adminDropdown">
-                                <li>
+                                <li class="listaNavBar">
                                     <a class="dropdown-item" href="#" id="VerUsersbtn">
                                         <i class="fas fa-users ml-2"></i> Usuarios
                                     </a>
