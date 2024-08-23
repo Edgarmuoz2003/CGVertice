@@ -16,7 +16,7 @@
                 <ul class="navbar-nav ms-auto">
                     @can('Admin Configuracion')
                         <div class="nav-item dropdown">
-                            <a id="adminDropdown" class="nav-link dropdown-toggle" style="color: #b8860b" href="#"
+                            <a id="adminDropdown" class="nav-link dropdown-toggle" style="color: #bf943a" href="#"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Admin Configuración
                             </a>
@@ -57,7 +57,7 @@
                     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
                 </ul>
                 <a id="btnInicio" class="nav-link" aria-current="page"
-                    style="color: #b8860b; font-weight: 500; text-decoration: none; cursor: pointer;">Inicio</a>
+                    style="color: #bf943a; font-weight: 500; text-decoration: none; cursor: pointer;">Inicio</a>
                 <script>
                     // Script para el logo
                     document.getElementById('logoInicio').addEventListener('click', function() {
@@ -71,7 +71,7 @@
                 </script>
 
                 <a class="nav-link" id="VerNosotrosbtn"
-                    style="color: #b8860b;font-weight: 400;margin-left: 30px;text-decoration: none;cursor: pointer;">Nosotros</a>
+                    style="color: #bf943a;font-weight: 400;margin-left: 30px;text-decoration: none;cursor: pointer;">Nosotros</a>
                 <script>
                     document.getElementById('VerNosotrosbtn').addEventListener('click', function() {
                         window.location.href = "{{ route('nosotros') }}";
@@ -79,7 +79,7 @@
                 </script>
 
                 <a class="nav-link" id="VerBlogbtn"
-                    style="color: #b8860b;font-weight: 400;margin-left: 30px;text-decoration: none;cursor: pointer;">Converge</a>
+                    style="color: #bf943a;font-weight: 400;margin-left: 30px;text-decoration: none;cursor: pointer;">Converge</a>
                 <script>
                     document.getElementById('VerBlogbtn').addEventListener('click', function() {
                         window.location.href = "{{ route('ruta_blog') }}";
@@ -87,7 +87,7 @@
                 </script>
 
                 <a class="nav-link" id="VerV2btn"
-                    style="color: #b8860b;font-weight: 400;margin-left: 30px;text-decoration: none;cursor: pointer;">V2suministros</a>
+                    style="color: #bf943a;font-weight: 400;margin-left: 30px;text-decoration: none;cursor: pointer;">V2suministros</a>
                 <script>
                     document.getElementById('VerV2btn').addEventListener('click', function() {
                         window.location.href = "{{ route('ruta_V2') }}";
@@ -95,7 +95,7 @@
                 </script>
 
                 <a class="nav-link active" id="VerServicesbtn"
-                    style="color: #b8860b;font-weight: 400;margin-left: 30px;text-decoration: none;cursor: pointer;">Servicios</a>
+                    style="color: #bf943a;font-weight: 400;margin-left: 30px;text-decoration: none;cursor: pointer;">Servicios</a>
                 <script>
                     document.getElementById('VerServicesbtn').addEventListener('click', function() {
                         window.location.href = "{{ route('ruta_services') }}";
@@ -105,7 +105,7 @@
 
                 <div class="nav-item dropdown">
                     @auth
-                        <a id="navbarDropdown" class="nav-link dropdown-toggle" style="color: #b8860b" href="#"
+                        <a id="navbarDropdown" class="nav-link dropdown-toggle" style="color: #bf943a" href="#"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Bienvenido, {{ Auth::user()->name }}
                         </a>
@@ -117,10 +117,10 @@
                             </li>
                         </ul>
                     @else
-                        <div class="nav-link" style="color: #b8860b; display: inline-block;">
-                            <a href="{{ url('/login') }}" style="color: #b8860b;">Iniciar sesión</a>
+                        <div class="nav-link" style="color: #bf943a; display: inline-block;">
+                            <a href="{{ url('/login') }}" style="color: #bf943a;">Iniciar sesión</a>
                             <span style="margin: 0 5px;">|</span> <!-- Separador -->
-                            <a href="{{ url('/register') }}" style="color: #b8860b;">Registrarme</a>
+                            <a href="{{ url('/register') }}" style="color: #bf943a;">Registrarme</a>
                         </div>
                     @endauth
                 </div>
@@ -197,7 +197,7 @@
                             </li>
                         </ul>
                     @else
-                        <div class="nav-link" style="color: #b8860b; display: inline-block;">
+                        <div class="nav-link" style="color: #bf943a; display: inline-block;">
                             <a href="{{ route('login') }}" style="color: white;">Iniciar sesión</a>
                             <span style="margin: 0 5px; color: white">|</span> <!-- Separador -->
                             <a href="{{ route('register') }}" style="color: white;">Registrarme</a>

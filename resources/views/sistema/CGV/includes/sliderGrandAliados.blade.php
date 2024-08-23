@@ -2,7 +2,7 @@
 padding-bottom: 1%; 
 padding-top: 1%;">
 
-    <h4>Aliados estrategicos</h4>
+    <h4>Aliados estratégicos</h4>
 
 </div>
 <div style="padding-bottom: 2%">

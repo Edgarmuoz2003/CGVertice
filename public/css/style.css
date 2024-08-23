@@ -3,6 +3,24 @@
     font-family: "Poppins", sans-serif;
 }
 
+@font-face {
+    font-family: 'titulo';
+    src: url(../font/Jost-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'parrafos';
+    src: url(../font/Moderustic-VariableFont_wght.ttf);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'titulo';
+}
+
+p, li, a{
+    font-family: 'parrafos';
+}
+
 .fondo {
     background-color: #1a1a1a;
 }
@@ -1835,6 +1853,7 @@ a:link {
     margin: 0 auto;
     text-align: justify;
     width: 80%;
+    font-family: 'parrafos';
 }
 
 .gestionD_PU{
@@ -1850,6 +1869,7 @@ a:link {
     margin: 0 auto;
     text-align: justify;
     width: 80%;
+    font-family: 'parrafos';
 }
 
 .DescipcionEstructura {
@@ -1945,4 +1965,7 @@ a:link {
 
 
 /* Estilo css de las cartas de las noticias, tanto de la página de inicio como la de converge */
+
+
+
 

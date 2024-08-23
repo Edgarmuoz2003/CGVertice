@@ -62,7 +62,7 @@
             <div class="row">
                 <!-- Sección "Ayuda" -->
                 <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 text-center">
-                    <h6 class="text-uppercase font-weight-bold mb-4" style="color:#b8860b">identificación general</h6>
+                    <h6 class="text-uppercase mb-4" style="color:#b8860b">identificación general</h6>
                     <ul class="list-unstyled mb-0">
                         <li class="mb-2"style="color: black">Más de 15 de años trabajando por la tranquilidad de los
                             empresario</li>

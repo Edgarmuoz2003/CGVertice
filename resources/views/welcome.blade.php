@@ -20,9 +20,9 @@
                 <div class="container" style="padding-right:5%;">
                     <div class="MainTittle">
                         <p id="MainTittle">
-                            <span style="color: #b8860b">Trabajamos</span> por
-                            <br>la <span style="color: #b8860b">tranquilidad</span> de los 
-                            <span style="color: #b8860b">empresarios</span>
+                            <span style="color: #bf943a">Trabajamos</span> por
+                            <br>la <span style="color: #bf943a">tranquilidad</span> de los 
+                            <span style="color: #bf943a">empresarios</span>
                         </p>
                     </div>
                     <div class="TextoInicio">
