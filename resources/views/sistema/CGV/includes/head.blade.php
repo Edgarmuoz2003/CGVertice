@@ -1,4 +1,4 @@
-<script src="{{ asset('js/color-modes.js') }}"></script>
+<script src={{ asset('js/color-modes.js') }}></script>
 <!-- Agrega SweetAlert CDN en el head de tu documento HTML -->
 
 <head>

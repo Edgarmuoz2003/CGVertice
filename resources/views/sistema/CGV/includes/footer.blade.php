@@ -61,85 +61,73 @@
         <div class="container">
             <div class="row">
                 <!-- Sección "Ayuda" -->
-                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4">Ayuda</h6>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 text-center">
+                    <h6 class="text-uppercase font-weight-bold mb-4" style="color:#b8860b">identificación general</h6>
                     <ul class="list-unstyled mb-0">
-                        <li class="mb-2"><a href="#" class="text-gold link-underline-light"
-                                style="color:#b8860b">Condiciones de uso</a></li>
-                        <li class="mb-2"><a href="#" class="text-gold link-underline-light"
-                                style="color:#b8860b">Otras preguntas</a></li>
+                        <li class="mb-2"style="color: black">Más de 15 de años trabajando por la tranquilidad de los
+                            empresario</li>
                     </ul>
                 </div>
                 <!-- Sección "Compañia" -->
-                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4">Compañía</h6>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 text-center">
+                    <h6 class="text-uppercase font-weight-bold mb-4" style="color: #b8860b">Compañía</h6>
                     <ul class="list-unstyled mb-0">
-                        <a href="#scrollspyHeading2" class="text-gold link-underline-light"
-                            style="color:#b8860b">Nuestros productos</a>
+                        <a href="/V2" class="link-underline-light" style="color:black">Nuestros productos</a>
                     </ul>
                 </div>
                 <!-- Sección "Politica" -->
-                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4">Política</h6>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 text-center">
+                    <h6 class="text-uppercase font-weight-bold mb-4" style="color: #b8860b">Horario de atención</h6>
                     <ul class="list-unstyled mb-0">
-                        <li class="mb-2"><a href="#" class="text-gold link-underline-light"
-                                style="color: #b8860b">Seguridad</a></li>
-                        <li class="mb-2"><a href="#" class="text-gold link-underline-light"
-                                style="color: #b8860b">Privacidad</a></li>
+                        <li class="mb-2" style="color: black">Lunes a viernes <br> 7:00 Am - 5:00 Pm</li>
                     </ul>
                 </div>
                 <!-- Sección "Acerca de " -->
-                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4">Acerca de</h6>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 text-center">
+                    <h6 class="text-uppercase font-weight-bold mb-4" style="color: #b8860b">Acerca de</h6>
                     <ul class="list-unstyled mb-0">
-                        <a href="Nosotros" class="text-gold link-underline-light" style="color:#b8860b">Sobre
-                            nosotros</a> <br>
-                        <a href="https://www.youtube.com/channel/UCoHXkPDBTLhk3LuOCxaPNlA"
-                            class="text-gold link-underline-light" style="color:#b8860b">Youtube</a> <br>
-                        <a href="https://api.whatsapp.com/send/?phone=573016280574&text=Quiero+mas+informacion+.&type=phone_number&app_absent=0"
-                            class="text-gold link-underline-light" style="color:#b8860b">Contáctenos</a>
+                        <a href="Nosotros" class="link-underline-light" style="color:black"> Nosotros</a> <br>
+                        <a href="https://api.whatsapp.com/send/?phone=573016280574&text=Quiero+más+información+.&type=phone_number&app_absent=0"
+                            class="link-underline-light" style="color:black">Contáctenos</a>
                     </ul>
                 </div>
                 <!-- Sección "Dirección" -->
-                <div class="col-lg-4 col-md-6 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4">DIRECCIÓN</h6>
-                    <a href="https://maps.app.goo.gl/9ShyKWmtscka17Kw5" class="text-gold link-underline-light"
-                        style="color:#b8860b"> Cra. 71 #46-28, Laureles - Estadio, Antioquia
+                <div class="col-lg-2 col-md-6 mb-lg-0 text-center">
+                    <h6 class="text-uppercase font-weight-bold mb-4" style="color: #b8860b">Dirección</h6>
+                    <a style="color:black"> Cra. 71 #46-28, <br> Laureles - Estadio,
+                        Antioquia
                 </div>
             </div>
         </div>
 
         {{-- Sección sobre la información de la empresa --}}
-        <div class="container">
+        <div class="container text-center pt-3">
             <div class="row">
                 <div class="col">
-                    <a href="" class="text-gold mb-0 py-2"
+                    <a href="mailto:Soluciones.vertice@gmail.com" class="mb-0 py-2"
                         style="color:rgb(121, 121, 121)">Soluciones.vertice@gmail.com</a>
                 </div>
                 <br>
                 <div class="col">
-                    <a href="" class="text-gold mb-0 py-2"
+                    <a href="mailto:Mercadeo.vertice@gmail.com" class="mb-0 py-2"
                         style="color:rgb(121, 121, 121)">Mercadeo.vertice@gmail.com</a>
                 </div>
                 <br>
                 <div class="col">
-                    <a href="" class="text-gold mb-0 py-2" 
-                    style="color:rgb(121, 121, 121)">(+57)3332371006</a>
+                    <a href="https://api.whatsapp.com/send/?phone=573332371006&text=Quiero+más+información+.&type=phone_number&app_absent=0" class="mb-0 py-2" style="color:rgb(121, 121, 121)">(+57)3332371006</a>
                 </div>
                 <br>
                 <div class="col">
-                    <a href="" class="text-gold mb-0 py-2" 
-                    style="color:rgb(121, 121, 121)">(+57)3016280574</a>
+                    <a href="https://api.whatsapp.com/send/?phone=573016280574&text=Quiero+más+información+.&type=phone_number&app_absent=0" class="mb-0 py-2" style="color:rgb(121, 121, 121)">(+57)3016280574</a>
                 </div>
             </div>
         </div>
         <div class="py-2">
             <div class="container text-center">
-                <p class="text-gold mb-0 py-2" style="color:rgb(121, 121, 121)">&copy; 2024 Corporate Group Vértice
+                <p class="mb-0 py-2" style="color:rgb(121, 121, 121)">&copy; 2024 Corporate Group Vértice
                 </p>
             </div>
 
         </div>
     </footer>
 </main>
-
