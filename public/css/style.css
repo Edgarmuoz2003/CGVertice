@@ -1837,6 +1837,20 @@ a:link {
     width: 80%;
 }
 
+.gestionD_PU{
+    background-color: #00000011;
+    width: 100%;
+    border: 2px solid #b8860b;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.gestionD_PU p{
+    margin: 0 auto;
+    text-align: justify;
+    width: 80%;
+}
+
 .DescipcionEstructura {
     width: 100%;
     display: flex;
