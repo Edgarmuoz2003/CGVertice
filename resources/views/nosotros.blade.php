@@ -270,10 +270,10 @@
     <br>
     <br>
 
-    <div class="container gestionD_P text-center">
-        <p class="text-black fw-bold display-4">¿Tienes alguna duda o sugerencia?</p>
-        <p class="text-center "><a href="mailto:Soluciones.vertice@gmail.com" class="text-primary fw-bold">Contáctanos</a>, o envíanos tu comentario aquí</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSepqsy8LoKLZ46zXR29qGY2mDUH9HL9L7fmahTKbYFIFoT4GQ/viewform?usp=pp_url" class="btn btn-primary mt-3" target="_blank">
+    <div class="gestionD_PU text-center">
+        <h2 class="text-black fw-bold">¿Tienes alguna duda o sugerencia?</h2>
+        <p class="text-center "><a href="mailto:Soluciones.vertice@gmail.com" class="text-primary fw-bold"><span style="color: #b8860b">Contáctanos</span></a>, o envíanos tu comentario aquí</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSepqsy8LoKLZ46zXR29qGY2mDUH9HL9L7fmahTKbYFIFoT4GQ/viewform?usp=pp_url" class="btn btn-warning mt-2" target="_blank">
             <i class="bi bi-envelope-fill"></i> PQRS
         </a>
     </div>
