@@ -10,7 +10,7 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="imgBx">
-                    <img src={{ asset('img/inicio-destacados-sst.jpg') }} alt="Educación y Formación.png">
+                    <img src={{asset('img/inicio-destacados-sst.jpg') }} alt="Educación y Formación.png">
                     <h5 class="text-center">Seguridad y salud en el trabajo</h5>
                 </div>
                 <br>

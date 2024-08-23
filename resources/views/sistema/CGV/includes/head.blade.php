@@ -16,15 +16,6 @@
 <meta property="og:title" content="Corporate Group Vèrtice">
 <meta property="og:description" content="">
 
-<!-- Metas que faltan por rellenar -->
-<!-- <meta property="og:image" content="URL_DE_LA_IMAGEN_PREVIEW"> -->
-<!-- <meta property="og:url" content="URL_DE_LA_PAGINA"> -->
-<!-- <meta name="twitter:card" content="summary_large_image"> -->
-<!-- <meta name="twitter:site" content="@TuCuentaTwitter"> -->
-<!-- <meta name="twitter:title" content="Casa Museo Habladurías"> -->
-<!-- <meta name="twitter:description" content="Compartiendo historias urbanas de Medellín"> -->
-<!-- <meta name="twitter:image" content="./img/imagex.icon.png"> -->
-
 <!-- Inicio links de la pagina -->
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <link rel="shortcut icon" href="{{ asset('img/logoAgosto.png') }}" type="image/x-icon">

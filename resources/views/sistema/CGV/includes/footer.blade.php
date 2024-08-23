@@ -114,17 +114,20 @@
                 </div>
                 <br>
                 <div class="col">
-                    <a href="https://api.whatsapp.com/send/?phone=573332371006&text=Quiero+más+información+.&type=phone_number&app_absent=0" class="mb-0 py-2" style="color:rgb(121, 121, 121)">(+57)3332371006</a>
+                    <a href="https://api.whatsapp.com/send/?phone=573332371006&text=Quiero+más+información+.&type=phone_number&app_absent=0"
+                        class="mb-0 py-2" style="color:rgb(121, 121, 121)">(+57)3332371006</a>
                 </div>
                 <br>
                 <div class="col">
-                    <a href="https://api.whatsapp.com/send/?phone=573016280574&text=Quiero+más+información+.&type=phone_number&app_absent=0" class="mb-0 py-2" style="color:rgb(121, 121, 121)">(+57)3016280574</a>
+                    <a href="https://api.whatsapp.com/send/?phone=573016280574&text=Quiero+más+información+.&type=phone_number&app_absent=0"
+                        class="mb-0 py-2" style="color:rgb(121, 121, 121)">(+57)3016280574</a>
                 </div>
             </div>
         </div>
         <div class="py-2">
             <div class="container text-center">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSepqsy8LoKLZ46zXR29qGY2mDUH9HL9L7fmahTKbYFIFoT4GQ/viewform?usp=pp_url" class="text-warning fw-bold" target="quejas">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSepqsy8LoKLZ46zXR29qGY2mDUH9HL9L7fmahTKbYFIFoT4GQ/viewform?usp=pp_url"
+                    class="text-warning fw-bold" target="quejas">
                     <i class="bi bi-envelope-fill"></i> PQRS
                 </a>
                 <p class="text-gold mb-0 py-2" style="color:rgb(121, 121, 121)">&copy; 2024 Corporate Group Vértice

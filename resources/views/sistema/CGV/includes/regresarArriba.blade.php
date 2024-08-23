@@ -5,7 +5,9 @@
 
 <script>
     // Mostrar el botón cuando el usuario hace scroll hacia abajo 20px desde la parte superior
-    window.onscroll = function() {scrollFunction()};
+    window.onscroll = function() {
+        scrollFunction()
+    };
 
     function scrollFunction() {
         const btn = document.getElementById("backToTopBtn");

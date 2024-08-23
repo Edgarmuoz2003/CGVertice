@@ -40,29 +40,40 @@
                     <p id="pmaintabsQuienessomos"><strong>Beneficios para tu empresa:</strong></p>
 
                     <ul class="text-black">
-                        <li><strong>Certificación Internacional:</strong> Obtén certificaciones ISO que validen la calidad y eficiencia de tus operaciones.</li>
-                        <li><strong>Mejora Continua:</strong> Implementa prácticas que promuevan la mejora continua y la satisfacción del cliente.</li>
-                        <li><strong>Ventaja Competitiva:</strong> Destaca en el mercado al cumplir con estándares internacionales reconocidos.</li>
+                        <li><strong>Certificación Internacional:</strong> Obtén certificaciones ISO que validen la
+                            calidad y eficiencia de tus operaciones.</li>
+                        <li><strong>Mejora Continua:</strong> Implementa prácticas que promuevan la mejora continua y la
+                            satisfacción del cliente.</li>
+                        <li><strong>Ventaja Competitiva:</strong> Destaca en el mercado al cumplir con estándares
+                            internacionales reconocidos.</li>
                     </ul>
                 </div>
 
                 <div class="tab-pane fade" id="two-tab-pane" role="tabpanel" aria-labelledby="2-tab" tabindex="0">
                     <p id="pmaintabsQuienessomos"><strong>¿Que son las NTC?</strong></p>
 
-                    <p class="text-black">NTC (Normas Técnicas Colombianas) son normas elaboradas por la Oficina de Normas de Colombia para establecer especificaciones y criterios técnicos que aseguren la calidad y seguridad de productos y servicios en el país.
+                    <p class="text-black">NTC (Normas Técnicas Colombianas) son normas elaboradas por la Oficina de
+                        Normas de Colombia para establecer especificaciones y criterios técnicos que aseguren la calidad
+                        y seguridad de productos y servicios en el país.
                     </p>
                     <br>
                     <p id="pmaintabsQuienessomos"><strong>¿Cómo contribuye CG-VERTICE al cumplimiento de la
                             Norma?</strong></p>
 
-                    <p class="text-black">CG-VERTICE facilita la integración de las NTC en tu empresa, ayudándote a cumplir con las regulaciones locales y asegurar que tus productos y servicios cumplan con los estándares nacionales. Nuestro equipo te guía en la implementación de estas normas, lo que te permite adaptarte a las exigencias del mercado colombiano.</p>
+                    <p class="text-black">CG-VERTICE facilita la integración de las NTC en tu empresa, ayudándote a
+                        cumplir con las regulaciones locales y asegurar que tus productos y servicios cumplan con los
+                        estándares nacionales. Nuestro equipo te guía en la implementación de estas normas, lo que te
+                        permite adaptarte a las exigencias del mercado colombiano.</p>
 
                     <p id="pmaintabsQuienessomos"><strong>Beneficios para tu empresa:</strong></p>
 
                     <ul class="text-black">
-                        <li><strong>Cumplimiento Regulatorio:</strong> Asegura que tus productos y servicios cumplan con las regulaciones locales.</li>
-                        <li><strong>Acceso a Mercados Locales:</strong> Mejora tu acceso y aceptación en el mercado colombiano.</li>
-                        <li><strong>Calidad Asegurada:</strong>Asegura la calidad y seguridad de tus productos y servicios conforme a estándares nacionales.</li>
+                        <li><strong>Cumplimiento Regulatorio:</strong> Asegura que tus productos y servicios cumplan con
+                            las regulaciones locales.</li>
+                        <li><strong>Acceso a Mercados Locales:</strong> Mejora tu acceso y aceptación en el mercado
+                            colombiano.</li>
+                        <li><strong>Calidad Asegurada:</strong>Asegura la calidad y seguridad de tus productos y
+                            servicios conforme a estándares nacionales.</li>
                     </ul>
                 </div>
 
@@ -70,20 +81,28 @@
                     tabindex="0">
                     <p id="pmaintabsQuienessomos"><strong>¿Que son las NTS?</strong></p>
 
-                    <p class="text-black">Las NTS (Normas Técnicas Sectoriales) son normas específicas para diferentes sectores de la industria, desarrolladas para abordar requisitos y desafíos particulares en áreas como la construcción, alimentos, y más.
+                    <p class="text-black">Las NTS (Normas Técnicas Sectoriales) son normas específicas para diferentes
+                        sectores de la industria, desarrolladas para abordar requisitos y desafíos particulares en áreas
+                        como la construcción, alimentos, y más.
                     </p>
                     <br>
                     <p id="pmaintabsQuienessomos"><strong>¿Cómo contribuye CG-VERTICE al cumplimiento de la
                             Norma?</strong></p>
 
-                    <p class="text-black">En CG-VERTICE, proporcionamos asesoría especializada para la implementación de NTS en tu sector. Nuestro objetivo es ayudarte a cumplir con las normas técnicas sectoriales relevantes, asegurando que tus procesos y productos se ajusten a las especificaciones requeridas para tu industria.</p>
+                    <p class="text-black">En CG-VERTICE, proporcionamos asesoría especializada para la implementación de
+                        NTS en tu sector. Nuestro objetivo es ayudarte a cumplir con las normas técnicas sectoriales
+                        relevantes, asegurando que tus procesos y productos se ajusten a las especificaciones requeridas
+                        para tu industria.</p>
 
                     <p id="pmaintabsQuienessomos"><strong>Beneficios para tu empresa:</strong></p>
 
                     <ul class="text-black">
-                        <li><strong>Cumplimiento Específico:</strong> Adapta tus operaciones a las normas técnicas específicas de tu sector.</li>
-                        <li><strong>Optimización del Proceso: </strong> Mejora la eficiencia y efectividad de tus procesos internos.</li>
-                        <li><strong>Conformidad Sectorial:</strong> Cumple con los requisitos y expectativas del sector en el que operas.</li>
+                        <li><strong>Cumplimiento Específico:</strong> Adapta tus operaciones a las normas técnicas
+                            específicas de tu sector.</li>
+                        <li><strong>Optimización del Proceso: </strong> Mejora la eficiencia y efectividad de tus
+                            procesos internos.</li>
+                        <li><strong>Conformidad Sectorial:</strong> Cumple con los requisitos y expectativas del sector
+                            en el que operas.</li>
                     </ul>
                 </div>
             </div>

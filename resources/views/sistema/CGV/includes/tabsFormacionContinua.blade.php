@@ -76,39 +76,48 @@
                     </p>
                     <div class="ventajas-vertice">
                         <ul>
-                            <li> <strong style="color: #B8860D">Alineación con Necesidades Específicas:</strong> Cada taller se adapta a las necesidades y
+                            <li> <strong style="color: #B8860D">Alineación con Necesidades Específicas:</strong> Cada
+                                taller se adapta a las necesidades y
                                 desafíos particulares de la empresa, garantizando que el contenido y las actividades
                                 sean directamente aplicables a su contexto y objetivos.</li> <br>
 
-                            <li><strong style="color: #B8860D">Desarrollo de Habilidades Relevantes:</strong> Se enfocan en desarrollar habilidades que son
+                            <li><strong style="color: #B8860D">Desarrollo de Habilidades Relevantes:</strong> Se enfocan
+                                en desarrollar habilidades que son
                                 críticas para el éxito de la organización, como liderazgo, comunicación, gestión de
                                 proyectos o innovación, basándose en las áreas que requieren mayor atención.</li><br>
 
-                            <li><strong style="color: #B8860D">Cohesión y Dinámicas de Equipo:</strong> Ofrecen actividades y estrategias diseñadas para mejorar
+                            <li><strong style="color: #B8860D">Cohesión y Dinámicas de Equipo:</strong> Ofrecen
+                                actividades y estrategias diseñadas para mejorar
                                 la dinámica del equipo y fortalecer las relaciones laborales, ajustándose a la
                                 estructura y cultura específica de la empresa.</li><br>
 
-                            <li><strong style="color: #B8860D">Solución de Problemas Concretos:</strong> Permiten abordar problemas específicos identificados
+                            <li><strong style="color: #B8860D">Solución de Problemas Concretos:</strong> Permiten
+                                abordar problemas específicos identificados
                                 por la empresa, proporcionando soluciones y estrategias prácticas que se pueden
                                 implementar de inmediato.</li><br>
 
-                            <li><strong style="color: #B8860D">Fomento de la Innovación:</strong> Estimulan la creatividad y la generación de ideas dentro del
+                            <li><strong style="color: #B8860D">Fomento de la Innovación:</strong> Estimulan la
+                                creatividad y la generación de ideas dentro del
                                 contexto particular de la empresa, facilitando la búsqueda de soluciones innovadoras
                                 adaptadas a sus desafíos y oportunidades.</li><br>
 
-                            <li><strong style="color: #B8860D">Optimización de Procesos:</strong> Revisan y mejoran procesos internos de manera personalizada,
+                            <li><strong style="color: #B8860D">Optimización de Procesos:</strong> Revisan y mejoran
+                                procesos internos de manera personalizada,
                                 adaptando las recomendaciones a las particularidades de la empresa para aumentar la
                                 eficiencia y efectividad.</li><br>
 
-                            <li> <strong style="color: #B8860D">Incremento de la Motivación:</strong> Al estar alineados con las metas y valores de la empresa,
+                            <li> <strong style="color: #B8860D">Incremento de la Motivación:</strong> Al estar alineados
+                                con las metas y valores de la empresa,
                                 estos talleres refuerzan el compromiso y la motivación de los empleados al demostrar que
                                 se valoran sus necesidades y se invierte en su desarrollo.</li><br>
 
-                            <li> <strong style="color: #B8860D">Adaptación al Cambio:</strong> Preparan al personal para enfrentar cambios organizacionales o
+                            <li> <strong style="color: #B8860D">Adaptación al Cambio:</strong> Preparan al personal para
+                                enfrentar cambios organizacionales o
                                 del mercado de manera específica, proporcionando herramientas adaptadas a la realidad de
                                 la empresa.</li><br>
 
-                            <li><strong style="color: #B8860D">Evaluación y Retroalimentación Personalizada:</strong> Ofrecen un espacio para recibir
+                            <li><strong style="color: #B8860D">Evaluación y Retroalimentación Personalizada:</strong>
+                                Ofrecen un espacio para recibir
                                 retroalimentación específica y evaluar el progreso según las metas establecidas por la
                                 empresa, facilitando una mejora continua y adaptada.</li>
                         </ul>

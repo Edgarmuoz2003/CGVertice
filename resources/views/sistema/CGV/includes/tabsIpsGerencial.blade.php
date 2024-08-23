@@ -134,21 +134,40 @@
                                 candidatos adecuados. Utilizamos técnicas avanzadas para asegurar que atraigas y elijas
                                 a los mejores talentos para tu empresa.</li>
 
-                            <li><strong style="color: #B8860D">Capacitación y Desarrollo:</strong>Diseñamos e implementamos programas de formación y desarrollo para mejorar las habilidades y competencias de tus empleados. Esto incluye formación inicial, capacitación continua y programas de liderazgo.</li>
+                            <li><strong style="color: #B8860D">Capacitación y Desarrollo:</strong>Diseñamos e
+                                implementamos programas de formación y desarrollo para mejorar las habilidades y
+                                competencias de tus empleados. Esto incluye formación inicial, capacitación continua y
+                                programas de liderazgo.</li>
 
-                            <li><strong style="color: #B8860D">Gestión del Desempeño:</strong> Implementamos sistemas para la evaluación y gestión del desempeño, proporcionando herramientas y procesos para medir y mejorar la productividad y el compromiso de los empleados.</li>
+                            <li><strong style="color: #B8860D">Gestión del Desempeño:</strong> Implementamos sistemas
+                                para la evaluación y gestión del desempeño, proporcionando herramientas y procesos para
+                                medir y mejorar la productividad y el compromiso de los empleados.</li>
 
-                            <li><strong style="color: #B8860D">Compensación y Beneficios:</strong>Desarrollamos y gestionamos estructuras de compensación competitivas, así como paquetes de beneficios que atraigan y retengan talento, asegurando que cumplan con las expectativas y normativas laborales.</li>
+                            <li><strong style="color: #B8860D">Compensación y Beneficios:</strong>Desarrollamos y
+                                gestionamos estructuras de compensación competitivas, así como paquetes de beneficios
+                                que atraigan y retengan talento, asegurando que cumplan con las expectativas y
+                                normativas laborales.</li>
 
-                            <li><strong style="color: #B8860D">CBienestar y Clima Laboral:</strong>Promovemos el bienestar de los empleados mediante programas de salud, seguridad y bienestar, y trabajamos para mantener un clima laboral positivo y productivo.</li>
+                            <li><strong style="color: #B8860D">CBienestar y Clima Laboral:</strong>Promovemos el
+                                bienestar de los empleados mediante programas de salud, seguridad y bienestar, y
+                                trabajamos para mantener un clima laboral positivo y productivo.</li>
 
-                            <li><strong style="color: #B8860D">Cumplimiento Normativo:</strong>Aseguramos que todas las prácticas y políticas de Recursos Humanos cumplan con la legislación laboral vigente y las normativas locales e internacionales, reduciendo riesgos y garantizando el cumplimiento.</li>
+                            <li><strong style="color: #B8860D">Cumplimiento Normativo:</strong>Aseguramos que todas las
+                                prácticas y políticas de Recursos Humanos cumplan con la legislación laboral vigente y
+                                las normativas locales e internacionales, reduciendo riesgos y garantizando el
+                                cumplimiento.</li>
 
-                            <li><strong style="color: #B8860D">Gestión de Relaciones Laborales:</strong>Manejamos las relaciones con los empleados y sindicatos, resolviendo conflictos y promoviendo una comunicación abierta y efectiva.</li>
+                            <li><strong style="color: #B8860D">Gestión de Relaciones Laborales:</strong>Manejamos las
+                                relaciones con los empleados y sindicatos, resolviendo conflictos y promoviendo una
+                                comunicación abierta y efectiva.</li>
 
-                            <li><strong style="color: #B8860D">Administración de Nómina:</strong>Gestionamos la nómina de manera precisa y oportuna, asegurando que los salarios, impuestos y beneficios se administren correctamente. </li>
+                            <li><strong style="color: #B8860D">Administración de Nómina:</strong>Gestionamos la nómina
+                                de manera precisa y oportuna, asegurando que los salarios, impuestos y beneficios se
+                                administren correctamente. </li>
 
-                            <li><strong style="color: #B8860D">Consultoría Estratégica:</strong>Ofrecemos asesoramiento estratégico en la planificación de recursos humanos, alineando las prácticas de RRHH con los objetivos y estrategias generales de la empresa.</li>
+                            <li><strong style="color: #B8860D">Consultoría Estratégica:</strong>Ofrecemos asesoramiento
+                                estratégico en la planificación de recursos humanos, alineando las prácticas de RRHH con
+                                los objetivos y estrategias generales de la empresa.</li>
                         </ul>
                     </div>
 

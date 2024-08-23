@@ -8,7 +8,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="sliderP">
         <div class="slide-track">
             <ul class="autoWidth">
@@ -19,8 +19,7 @@
                             <!-- heading -->
                             <strong>{{ $producto->nombre }}</strong>
                             <!-- imagen -->
-                            <img src={{ asset('imagenesProducto/img/' . $producto->imagen) }}
-                                class="img-fluid rounded"
+                            <img src={{ asset('imagenesProducto/img/' . $producto->imagen) }} class="img-fluid rounded"
                                 alt="Error con la carga de la imagen para el producto para la camilla de emergencia presiona F5 para solucionarlo"
                                 style="width: 250px; height: 250px;">
                             <div class="buy-price">
@@ -40,7 +39,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </li>
                 @endforeach
             </ul>
