@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <!-- Seccion de la Configuración y Metadatos -->
-    <script src="../js/color-modes.js"></script>
+    <script src={{ asset('../js/color-modes.js') }}></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Converge || Corporate Group Vértice</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
@@ -42,7 +42,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-4 text-center" style="margin-left:10%; margin-top:10%; height:200px;">
                 <div class="Converge-div-logo">
-                    <img id="VerIniciobtn" src="../img/Converge.png" alt="Logotipo Converge" class="img-fluid" />
+                    <img id="VerIniciobtn" src={{ asset('../img/Converge.png') }} alt="Logotipo Converge" class="img-fluid" />
                 </div>
             </div>
         </div>

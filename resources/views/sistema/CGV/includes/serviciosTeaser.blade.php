@@ -10,7 +10,7 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="imgBx">
-                    <img src="img/inicio-destacados-sst.jpg" alt="Educación y Formación.png">
+                    <img src={{ asset('img/inicio-destacados-sst.jpg') }} alt="Educación y Formación.png">
                     <h5 class="text-center">Seguridad y salud en el trabajo</h5>
                 </div>
                 <br>
@@ -33,7 +33,7 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="imgBx">
-                    <img src="img/PMIRS.png" alt="Gestion Empresarial.png">
+                    <img src={{ asset('img/PMIRS.png') }} alt="Gestion Empresarial.png">
                     <h5 class="text-center">PMIRS</h5>
                 </div>
                 <br>
@@ -55,7 +55,7 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="imgBx">
-                    <img src="img/PBR.png" alt="Planificacion de Brigadas de Emergencia">
+                    <img src={{ asset('img/PBR.png') }} alt="Planificacion de Brigadas de Emergencia">
                     <h5 class="text-center">BRP</h5>
                 </div>
                 <br>
@@ -78,7 +78,7 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="imgBx">
-                    <img src="img/diseñoPEI.png" alt="IPS Gerencial.png">
+                    <img src={{ asset('img/diseñoPEI.png') }} alt="IPS Gerencial.png">
                     <h5 class="text-center">Diseño P.E.I</h5>
                 </div>
                 <br>
@@ -102,7 +102,7 @@
             <!-- Agrega la URL a la que deseas redirigir cuando se hace clic -->
             <div class="card">
                 <div class="imgBx">
-                    <img src="img/MallasCurriculares.png" alt="Sistemas de Salud en el Trabajo.png">
+                    <img src={{ asset('img/MallasCurriculares.png') }} alt="Sistemas de Salud en el Trabajo.png">
                     <h5 class="text-center">Mallas Curriculares</h5>
                 </div>
                 <div class="content">
@@ -123,7 +123,7 @@
             <!-- Agrega la URL a la que deseas redirigir cuando se hace clic -->
             <div class="card">
                 <div class="imgBx">
-                    <img src="img/Capacitacion.png" alt="Sistemas de Salud en el Trabajo.png">
+                    <img src={{ asset('img/Capacitacion.png') }} alt="Sistemas de Salud en el Trabajo.png">
                     <h5 class="text-center">Formación a la medida</h5>
                 </div>
                 <div class="content">

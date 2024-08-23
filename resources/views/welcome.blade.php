@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="mt-5 mb-4 zoom-effect">
-                    <img src="/img/DD.jpg" class="rounded-circle img-fluid shadow-1-strong" alt="Imagn"
+                    <img src={{ asset('/img/DD.jpg') }} class="rounded-circle img-fluid shadow-1-strong" alt="Imagn"
                         width="800px" height="600px" />
                 </div>
             </div>

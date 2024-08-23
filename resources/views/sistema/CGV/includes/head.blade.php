@@ -2,7 +2,7 @@
 <!-- Agrega SweetAlert CDN en el head de tu documento HTML -->
 
 <head>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src={{ asset('https://cdn.jsdelivr.net/npm/sweetalert2@11') }}></script>
 </head>
 
 

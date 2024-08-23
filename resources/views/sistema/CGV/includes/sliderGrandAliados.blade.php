@@ -11,28 +11,28 @@ padding-top: 1%;">
     <div class="slider">
         <div class="slide-track">
             <div class="slide">
-                <img src="./img/Converge.png" class="img-slider" alt=""/>
+                <img src={{ asset('./img/Converge.png') }} class="img-slider" alt=""/>
             </div>
             <div class="slide">
-                <img src="{{ asset('img/LogoAgosto.png') }}" class="img-slider" alt=""/>
+                <img src={{ asset('img/LogoAgosto.png') }} class="img-slider" alt=""/>
             </div>
             <div class="slide">
-                <img src="./img/V2logoSinFondo.png" class="img-slider" alt=""/>
+                <img src={{ asset('./img/V2logoSinFondo.png') }} class="img-slider" alt=""/>
             </div>
             <div class="slide">
-                <img src="./img/ceet.jpg" class="img-slider" alt=""/>
+                <img src={{ asset('./img/ceet.jpg') }} class="img-slider" alt=""/>
             </div>
             <div class="slide">
-                <img src="./img/Converge.png" class="img-slider" alt=""/>
+                <img src={{ asset('./img/Converge.png') }} class="img-slider" alt=""/>
             </div>
             <div class="slide">
-                <img src="{{ asset('img/LogoAgosto.png') }}" class="img-slider" alt=""/>
+                <img src={{ asset('img/LogoAgosto.png') }} class="img-slider" alt=""/>
             </div>
             <div class="slide">
-                <img src="./img/V2logoSinFondo.png" class="img-slider" alt=""/>
+                <img src={{ asset('./img/V2logoSinFondo.png') }} class="img-slider" alt=""/>
             </div>
             <div class="slide">
-                <img src="./img/ceet.jpg" class="img-slider" alt=""/>
+                <img src={{ asset('./img/ceet.jpg') }} class="img-slider" alt=""/>
             </div>
         </div>
     </div>

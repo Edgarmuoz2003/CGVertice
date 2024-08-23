@@ -54,7 +54,7 @@
                 <div class="timeline-2 left-2" id="EduYFor">
                     <div class="card">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
-                            <img src="img/GestionEmpresas.png" class="card-img-top" style="width: 600px; height: 400px;"
+                            <img src={{ asset('img/GestionEmpresas.png') }} class="card-img-top" style="width: 600px; height: 400px;"
                                 alt="Imagen 1">
                         </a>
                         <br>
@@ -85,7 +85,7 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="img/GestionEmpresas.png" class="card-img-top imgpopup"
+                                    <img src={{ asset('img/GestionEmpresas.png') }} class="card-img-top imgpopup"
                                         style="width: 765px; height: 400px;" alt="Gestion de empresas">
                                     <br><br>
                                     <div class="container justify-content-around">
@@ -165,7 +165,7 @@
                 <div class="timeline-2 right-2" id="GestionE">
                     <div class="card">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
-                            <img src="img/gestionIE.png" class="card-img-top" style="width: 100%; height: auto;"
+                            <img src={{ asset('img/gestionIE.png') }} class="card-img-top" style="width: 100%; height: auto;"
                                 alt="Imagen de gestión empresarial">
                         </a>
                         <br>
@@ -201,7 +201,7 @@
 
                                 <!-- imagen de video al principio del modal -->
                                 <div class="modal-body">
-                                    <img src="img/gestionIE.png" class="card-img-top imgpopup" alt="...">
+                                    <img src={{ asset('img/gestionIE.png') }} class="card-img-top imgpopup" alt="...">
                                     <br><br>
 
                                     <!-- texto debajo de la imagen del video -->
@@ -345,7 +345,7 @@
                 <div class="timeline-2 left-2" id="GestionEdu">
                     <div class="card">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
-                            <img src="img/formacion.png" class="card-img-top" style="width: 100%; height: auto;"
+                            <img src={{ asset('img/formacion.png') }} class="card-img-top" style="width: 100%; height: auto;"
                                 alt="Imagen 1">
                         </a>
                         <br>
@@ -378,7 +378,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="img/formacion.png" class="card-img-top imgpopup" alt="...">
+                                    <img src={{ asset('img/formacion.png') }} class="card-img-top imgpopup" alt="...">
                                     <br><br>
                                     <div class="container justify-content-around">
                                         En GC-VÉRTICE, creemos que la capacitación continua es clave para el éxito y la
@@ -465,7 +465,7 @@
                 <div class="timeline-2 right-2" id="GestionE">
                     <div class="card">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
-                            <img src="img/ph.png" class="card-img-top" style="width: 100%; height: auto;"
+                            <img src={{ asset('img/ph.png') }} class="card-img-top" style="width: 100%; height: auto;"
                                 alt="Imagen de gestión empresarial">
                         </a>
                         <br>
@@ -503,7 +503,7 @@
 
                                 <!-- imagen de video al principio del modal -->
                                 <div class="modal-body">
-                                    <img src="img/ph.png" class="card-img-top imgpopup"
+                                    <img src={{ asset('img/ph.png') }} class="card-img-top imgpopup"
                                         alt="Imagen de Referencia a PH">
                                     <br><br>
 
@@ -602,13 +602,13 @@
 
     @include('sistema.CGV.includes.botonWhatsapp')
     @include('sistema.CGV.includes.footer')
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    <script src={{ asset('https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js') }}
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+<script src={{ asset('https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js') }}
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
 </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+<script src={{ asset('https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js') }}
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
 </script>

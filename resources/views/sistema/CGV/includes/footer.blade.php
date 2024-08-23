@@ -96,7 +96,7 @@
                             nosotros</a> <br>
                         <a href="https://www.youtube.com/channel/UCoHXkPDBTLhk3LuOCxaPNlA"
                             class="text-gold link-underline-light" style="color:#b8860b">Youtube</a> <br>
-                        <a href="https://api.whatsapp.com/send/?phone=573147675259&text=Quiero+mas+informacion+.&type=phone_number&app_absent=0"
+                        <a href="https://api.whatsapp.com/send/?phone=573016280574&text=Quiero+mas+informacion+.&type=phone_number&app_absent=0"
                             class="text-gold link-underline-light" style="color:#b8860b">Contáctenos</a>
                     </ul>
                 </div>
@@ -124,12 +124,12 @@
                 <br>
                 <div class="col">
                     <a href="" class="text-gold mb-0 py-2" 
-                    style="color:rgb(121, 121, 121)">(+57)3237357403</a>
+                    style="color:rgb(121, 121, 121)">(+57)3332371006</a>
                 </div>
                 <br>
                 <div class="col">
                     <a href="" class="text-gold mb-0 py-2" 
-                    style="color:rgb(121, 121, 121)">(+57)0000000000</a>
+                    style="color:rgb(121, 121, 121)">(+57)3016280574</a>
                 </div>
             </div>
         </div>

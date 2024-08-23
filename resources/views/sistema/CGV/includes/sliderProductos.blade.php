@@ -19,7 +19,7 @@
                             <!-- heading -->
                             <strong>{{ $producto->nombre }}</strong>
                             <!-- imagen -->
-                            <img src="{{ asset('imagenesProducto/img/' . $producto->imagen) }}"
+                            <img src={{ asset('imagenesProducto/img/' . $producto->imagen) }}
                                 class="img-fluid rounded"
                                 alt="Error con la carga de la imagen para el producto para la camilla de emergencia presiona F5 para solucionarlo"
                                 style="width: 250px; height: 250px;">

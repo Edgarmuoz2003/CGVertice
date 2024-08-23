@@ -2,7 +2,7 @@
     <div id="bodytabsQuienessomos">
         <div class="maintabsQuienessomos">
             <div class="logo-vertice">
-                <img src="{{ asset('img/LogoAgosto.png') }}" alt="Logo de Vértice">
+                <img src={{ asset('img/LogoAgosto.png') }} alt="Logo de Vértice">
             </div>
             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -115,7 +115,7 @@
 
                     <br><br>
                     <div class="imgNuestrosServicios">
-                        <img src="/img/descripcion2.png" alt="imagen de referencia">
+                        <img src={{ asset('/img/descripcion2.png') }} alt="imagen de referencia">
                     </div>
 
                     <br>
@@ -125,7 +125,7 @@
                     <br>
 
                     <div class="imgNuestrosServicios">
-                        <img src="/img/etapas_procesos.jpeg" alt="imagen etapas de los procesos">
+                        <img src={{ asset('/img/etapas_procesos.jpeg') }} alt="imagen etapas de los procesos">
                     </div>
                     <br>
                     <h2 class="tituloNuestrosServicios">METODOLOGIA DEL SERVICIO</h2>
@@ -338,7 +338,7 @@
                                                 <i class="fas fa-quote-right"></i>
                                             </p>
                                             <div class="mt-5 mb-4">
-                                                <img src="img/img.jpeg"
+                                                <img src={{ asset('img/img.jpeg') }}
                                                     class="rounded-circle img-fluid shadow-1-strong" alt="Imagn"
                                                     width="200" height="200" />
                                             </div>
@@ -357,7 +357,7 @@
                                                 <i class="fas fa-quote-right"></i>
                                             </p>
                                             <div class="mt-5 mb-4">
-                                                <img src="img/img.jpeg"
+                                                <img src={{ asset('img/img.jpeg') }}
                                                     class="rounded-circle img-fluid shadow-1-strong"
                                                     alt="smaple image" width="200" height="200" />
                                             </div>

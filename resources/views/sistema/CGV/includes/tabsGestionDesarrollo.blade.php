@@ -2,7 +2,7 @@
     <div id="bodytabsQuienessomos">
         <div class="maintabsQuienessomos">
             <div class="logo-vertice">
-                <img src="{{ asset('img/LogoAgosto.png') }}" alt="Logo de Vértice">
+                <img src={{ asset('img/LogoAgosto.png') }} alt="Logo de Vértice">
             </div>
 
             <br>
@@ -110,7 +110,7 @@
                     <br>
                     <br>
                     <div class="DescipcionEstructura">
-                        <img src="/img/Descripcion_Estructura.png" alt="imagen Estructura de Servico">
+                        <img src={{ asset('/img/Descripcion_Estructura.png') }} alt="imagen Estructura de Servico">
                     </div>
                 </div>
 
@@ -296,7 +296,6 @@
                             inspección laboral, y demandas por incumplimientos contractuales. Las sanciones pueden
                             incluir multas y, en casos extremos, la suspensión temporal de actividades hasta que se
                             subsanen las deficiencias en la organización.
-
                         </p>
                     </div>
                 </div>
@@ -335,15 +334,6 @@
                             recolección, tratamiento y disposición final.
                         </li>
                         <br>
-                        <li>
-                            Adoptar un plan de acción que incluya prevención, separación, almacenamiento, segregación,
-                            recolección, tratamiento y disposición final.
-                        </li>
-                        <br>
-                        <li>
-                            Adoptar un plan de acción que incluya prevención, separación, almacenamiento, segregación,
-                            recolección, tratamiento y disposición final.
-                        </li>
                     </ul>
                     </p>
                 </div>
@@ -390,7 +380,7 @@
                     <br>
                     <p id="pmaintabsQuienessomos">
                         La gestión de bases de datos en Colombia está regulada principalmente por la Ley 1581 de 2012
-                        (Ley de Protección de Datos Personales) y su Decreto reglamentario 1377 de 2013. Estas
+                        (Ley de Protección de Datos Personales) y su Decreto 1081 de 2015. Estas
                         normativas establecen que las empresas deben garantizar la seguridad, confidencialidad y
                         correcto uso de los datos personales que manejan. También se exige la implementación de medidas
                         técnicas y organizativas para proteger esta información.

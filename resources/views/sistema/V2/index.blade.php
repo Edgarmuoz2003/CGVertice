@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8" />
     <!-- Seccion de la Configuración y Metadatos -->
-    <script src="../js/color-modes.js"></script>
+    <script src={{ asset('../js/color-modes.js') }}></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>V2 Suministros || Corporate Group Vértice</title>
@@ -27,7 +27,7 @@
                     <div class="col-12 col-sm-12 col-lg-6">
                         <div class="container-just">
                             <div class="card img-fluid rounded">
-                                <img src="../img/insumos.png" alt="Error al Cargar la Imagen"
+                                <img src={{ asset('../img/insumos.png') }} alt="Error al Cargar la Imagen"
                                     class="img-fluid rounded mx-auto">
                             </div>
                         </div>
@@ -167,17 +167,17 @@
     @include('sistema.CGV.includes.footer')
     @include('sistema.CGV.includes.botonWhatsapp')
 
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src={{ asset('https://code.jquery.com/jquery-3.6.4.min.js') }}></script>
 
 
     <!-- Otros scripts -->
-    <script src="../js/code.jquery.com_jquery-3.7.1.js"></script>
-    <script src="../js/cdnjs.cloudflare.com_ajax_libs_lightslider_1.1.6_js_lightslider.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+    <script src={{ asset('../js/code.jquery.com_jquery-3.7.1.js') }}></script>
+    <script src={{ asset('../js/cdnjs.cloudflare.com_ajax_libs_lightslider_1.1.6_js_lightslider.min.js') }}></script>
+    <script src={{ asset('../js/popper.min.js') }}></script>
+    <script src={{ asset('https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js') }}
         integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async>
     </script>
-    <script src="../js/script.js"></script>
+    <script src={{ asset('../js/script.js') }}></script>
     <!-- Al final del archivo, antes de </body> -->
     @include('sistema.CGV.includes.boton')
 </body>
