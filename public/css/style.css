@@ -287,7 +287,9 @@ ul li {
 /* cardBlog */
 
 .ContainerBlogSecond{
-    padding-left: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .cardBlog{
@@ -295,7 +297,7 @@ ul li {
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 120%;
+    width: 100%;
     border: #b8860b 1px solid;
     border-radius: 5%;
 }
@@ -305,12 +307,12 @@ ul li {
 }
 
 .imgcontainer img{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
 .CategoriaNoticias{
-    font-size: 25px;
+    font-size: 20px;
     color: #b8860b;
 }
 
