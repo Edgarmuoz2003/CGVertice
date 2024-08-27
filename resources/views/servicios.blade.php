@@ -285,6 +285,16 @@
                                             estudiantes para los retos del siglo XXI.
                                             <br><br>
 
+                                            <h4 style="color: #b8860b" >Te ofrecemos</h4>
+
+                                            <ul class="check-list" >
+                                                <li>Análisis de procesos</li>
+                                                <li>Viabilidad de recursos</li>
+                                                <li>Viabilidad del sector </li>
+                                                <li>Diseño de estructura curricular</li>
+                                                <li>Acompañamiento del proceso de registro y radicación</li>
+                                            </ul>
+
                                             <button type="button" class="btn btn-warning">
                                                 <a href="https://wa.me/573016280574?text=Hola,%20Estoy%20interesado%20en%20el%20servicio%20de%20Mallas%20Curriculares."
                                                     style="color: black">Cotizar</a>

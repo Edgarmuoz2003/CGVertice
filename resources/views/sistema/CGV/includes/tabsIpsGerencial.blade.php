@@ -17,7 +17,7 @@
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="3-tab" data-bs-toggle="tab" data-bs-target="#three-tab-pane"
                         type="button" role="tab" aria-controls="3-tab-pane" aria-selected="false">CONSULTOR DE
-                        GESTION RRH</button>
+                        GESTION RHH</button>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
@@ -148,8 +148,8 @@
 
                 <div class="tab-pane fade text-black" id="three-tab-pane" role="tabpanel" aria-labelledby="3-tab"
                     tabindex="0">
-                    <p id="pmaintabsQuienessomos"><strong>Consultoria y gestión RRH</strong></p>
-                    <p class="text-black">En nuestra empresa, ofrecemos un servicio integral de Recursos Humanos (RRH)
+                    <p id="pmaintabsQuienessomos"><strong>Consultoria y gestión RHH</strong></p>
+                    <p class="text-black">En nuestra empresa, ofrecemos un servicio integral de Recursos Humanos (RHH)
                         diseñado para optimizar la gestión del personal y fomentar un entorno laboral eficiente y
                         positivo. Nuestro objetivo es apoyar a las empresas en todas las áreas relacionadas con el
                         manejo de su capital humano, asegurando el alineamiento con los objetivos organizacionales y el
@@ -175,7 +175,7 @@
                                 que atraigan y retengan talento, asegurando que cumplan con las expectativas y
                                 normativas laborales.</li>
 
-                            <li><strong style="color: #B8860D">CBienestar y Clima Laboral:</strong>Promovemos el
+                            <li><strong style="color: #B8860D">Bienestar y Clima Laboral:</strong>Promovemos el
                                 bienestar de los empleados mediante programas de salud, seguridad y bienestar, y
                                 trabajamos para mantener un clima laboral positivo y productivo.</li>
 
@@ -193,7 +193,7 @@
                                 administren correctamente. </li>
 
                             <li><strong style="color: #B8860D">Consultoría Estratégica:</strong>Ofrecemos asesoramiento
-                                estratégico en la planificación de recursos humanos, alineando las prácticas de RRHH con
+                                estratégico en la planificación de recursos humanos, alineando las prácticas de RHH con
                                 los objetivos y estrategias generales de la empresa.</li>
                         </ul>
                     </div>
