@@ -46,6 +46,7 @@
                             satisfacción del cliente.</li>
                         <li><strong>Ventaja Competitiva:</strong> Destaca en el mercado al cumplir con estándares
                             internacionales reconocidos.</li>
+                        <li><strong>Ventaja en Licitaciones:</strong> Mejoras en lo puntajes de licitacion empresarial.</li>
                     </ul>
                 </div>
 
@@ -83,7 +84,7 @@
 
                     <p class="text-black">Las NTS (Normas Técnicas Sectoriales) son normas específicas para diferentes
                         sectores de la industria, desarrolladas para abordar requisitos y desafíos particulares en áreas
-                        como la construcción, alimentos, y más.
+                        como la construcción, alimentos, turismo y más.
                     </p>
                     <br>
                     <p id="pmaintabsQuienessomos"><strong>¿Cómo contribuye CG-VERTICE al cumplimiento de la

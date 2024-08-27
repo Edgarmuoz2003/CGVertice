@@ -4,7 +4,7 @@
             <div class="logo-vertice">
                 <h3 style="color: #B8860D">IPS GERENCIAL </h3>
             </div>
-            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist" >
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="1-tab" data-bs-toggle="tab" data-bs-target="#one-tab-pane"
                         type="button" role="tab" aria-controls="1-tab-pane" aria-selected="true">SST</button>
@@ -23,24 +23,51 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="one-tab-pane" role="tabpanel" aria-labelledby="1-tab"
                     tabindex="0">
-                    <p id="pmaintabsQuienessomos"><strong>Seguridad y salud en el trabajo</strong> </p>
-                    <p class="text-black">Si necesitas implementar o actualizar tu sistema de seguridad y salud en el
-                        trabajo, CG Vértice está aquí para asistirte. Comenzaremos el proceso contigo o con la persona
-                        que designes como responsable del SG SST en tu empresa, siguiendo los lineamientos del Decreto
-                        1072 de 2015 y la resolución 0312 de 2019. <br> <br>
-
-                        Trabajaremos juntos en una autoevaluación y en la documentación y evidencia de cada uno de los
-                        estándares mínimos aplicables a tu empresa. Además, implementaremos los procesos necesarios para
-                        que tu SG SST funcione de manera efectiva durante todo el año, recordando que estos procesos
-                        deben mantenerse de forma continua anualmente. <br> <br>
-
-                        En la fase de diseño, garantizamos que tu empresa cumpla con todos los requisitos de SST,
-                        incluyendo la formación de comités, su capacitación y la inducción de los empleados en SST.
-                        También revisaremos la matriz de riesgos y las normativas correspondientes. Al final de esta
-                        fase, validaremos y certificaremos que el diseño del SG SST cumple con los requisitos mínimos
-                        establecidos por la normativa vigente.</p>
-
+                    <p id="pmaintabsQuienessomos"><strong>Seguridad y Salud en el Trabajo (SG-SST)</strong></p>
+                    <p class="text-black">
+                        Si necesitas diseñar, implementar o actualizar tu sistema de seguridad y salud en el trabajo, CG
+                        Vértice está aquí para asistirte. Comenzaremos el proceso contigo o con la persona que designes
+                        como responsable del SG-SST en tu empresa, siguiendo los lineamientos del Decreto 1072 de 2015 y
+                        la resolución 0312 de 2019.
+                        <br><br>
+                        <strong>Actividades Presenciales:</strong>
+                    <ul class="check-list" >
+                        <li>Levantamiento de información para planes de emergencia, inspección de equipos de seguridad,
+                            y elaboración de inventarios.</li>
+                        <li>Capacitaciones en primeros auxilios, evacuaciones y gestión del riesgo para residentes y
+                            empleados.</li>
+                        <li>Evaluación de señaléticas de emergencia, demarcaciones y guías.</li>
+                        <li>Análisis integral de puestos de trabajo y seguimiento de proveedores y contratistas.</li>
+                        <li>Acompañamiento en visitas y revisiones de entidades de regulación.</li>
+                        <li>Simulacro anual con cámara de humo e intervención de accidentados.</li>
+                        <li>Jornada de salud con actividades de promoción, prevención y diagnóstico.</li>
+                        <li>Inspecciones locativas y levantamiento de perfiles sociodemográficos laborales y
+                            habitacionales.</li>
+                        <li>Reuniones informativas y de gestión, tanto virtuales como presenciales.</li>
+                    </ul>
+                    <br>
+                    <strong>Actividades a Distancia:</strong>
+                    <ul class="check-list" >
+                        <li>Diseño o rediseño del SG-SST según cambios normativos y necesidades de la empresa.</li>
+                        <li>Elaboración de planes de emergencia y administración del SG-SST.</li>
+                        <li>Elaboración de manuales de funciones del SST y asesoría virtual en SST.</li>
+                        <li>Capacitación virtual para residentes, empleados y administradores.</li>
+                        <li>Gestión documental mediante un drive compartido y elaboración de sistemas de vigilancia
+                            epidemiológica.</li>
+                        <li>Elaboración de informes detallados de inspecciones y análisis de perfiles sociodemográficos.
+                        </li>
+                        <li>Certificación y registro del sistema ante el fondo de riesgos laborales y la ARL.</li>
+                    </ul>
+                    <br>
+                    En la fase de diseño, garantizamos que tu empresa cumpla con todos los requisitos de SST, incluyendo
+                    la formación de comités, capacitación y la inducción de los empleados. Revisaremos la matriz de
+                    riesgos y las normativas correspondientes, y al final de esta fase, validaremos y certificaremos que
+                    el diseño del SG-SST cumple con los requisitos mínimos establecidos por la normativa vigente.
+                    Implementaremos los procesos necesarios para asegurar que tu SG-SST funcione de manera efectiva
+                    durante todo el año, manteniendo su continuidad y efectividad.
+                    </p>
                 </div>
+
                 <div class="tab-pane fade" id="two-tab-pane" role="tabpanel" aria-labelledby="2-tab" tabindex="0">
                     <p id="pmaintabsQuienessomos"><strong>Administación asistida</strong></p>
                     <p class="text-black">En nuestra empresa de gestión empresarial, ofrecemos un servicio integral de
@@ -50,7 +77,7 @@
 
                         Características Clave del Servicio:</p>
                     <div class="ventajas-vertice">
-                        <ul>
+                        <ul class="check-list" >
                             <li> <strong style="color: #B8860D">Gestión Administrativa Personalizada:</strong> Nos
                                 encargamos de las tareas administrativas
                                 diarias, adaptándonos a las necesidades específicas de tu empresa para asegurar un
@@ -96,7 +123,7 @@
                         <br>
                         <br>
 
-                        <ul>
+                        <ul class="check-list" >
                             <li><strong style="color: #B8860D">Eficiencia Operativa:</strong> Mejora la eficiencia de
                                 las operaciones administrativas,
                                 permitiéndote concentrarte en áreas estratégicas y de crecimiento.</li>
@@ -128,7 +155,7 @@
                         manejo de su capital humano, asegurando el alineamiento con los objetivos organizacionales y el
                         cumplimiento de las normativas vigentes.</p>
                     <div class="ventajas-vertice">
-                        <ul>
+                        <ul class="check-list" >
                             <li> <strong style="color: #B8860D">Reclutamiento y Selección:</strong> Gestionamos todo el
                                 proceso de reclutamiento, desde la publicación de vacantes hasta la selección de
                                 candidatos adecuados. Utilizamos técnicas avanzadas para asegurar que atraigas y elijas

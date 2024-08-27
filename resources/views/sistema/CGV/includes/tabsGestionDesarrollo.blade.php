@@ -121,7 +121,7 @@
                 <div class="tab-pane fade  text-black" id="two-tab-pane" role="tabpanel" aria-labelledby="2-tab"
                     tabindex="0">
                     <br>
-                    <h3 class="text-center" styles="text-aling: center color: #b8860d">Vinculacion</h3>
+                    <h3 class="text-center" styles="text-aling: center color: #b8860d">Vinculación</h3>
                     <br>
                     <p>El proceso de vinculación inicia con un análisis detallado de los perfiles que la empresa
                         requiere, seguido de una búsqueda exhaustiva en nuestro amplio banco de talentos. Luego,
@@ -161,7 +161,7 @@
                 <div class="tab-pane fade text-black" id="three-tab-pane" role="tabpanel" aria-labelledby="3-tab"
                     tabindex="0">
 
-                    <h4 class="text-center" styles="text-align: center color:#b8860d">Diseño de esteructura Interna
+                    <h4 class="text-center" styles="text-align: center color:#b8860d">Diseño de estructura Interna
                     </h4>
                     <br>
                     <div class="gestionD_P">
@@ -303,11 +303,19 @@
                 <div class="tab-pane fade text-black" id="five-tab-pane" role="tabpanel" aria-labelledby="5-tab"
                     tabindex="0">
                     <br>
-                    <h3 class="text-center" styles="text-aling: center color: #b8860d">Plan de Manejo Integrado de
+                    <h3 class="text-center" styles="text-aling: center color: #b8860d">Plan de Manejo Integral de
                         Residuos Sólidos</h3>
                     <br>
                     <p id="pmaintabsQuienessomos">
-                        Para el acompañamiento del Plan de Manejo Integrado de Residuos Sólidos se desarrollan las
+                        Los PMIRS o Planes de Manejo Integral de Residuos Sólidos, son planes estratégicos que buscan
+                        gestionar adecuadamente los residuos sólidos generados por la empresa, minimizando los riesgos
+                        para la salud de los trabajadores y el impacto ambiental. Estos programas incluyen la
+                        identificación, segregación, almacenamiento, transporte y disposición final de los residuos,
+                        asegurando que se cumplan con las normativas legales y se promueva un ambiente de trabajo seguro
+                        y saludable, reduciendo posibles accidentes, enfermedades ocupacionales, y contribuyendo a la
+                        sostenibilidad.
+
+                        Para el acompañamiento del Plan de Manejo Integral de Residuos Sólidos se desarrollan las
                         siguientes actividades:
                     <ul class="check-list">
                         <li>
@@ -348,15 +356,24 @@
                         desarrollaron los
                         únicos formatos autorizados que cumplen con los criterios técnicos establecidos por la
                         Resolución 2646 de
-                        2008, para el uso en territorio colombiano. La aplicación de los mismas tiene una duración de
-                        aproximadamente 2 horas y se realiza el diligenciamiento de los formularios establecidos.
+                        2008, para el uso en territorio colombiano. Se realiza el diligenciamiento de los formularios
+                        establecidos.
                         Los cuestionarios de la batería de medición de riesgo psicosocial deben aplicarse utilizando
                         lapicero y papel, de manera presencial. Bajo ninguna circunstancia puede realizarse la medición
                         del riesgo psicosocial utilizando medios virtuales como páginas web, cuestionarios magnéticos ni
                         otros métodos.
                         Recuerda que la única persona autorizada en Colombia para realizar la evaluación y generar
                         diagnósticos para la prevención y el control de enfermedades generadas por los riesgos
-                        psicosociales, es un Psicólogo graduado como Especialista en Seguridad y Salud en el Trabaj
+                        psicosociales, es un Psicólogo graduado como Especialista en Seguridad y Salud en el Trabajo
+                    </p>
+
+                    <br>
+                    <br>
+
+                    <p>
+                        En CG-Vertice como parte de Nuestro servicio de Baterias de Riesgo Psicosocial se Obtiene
+                        mediante pruebas y formularios, una medición Interna - externa de los niveles de estres que a su
+                        vez servirán para hacer un Analisis Psicosocial y/o la busqueda de una alternativa viable.
                     </p>
                     <br>
                     <div class="gestionD_P">
@@ -371,37 +388,80 @@
                     </div>
 
 
+
+
                 </div>
 
                 <div class="tab-pane fade text-black" id="seven-tab-pane" role="tabpanel" aria-labelledby="7-tab"
                     tabindex="0">
                     <br>
-                    <h3 class="text-center" styles="text-aling: center color: #b8860d">Bases de datos</h3>
+                    <h3 class="text-center" style="text-align: center; color: #b8860d">Bases de datos</h3>
                     <br>
                     <p id="pmaintabsQuienessomos">
                         La gestión de bases de datos en Colombia está regulada principalmente por la Ley 1581 de 2012
-                        (Ley de Protección de Datos Personales) y su Decreto 1081 de 2015. Estas
-                        normativas establecen que las empresas deben garantizar la seguridad, confidencialidad y
-                        correcto uso de los datos personales que manejan. También se exige la implementación de medidas
-                        técnicas y organizativas para proteger esta información.
+                        (Ley de Protección de Datos Personales) y su Decreto 1081 de 2015. Estas normativas imponen a
+                        las empresas la
+                        responsabilidad de garantizar la seguridad, confidencialidad y correcto uso de los datos
+                        personales que manejan.
+                        Para cumplir con estas obligaciones, es fundamental implementar medidas técnicas y organizativas
+                        que protejan
+                        adecuadamente la información sensible, evitando su uso indebido y asegurando la privacidad de
+                        los titulares de los datos.
                         <br><br>
-                        GC-VÉRTICE ofrece un servicio especializado en la creación y gestión de bases de datos que
-                        asegura el cumplimiento con la Ley de Protección de Datos Personales. Esto incluye la
-                        implementación de políticas de tratamiento de datos, medidas de seguridad avanzadas, y la
-                        capacitación del personal para garantizar el manejo adecuado de la información. Con GC-VÉRTICE,
-                        las empresas pueden operar con la tranquilidad de estar alineadas con la normativa vigente,
-                        evitando sanciones costosas y protegiendo la reputación corporativa.
+                        En GC-VÉRTICE ofrecemos un servicio especializado en el diseño e implementación del marco legal
+                        para el tratamiento de
+                        datos personales, asegurando el cumplimiento de todas las normativas vigentes. Nuestro enfoque
+                        integral abarca desde la
+                        creación de políticas de tratamiento de datos hasta la gestión del riesgo asociado a los
+                        procesos de manejo de datos
+                        personales. Entendemos que cada empresa tiene necesidades específicas, por lo que diseñamos
+                        manuales personalizados que
+                        incluyen guías, instructivos y herramientas para el adecuado tratamiento de datos personales,
+                        conforme a la ley.
+                        <br><br>
+                        Además, proporcionamos una caracterización detallada de los datos organizacionales,
+                        identificando los tipos de datos
+                        tratados y estableciendo mecanismos claros para su manejo seguro. También ofrecemos soporte en
+                        la definición de un Oficial
+                        de Protección de Datos Personales (OPD) y la conformación de un comité interno, integrado por
+                        diferentes dependencias de la
+                        organización, que toma decisiones estratégicas en relación con el tratamiento de datos.
+                        Asimismo, nos encargamos de
+                        realizar el registro ante la Superintendencia de Industria y Comercio (SIC) cuando es requerido.
+                        <br><br>
+                        Con GC-VÉRTICE, las empresas no solo aseguran el cumplimiento normativo, sino que también
+                        protegen su reputación corporativa,
+                        evitando sanciones costosas y garantizando que los derechos de los titulares de los datos sean
+                        respetados.
                     </p>
                     <strong style="font-size: 24px; color:#b8860b; text-align: center">Te ofrecemos:</strong>
                     <ul class="check-list">
-                        <li><strong>Diseño personalizado:</strong> Bases de datos estructuradas según las necesidades y
-                            procesos específicos de la empresa.</li>
+                        <li><strong>Diseño personalizado:</strong> Creación de bases de datos estructuradas según las
+                            necesidades y procesos
+                            específicos de la empresa, incluyendo manuales de tratamiento de datos y políticas alineadas
+                            con la normativa vigente.</li>
                         <li><strong>Mantenimiento continuo:</strong> Actualización y optimización de las bases de datos
-                            para asegurar su eficiencia a largo plazo.</li>
+                            para asegurar su eficiencia
+                            y cumplimiento a largo plazo, adaptándose a los cambios regulatorios y tecnológicos.</li>
                         <li><strong>Integración de sistemas:</strong> Conexión de la base de datos con otros sistemas de
-                            la empresa para un flujo de información eficiente.</li>
+                            la empresa para un flujo
+                            de información eficiente y seguro, asegurando que todos los procesos estén alineados y sean
+                            consistentes en el manejo de
+                            datos.</li>
+                        <li><strong>Capacitación normativa:</strong> Formación especializada para el personal, enfocada
+                            en las leyes de protección
+                            de datos personales, para garantizar que todos en la organización comprendan y apliquen
+                            correctamente las normativas.</li>
+                        <li><strong>Gestión del riesgo:</strong> Evaluación y mitigación de riesgos asociados al
+                            tratamiento de datos personales,
+                            asegurando que la empresa esté preparada para manejar cualquier eventualidad de manera
+                            efectiva.</li>
+                        <li><strong>Registro ante la SIC:</strong> Asesoría y gestión del registro de bases de datos
+                            ante la Superintendencia de
+                            Industria y Comercio, cumpliendo con los requisitos legales.</li>
                     </ul>
                 </div>
+
             </div>
         </div>
     </div>
