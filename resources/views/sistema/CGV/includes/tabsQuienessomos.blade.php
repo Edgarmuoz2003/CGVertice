@@ -34,7 +34,7 @@
                     <p id="pmaintabsQuienessomos">
                     <div class="row">
                         <br>
-                        <div class="col-md-4 text-black">
+                        <div class="col-md-6 text-black">
                             <ul>
                                 <h4 class="text-center card-title"><strong>¿Quienes somos?</strong></h4>
                                 <br>
@@ -48,7 +48,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-md-8 text-black">
+                        <div class="col-md-6 text-black">
                             <ul>
                                 <h4 class="text-center card-title"><strong>¿Que nos diferencia de los demás?</strong>
                                 </h4>
@@ -64,6 +64,12 @@
                                     eficientes pueden ayudarte a ahorrar recursos.</li>
                                 <li> Compromiso con la Excelencia: Nuestra misión es
                                     superar tus expectativas y garantizar tu satisfacción.</li>
+                                <li>Subjetitividad: Nos destacamos por trabajar por y para nuestros clientes. Bien
+                                    sabemos que el empleado es fundamentalpara una empresa, entendemos que una buen
+                                    apoyo a la administración hace la diferencia en el correcto manejo de una
+                                    organización.</li>
+                                <li>Somos claros en la actualización de la normativa, así que siempre estamos al
+                                    corriente de la reglamentación</li>
                             </ul>
                         </div>
                     </div>
@@ -181,7 +187,7 @@
                         {{-- VideoTestimonio (Buscar así tal cual en el css) --}}
                         <div class="row text-center" id="ContainerTestimonios">
                             <p class="gestionD_P" style="color: #000000">
-                                Más de 14 años de experiencia respaldan nuestro compromiso con la
+                                Más de 15 años de experiencia respaldan nuestro compromiso con la
                                 excelencia. Estamos aquí para ayudarte a alcanzar tus metas empresariales. Trabajamos
                                 incansablemente por la seguridad de nuestros empresarios y brindamos soluciones sólidas.
                                 Contáctanos hoy mismo para ser parte de tu viaje hacia el crecimiento y la prosperidad
@@ -288,7 +294,7 @@
                         <!-- Fila 1 -->
                         <div class="col-md-12">
                             <div class="contact-information">
-                                <p><strong>Dirección:</strong> Carrera 71 # 46-28 Laureles, Estadio</p>
+                                <p><strong>Dirección:</strong> Carrera 71 # 46-28 Laureles, Medellín, Antioquia</p>
                             </div>
                         </div>
                     </div>
@@ -299,7 +305,7 @@
                                 <p><strong>Correo Electrónico:</strong>
                                     <a class="contactos"
                                         href="mailto:Soluciones.vertice@gmail.com?subject=Asunto del correo&body=Contenido del correo">Soluciones.vertice@gmail.com</a>
-                                <p><strong>Teléfono:</strong> <a class="contactos"
+                                <p><strong>Teléfono Gerencial:</strong> <a class="contactos"
                                         href="tel:+57573016280574">+573016280574</a></p>
                                 </p>
                             </div>
@@ -310,8 +316,8 @@
                                 <p><strong>Correo Electrónico (Mercadeo):</strong>
                                     <a class="contactos"
                                         href="mailto:Mercadeo.vertice@gmail.com?subject=Asunto del correo&body=Contenido del correo">Mercadeo.vertice@gmail.com</a>
-                                <p><strong>Teléfono (Mercadeo):</strong> <a class="contactos"
-                                        href="tel:+573237357403">+57 323 735 74 03</a></p>
+                                <p><strong>Teléfono servicio al cliente:</strong> <a class="contactos"
+                                        href="tel:+573237357403">+573332371006</a></p>
                                 </p>
                             </div>
                         </div>
