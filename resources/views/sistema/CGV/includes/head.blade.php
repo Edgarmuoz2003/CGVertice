@@ -10,8 +10,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Metas que faltan por rellenar -->
-<meta name="description" content="No hay por el momento">
-<!-- <meta name="keywords" content=""> -->
+<meta name="description" content="CG-Vertice  ofrece consultoría en sistemas de gestión de calidad y formación para el trabajo, asegurando cumplimiento normativo y eficiencia operativa.">
+<meta name="keywords" content="consultoría, sistemas de gestión de calidad, formación para el trabajo, SST, normativas, eficiencia, PMIRS, seguridad y salud en el trabajo, ISO, PEI, capacitacion empresarial, riesgo psicosocial, cursos">
+<meta name="author" content="CG-Vertice Consultoría">
+
 <meta name="robots" content="index, follow">
 <meta property="og:title" content="Corporate Group Vèrtice">
 <meta property="og:description" content="">

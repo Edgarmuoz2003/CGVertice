@@ -63,7 +63,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-outline-primary" onclick="validarFormularioEdicion('{{ $blogg->id }}')">Guardar</button>
+                    <button type="button" class="btn btn-outline-warning" onclick="validarFormularioEdicion('{{ $blogg->id }}')">Guardar</button>
                 </div>
             </form>
         </div>
