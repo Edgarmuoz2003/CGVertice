@@ -34,20 +34,26 @@
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="5-tab" data-bs-toggle="tab" data-bs-target="#five-tab-pane"
-                        type="button" role="tab" aria-controls="4-tab-pane" aria-selected="false">
+                        type="button" role="tab" aria-controls="5-tab-pane" aria-selected="false">
                         PMIRS
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="6-tab" data-bs-toggle="tab" data-bs-target="#six-tab-pane"
-                        type="button" role="tab" aria-controls="4-tab-pane" aria-selected="false">
+                        type="button" role="tab" aria-controls="6-tab-pane" aria-selected="false">
                         BRP
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="7-tab" data-bs-toggle="tab" data-bs-target="#seven-tab-pane"
-                        type="button" role="tab" aria-controls="4-tab-pane" aria-selected="false">
+                        type="button" role="tab" aria-controls="7-tab-pane" aria-selected="false">
                         BD
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="8-tab" data-bs-toggle="tab" data-bs-target="#eight-tab-pane"
+                        type="button" role="tab" aria-controls="8-tab-pane" aria-selected="false">
+                        Planes de emergencia
                     </button>
                 </li>
             </ul>
@@ -459,6 +465,38 @@
                         <li><strong>Registro ante la SIC:</strong> Asesoría y gestión del registro de bases de datos
                             ante la Superintendencia de
                             Industria y Comercio, cumpliendo con los requisitos legales.</li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade text-black" id="eight-tab-pane" role="tabpanel" aria-labelledby="8-tab"
+                    tabindex="0">
+                    <br>
+                    <h3 class="text-center" style="text-align: center; color: #b8860d">Bases de datos</h3>
+                    <br>
+                    <p id="pmaintabsQuienessomos">
+                        Un Plan de Emergencia es un conjunto de procedimientos y directrices diseñados para manejar situaciones imprevistas o crisis de manera efectiva. Este plan tiene como objetivo minimizar el impacto de emergencias, garantizar la seguridad de las personas y proteger los activos de la organización. Un plan de emergencia bien elaborado permite una respuesta organizada y eficiente ante eventos como incendios, desastres naturales, accidentes graves, fallos de infraestructura o cualquier otra situación de emergencia que pueda afectar a una organización o comunidad.
+                    </p>
+                    <strong style="font-size: 24px; color:#b8860b; text-align: center">Te ofrecemos:</strong>
+                    <ul class="check-list">
+                        <li><strong>Identificación de Riesgos:</strong> Evaluación y análisis de los riesgos potenciales que podrían afectar a la organización o comunidad.
+                            Clasificación de riesgos según su probabilidad y severidad.</li>
+                            
+                        <li><strong>
+                            Procedimientos de Evacuación:</strong> Diseño de rutas de evacuación claras y señalizadas.
+                            Establecimiento de puntos de reunión seguros para todos los ocupantes.</li>
+                            
+                        <li><strong>Roles y Responsabilidades:</strong>Definición de roles y responsabilidades para el personal clave durante una emergencia.
+                            Designación de un equipo de respuesta a emergencias, que incluye líderes y coordinadores.</li>
+
+                        <li><strong>Procedimientos de Primeros Auxilios:</strong>Instrucciones para proporcionar primeros auxilios básicos y manejo de lesiones.
+                            Ubicación de kits de primeros auxilios y equipos de emergencia.</li>
+
+                        <li><strong>Plan de Recuperación:</strong>
+                            Estrategias para la recuperación y restauración de operaciones normales después de la emergencia.
+                            Procedimientos para evaluar los daños y gestionar la reconstrucción.</li>
+
+                        <li><strong>Capacitación y Simulacros:</strong>
+                            Programación de capacitaciones regulares para el personal en procedimientos de emergencia.
+                            Realización de simulacros para practicar y evaluar la efectividad del plan.</li>
                     </ul>
                 </div>
 

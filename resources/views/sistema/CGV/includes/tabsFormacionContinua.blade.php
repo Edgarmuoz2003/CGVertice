@@ -8,18 +8,24 @@
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="1-tab" data-bs-toggle="tab" data-bs-target="#one-tab-pane"
                         type="button" role="tab" aria-controls="1-tab-pane" aria-selected="true">Talleres
-                        integrales</button>
+                        integracionales</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="2-tab" data-bs-toggle="tab" data-bs-target="#two-tab-pane" type
                         of="button" role="tab" aria-controls="2-tab-pane" aria-selected="false">Talleres
-                        especializados disruptivos</button>
+                        experienciales disruptivos</button>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="one-tab-pane" role="tabpanel" a ria-labelledby="1-tab"
                     tabindex="0">
-                    <p id="pmaintabsQuienessomos">Los talleres integrales en el ámbito empresarial son herramientas
+                    <p id="pmaintabsQuienessomos">
+                        Los talleres integracionales son un enfoque innovador y dinámico en el ámbito de la educación y
+                        el desarrollo personal que combina una serie de actividades diseñadas para promover el
+                        aprendizaje y la cohesión grupal de manera efectiva. Estos talleres se caracterizan por ser
+                        sincrónicos, es decir, se llevan a cabo en tiempo real con la participación simultánea de los
+                        asistentes, lo cual facilita la interacción y el intercambio inmediato de ideas. <br><br>
+                        Los talleres integracionales en el ámbito empresarial son herramientas
                         clave para el desarrollo organizacional. Sirven para diversos propósitos, y sus beneficios
                         incluyen:</p>
                     <div class="ventajas-vertice">
@@ -67,12 +73,12 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="two-tab-pane" role="tabpanel" aria-labelledby="2-tab" tabindex="0">
-                    <p id="pmaintabsQuienessomos">Los talleres personalizados son herramientas diseñadas específicamente
+                    <p id="pmaintabsQuienessomos">Los talleres experienciales disruptivos son herramientas diseñadas específicamente
                         para abordar las necesidades y objetivos particulares de cada empresa. A diferencia de los
                         talleres estándar, estos talleres adaptan su metodología y contenido según los requerimientos
                         únicos del cliente, ofreciendo una experiencia más relevante y efectiva.
 
-                        Principales Beneficios de los Talleres Personalizados
+                        Principales Beneficios de los Talleres Personalizados:
                     </p>
                     <div class="ventajas-vertice">
                         <ul>

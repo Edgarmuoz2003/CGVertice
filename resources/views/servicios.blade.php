@@ -54,8 +54,8 @@
                 <div class="timeline-2 left-2" id="EduYFor">
                     <div class="card">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
-                            <img src={{ asset('img/GestionEmpresas.png') }} class="card-img-top" style="width: 600px; height: 400px;"
-                                alt="Imagen 1">
+                            <img src={{ asset('img/GestionEmpresas.png') }} class="card-img-top"
+                                style="width: 600px; height: 400px;" alt="Imagen 1">
                         </a>
                         <br>
                         <h3 class="fw-bold mb-4 " style="font-family: 'Swiss', sans-serif; color:#b8860b">
@@ -165,8 +165,8 @@
                 <div class="timeline-2 right-2" id="GestionE">
                     <div class="card">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
-                            <img src={{ asset('img/gestionIE.png') }} class="card-img-top" style="width: 100%; height: auto;"
-                                alt="Imagen de gestión empresarial">
+                            <img src={{ asset('img/gestionIE.png') }} class="card-img-top"
+                                style="width: 100%; height: auto;" alt="Imagen de gestión empresarial">
                         </a>
                         <br>
                         <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b">
@@ -201,7 +201,8 @@
 
                                 <!-- imagen de video al principio del modal -->
                                 <div class="modal-body">
-                                    <img src={{ asset('img/gestionIE.png') }} class="card-img-top imgpopup" alt="...">
+                                    <img src={{ asset('img/gestionIE.png') }} class="card-img-top imgpopup"
+                                        alt="...">
                                     <br><br>
 
                                     <!-- texto debajo de la imagen del video -->
@@ -345,8 +346,8 @@
                 <div class="timeline-2 left-2" id="GestionEdu">
                     <div class="card">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
-                            <img src={{ asset('img/formacion.png') }} class="card-img-top" style="width: 100%; height: auto;"
-                                alt="Imagen 1">
+                            <img src={{ asset('img/formacion.png') }} class="card-img-top"
+                                style="width: 100%; height: auto;" alt="Imagen 1">
                         </a>
                         <br>
                         <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b">
@@ -378,7 +379,8 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img src={{ asset('img/formacion.png') }} class="card-img-top imgpopup" alt="...">
+                                    <img src={{ asset('img/formacion.png') }} class="card-img-top imgpopup"
+                                        alt="...">
                                     <br><br>
                                     <div class="container justify-content-around">
                                         En GC-VÉRTICE, creemos que la capacitación continua es clave para el éxito y la
@@ -465,8 +467,8 @@
                 <div class="timeline-2 right-2" id="GestionE">
                     <div class="card">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
-                            <img src={{ asset('img/ph.png') }} class="card-img-top" style="width: 100%; height: auto;"
-                                alt="Imagen de gestión empresarial">
+                            <img src={{ asset('img/ph.jpeg') }} class="card-img-top"
+                                style="width: 100%; height: auto;" alt="Imagen de gestión empresarial">
                         </a>
                         <br>
                         <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b">
@@ -474,12 +476,12 @@
                         </h3>
                         <div class="card-body p-4">
                             <p class="mb-0">
-                                Nuestro servicio de Formación y Educación a Empresas en el Sistema de Gestión de
-                                Seguridad y Salud en el Trabajo (SG-SST) está diseñado para capacitar y empoderar a los
-                                empleados y directivos en la implementación y mantenimiento de un entorno laboral seguro
-                                y saludable. Este servicio se adapta a las necesidades específicas de cada organización,
-                                asegurando el cumplimiento normativo y promoviendo la cultura de prevención de riesgos
-                                laborales
+                                En el ámbito de la administración de Propiedades Horizontales (PH), asegurar el
+                                funcionamiento óptimo y la seguridad de las instalaciones es crucial para la
+                                satisfacción de los propietarios y la operatividad general del complejo. Una adecuada
+                                gestión de las PH requiere la implementación de una serie de servicios y normativas
+                                esenciales para garantizar un entorno seguro, conforme a las regulaciones y eficiente en
+                                su funcionamiento.
                             </p>
                         </div>
                     </div>
@@ -503,7 +505,7 @@
 
                                 <!-- imagen de video al principio del modal -->
                                 <div class="modal-body">
-                                    <img src={{ asset('img/ph.png') }} class="card-img-top imgpopup"
+                                    <img src={{ asset('img/ph.jpeg') }} class="card-img-top imgpopup"
                                         alt="Imagen de Referencia a PH">
                                     <br><br>
 
@@ -565,7 +567,11 @@
                                                 BD
                                             </b>
                                             <br><br>
-                                            Nuestro servicio de <strong>gestión de Bases de Datos</strong> para propiedades horizontales, facilita la organización y el manejo eficiente de la información relacionada con residentes, trabajadores y procesos administrativos. Este servicio asegura que la información esté bien organizada y sea fácilmente accesible para la administración.
+                                            Nuestro servicio de <strong>gestión de Bases de Datos</strong> para
+                                            propiedades horizontales, facilita la organización y el manejo eficiente de
+                                            la información relacionada con residentes, trabajadores y procesos
+                                            administrativos. Este servicio asegura que la información esté bien
+                                            organizada y sea fácilmente accesible para la administración.
                                             <br><br>
 
                                             <button type="button" class="btn btn-warning">
@@ -580,7 +586,11 @@
                                                 Planes de Emergencia
                                             </b>
                                             <br><br>
-                                            Elaboramos Planes de Emergencia adaptados a las necesidades de cada propiedad horizontal, proporcionando estrategias y procedimientos claros para la prevención y respuesta ante situaciones de emergencia. CG-VÉRTICE asegura que los planes cumplan con las normativas legales y estén diseñados para proteger la vida y los bienes de todos los residentes y usuarios.
+                                            Elaboramos Planes de Emergencia adaptados a las necesidades de cada
+                                            propiedad horizontal, proporcionando estrategias y procedimientos claros
+                                            para la prevención y respuesta ante situaciones de emergencia. CG-VÉRTICE
+                                            asegura que los planes cumplan con las normativas legales y estén diseñados
+                                            para proteger la vida y los bienes de todos los residentes y usuarios.
                                             <br><br>
 
                                             <button type="button" class="btn btn-warning">
