@@ -10,7 +10,7 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="imgBx">
-                    <img src={{asset('img/inicio-destacados-sst.jpg') }} alt="Educación y Formación.png">
+                    <img src={{ asset('img/inicio-destacados-sst.jpg') }} alt="Educación y Formación.png">
                     <h5 class="text-center">Seguridad y salud en el trabajo</h5>
                 </div>
                 <br>
@@ -20,7 +20,7 @@
                         seguridad, reducir riesgos y proteger a tus empleados. La seguridad en el trabajo es
                         nuestra prioridad. <br>
                         <br>
-                        <a href="/servicios#SST" class="btn btn-success btn-sm" target="_blank"
+                        <a href="/servicios#SST" class="btn btn-warning btn-sm" target="_blank"
                             rel="noopener noreferrer">
                             Conozca más
                         </a>
@@ -43,7 +43,7 @@
                         objetivo es promover prácticas sostenibles que minimicen el impacto ambiental y cumplan con las
                         normativas vigentes. <br>
                         <br>
-                        <a href="/servicios#GestionE" class="btn btn-success btn-sm" target="_blank"
+                        <a href="/servicios#GestionE" class="btn btn-warning btn-sm" target="_blank"
                             rel="noopener noreferrer">
                             Conozca más
                         </a>
@@ -55,17 +55,17 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="imgBx">
-                    <img src={{ asset('img/PBR.png') }} alt="Planificacion de Brigadas de Emergencia">
+                    <img src={{ asset('img/PBR.jpeg') }} alt="Bateria de riesgo psicosocial">
                     <h5 class="text-center">BRP</h5>
                 </div>
                 <br>
                 <div class="content">
-                    <p>Formamos y capacitamos Brigadas de Respuesta a Emergencias, preparadas para actuar de manera
-                        eficiente y efectiva ante cualquier eventualidad. En CG VERTICE, nos aseguramos de que tu equipo
-                        esté listo para enfrentar emergencias, garantizando la seguridad de todos en el lugar de
-                        trabajo.<br>
+                    <p>La Batería de Riesgo Psicosocial es un conjunto estructurado de herramientas y metodologías que
+                        permiten evaluar diversos factores psicosociales que afectan la salud mental y el rendimiento en
+                        el trabajo. A través de la recopilación y análisis de datos, esta herramienta proporciona una
+                        visión detallada sobre el impacto de estos factores en el ambiente laboral.<br>
                         <br>
-                        <a href="/servicios#GestionEdu" class="btn btn-success btn-sm" target="_blank"
+                        <a href="/servicios#GestionEdu" class="btn btn-warning btn-sm" target="_blank"
                             rel="noopener noreferrer">
                             Conozca más
                         </a>
@@ -83,12 +83,15 @@
                 </div>
                 <br>
                 <div class="content">
-                    <p class="p">En CG VERTICE, desarrollamos Planes de Emergencia Institucionales a medida,
-                        adaptados a las necesidades específicas de tu organización. Nuestro enfoque está en la
-                        prevención y la preparación, asegurando que cada miembro de tu equipo sepa cómo actuar en
-                        situaciones de crisis. <br>
+                    <p class="p">El Plan Educativo Institucional (PEI) es el documento que define la identidad
+                        de la institución educativa, estableciendo su misión, visión, objetivos y estrategias
+                        pedagógicas. En GC-VÉRTICE, nos especializamos en diseñar e implementar el PEI, asegurando su
+                        coherencia con los principios y metas de la institución, así como con las directrices del
+                        Ministerio de Educación Nacional. Nuestro servicio abarca la creación de planes estratégicos que
+                        orientan el desarrollo integral de la comunidad educativa y promueven una educación de alta
+                        calidad. <br>
                         <br>
-                        <a href="/servicios#IPS" class="btn btn-success btn-sm" target="_blank"
+                        <a href="/servicios#IPS" class="btn btn-warning btn-sm" target="_blank"
                             rel="noopener noreferrer">
                             Conozca más
                         </a>
@@ -110,7 +113,7 @@
                         Trabajo. En CG VERTICE, nos enfocamos en crear programas educativos que respondan a las
                         necesidades específicas de tu empresa, promoviendo un aprendizaje efectivo y aplicable.<br>
                         <br>
-                        <a href="/servicios#SST" class="btn btn-success btn-sm" target="_blank"
+                        <a href="/servicios#SST" class="btn btn-warning btn-sm" target="_blank"
                             rel="noopener noreferrer">
                             Conozca más
                         </a>
@@ -123,7 +126,7 @@
             <!-- Agrega la URL a la que deseas redirigir cuando se hace clic -->
             <div class="card">
                 <div class="imgBx">
-                    <img src={{ asset('img/Capacitacion.png') }} alt="Sistemas de Salud en el Trabajo.png">
+                    <img src={{ asset('img/Capacitación.jpg') }} alt="Sistemas de Salud en el Trabajo.png">
                     <h5 class="text-center">Formación a la medida</h5>
                 </div>
                 <div class="content">
@@ -132,7 +135,7 @@
                         seguridad, sino que también impulsan el desarrollo profesional de tu equipo, fortaleciendo la
                         cultura de seguridad en el trabajo. <br>
                         <br>
-                        <a href="/servicios#SST" class="btn btn-success btn-sm" target="_blank"
+                        <a href="/servicios#SST" class="btn btn-warning btn-sm" target="_blank"
                             rel="noopener noreferrer">
                             Conozca más
                         </a>
