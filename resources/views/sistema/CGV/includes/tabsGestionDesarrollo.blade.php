@@ -14,9 +14,9 @@
             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="1-tab" data-bs-toggle="tab" data-bs-target="#one-tab-pane"
-                        type="button" role="tab" aria-controls="1-tab-pane" aria-selected="true"> RIT</button>
+                        type="button" role="tab" aria-controls="1-tab-pane" aria-selected="true" > RIT</button>
                 </li>
-                <li class="nav-item" role="presentation">
+                <li class="nav-item" role="presentation" >
                     <button class="nav-link" id="2-tab" data-bs-toggle="tab" data-bs-target="#two-tab-pane" type
                         of="button" role="tab" aria-controls="2-tab-pane"
                         aria-selected="false">Vinculación</button>
@@ -470,7 +470,7 @@
                 <div class="tab-pane fade text-black" id="eight-tab-pane" role="tabpanel" aria-labelledby="8-tab"
                     tabindex="0">
                     <br>
-                    <h3 class="text-center" style="text-align: center; color: #b8860d">Bases de datos</h3>
+                    <h3 class="text-center" style="text-align: center; color: #b8860d">Planes de emergencia</h3>
                     <br>
                     <p id="pmaintabsQuienessomos">
                         Un Plan de Emergencia es un conjunto de procedimientos y directrices diseñados para manejar situaciones imprevistas o crisis de manera efectiva. Este plan tiene como objetivo minimizar el impacto de emergencias, garantizar la seguridad de las personas y proteger los activos de la organización. Un plan de emergencia bien elaborado permite una respuesta organizada y eficiente ante eventos como incendios, desastres naturales, accidentes graves, fallos de infraestructura o cualquier otra situación de emergencia que pueda afectar a una organización o comunidad.
@@ -504,3 +504,17 @@
         </div>
     </div>
 </section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Obtener el parámetro 'tab' de la URL
+        var urlParams = new URLSearchParams(window.location.search);
+        var tab = urlParams.get('tab');
+        
+        // Si hay un tab especificado en la URL, activarlo
+        if (tab) {
+            var selectedTab = new bootstrap.Tab(document.getElementById(tab + '-tab'));
+            selectedTab.show();
+        }
+    });
+</script>

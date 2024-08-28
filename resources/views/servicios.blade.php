@@ -285,9 +285,9 @@
                                             estudiantes para los retos del siglo XXI.
                                             <br><br>
 
-                                            <h4 style="color: #b8860b" >Te ofrecemos</h4>
+                                            <h4 style="color: #b8860b">Te ofrecemos</h4>
 
-                                            <ul class="check-list" >
+                                            <ul class="check-list">
                                                 <li>Análisis de procesos</li>
                                                 <li>Viabilidad de recursos</li>
                                                 <li>Viabilidad del sector </li>
@@ -365,7 +365,12 @@
                         </h3>
                         <div class="card-body p-1">
                             <p class="m-4">
-                                Proveemos capacitación especializada en diversas áreas empresariales, incluyendo Sistemas de Gestión de Seguridad y Salud en el Trabajo (SG-SST), Bases de Datos, Gestión de Proyectos (PMIRS), Mallas Curriculares, y más. Nuestro servicio está diseñado para asegurar que tanto empleados como directivos estén plenamente capacitados en normativas, procedimientos y buenas prácticas, garantizando un entorno laboral eficiente y seguro en todo tipo de empresas, incluyendo propiedades horizontales e intituciones educativas.
+                                Proveemos capacitación especializada en diversas áreas empresariales, incluyendo
+                                Sistemas de Gestión de Seguridad y Salud en el Trabajo (SG-SST), Bases de Datos, Gestión
+                                de Proyectos (PMIRS), Mallas Curriculares, y más. Nuestro servicio está diseñado para
+                                asegurar que tanto empleados como directivos estén plenamente capacitados en normativas,
+                                procedimientos y buenas prácticas, garantizando un entorno laboral eficiente y seguro en
+                                todo tipo de empresas, incluyendo propiedades horizontales e intituciones educativas.
                             </p>
                         </div>
                     </div>
@@ -544,8 +549,8 @@
                                             trabajadores y residentes.
                                             <br><br>
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573016280574?text=Estoy%20interesado%20en%20el%20servicio%20de%20SG-SST."
-                                                    style="color: black">Cotizar</a></button>
+                                                <a style="color: black" href="{{ route('ruta_gestion_Ips') }}">Ver</a>
+                                            </button>
                                         </div>
                                         <div class="container py-1">
                                             <hr>
@@ -563,8 +568,8 @@
                                             <br><br>
 
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573016280574?text=Estoy%20interesado%20en%20el%20servicio%20de%20PMIRS."
-                                                    style="color: black">Cotizar</a></button>
+                                                <a style="color: black" href="{{ route('ruta_gestion_desarrollo', ['tab' => '5']) }}">Ver</a>
+                                            </button>
                                         </div>
                                         <div class="container py-1">
                                             <hr>
@@ -580,10 +585,9 @@
                                             administrativos. Este servicio asegura que la información esté bien
                                             organizada y sea fácilmente accesible para la administración.
                                             <br><br>
-
-                                            <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573016280574?text=Estoy%20interesado%20en%20el%20servicio%20de%20Bases%20de%20Datos."
-                                                    style="color: black">Cotizar</a></button>
+                                                <button type="button" class="btn btn-warning">
+                                                    <a style="color: black" href="{{ route('ruta_gestion_desarrollo', ['tab' => '7']) }}">Ver</a>
+                                                </button>
                                         </div>
                                         <div class="container py-1">
                                             <hr>
@@ -601,8 +605,8 @@
                                             <br><br>
 
                                             <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573016280574?text=Estoy%20interesado%20en%20el%20servicio%20de%20Educación%20y%20Formación."
-                                                    style="color: black">Cotizar</a></button>
+                                                <a style="color: black" href="{{ route('ruta_gestion_desarrollo', ['tab' => '8']) }}">Ver</a>
+                                            </button>
                                         </div>
                                         <div class="container py-1">
                                             <hr>
