@@ -106,7 +106,7 @@
             <div class="card">
                 <div class="imgBx">
                     <img src={{ asset('img/MallasCurriculares.png') }} alt="Sistemas de Salud en el Trabajo.png">
-                    <h5 class="text-center">Mallas Curriculares</h5>
+                    <h5 class="text-center">Mallas Curriculares</h5> 
                 </div>
                 <div class="content">
                     <p> GC-VÉRTICE ofrece la elaboración y revisión de mallas curriculares adaptadas a las necesidades
