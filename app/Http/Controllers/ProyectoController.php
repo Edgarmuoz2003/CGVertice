@@ -17,7 +17,7 @@ class ProyectoController extends Controller
     {
         $V2 = Producto::all();
         $Blog = Converge::all();
-        $mainBlog = Converge::latest()->take(3)->get();
+        $mainBlog = Converge::latest()->take(6)->get();
         return view('welcome', compact('V2','Blog', 'mainBlog'));
     
     }
