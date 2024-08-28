@@ -109,9 +109,7 @@
                     <h5 class="text-center">Mallas Curriculares</h5>
                 </div>
                 <div class="content">
-                    <p>Diseñamos mallas curriculares personalizadas para la formación en Seguridad y Salud en el
-                        Trabajo. En CG VERTICE, nos enfocamos en crear programas educativos que respondan a las
-                        necesidades específicas de tu empresa, promoviendo un aprendizaje efectivo y aplicable.<br>
+                    <p> GC-VÉRTICE ofrece la elaboración y revisión de mallas curriculares adaptadas a las necesidades específicas de cada institución, asegurando que estén en consonancia con los estándares de calidad educativa establecidos por el gobierno. Nuestro objetivo es facilitar el aprendizaje significativo y preparar a los estudiantes para los retos del siglo XXI.<br>
                         <br>
                         <a href="/servicios#SST" class="btn btn-warning btn-sm" target="_blank"
                             rel="noopener noreferrer">
