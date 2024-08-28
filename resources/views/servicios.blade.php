@@ -165,7 +165,7 @@
                 <div class="timeline-2 right-2" id="GestionE">
                     <div class="card">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
-                            <img src={{ asset('img/gestionIE.png') }} class="card-img-top"
+                            <img src={{ asset('img/gestionIE.jpg') }} class="card-img-top"
                                 style="width: 100%; height: auto;" alt="Imagen de gestión empresarial">
                         </a>
                         <br>
@@ -201,7 +201,7 @@
 
                                 <!-- imagen de video al principio del modal -->
                                 <div class="modal-body">
-                                    <img src={{ asset('img/gestionIE.png') }} class="card-img-top imgpopup"
+                                    <img src={{ asset('img/gestionIE.jpg') }} class="card-img-top imgpopup"
                                         alt="...">
                                     <br><br>
 
