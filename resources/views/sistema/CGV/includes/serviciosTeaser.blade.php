@@ -105,7 +105,7 @@
             <!-- Agrega la URL a la que deseas redirigir cuando se hace clic -->
             <div class="card">
                 <div class="imgBx">
-                    <img src={{ asset('img/MallasCurriculares.jpg') }} alt="Sistemas de Salud en el Trabajo.png">
+                    <img src={{ asset('img/MallasCurriculares.png') }} alt="Sistemas de Salud en el Trabajo.png">
                     <h5 class="text-center">Mallas Curriculares</h5>
                 </div>
                 <div class="content">
