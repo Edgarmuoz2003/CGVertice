@@ -212,7 +212,7 @@
                 <div class="timeline-2 left-2">
                     {{-- CardsNosotros (Buscar así tal cual en el css) --}}
                     <div class="cardNosotros">
-                        <img src="img/servicio-cliente.png" class="card-img-top" style="width: 100%; height: auto;"
+                        <img src="img/servicio-cliente.jpg" class="card-img-top" style="width: 100%; height: auto;"
                             alt="Imagen 1">
                         <div class="card-body p-4">
                             <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">Servicio

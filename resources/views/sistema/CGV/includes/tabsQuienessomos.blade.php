@@ -55,21 +55,28 @@
                                 <br>
                                 <!-- <p>Lo que nos diferencia:</p> -->
                                 <li> Enfoque Personalizado: Trabajamos estrechamente
-                                    contigo para entender tus necesidades y ofrecer soluciones a medida.</li>
+                                    contigo para entender tus necesidades y ofrecer soluciones a medida.
+                                </li>
                                 <li> Equipo Multidisciplinario: Contamos con
-                                    expertos en diversas áreas para brindarte un servicio integral.</li>
+                                    expertos en diversas áreas para brindarte un servicio integral.
+                                </li>
                                 <li>Experiencia Comprobada: Más de una década de
-                                    experiencia respaldan nuestra calidad y excelencia.</li>
+                                    experiencia respaldan nuestra calidad y excelencia.
+                                </li>
                                 <li> Reducción de Costos: Nuestras soluciones
-                                    eficientes pueden ayudarte a ahorrar recursos.</li>
+                                    eficientes pueden ayudarte a ahorrar recursos.
+                                </li>
                                 <li> Compromiso con la Excelencia: Nuestra misión es
-                                    superar tus expectativas y garantizar tu satisfacción.</li>
+                                    superar tus expectativas y garantizar tu satisfacción.
+                                </li>
                                 <li>Subjetitividad: Nos destacamos por trabajar por y para nuestros clientes. Bien
                                     sabemos que el empleado es fundamentalpara una empresa, entendemos que una buen
                                     apoyo a la administración hace la diferencia en el correcto manejo de una
-                                    organización.</li>
+                                    organización.
+                                </li>
                                 <li>Somos claros en la actualización de la normativa, así que siempre estamos al
-                                    corriente de la reglamentación</li>
+                                    corriente de la reglamentación.
+                                </li>
                             </ul>
                         </div>
                     </div>
