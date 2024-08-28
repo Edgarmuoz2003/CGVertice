@@ -365,10 +365,7 @@
                         </h3>
                         <div class="card-body p-1">
                             <p class="m-4">
-                                Proveemos capacitación especializada en Sistemas de Gestión de Seguridad y Salud en el
-                                Trabajo (SG-SST), orientada a empresas. Nuestro servicio asegura que los empleados y
-                                directivos estén plenamente capacitados en normativas, procedimientos y buenas prácticas
-                                para garantizar un entorno laboral seguro y saludable.
+                                Proveemos capacitación especializada en diversas áreas empresariales, incluyendo Sistemas de Gestión de Seguridad y Salud en el Trabajo (SG-SST), Bases de Datos, Gestión de Proyectos (PMIRS), Mallas Curriculares, y más. Nuestro servicio está diseñado para asegurar que tanto empleados como directivos estén plenamente capacitados en normativas, procedimientos y buenas prácticas, garantizando un entorno laboral eficiente y seguro en todo tipo de empresas, incluyendo propiedades horizontales e intituciones educativas.
                             </p>
                         </div>
                     </div>
