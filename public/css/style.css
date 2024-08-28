@@ -290,6 +290,7 @@ ul li {
     justify-content: center;
     align-items: center;
     display: flex;
+    padding-left: 15%;
 }
 
 .cardBlog{
@@ -434,10 +435,22 @@ ul li {
     height: 200px;
 }
 
+.Objetivos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-.imgCEOS img:hover{
+.Objetivos li{
+    list-style: none;
+}
+
+.imgCEOS :hover{
     transform: scale(1.1);
     background-color: #ffffff;
+    cursor: pointer;
     margin: 10px;
 }
 

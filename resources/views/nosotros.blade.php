@@ -105,9 +105,11 @@
                 <p class="lead font-italic mx-4 mx-md-5">
                     Lina Maria Aristizabal Carvajal <br> <strong style="color: #b8860b"> Gerente </strong>
                 </p>
-                <div class="imgCEOS">
+                <div class="imgCEOS" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                     <img src="img/LinaCEO.png" class="rounded-circle" alt="Imagn" width="200"
-                        height="200"data-bs-toggle="modal" data-bs-target="#exampleModal1" />
+                        height="200"/>
+                        <p style="text-decoration: underline">Gerente y Fundadora Corporate Group
+                            Vértice S.A.S, especialista en...</p>
                 </div>
                 <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
@@ -119,7 +121,7 @@
                                 <p class="lead font-italic mx-4 mx-md-5">
                                     Lina Maria Aristizabal <br> <strong style="color: #b8860b"> Gerente </strong>
                                 </p>
-                                <div class="imgCEOS">
+                                <div class="imgCEOSs">
                                     <img src="img/LinaCEO.png" class="rounded-circle" alt="Imagn" width="200"
                                         height="200" />
                                     <p class="text-White mb-0" id="Reseña">Gerente y Fundadora Corporate Group
@@ -153,9 +155,11 @@
                 <p class="lead font-italic mx-4 mx-md-5">
                     Diego Alonso Pérez <br> <strong style="color: #b8860b"> Sub Gerente </strong>
                 </p>
-                <div class="imgCEOS">
+                <div class="imgCEOS" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                     <img src="img/CeoD.png" class="rounded-circle" alt="Imagn" width="200"
-                        height="200"data-bs-toggle="modal" data-bs-target="#exampleModal2" />
+                        height="200"/>
+                        <p style="text-decoration: underline">Gerente y fundador de Hydrobombas S.A.S
+                            con Experiencia de 17 años...</p>
                 </div>
                 <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
@@ -167,7 +171,7 @@
                                 <p class="lead font-italic mx-4 mx-md-5">
                                     Diego Alonso Pérez <br> <strong style="color: #b8860b"> Sub Gerente </strong>
                                 </p>
-                                <div class="imgCEOS">
+                                <div class="imgCEOSs">
                                     <img src="img/CeoD.png" class="rounded-circle" alt="Imagn" width="200"
                                         height="200" />
                                     <p class="text-White mb-0" id="Reseña">Gerente y fundador de Hydrobombas S.A.S
@@ -253,9 +257,9 @@
                             alt="Imagen 3">
                         <div class="card-body p-4">
                             <h3 class="fw-bold mb-4" style="font-family: 'Swiss', sans-serif; color:#b8860b;">
-                                Multimedia</h3>
+                                Rescursos</h3>
                             <p class="mb-0">
-                                Contamos con una variedad de recursos multimedia, incluyendo videos educativos,
+                                Contamos con una variedad de recursos, incluyendo videos educativos,
                                 infografías informativas y testimonios de clientes satisfechos. Estos recursos están
                                 diseñados para brindar información relevante y útil sobre SST y servicio al cliente,
                                 ayudando a nuestros clientes a comprender mejor estos temas y cómo pueden beneficiar a
@@ -274,7 +278,7 @@
         <h2 class="text-black fw-bold">¿Tienes alguna duda o sugerencia?</h2>
         <p class="text-center "><a href="mailto:Soluciones.vertice@gmail.com" class="text-primary fw-bold"><span style="color: #b8860b">Contáctanos</span></a>, o envíanos tu comentario aquí</p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSepqsy8LoKLZ46zXR29qGY2mDUH9HL9L7fmahTKbYFIFoT4GQ/viewform?usp=pp_url" class="btn btn-warning mt-2" target="_blank">
-            <i class="bi bi-envelope-fill"></i> PQRS
+            <i class="bi bi-envelope-fill"></i> PQRSF
         </a>
     </div>
     
