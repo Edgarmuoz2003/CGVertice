@@ -435,6 +435,17 @@ ul li {
     height: 200px;
 }
 
+.Objetivos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Objetivos li{
+    list-style: none;
+}
 
 .imgCEOS :hover{
     transform: scale(1.1);

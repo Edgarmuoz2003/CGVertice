@@ -38,14 +38,12 @@
                             <ul>
                                 <h4 class="text-center card-title"><strong>¿Quienes somos?</strong></h4>
                                 <br>
-                                <li> En Vértice, somos más que una empresa; somos tu socio estratégico en el éxito
-                                    empresarial.
-                                    Con más de una década de experiencia, hemos estado trabajando incansablemente para
-                                    ofrecer
-                                    soluciones que impulsan el crecimiento, la eficiencia y la conformidad de empresas
-                                    de todos
-                                    los tamaños.
-                                </li>
+                                <li>En Vértice, no somos simplemente una empresa; nos consideramos un verdadero aliado estratégico en tu camino hacia el éxito empresarial. Con más de una década de experiencia en el mercado, nuestro compromiso con la excelencia y la innovación nos ha permitido desarrollar una profunda comprensión de las necesidades empresariales y de los desafíos del mercado actual.</li>
+
+                                <li>Desde nuestros inicios, hemos trabajado incansablemente para ofrecer soluciones integrales que no solo impulsan el crecimiento y la eficiencia de las empresas, sino que también aseguran la conformidad con las normativas vigentes. Nuestra amplia gama de servicios está diseñada para atender a empresas de todos los tamaños y sectores, adaptándonos a sus necesidades específicas para proporcionar soluciones personalizadas que realmente marquen la diferencia.</li>
+                                    
+                                <li>Nos enorgullece ofrecer un enfoque proactivo y orientado a resultados. Nuestro equipo de expertos está dedicado a entender a fondo tu negocio y a trabajar junto a ti para diseñar e implementar estrategias que optimicen tus operaciones, mejoren la eficiencia y fortalezcan tu posición en el mercado. Creemos que el éxito de nuestros clientes es nuestro propio éxito, y es por eso que ponemos todo nuestro conocimiento y recursos a tu disposición.</li>
+                                
                             </ul>
                         </div>
                         <div class="col-md-6 text-black">
@@ -81,19 +79,21 @@
                         </div>
                     </div>
                     <br>
-                    <div class="aliados-vertice text-black">
-                        <ul>
-                            <h4 class="text-center card-title"><strong>Nuestros objetivos:</strong></h4>
-                            <br>
-                            <!-- <p>Lo que nos diferencia:</p> -->
-                            <li> Facilitarte el acceso a los servicios</li>
-                            <li> Brindarte beneficios en costos</li>
-                            <li> Fortalecer las responsabilidades de las
-                                administraciones</li>
-                            <li>Garantizar un servicio más integral</li>
-                            <li> Servir de complemento a sus portafolios
-                                administrativos</li>
-                        </ul>
+                    <div class="row Objetivos">
+                        <div class="col-md-6 text-black">
+                            <ul class="check-list">
+                                <h4><strong>Nuestros objetivos:</strong></h4>
+                                <br>
+                                <!-- <p>Lo que nos diferencia:</p> -->
+                                <li> Facilitarte el acceso a los servicios</li>
+                                <li> Brindarte beneficios en costos</li>
+                                <li> Fortalecer las responsabilidades de las
+                                    administraciones</li>
+                                <li>Garantizar un servicio más integral</li>
+                                <li> Servir de complemento a sus portafolios
+                                    administrativos</li>
+                            </ul>
+                        </div>
                     </div>
                     <br>
                     </p>
