@@ -278,7 +278,7 @@
         <h2 class="text-black fw-bold">¿Tienes alguna duda o sugerencia?</h2>
         <p class="text-center "><a href="mailto:Soluciones.vertice@gmail.com" class="text-primary fw-bold"><span style="color: #b8860b">Contáctanos</span></a>, o envíanos tu comentario aquí</p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSepqsy8LoKLZ46zXR29qGY2mDUH9HL9L7fmahTKbYFIFoT4GQ/viewform?usp=pp_url" class="btn btn-warning mt-2" target="_blank">
-            <i class="bi bi-envelope-fill"></i> PQRS
+            <i class="bi bi-envelope-fill"></i> PQRSF
         </a>
     </div>
     
