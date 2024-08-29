@@ -549,7 +549,7 @@
                                             trabajadores y residentes.
                                             <br><br>
                                             <button type="button" class="btn btn-warning">
-                                                <a style="color: black" href="{{ route('ruta_gestion_Ips') }}">Ver</a>
+                                                <a style="color: black" href="{{ route('ruta_gestion_Ips')}}">Ver</a>
                                             </button>
                                         </div>
                                         <div class="container py-1">
