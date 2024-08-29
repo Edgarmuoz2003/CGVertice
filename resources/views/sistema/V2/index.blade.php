@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="shortcut icon" href="../img/V2logo.jpeg" type="image/x-icon" />
     @include('sistema.CGV.includes.head')
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-    
+
 
     @include('sistema.CGV.includes.navbarsuministros')
     @include('sistema.CGV.includes.regresarArriba')
@@ -72,19 +72,24 @@
                 </div>
             </div>
             <form class="d-flex me-3" role="search" action="{{ route('productos.search') }}" method="GET">
-                <input class="form-control me-3" type="search" name="query" placeholder="¿Qué estás buscando?" aria-label="Search">
+                <input class="form-control me-3" type="search" name="query" placeholder="¿Qué estás buscando?"
+                    aria-label="Search">
                 <button class="btn btn-outline-warning me-3" type="submit">Buscar</button>
             </form>
             <div class="album mt-4">
-                <div class="container">                
+                <div class="container">
 
                     <div class="container text-center mt-3">
                         <div class="container-just py-4">
-                            <h1 class="display-5" style="color: #b8860b">¡ Primeros auxilios !</h1>                            
-                            <p class="card-text">Asegura tu bienestar con nuestro completo Kit de Primeros Auxilios.
-                                Estamos comprometidos con tu seguridad y salud. Recuerda que según la circulación 072 de
-                                noviembre 30 de 2021, los ciclos PHVA asociados a los SG-SST con vigencia anual se
-                                contabilizan entre el 01 de enero y el 31 de diciembre de cada año. !Renuevalos¡</p>
+                            <h1 class="display-5" style="color: #b8860b">¡ Soluciones Integrales para la Seguridad y el
+                                Bienestar !</h1>
+                            <p class="card-text">En nuestra sección V2suministros, ofrecemos una amplia gama de
+                                productos diseñados para fortalecer la seguridad y el bienestar en empresas,
+                                instituciones educativas y propiedades horizontales. Desde equipos de primeros auxilios
+                                hasta herramientas especializadas para la gestión de riesgos y cumplimiento normativo,
+                                nuestro objetivo es proporcionar soluciones efectivas para una gestión integral de la
+                                seguridad y salud. Explora nuestra selección y encuentra todo lo que necesitas para
+                                mantener un entorno seguro y conforme a las normativas vigentes.</p>
                         </div>
                     </div>
 
@@ -148,16 +153,21 @@
                     y evita riesgos y sanciones para tu empresa. 🌐✅
                 </p>
                 <div class="container mt-4">
-                    <div class="btn-container">
-                        <button type="button" class="btn btn-warning btn-lg" data-mdb-ripple-init
-                            data-mdb-ripple-color="dark">¡Asegura tu cumplimiento ahora!</button>
-                        <div class="card-text mb-4" style="padding-top: 2%">
-                            🛡️✨ Contáctanos para proteger tu negocio contra posibles sanciones. 🚀👩‍⚕️
-                            #CumpleNorma0705
-                        </div>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                        <a href="https://wa.me/573332371006?text=¿Por%20qué%20recargar%20tu%20botiquín%20de%20primeros%20auxilios?"
+                            target="_blank" rel="noopener noreferrer" class="btn btn-warning btn-lg"
+                            type="button">¡Asegura tu cumplimiento Ahora!</a>
+                            <br><br>                          
+                            
                     </div>
+                    <div>
+                        <p>🛡️✨ Contáctanos para proteger tu negocio contra posibles sanciones. 🚀👩‍⚕️
+                            #CumpleNorma0705</p>
+                    </div>
+                    
                 </div>
             </div>
+        </div>
         </div>
 
         </div>
