@@ -25,24 +25,36 @@ p, li, a{
     background-color: #1a1a1a;
 }
 
-/* Botón de whatsapp que se encuentra en la pestaña "Nosotros" */
+/* Botón de whatsapp */
+
 .btn-wsp {
-    width: 85px;
-    background-color: #b8860b;
-    border: #b8860b;
-    width: 85px;
-    background-color: #b8860b;
-    border: #b8860b;
+    background-color: #000000;
+    width: 70px;
     position: fixed;
     z-index: 999;
     border-radius: 50% 50% 50% 15%;
-    bottom: 20px;
-    right: 25px;
+    bottom: 10px;
+    right: 30px;
     padding: 5px;
-    transition: ease 0.3.s;
-    animation: wsp 1.2s infinite;
 }
 
+.btn-wsp2 {
+    background-color: #b8860b;
+    width: 70px;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50% 50% 50% 15%;
+    bottom: 100px;
+    right: 30px;
+    padding: 5px;
+}
+
+.btn-wsp2 p{
+
+    bottom: 120px;
+    right: 30px;
+    padding: 5px;
+}
 /* Estilos del navbar */
 .navbar {
     display: flex;
