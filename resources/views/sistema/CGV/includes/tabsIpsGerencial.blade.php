@@ -31,6 +31,7 @@
                         la resolución 0312 de 2019.
                         <br><br>
                         <strong>Actividades Presenciales:</strong>
+                        
                     <ul class="check-list" >
                         <li>Levantamiento de información para planes de emergencia, inspección de equipos de seguridad,
                             y elaboración de inventarios.</li>
