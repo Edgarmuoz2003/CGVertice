@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
     font-family: "Poppins", sans-serif;
 }
@@ -13,11 +14,18 @@
     src: url(../font/Moderustic-VariableFont_wght.ttf);
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'titulo';
 }
 
-p, li, a{
+p,
+li,
+a {
     font-family: 'parrafos';
 }
 
@@ -27,7 +35,8 @@ p, li, a{
 
 /* Botón de whatsapp */
 
-.btn-wsp, .btn-wsp2 {
+
+.btn-wsp {
     position: fixed;
     width: 60px; /* Tamaño del botón */
     height: 60px; /* Tamaño del botón */
@@ -40,52 +49,51 @@ p, li, a{
     z-index: 100;
 }
 
-.btn-wsp {
-    background: #0df0558c;
-    bottom: 30px;
+.btn-wsp:hover {
+    background: #b8860b;
+    padding: 3px;
+    box-shadow: 0px 0px 50px #b8860b;
+}
+
+
+.btn-wsp2 {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 100px;
+    bottom: 110px;
     left: 15px;
 }
 
 .btn-wsp2 {
     background: #fff;
-    bottom: 110px; /* Ajuste de la separación entre los botones */
-    left: 15px;
+    padding: 2px;
+    box-shadow: 0px 0px 30px #fff;
+    z-index: 100;
 }
 
-/* Estilos para el texto que aparecerá al hacer hover */
-.btn-wsp::after, .btn-wsp2::after {
-    content: attr(data-text);
-    position: absolute;
-    left: 70px; /* Ajusta para que el texto aparezca a la derecha del botón */
-    bottom: 50%; /* Centra el texto verticalmente con respecto al botón */
-    transform: translateY(50%);
-    background-color: #b8860b;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 14px;
-    white-space: nowrap;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: 101;
+.btn-wsp2:hover {
+    text-decoration: none;
+    background: #b8860b;
+    padding: 3px;
+    box-shadow: 0px 0px 50px #b8860b;
 }
-
-.btn-wsp:hover::after, .btn-wsp2:hover::after {
-    opacity: 1;
-}
-
 
 /* Estilos del navbar */
 .navbar {
     display: flex;
     justify-content: center;
 }
+
 /*  */
 ul {
-    margin-bottom: 10px; /* Ajusta este valor según tus necesidades */
+    margin-bottom: 10px;
+    /* Ajusta este valor según tus necesidades */
 }
+
 ul li {
-    margin-bottom: 5px; /* Ajusta este valor según tus necesidades */
+    margin-bottom: 5px;
+    /* Ajusta este valor según tus necesidades */
 }
 
 .logo-cgv {
@@ -106,10 +114,10 @@ ul li {
     0% {
         transform: translateX(0);
     }
+
     100% {
-        transform: translateX(
-            calc(-250px * 6)
-        ); /* Ajusta el valor según la cantidad de imágenes la mitad solo */
+        transform: translateX(calc(-250px * 6));
+        /* Ajusta el valor según la cantidad de imágenes la mitad solo */
     }
 }
 
@@ -136,16 +144,16 @@ ul li {
     overflow: hidden;
     position: relative;
     width: 100%;
-    align-items: center; /* Centra verticalmente */
-    margin: 0 auto; /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    margin: 0 auto;
+    /* Centra horizontalmente */
 
     &::before,
     &::after {
-        background: linear-gradient(
-            to right,
-            rgba(255, 255, 255, 1) 0%,
-            #1a1a1a 100%
-        );
+        background: linear-gradient(to right,
+                rgba(255, 255, 255, 1) 0%,
+                #1a1a1a 100%);
         content: "";
         height: 100px;
         position: absolute;
@@ -167,16 +175,17 @@ ul li {
     .slide-track {
         animation: scroll 40s linear infinite;
         display: flex;
-        width: calc(
-            250px * 11
-        ); /* Ajusta el valor según la cantidad de imágenes */
+        width: calc(250px * 11);
+        /* Ajusta el valor según la cantidad de imágenes */
     }
 
     .slide {
         height: 100px;
         width: 250px;
-        align-items: center; /* Centra verticalmente */
-        margin: 0 auto; /* Centra horizontalmente */
+        align-items: center;
+        /* Centra verticalmente */
+        margin: 0 auto;
+        /* Centra horizontalmente */
     }
 
     .img-slider {
@@ -184,6 +193,7 @@ ul li {
         width: auto;
     }
 }
+
 /* ------------------------------------------------------------ */
 /* --------------------- Media Queries --------------------- */
 /* ------------------------------------------------------------ */
@@ -192,17 +202,19 @@ ul li {
 /* Pantallas Pequeñas (Móviles) */
 
 @media (max-width: 767px) {
+
     /* // Animation */
     @keyframes scroll {
         0% {
             transform: translateX(0);
         }
+
         100% {
-            transform: translateX(
-                calc(-150px * 6)
-            ); /* Ajusta el valor según la cantidad de imágenes la mitad solo */
+            transform: translateX(calc(-150px * 6));
+            /* Ajusta el valor según la cantidad de imágenes la mitad solo */
         }
     }
+
     /* // Styling */
     .slider {
         height: 100px;
@@ -221,8 +233,10 @@ ul li {
         .slide {
             height: 100px;
             width: 150px;
-            align-items: center; /* Centra verticalmente */
-            margin: 0 auto; /* Centra horizontalmente */
+            align-items: center;
+            /* Centra verticalmente */
+            margin: 0 auto;
+            /* Centra horizontalmente */
         }
 
         .img-slider {
@@ -237,21 +251,23 @@ ul li {
 /* Tablets en Modo Retrato */
 
 @media (min-width: 768px) and (max-width: 1023px) {
+
     /* // Animation */
     @keyframes scroll {
         0% {
             transform: translateX(0);
         }
+
         100% {
-            transform: translateX(
-                calc(-200px * 6)
-            ); /* Ajusta el valor según la cantidad de imágenes la mitad solo */
+            transform: translateX(calc(-200px * 6));
+            /* Ajusta el valor según la cantidad de imágenes la mitad solo */
         }
     }
 
     /* // Styling */
     .slider {
         height: 90px;
+
         &::before,
         &::after {
             width: 170px;
@@ -266,8 +282,10 @@ ul li {
         .slide {
             height: 90px;
             width: 200px;
-            align-items: center; /* Centra verticalmente */
-            margin: 0 auto; /* Centra horizontalmente */
+            align-items: center;
+            /* Centra verticalmente */
+            margin: 0 auto;
+            /* Centra horizontalmente */
         }
 
         .img-slider {
@@ -297,10 +315,12 @@ ul li {
         flex-direction: column;
         margin-top: 10px;
     }
+
     .content .imgBox {
         max-width: 90%;
         justify-content: center;
     }
+
     .content .imgBox img {
         max-width: 250px;
     }
@@ -311,21 +331,21 @@ ul li {
 
 /* Este es el código css para la modificación de las cards en la linea de tiempo en la pestaña "Nosotros" */
 /* CardsNosotros */
-.cardNosotros{
+.cardNosotros {
     outline-style: none;
 }
 
 /* Este es el código css para la modificación de las cards en la linea de tiempo en la pestaña "Blog". La ruta es: C:\xampp\htdocs\CGVertice\resources\views\sistema\blog\index.blade.php */
 /* cardBlog */
 
-.ContainerBlogSecond{
+.ContainerBlogSecond {
     justify-content: center;
     align-items: center;
     display: flex;
     padding-left: 15%;
 }
 
-.cardBlog{
+.cardBlog {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -336,25 +356,25 @@ ul li {
     box-shadow: 0 2px 15px #b8860b;
 }
 
-.imgcontainer{
+.imgcontainer {
     padding-top: 5px;
 }
 
-.imgcontainer img{
+.imgcontainer img {
     width: 170px;
     height: 170px;
 }
 
-.CategoriaNoticias{
+.CategoriaNoticias {
     font-size: 20px;
     color: #b8860b;
 }
 
-.NombreNoticias{
+.NombreNoticias {
     margin-top: 2%;
 }
 
-.btndropdown{
+.btndropdown {
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -391,17 +411,18 @@ ul li {
     height: auto;
     transform: scaleY(1.1);
 }
+
 .contenedorst .card .imgBx {
     position: relative;
     width: 100%;
     text-align: center;
     height: 100%;
-    top: -12px; 
+    top: -12px;
 }
 
 .contenedorst .card .imgBx img {
     max-width: 100%;
-    max-height: 100%; 
+    max-height: 100%;
     border-radius: 4px;
 }
 
@@ -422,7 +443,7 @@ ul li {
 .contenedorst .card:hover .content {
     visibility: visible;
     opacity: 1;
-    margin-top: -100px; 
+    margin-top: -100px;
     transition-delay: 0.3;
 }
 
@@ -434,22 +455,30 @@ ul li {
 /* Consulta @media para tabletas (768px de ancho o menos) */
 @media (max-width: 768px) {
     .contenedorst {
-        width: 100%; /* Las tarjetas ocuparán todo el ancho de la pantalla */
+        width: 100%;
+        /* Las tarjetas ocuparán todo el ancho de la pantalla */
         padding: 40px;
     }
+
     .contenedorst .card {
-        max-width: 100%; /* Las tarjetas ocuparán todo el ancho de la pantalla */
+        max-width: 100%;
+        /* Las tarjetas ocuparán todo el ancho de la pantalla */
     }
 }
+
 /* Consulta @media para teléfonos móviles (576px de ancho o menos) */
 @media (max-width: 576px) {
     .contenedorst {
-        width: 100%; /* Las tarjetas ocuparán todo el ancho de la pantalla */
+        width: 100%;
+        /* Las tarjetas ocuparán todo el ancho de la pantalla */
         padding: 20px;
     }
+
     .contenedorst .card {
-        max-width: 100%; /* Las tarjetas ocuparán todo el ancho de la pantalla */
-        margin: 20px 0; /* Espacio inferior reducido */
+        max-width: 100%;
+        /* Las tarjetas ocuparán todo el ancho de la pantalla */
+        margin: 20px 0;
+        /* Espacio inferior reducido */
     }
 }
 
@@ -457,7 +486,7 @@ ul li {
 /* CEOSStyle */
 
 
-.imgCEOS img{
+.imgCEOS img {
     border: #b8860b 1px solid;
     transition: all ease 0.3s;
     cursor: pointer;
@@ -467,7 +496,7 @@ ul li {
     height: 200px;
 }
 
-.Objetivos{
+.Objetivos {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -475,49 +504,49 @@ ul li {
     text-align: center;
 }
 
-.Objetivos li{
+.Objetivos li {
     list-style: none;
 }
 
-.imgCEOS :hover{
+.imgCEOS :hover {
     transform: scale(1.1);
     background-color: #ffffff;
     cursor: pointer;
     margin: 10px;
 }
 
-#Reseña{
+#Reseña {
     padding: 2% 4% 2% 4%;
 }
 
 
 /* VideoTestimonio */
- #TextoTestimonio{
+#TextoTestimonio {
     padding-top: 3%;
 
- }
+}
 
- #ContainerTestimonios{
+#ContainerTestimonios {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
- }
+}
 
- #VideoID{
+#VideoID {
     margin-top: 3%;
     margin-bottom: 4%;
     margin-left: 12%;
- }
+}
 
- .TextoAmplioNuestrosServicios{
+.TextoAmplioNuestrosServicios {
     padding: 3% 7% 2% 7%;
- }
+}
 
 
 
-#MainTittle{
+#MainTittle {
     font-size: 75px;
     font-weight: 500;
 }
@@ -529,11 +558,13 @@ ul li {
 .a {
     text-decoration: none;
 }
+
 .product-slider {
     background-color: #1a1a1a;
     padding: 0px 20px;
     box-sizing: border-box;
 }
+
 .slider-heading {
     /* font-family: Arial, Helvetica, sans-serif; */
     display: flex;
@@ -542,6 +573,7 @@ ul li {
     margin: 0px auto;
     padding: 0px 20px;
 }
+
 .slider-heading h3 {
     font-size: 1.75rem;
     font-weight: 500;
@@ -564,17 +596,20 @@ ul li {
     overflow: hidden;
     transition: all ease 0.3s;
 }
+
 .product-box {
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
     transform: sclae(1.008);
     transition: all ease 0.3s;
 }
+
 .product-box strong {
     font-size: 1.75rem;
     /* font-family: Arial, Helvetica, sans-serif; */
     font-weight: 600;
     margin-top: 24px;
 }
+
 .product-box img {
     width: 210px;
     height: 250px;
@@ -584,11 +619,13 @@ ul li {
     object-position: center;
     margin: 20px auto;
 }
+
 .available-colors {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .available-colors .product-color {
     width: 10px;
     height: 10px;
@@ -598,12 +635,14 @@ ul li {
     box-shadow: inset 2px 2px 30px rgba(0, 0, 0, 0.03);
     margin: 3px;
 }
+
 .buy-price {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 0px 0px;
 }
+
 .buy-price p {
     color: #6e6e73;
     /* font-family: Arial, Helvetica, sans-serif; */
@@ -615,6 +654,7 @@ ul li {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 .buy-price .buy-btn {
     color: #ffff;
     background-color: #0071e3;
@@ -629,11 +669,12 @@ ul li {
     border-radius: 20px;
     /* font-family: Arial, Helvetica, sans-serif; */
 }
+
 .lSPager {
     display: none;
 }
 
-.lSAction > a {
+.lSAction>a {
     background-color: #000;
     width: 50px;
     height: 50px;
@@ -645,23 +686,31 @@ ul li {
     position: relative;
 }
 
-.lSAction > .lSNext::before {
-    content: ">"; /* Utiliza el carácter ">" para la flecha siguiente */
-    font-size: 3rem; /* Ajusta el tamaño de la fuente según tus preferencias */
-    color: #ffffff; /* Color de la flecha */
-    top: -17px; /* Ajusta la posición vertical hacia arriba */
+.lSAction>.lSNext::before {
+    content: ">";
+    /* Utiliza el carácter ">" para la flecha siguiente */
+    font-size: 3rem;
+    /* Ajusta el tamaño de la fuente según tus preferencias */
+    color: #ffffff;
+    /* Color de la flecha */
+    top: -17px;
+    /* Ajusta la posición vertical hacia arriba */
 }
 
-.lSAction > .lSPrev::before {
-    content: "<"; /* Utiliza el carácter "<" para la flecha anterior */
-    font-size: 3rem; /* Ajusta el tamaño de la fuente según tus preferencias */
-    color: #ffffff; /* Color de la flecha */
-    top: -17px; /* Ajusta la posición vertical hacia arriba */
+.lSAction>.lSPrev::before {
+    content: "<";
+    /* Utiliza el carácter "<" para la flecha anterior */
+    font-size: 3rem;
+    /* Ajusta el tamaño de la fuente según tus preferencias */
+    color: #ffffff;
+    /* Color de la flecha */
+    top: -17px;
+    /* Ajusta la posición vertical hacia arriba */
 }
 
 /* Añade un espacio entre el contenido y el borde del botón */
-.lSAction > a::before,
-.lSAction > a::after {
+.lSAction>a::before,
+.lSAction>a::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -674,45 +723,56 @@ ul li {
     .slider-heading h3 {
         font-size: 21px;
     }
+
     .product-box {
         width: 310px;
         margin: 10px;
         box-sizing: border-box;
     }
+
     .product-box img {
         width: 160px;
         height: 190px;
         padding: 0px;
     }
+
     .product-box strong {
         font-size: 21px;
     }
-    .lSAction > a {
+
+    .lSAction>a {
         display: none;
     }
+
     .product-slider {
         padding: 0px;
     }
 }
+
 @media (max-width: 400px) {
     .product-box {
         width: 280px;
     }
+
     .product-box strong {
         font-size: 0.8rem;
     }
 }
+
 @media (max-width: 394px) {
     .product-box {
         width: 225px;
     }
+
     .product-box img {
         width: 140px;
         height: 165px;
     }
+
     .buy-price {
         flex-direction: column;
     }
+
     .buy-price .buy-btn {
         width: 100%;
     }
@@ -721,8 +781,8 @@ ul li {
 /* Estilos del botón para el cambio de tema */
 /* BtnCambiarColor */
 
-#Btnchangetopic{
-    padding-bottom: 35% ;
+#Btnchangetopic {
+    padding-bottom: 35%;
 }
 
 /* Botón que se encarga de mover hacia arriba */
@@ -730,9 +790,12 @@ ul li {
 #backToTopBtn {
     position: fixed;
     bottom: 0.05%;
-    left: 48%; /* Cambiado a la izquierda */
-    display: none; /* Inicialmente oculto */
-    z-index: 99; /* Para que esté sobre otros elementos */
+    left: 48%;
+    /* Cambiado a la izquierda */
+    display: none;
+    /* Inicialmente oculto */
+    z-index: 99;
+    /* Para que esté sobre otros elementos */
     cursor: pointer;
     background-color: transparent;
     padding: 1%;
@@ -740,12 +803,14 @@ ul li {
 }
 
 #backToTopBtn:hover {
-    border: 1px solid #b8860b; /* Cambiar el color al pasar el mouse */
-    
+    border: 1px solid #b8860b;
+    /* Cambiar el color al pasar el mouse */
+
 }
 
 #backToTopBtn i {
-    color: #b8860b; /* Color del icono */
+    color: #b8860b;
+    /* Color del icono */
 }
 
 /* Fin tienda CGV SG-SST */
@@ -756,11 +821,13 @@ ul li {
     justify-content: center;
     align-items: center;
 }
+
 @media (max-width: 991px) {
     #bodytabsQuienessomos {
         margin-top: 110vh;
     }
 }
+
 .maintabsQuienessomos {
     width: 100%;
     height: auto;
@@ -770,38 +837,54 @@ ul li {
     background-color: rgba(235, 235, 235, 0.8);
     margin: 0 16px;
 }
+
 #pmaintabsQuienessomos {
     padding-top: 4%;
-    color: #000000; /* Texto en color negro */
+    color: #000000;
+    /* Texto en color negro */
 }
+
 .logo-vertice {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .logo-vertice img {
-    width: 200px; /* Tamaño de tu logo */
+    width: 200px;
+    /* Tamaño de tu logo */
 }
+
 .ventajas-vertice {
     margin-top: 20px;
 }
+
 .ventajas-vertice ul {
     list-style-type: disc;
     margin-left: 20px;
-    color: #333; /* Texto en color negro */
+    color: #333;
+    /* Texto en color negro */
 }
+
 .nav-item {
-    background-color: transparent; /* Fondo transparente */
+    background-color: transparent;
+    /* Fondo transparente */
 }
+
 .nav-link {
-    color: #333; /* Texto en color negro */
+    color: #333;
+    /* Texto en color negro */
 }
 
 .nav-link:not(.active) {
-    color: #000; /* Puedes ajustar el color a tu preferencia */
+    color: #000;
+    /* Puedes ajustar el color a tu preferencia */
 }
+
 .nav-link:hover:not(.active) {
-    color: #000; /* Puedes ajustar el color a tu preferencia */
+    color: #000;
+    /* Puedes ajustar el color a tu preferencia */
 }
+
 /* -------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------- */
 /* Estilos para la sección "Conózcanos" */
@@ -831,6 +914,7 @@ ul li {
     color: #000;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }
+
 .section-about .texto {
     font-size: 1.1rem;
     color: #000;
@@ -843,18 +927,25 @@ ul li {
     justify-content: center;
     align-items: center;
     height: 94vh;
-    background-image: url("../img/nuestrosServicios.jpeg"); /* Ruta de tu imagen de fondo */
-    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
-    background-position: center; /* Centra la imagen */
+    background-image: url("../img/nuestrosServicios.jpeg");
+    /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center;
+    /* Centra la imagen */
     margin: 0;
     transition: background-color 0.3s;
-    box-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra ligera */
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    /* Sombra ligera */
 }
+
 /* Estilos para el contenido de "Servicios" */
 .section-abouts .content-Servicios {
     /* Agrega un fondo casi transparente al contenido */
-    background-color: rgba(255, 255, 255, 0.651); /* Ajusta la transparencia según tus preferencias */
-    padding: 20px; /* Agrega espaciado alrededor del contenido */
+    background-color: rgba(255, 255, 255, 0.651);
+    /* Ajusta la transparencia según tus preferencias */
+    padding: 20px;
+    /* Agrega espaciado alrededor del contenido */
     height: auto;
     width: auto;
 }
@@ -862,13 +953,18 @@ ul li {
 .section-abouts .titulo {
     font-size: 2rem;
     text-transform: uppercase;
-    color: #000; /* Texto oscuro sobre fondo claro */
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Sombra de texto */
+    color: #000;
+    /* Texto oscuro sobre fondo claro */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    /* Sombra de texto */
 }
+
 .section-abouts .texto {
     font-size: 1.1rem;
-    color: #000; /* Texto oscuro */
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3); /* Sombra de texto */
+    color: #000;
+    /* Texto oscuro */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
+    /* Sombra de texto */
 }
 
 /* Estilo para el video de la pestaña "nosotros" */
@@ -876,46 +972,68 @@ ul li {
 .section-about-video {
     padding-top: 50px;
 }
+
 /* Estilo para el contenedor del video */
 .section-about-video .col-lg-9 {
-    border-radius: 15px; /* Añadir bordes redondos */
-    background-color: #1a1a1a; /* Fondo negro para el video */
-    color: #b8860b; /* Texto blanco en el video */
+    border-radius: 15px;
+    /* Añadir bordes redondos */
+    background-color: #1a1a1a;
+    /* Fondo negro para el video */
+    color: #b8860b;
+    /* Texto blanco en el video */
     padding: 20px;
-    border: 1px solid #b8860b; /* Borde ligero alrededor del video */
-    transition: all 0.3s; /* Transición suave */
-    display: flex; /* Utilizar flexbox para alinear elementos */
-    align-items: center; /* Centrar verticalmente el contenido */
+    border: 1px solid #b8860b;
+    /* Borde ligero alrededor del video */
+    transition: all 0.3s;
+    /* Transición suave */
+    display: flex;
+    /* Utilizar flexbox para alinear elementos */
+    align-items: center;
+    /* Centrar verticalmente el contenido */
 }
+
 /* Efecto al pasar el mouse sobre el contenedor del video */
 .section-about-video .col-lg-9:hover {
-    color: #000; /* Texto oscuro al pasar el mouse */
-    transform: scale(1.05); /* Escalar al pasar el mouse */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada al pasar el mouse */
-    border-radius: 15px; /* Añadir bordes redondos */
+    color: #000;
+    /* Texto oscuro al pasar el mouse */
+    transform: scale(1.05);
+    /* Escalar al pasar el mouse */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    /* Sombra más pronunciada al pasar el mouse */
+    border-radius: 15px;
+    /* Añadir bordes redondos */
 }
+
 /* Estilo para las columnas de la derecha */
 .section-about-video .col-lg-3 {
-    background-color: black; /* Cambiar el fondo a un tono rojizo */
-    color: #b8860b; /* Texto oscuro en la columna 3 */
+    background-color: black;
+    /* Cambiar el fondo a un tono rojizo */
+    color: #b8860b;
+    /* Texto oscuro en la columna 3 */
     padding: 20px;
     border: 1px solid #b8860b;
     transition: all 0.3s;
-    border-radius: 15px; /* Añadir bordes redondos */
+    border-radius: 15px;
+    /* Añadir bordes redondos */
 }
+
 /* Efecto al pasar el mouse sobre las columnas de la derecha */
 .section-about-video .col-lg-3:hover {
-    background-color: #1a1a1a; /* Mantener el tono rojizo al pasar el mouse */
+    background-color: #1a1a1a;
+    /* Mantener el tono rojizo al pasar el mouse */
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    border-radius: 15px; /* Añadir bordes redondos */
+    border-radius: 15px;
+    /* Añadir bordes redondos */
 }
+
 /* ------------------------------------------------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------------------- */
 /* The actual timeline (the vertical ruler) */
 .main-timeline-2 {
     position: relative;
 }
+
 /* The actual timeline (the vertical ruler) */
 .main-timeline-2::after {
     content: "";
@@ -928,12 +1046,14 @@ ul li {
     left: 50%;
     margin-left: -3px;
 }
+
 /* Container around content */
 .timeline-2 {
     position: relative;
     background-color: inherit;
     width: 50%;
 }
+
 /* The circles on the timeline */
 .timeline-2::after {
     content: "";
@@ -947,16 +1067,19 @@ ul li {
     border-radius: 50%;
     z-index: 1;
 }
+
 /* Place the container to the left */
 .left-2 {
     padding: 0px 40px 20px 0px;
     left: 0;
 }
+
 /* Place the container to the right */
 .right-2 {
     padding: 0px 0px 20px 40px;
     left: 50%;
 }
+
 /* Add arrows to the left container (pointing right) */
 .left-2::before {
     content: " ";
@@ -968,6 +1091,7 @@ ul li {
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent white;
 }
+
 /* Add arrows to the right container (pointing left) */
 .right-2::before {
     content: " ";
@@ -979,22 +1103,27 @@ ul li {
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
 }
+
 /* Fix the circle for containers on the right side */
 .right-2::after {
     left: -14px;
 }
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+
     /* Place the timelime to the left */
     .main-timeline-2::after {
         left: 31px;
     }
+
     /* Full-width containers */
     .timeline-2 {
         width: 100%;
         padding-left: 70px;
         padding-right: 25px;
     }
+
     /* Make sure that all arrows are pointing leftwards */
     .timeline-2::before {
         left: 60px;
@@ -1002,25 +1131,30 @@ ul li {
         border-width: 10px 10px 10px 0;
         border-color: transparent white transparent transparent;
     }
+
     /* Make sure all circles are at the same spot */
     .left-2::after,
     .right-2::after {
         left: 18px;
     }
+
     .left-2::before {
         right: auto;
     }
+
     /* Make all right containers behave like the left ones */
     .right-2 {
         left: 0%;
     }
 }
+
 /* -------------------------------------------------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------------------------------------------------- */
 .MapaGoogle {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 /* -------------------------------------------------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------------------------------------------------- */
 /* Estilo para el acrónimo */
@@ -1035,6 +1169,7 @@ ul li {
     display: inline-block;
     animation: colorChange 4s infinite;
 }
+
 /* Estilo para el texto del acrónimo */
 .acrostico-text {
     /* font-size: 18px; */
@@ -1042,16 +1177,20 @@ ul li {
     margin-top: 20px;
     line-height: 1.5;
 }
+
 /* Animación de cambio de colores */
 @keyframes colorChange {
+
     0%,
     100% {
         color: #b8860b;
     }
+
     50% {
         color: #1a1a1a;
     }
 }
+
 /* Estilo para las etiquetas 'a' con clase "cgv" */
 a.cgv {
     text-decoration: none;
@@ -1061,16 +1200,22 @@ a.cgv {
     padding-top: 1px;
     padding-bottom: 1px;
     border-radius: 10px;
-    color: #b8860b; /* Cambié el color del texto a un tono de azul */
-    background-color: #f9f9f9; /* Fondo más claro y neutro */
-    transition: background-color 0.3s, color 0.3s; /* Transiciones para el color y el fondo */
+    color: #b8860b;
+    /* Cambié el color del texto a un tono de azul */
+    background-color: #f9f9f9;
+    /* Fondo más claro y neutro */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transiciones para el color y el fondo */
 }
+
 /* Efecto de cambio de color y fondo al pasar el cursor sobre las etiquetas 'a' */
 a.cgv:hover {
     color: #ffffff;
-    background-color: #1a1a1a; /* Cambio de color de fondo al pasar el cursor a un tono de azul más fuerte */
+    background-color: #1a1a1a;
+    /* Cambio de color de fondo al pasar el cursor a un tono de azul más fuerte */
     transform: scale(1.1);
 }
+
 /* --------------------------------------------------------------------------------------------------------------------------------- */
 /* --------------------------------------------------------------------------------------------------------------------------------- */
 /* stylelint-disable stylistic/selector-list-comma-newline-after */
@@ -1079,14 +1224,17 @@ a.cgv:hover {
         "Montserrat", "Lora", "Raleway", "Roboto", "Cormorant", cursive;
     font-size: 2.25rem;
 }
+
 .Converge-div-logo {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.9);
     padding: 5px;
     border-radius: 10px;
 }
+
 .blog-header-logo:hover {
     text-decoration: none;
 }
+
 h1,
 h2,
 h3,
@@ -1096,9 +1244,11 @@ h6 {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif,
         "Montserrat", "Lora", "Raleway", "Roboto", "Cormorant", cursive;
 }
+
 .flex-auto {
     flex: 0 0 auto;
 }
+
 .h-250 {
     height: 250px;
 }
@@ -1107,16 +1257,19 @@ h6 {
 .blog-pagination {
     margin-bottom: 4rem;
 }
+
 /*
  * Blog posts
  */
 .blog-post {
     margin-bottom: 4rem;
 }
+
 .blog-post-meta {
     margin-bottom: 1.25rem;
     color: #727272;
 }
+
 /* ---------------------------------------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------------------------------------- */
 .bd-placeholder-img {
@@ -1126,6 +1279,7 @@ h6 {
     -moz-user-select: none;
     user-select: none;
 }
+
 .b-example-divider {
     width: 100%;
     height: 3rem;
@@ -1135,21 +1289,25 @@ h6 {
     box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
         inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
+
 .b-example-vr {
     flex-shrink: 0;
     width: 1.5rem;
     height: 100vh;
 }
+
 .bi {
     vertical-align: -0.125em;
     fill: currentColor;
 }
+
 .nav-scroller {
     position: relative;
     z-index: 2;
     height: 2.75rem;
     overflow-y: hidden;
 }
+
 .nav-scroller .nav {
     display: flex;
     flex-wrap: nowrap;
@@ -1160,23 +1318,32 @@ h6 {
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 }
+
 .btn-bd-primary {
-    --bd-violet-bg: rgba(0, 0, 0, 0.7); /* Negro con transparencia */
-    --bd-violet-rgb: 0, 0, 0; /* Valor RGB correspondiente */
+    --bd-violet-bg: rgba(0, 0, 0, 0.7);
+    /* Negro con transparencia */
+    --bd-violet-rgb: 0, 0, 0;
+    /* Valor RGB correspondiente */
     --bs-btn-font-weight: 600;
     --bs-btn-color: var(--bs-white);
     --bs-btn-bg: var(--bd-violet-bg);
-    --bs-btn-border-color: transparent; /* Sin borde */
+    --bs-btn-border-color: transparent;
+    /* Sin borde */
     --bs-btn-hover-color: var(--bs-white);
-    --bs-btn-hover-bg: #333; /* Cambio de color hover a un tono más oscuro de negro */
+    --bs-btn-hover-bg: #333;
+    /* Cambio de color hover a un tono más oscuro de negro */
     --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
     --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: #222; /* Cambio de color active a un negro más oscuro */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Agrega un efecto de sombra */
+    --bs-btn-active-bg: #222;
+    /* Cambio de color active a un negro más oscuro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    /* Agrega un efecto de sombra */
 }
+
 .bd-mode-toggle {
     z-index: 1500;
 }
+
 .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
 }
@@ -1199,7 +1366,8 @@ h6 {
 
 .card:hover .content {
     opacity: 1;
-    max-height: 1000px; /* Aumenta esto según el contenido */
+    max-height: 1000px;
+    /* Aumenta esto según el contenido */
 }
 
 .card .imgBx img {
@@ -1216,34 +1384,42 @@ h6 {
     background-color: #fff;
     padding: 10px;
 }
+
 .search-input {
     color: white;
     border: 0;
     outline: 0;
     background: none;
-    flex-grow: 1; /* Permite que el campo de búsqueda crezca para llenar el espacio disponible */
+    flex-grow: 1;
+    /* Permite que el campo de búsqueda crezca para llenar el espacio disponible */
     margin-top: 5px;
     caret-color: transparent;
     line-height: 40px;
     transition: width 0.4s linear;
 }
+
 .search .search-input {
     padding: 0 10px;
-    width: 850px; /* Utiliza el espacio disponible */
+    width: 850px;
+    /* Utiliza el espacio disponible */
     caret-color: #536bf6;
     font-size: 21px;
     font-weight: 300;
     color: black;
     transition: width 0.4s linear;
 }
+
 /* Estilos por defecto (sin media query) */
 .search .search-input {
-    width: 850px; /* Utiliza el espacio disponible */
+    width: 850px;
+    /* Utiliza el espacio disponible */
 }
-.search:hover > .search-icon {
+
+.search:hover>.search-icon {
     background: #1a237e;
     color: #fff;
 }
+
 .search-icon {
     height: 50px;
     width: 50px;
@@ -1253,9 +1429,11 @@ h6 {
     color: white;
     background-color: #536bf6;
 }
+
 a:link {
     text-decoration: none;
 }
+
 /* -------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------- */
 /* la carta del slider inicio */
@@ -1276,7 +1454,8 @@ a:link {
     padding: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: 100%; /* Ajusta la altura del cuerpo de la tarjeta según tus necesidades */
+    height: 100%;
+    /* Ajusta la altura del cuerpo de la tarjeta según tus necesidades */
 }
 
 .card-title {
@@ -1291,13 +1470,14 @@ a:link {
 .text-muted {
     font-size: 0.8rem !important;
 }
+
 /* la carta fin */
 
 .lSPager {
     display: none;
 }
 
-.lSAction > a {
+.lSAction>a {
     background-color: #000;
     width: 50px;
     height: 50px;
@@ -1309,28 +1489,29 @@ a:link {
     position: relative;
 }
 
-.lSAction > .lSNext::before {
+.lSAction>.lSNext::before {
     content: ">";
     font-size: 3rem;
     color: #fff;
     top: -25px;
 }
 
-.lSAction > .lSPrev::before {
+.lSAction>.lSPrev::before {
     content: "<";
     font-size: 3rem;
     color: #fff;
     top: -25px;
 }
 
-.lSAction > a::before,
-.lSAction > a::after {
+.lSAction>a::before,
+.lSAction>a::after {
     content: "";
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: transparent;
 }
+
 /* -------------------------------------------------------------------------------------- */
 /* Estilos por defecto para pantallas grandes para las noticias de ultimo momento */
 .img-responsive {
@@ -1338,9 +1519,11 @@ a:link {
     height: auto !important;
     object-fit: contain !important;
 }
+
 img {
     border-radius: 5px !important;
 }
+
 /* -------------------------------------------------------------------------------------- */
 
 #button-addon1 {
@@ -1367,14 +1550,17 @@ i {
         "Montserrat", "Lora", "Raleway", "Roboto", "Cormorant", cursive;
     font-size: 2.25rem;
 }
+
 .Converge-div-logo {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.9);
     padding: 5px;
     border-radius: 10px;
 }
+
 .blog-header-logo:hover {
     text-decoration: none;
 }
+
 h1,
 h2,
 h3,
@@ -1384,9 +1570,11 @@ h6 {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif,
         "Montserrat", "Lora", "Raleway", "Roboto", "Cormorant", cursive;
 }
+
 .flex-auto {
     flex: 0 0 auto;
 }
+
 .h-250 {
     height: 250px;
 }
@@ -1395,16 +1583,19 @@ h6 {
 .blog-pagination {
     margin-bottom: 4rem;
 }
+
 /*
    * Blog posts
    */
 .blog-post {
     margin-bottom: 4rem;
 }
+
 .blog-post-meta {
     margin-bottom: 1.25rem;
     color: #727272;
 }
+
 /* ---------------------------------------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------------------------------------- */
 .bd-placeholder-img {
@@ -1414,6 +1605,7 @@ h6 {
     -moz-user-select: none;
     user-select: none;
 }
+
 .b-example-divider {
     width: 100%;
     height: 3rem;
@@ -1423,11 +1615,13 @@ h6 {
     box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
         inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
+
 .b-example-vr {
     flex-shrink: 0;
     width: 1.5rem;
     height: 100vh;
 }
+
 .bi {
     vertical-align: -0.125em;
     fill: currentColor;
@@ -1439,6 +1633,7 @@ h6 {
     height: 2.75rem;
     overflow-y: hidden;
 }
+
 .nav-scroller .nav {
     display: flex;
     flex-wrap: nowrap;
@@ -1449,23 +1644,32 @@ h6 {
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 }
+
 .btn-bd-primary {
-    --bd-violet-bg: rgba(0, 0, 0, 0.7); /* Negro con transparencia */
-    --bd-violet-rgb: 0, 0, 0; /* Valor RGB correspondiente */
+    --bd-violet-bg: rgba(0, 0, 0, 0.7);
+    /* Negro con transparencia */
+    --bd-violet-rgb: 0, 0, 0;
+    /* Valor RGB correspondiente */
     --bs-btn-font-weight: 600;
     --bs-btn-color: var(--bs-white);
     --bs-btn-bg: var(--bd-violet-bg);
-    --bs-btn-border-color: transparent; /* Sin borde */
+    --bs-btn-border-color: transparent;
+    /* Sin borde */
     --bs-btn-hover-color: var(--bs-white);
-    --bs-btn-hover-bg: #333; /* Cambio de color hover a un tono más oscuro de negro */
+    --bs-btn-hover-bg: #333;
+    /* Cambio de color hover a un tono más oscuro de negro */
     --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
     --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: #222; /* Cambio de color active a un negro más oscuro */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Agrega un efecto de sombra */
+    --bs-btn-active-bg: #222;
+    /* Cambio de color active a un negro más oscuro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    /* Agrega un efecto de sombra */
 }
+
 .bd-mode-toggle {
     z-index: 1500;
 }
+
 .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
 }
@@ -1499,6 +1703,7 @@ a:link {
 
 /* -------------------------------------------------------------------------------------- */
 @keyframes button-bounce {
+
     0%,
     30%,
     60%,
@@ -1533,6 +1738,7 @@ a:link {
     animation: button-bounce 1.2s;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+
 /* -------------------------------------------------------------------------------------- */
 /* la carta del slider inicio */
 
@@ -1552,7 +1758,7 @@ a:link {
     display: none;
 }
 
-.lSAction > a {
+.lSAction>a {
     background-color: #000;
     width: 50px;
     height: 50px;
@@ -1564,33 +1770,35 @@ a:link {
     position: relative;
 }
 
-.lSAction > .lSNext::before {
+.lSAction>.lSNext::before {
     content: ">";
     font-size: 3rem;
     color: #fff;
     top: -25px;
 }
 
-.lSAction > .lSPrev::before {
+.lSAction>.lSPrev::before {
     content: "<";
     font-size: 3rem;
     color: #fff;
     top: -25px;
 }
 
-.lSAction > a::before,
-.lSAction > a::after {
+.lSAction>a::before,
+.lSAction>a::after {
     content: "";
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: transparent;
 }
+
 /* -------------------------------------------------------------------------------------- */
 /* Product page */
 .DescriptionP {
     font-size: 20px;
 }
+
 /* -------------------------------------------------------------------------------------- */
 
 /* Media Query para Pantallas Pequeñas (Móviles) */
@@ -1598,32 +1806,41 @@ a:link {
     .h-md-250 {
         height: 250px;
     }
+
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
 }
+
 /* Media Query para Tablets en Modo Retrato */
 @media (min-width: 768px) and (max-width: 1023px) {
     .search .search-input {
-        width: 500px; /* Ancho personalizado para tablets en modo retrato */
+        width: 500px;
+        /* Ancho personalizado para tablets en modo retrato */
     }
 }
+
 /* Media Query para Tablets en Modo Paisaje */
 @media (min-width: 1024px) and (max-width: 1279px) {
     .search .search-input {
-        width: 700px; /* Ancho personalizado para tablets en modo paisaje */
+        width: 700px;
+        /* Ancho personalizado para tablets en modo paisaje */
     }
 }
+
 /* Media Query para Pantallas Medianas (Laptops y Escritorios Pequeños) */
 @media (min-width: 1280px) and (max-width: 1439px) {
     .search .search-input {
-        width: 800px; /* Ancho personalizado para pantallas medianas */
+        width: 800px;
+        /* Ancho personalizado para pantallas medianas */
     }
 }
+
 /* Media Query para Pantallas Grandes (Escritorios) */
 @media (min-width: 1440px) {
     .search .search-input {
-        width: 1000px; /* Ancho personalizado para pantallas grandes (escritorios) */
+        width: 1000px;
+        /* Ancho personalizado para pantallas grandes (escritorios) */
     }
 }
 
@@ -1634,12 +1851,16 @@ a:link {
     .h-md-250 {
         height: 250px;
     }
+
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
+
     .search .search-input {
-        width: 100%; /* Ancho completo en pantallas móviles */
+        width: 100%;
+        /* Ancho completo en pantallas móviles */
     }
+
     .img-responsive {
         max-width: 100% !important;
         height: auto !important;
@@ -1647,28 +1868,36 @@ a:link {
         border-radius: 5px;
     }
 }
+
 /* Media Query para Tablets en Modo Retrato */
 @media (min-width: 768px) and (max-width: 1023px) {
     .search .search-input {
-        width: 500px; /* Ancho personalizado para tablets en modo retrato */
+        width: 500px;
+        /* Ancho personalizado para tablets en modo retrato */
     }
 }
+
 /* Media Query para Tablets en Modo Paisaje */
 @media (min-width: 1024px) and (max-width: 1279px) {
     .search .search-input {
-        width: 700px; /* Ancho personalizado para tablets en modo paisaje */
+        width: 700px;
+        /* Ancho personalizado para tablets en modo paisaje */
     }
 }
+
 /* Media Query para Pantallas Medianas (Laptops y Escritorios Pequeños) */
 @media (min-width: 1280px) and (max-width: 1439px) {
     .search .search-input {
-        width: 800px; /* Ancho personalizado para pantallas medianas */
+        width: 800px;
+        /* Ancho personalizado para pantallas medianas */
     }
 }
+
 /* Media Query para Pantallas Grandes (Escritorios) */
 @media (min-width: 1440px) {
     .search .search-input {
-        width: 1000px; /* Ancho personalizado para pantallas grandes (escritorios) */
+        width: 1000px;
+        /* Ancho personalizado para pantallas grandes (escritorios) */
     }
 }
 
@@ -1679,29 +1908,40 @@ a:link {
 .zoom-effect img:hover {
     transform: scale(1.1);
 }
+
 .slider-grand {
-    background-color: #f8f9fa; /* Color de fondo para resaltar el carrusel */
-    padding: 30px 0; /* Ajuste el relleno según sea necesario */
+    background-color: #f8f9fa;
+    /* Color de fondo para resaltar el carrusel */
+    padding: 30px 0;
+    /* Ajuste el relleno según sea necesario */
 }
 
 .slider {
-    overflow: hidden; /* Ocultar las partes del carrusel que están fuera de la vista */
+    overflow: hidden;
+    /* Ocultar las partes del carrusel que están fuera de la vista */
 }
 
 .slide-track {
-    display: flex; /* Alinea las diapositivas horizontalmente */
+    display: flex;
+    /* Alinea las diapositivas horizontalmente */
 }
 
 .slide {
-    flex: 0 0 auto; /* Las diapositivas no se expanden para llenar el espacio */
-    margin-right: 20px; /* Espacio entre las diapositivas */
+    flex: 0 0 auto;
+    /* Las diapositivas no se expanden para llenar el espacio */
+    margin-right: 20px;
+    /* Espacio entre las diapositivas */
 }
 
 .img-slider {
-    max-width: 200px; /* Ancho máximo de las imágenes */
-    max-height: 100px; /* Altura máxima de las imágenes */
-    display: block; /* Asegura que las imágenes se muestren correctamente */
-    margin: 0 auto; /* Centra las imágenes horizontalmente */
+    max-width: 200px;
+    /* Ancho máximo de las imágenes */
+    max-height: 100px;
+    /* Altura máxima de las imágenes */
+    display: block;
+    /* Asegura que las imágenes se muestren correctamente */
+    margin: 0 auto;
+    /* Centra las imágenes horizontalmente */
 }
 
 .dark-theme {
@@ -1728,11 +1968,13 @@ a:link {
 
 .autoWidth li {
     flex: 0 0 auto;
-    margin-right: 10px; /* Espacio entre elementos del slider */
+    margin-right: 10px;
+    /* Espacio entre elementos del slider */
 }
 
 .item-a {
-    width: auto; /* Ancho de cada elemento del slider */
+    width: auto;
+    /* Ancho de cada elemento del slider */
 }
 
 .containerModal {
@@ -1743,36 +1985,50 @@ a:link {
 
 .itemModal {
     /* Estilos opcionales para los elementos individuales */
-    margin: 5px; /* Margen entre los elementos */
-    padding: 10px; /* Espaciado interno */
-    border: 1px solid #ccc; /* Borde para los elementos */
+    margin: 5px;
+    /* Margen entre los elementos */
+    padding: 10px;
+    /* Espaciado interno */
+    border: 1px solid #ccc;
+    /* Borde para los elementos */
 }
 
 .section-GestionD {
     display: flex;
-    flex-direction: column; /* Para alinear los elementos verticalmente */
-    align-items: center; /* Alinea los elementos horizontalmente en el centro */
+    flex-direction: column;
+    /* Para alinear los elementos verticalmente */
+    align-items: center;
+    /* Alinea los elementos horizontalmente en el centro */
     height: auto;
-    background-image: url("../img/Desarollo Empresarial.jpg"); /* Ruta de tu imagen de fondo */
-    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
-    background-position: center; /* Centra la imagen */
+    background-image: url("../img/Desarollo Empresarial.jpg");
+    /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center;
+    /* Centra la imagen */
     margin: 0;
     transition: background-color 0.3s;
-    box-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra ligera */
-    padding-top: 20px; /* Ajusta este valor según sea necesario */
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    /* Sombra ligera */
+    padding-top: 20px;
+    /* Ajusta este valor según sea necesario */
 }
 
 .section-GestionD .titulo {
     text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
-    color: #b8860b; /* Texto oscuro sobre fondo claro */
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Sombra de texto */
-    margin-bottom: 20px; /* Espacio debajo del título */
+    color: #b8860b;
+    /* Texto oscuro sobre fondo claro */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    /* Sombra de texto */
+    margin-bottom: 20px;
+    /* Espacio debajo del título */
 }
 
 .nav-tabs {
-    margin-bottom: 20px; /* Espacio debajo de las pestañas */
+    margin-bottom: 20px;
+    /* Espacio debajo de las pestañas */
 }
 
 .section-aboutx {
@@ -1780,23 +2036,28 @@ a:link {
     justify-content: center;
     align-items: center;
     height: auto;
-    background-image: url("../img/Ips.jpg"); /* Ruta de tu imagen de fondo */
-    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
-    background-position: center; /* Centra la imagen */
+    background-image: url("../img/Ips.jpg");
+    /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center;
+    /* Centra la imagen */
     margin: 0;
     transition: background-color 0.3s;
-    box-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra ligera */
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    /* Sombra ligera */
 }
+
 /* Estilos para el contenido de "Servicios" */
 .section-aboutx .content-GC {
     /* Agrega un fondo casi transparente al contenido */
-    background-color: rgba(
-        255,
-        255,
-        255,
-        0.2
-    ); /* Ajusta la transparencia según tus preferencias */
-    padding: 20px; /* Agrega espaciado alrededor del contenido */
+    background-color: rgba(255,
+            255,
+            255,
+            0.2);
+    /* Ajusta la transparencia según tus preferencias */
+    padding: 20px;
+    /* Agrega espaciado alrededor del contenido */
     height: auto;
     width: auto;
 }
@@ -1804,13 +2065,18 @@ a:link {
 .section-aboutx .titulo {
     font-size: 2rem;
     text-transform: uppercase;
-    color: #000; /* Texto oscuro sobre fondo claro */
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Sombra de texto */
+    color: #000;
+    /* Texto oscuro sobre fondo claro */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    /* Sombra de texto */
 }
+
 .section-aboutx .texto {
     font-size: 1.1rem;
-    color: #000; /* Texto oscuro */
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3); /* Sombra de texto */
+    color: #000;
+    /* Texto oscuro */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
+    /* Sombra de texto */
 }
 
 .espacio {
@@ -1828,12 +2094,16 @@ a:link {
     justify-content: center;
     align-items: center;
     height: auto;
-    background-image: url("../img/DD.jpg"); /* Ruta de tu imagen de fondo */
-    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
-    background-position: center; /* Centra la imagen */
+    background-image: url("../img/DD.jpg");
+    /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center;
+    /* Centra la imagen */
     margin: 0;
     transition: background-color 0.3s;
-    box-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra ligera */
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    /* Sombra ligera */
 }
 
 .MainContainerMap {
@@ -1850,16 +2120,20 @@ a:link {
 /* Pantallas medianas (tablet, entre 768px y 1024px) */
 @media (max-width: 1024px) {
     .container-mapa {
-        width: 150%; /* Ajusta este valor según sea necesario */
-        padding-top: 75%; /* Ajusta este valor según sea necesario */
+        width: 150%;
+        /* Ajusta este valor según sea necesario */
+        padding-top: 75%;
+        /* Ajusta este valor según sea necesario */
     }
 }
 
 /* Pantallas pequeñas (móvil, menos de 768px) */
 @media (max-width: 768px) {
     .container-mapa {
-        width: 100%; /* Ajusta este valor según sea necesario */
-        padding-top: 50%; /* Ajusta este valor según sea necesario */
+        width: 100%;
+        /* Ajusta este valor según sea necesario */
+        padding-top: 50%;
+        /* Ajusta este valor según sea necesario */
     }
 }
 
@@ -1875,11 +2149,15 @@ a:link {
 }
 
 .check-list {
-    list-style-type: none; /* Remove default bullets */
+    list-style-type: none;
+    /* Remove default bullets */
 }
+
 .check-list li::before {
-    content: "✔ "; /* Add check symbol before each list item */
-    color: #b8860b; /* Optional: color the check symbol */
+    content: "✔ ";
+    /* Add check symbol before each list item */
+    color: #b8860b;
+    /* Optional: color the check symbol */
     font-size: 2rem;
 }
 
@@ -1898,7 +2176,7 @@ a:link {
     font-family: 'parrafos';
 }
 
-.gestionD_PU{
+.gestionD_PU {
     background-color: #00000011;
     width: 55%;
     border: 2px solid #b8860b;
@@ -1907,7 +2185,7 @@ a:link {
     margin-left: 22.5%;
 }
 
-.gestionD_PU p{
+.gestionD_PU p {
     margin: 0 auto;
     text-align: justify;
     width: 80%;
@@ -1927,7 +2205,7 @@ a:link {
 }
 
 .imgNuestrosServicios {
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2000,14 +2278,13 @@ a:link {
 
 .LoginForm {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Opcional: asegura que el div ocupe toda la altura de la ventana */
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    height: 100vh;
+    /* Opcional: asegura que el div ocupe toda la altura de la ventana */
 }
 
 
 /* Estilo css de las cartas de las noticias, tanto de la página de inicio como la de converge */
-
-
-
-
