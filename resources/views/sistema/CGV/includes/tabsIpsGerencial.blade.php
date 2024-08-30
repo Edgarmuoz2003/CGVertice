@@ -32,7 +32,7 @@
                         <br><br>
                         <strong>Actividades Presenciales:</strong>
                         
-                    <ul class="check-list" >
+                    <ul class="check-list text-black" >
                         <li>Levantamiento de información para planes de emergencia, inspección de equipos de seguridad,
                             y elaboración de inventarios.</li>
                         <li>Capacitaciones en primeros auxilios, evacuaciones y gestión del riesgo para residentes y
@@ -47,8 +47,8 @@
                         <li>Reuniones informativas y de gestión, tanto virtuales como presenciales.</li>
                     </ul>
                     <br>
-                    <strong>Actividades a Distancia:</strong>
-                    <ul class="check-list" >
+                    <strong class="text-black">Actividades a Distancia:</strong>
+                    <ul class="check-list text-black" >
                         <li>Diseño o rediseño del SG-SST según cambios normativos y necesidades de la empresa.</li>
                         <li>Elaboración de planes de emergencia y administración del SG-SST.</li>
                         <li>Elaboración de manuales de funciones del SST y asesoría virtual en SST.</li>
@@ -60,13 +60,13 @@
                         <li>Certificación y registro del sistema ante el fondo de riesgos laborales y la ARL.</li>
                     </ul>
                     <br>
-                    En la fase de diseño, garantizamos que tu empresa cumpla con todos los requisitos de SST, incluyendo
-                    la formación de comités, capacitación y la inducción de los empleados. Revisaremos la matriz de
-                    riesgos y las normativas correspondientes, y al final de esta fase, validaremos y certificaremos que
-                    el diseño del SG-SST cumple con los requisitos mínimos establecidos por la normativa vigente.
-                    Implementaremos los procesos necesarios para asegurar que tu SG-SST funcione de manera efectiva
-                    durante todo el año, manteniendo su continuidad y efectividad.
-                    </p>
+                    <span class="text-black">En la fase de diseño, garantizamos que tu empresa cumpla con todos los requisitos de SST, incluyendo
+                        la formación de comités, capacitación y la inducción de los empleados. Revisaremos la matriz de
+                        riesgos y las normativas correspondientes, y al final de esta fase, validaremos y certificaremos que
+                        el diseño del SG-SST cumple con los requisitos mínimos establecidos por la normativa vigente.
+                        Implementaremos los procesos necesarios para asegurar que tu SG-SST funcione de manera efectiva
+                        durante todo el año, manteniendo su continuidad y efectividad.
+                        </p></span>
                 </div>
 
                 <div class="tab-pane fade" id="two-tab-pane" role="tabpanel" aria-labelledby="2-tab" tabindex="0">
