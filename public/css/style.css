@@ -56,27 +56,6 @@ a {
     box-shadow: 0px 0px 50px #b8860b;
 }
 
-.tooltip {
-    visibility: hidden;
-    width: 120px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px;
-    position: absolute;
-    bottom: 100%;
-    left: 70px; /* Adjust based on your needs */
-    margin-left: 15px;
-    opacity: 0;
-    transition: opacity 0.3s;
-    z-index: 101;
-}
-
-.tooltip:hover{
-    visibility: visible;
-    opacity: 1;
-}
 
 .btn-wsp2 {
     position: fixed;
