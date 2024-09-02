@@ -25,6 +25,7 @@
 </head>
 
 <body>
+    @include('sistema.CGV.includes.regresarArriba')
     @include('sistema.CGV.includes.boton')
 
     <!-- Contenedor de la cabeza de la pagina "head" -->
