@@ -65,7 +65,7 @@
                     aria-labelledby="1-tab" tabindex="0">
                     <br>
                     <br>
-                    <h3 class="text-center" styles="text-aling: center color: #b8860d">Reglamento Interno de Trabajo
+                    <h3 class="text-center titulo" styles="text-aling: center color: #b8860b">Reglamento Interno de Trabajo
                     </h3>
                     <br>
                     <br>
@@ -127,7 +127,7 @@
                 <div class="tab-pane fade  text-black" id="two-tab-pane" role="tabpanel" aria-labelledby="2-tab"
                     tabindex="0">
                     <br>
-                    <h3 class="text-center" styles="text-aling: center color: #b8860d">Vinculación</h3>
+                    <h3 class="text-center titulo" styles="text-aling: center color: #b8860d">Vinculación</h3>
                     <br>
                     <p>El proceso de vinculación inicia con un análisis detallado de los perfiles que la empresa
                         requiere, seguido de una búsqueda exhaustiva en nuestro amplio banco de talentos. Luego,
@@ -167,7 +167,7 @@
                 <div class="tab-pane fade text-black" id="three-tab-pane" role="tabpanel" aria-labelledby="3-tab"
                     tabindex="0">
 
-                    <h4 class="text-center" styles="text-align: center color:#b8860d">Diseño de estructura Interna
+                    <h4 class="text-center titulo" styles="text-align: center color:#b8860d">Diseño de estructura Interna
                     </h4>
                     <br>
                     <div class="gestionD_P">
@@ -261,7 +261,7 @@
                 <div class="tab-pane fade text-black" id="four-tab-pane" role="tabpanel" aria-labelledby="3-tab"
                     tabindex="0">
                     <br>
-                    <h3 class="text-center" styles="text-aling: center color: #b8860d">Manual de funciones</h3>
+                    <h3 class="text-center titulo" styles="text-aling: center color: #b8860d">Manual de funciones</h3>
                     <br>
                     <p id="pmaintabsQuienessomos">
                         El Manual de Funciones es una herramienta clave para definir claramente las responsabilidades,
@@ -309,7 +309,7 @@
                 <div class="tab-pane fade text-black" id="five-tab-pane" role="tabpanel" aria-labelledby="5-tab"
                     tabindex="0">
                     <br>
-                    <h3 class="text-center" styles="text-aling: center color: #b8860d">Plan de Manejo Integral de
+                    <h3 class="text-center titulo" styles="text-aling: center color: #b8860d">Plan de Manejo Integral de
                         Residuos Sólidos</h3>
                     <br>
                     <p id="pmaintabsQuienessomos">
@@ -355,7 +355,7 @@
                 <div class="tab-pane fade text-black" id="six-tab-pane" role="tabpanel" aria-labelledby="6-tab"
                     tabindex="0">
                     <br>
-                    <h3 class="text-center" styles="text-aling: center color: #b8860d">Bateria de riesgo psicosocial
+                    <h3 class="text-center titulo" styles="text-aling: center color: #b8860d">Bateria de riesgo psicosocial
                     </h3>
                     <p id="pmaintabsQuienessomos">
                         El Ministerio de la Protección Social (ahora Ministerio de Trabajo) y la Universidad Javeriana
@@ -401,7 +401,7 @@
                 <div class="tab-pane fade text-black" id="seven-tab-pane" role="tabpanel" aria-labelledby="7-tab"
                     tabindex="0">
                     <br>
-                    <h3 class="text-center" style="text-align: center; color: #b8860d">Bases de datos</h3>
+                    <h3 class="text-center" style="text-align: center; color: #b8860d">Tratamiento de Bases de datos</h3>
                     <br>
                     <p id="pmaintabsQuienessomos">
                         La gestión de bases de datos en Colombia está regulada principalmente por la Ley 1581 de 2012

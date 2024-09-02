@@ -2,7 +2,7 @@
     <div id="bodytabsQuienessomos">
         <div class="maintabsQuienessomos">
             <div class="logo-vertice">
-                <h3 style="color: black">Gestion de calidad</h3>
+                <h3 class="titulo" style="color: #b8860b">Gestion de calidad</h3>
             </div>
             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
