@@ -41,13 +41,13 @@
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="6-tab" data-bs-toggle="tab" data-bs-target="#six-tab-pane"
                         type="button" role="tab" aria-controls="6-tab-pane" aria-selected="false">
-                        BRP
+                        RP
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="7-tab" data-bs-toggle="tab" data-bs-target="#seven-tab-pane"
                         type="button" role="tab" aria-controls="7-tab-pane" aria-selected="false">
-                        BD
+                        TD
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
@@ -355,22 +355,19 @@
                 <div class="tab-pane fade text-black" id="six-tab-pane" role="tabpanel" aria-labelledby="6-tab"
                     tabindex="0">
                     <br>
-                    <h3 class="text-center titulo" styles="text-aling: center color: #b8860d">Bateria de riesgo psicosocial
+                    <h3 class="text-center titulo" styles="text-aling: center color: #b8860d">Riesgo psicosocial
                     </h3>
                     <p id="pmaintabsQuienessomos">
                         El Ministerio de la Protección Social (ahora Ministerio de Trabajo) y la Universidad Javeriana
                         desarrollaron los
                         únicos formatos autorizados que cumplen con los criterios técnicos establecidos por la
-                        Resolución 2646 de
-                        2008, para el uso en territorio colombiano. Se realiza el diligenciamiento de los formularios
-                        establecidos.
-                        Los cuestionarios de la batería de medición de riesgo psicosocial deben aplicarse utilizando
+                        Resolución 2764 del 2022, para el uso en territorio colombiano. Hasta la fecha los cuestionarios de la batería de medición de riesgo psicosocial deben aplicarse utilizando
                         lapicero y papel, de manera presencial. Bajo ninguna circunstancia puede realizarse la medición
                         del riesgo psicosocial utilizando medios virtuales como páginas web, cuestionarios magnéticos ni
                         otros métodos.
                         Recuerda que la única persona autorizada en Colombia para realizar la evaluación y generar
                         diagnósticos para la prevención y el control de enfermedades generadas por los riesgos
-                        psicosociales, es un Psicólogo graduado como Especialista en Seguridad y Salud en el Trabajo
+                        psicosociales, es un Psicólogo graduado como Especialista en Seguridad y Salud en el Trabajo.
                     </p>
 
                     <br>

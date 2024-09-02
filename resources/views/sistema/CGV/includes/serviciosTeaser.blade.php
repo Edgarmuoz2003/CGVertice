@@ -20,7 +20,7 @@
                         seguridad, reducir riesgos y proteger a tus empleados. La seguridad en el trabajo es
                         nuestra prioridad. <br>
                         <br>
-                        <a href="{{ route('ruta_gestion_Ips') }}" class="btn btn-warning btn-sm" target="_blank"
+                        <a href="{{ route('ruta_gestion_Ips') }}" class="btn btn-warning btn-sm"
                             rel="noopener noreferrer">
                             Conozca más
                         </a>
@@ -38,12 +38,12 @@
                 </div>
                 <br>
                 <div class="content">
-                    <p>En CG VERTICE, diseñamos e implementamos Programas de Manejo Integral de Residuos Sólidos,
+                    <p>En CG VERTICE, diseñamos e implementamos Planes de Manejo Integral de Residuos Sólidos,
                         enfocados en la gestión eficiente y responsable de los residuos generados en tu empresa. Nuestro
                         objetivo es promover prácticas sostenibles que minimicen el impacto ambiental y cumplan con las
-                        normativas vigentes. <br>
+                        normativas vigentes apoyado en los modelos de economía circular. <br>
                         <br>
-                        <a href="{{ route('ruta_gestion_desarrollo', ['tab' => '5']) }}" class="btn btn-warning btn-sm" target="_blank"
+                        <a href="{{ route('ruta_gestion_desarrollo', ['tab' => '5']) }}" class="btn btn-warning btn-sm"
                             rel="noopener noreferrer">
                             Conozca más
                         </a>
@@ -65,7 +65,7 @@
                         el trabajo. A través de la recopilación y análisis de datos, esta herramienta proporciona una
                         visión detallada sobre el impacto de estos factores en el ambiente laboral.<br>
                         <br>
-                        <a href="{{ route('ruta_gestion_desarrollo', ['tab' => '6']) }}" class="btn btn-warning btn-sm" target="_blank"
+                        <a href="{{ route('ruta_gestion_desarrollo', ['tab' => '6']) }}" class="btn btn-warning btn-sm"
                             rel="noopener noreferrer">
                             Conozca más
                         </a>
@@ -91,7 +91,7 @@
                         orientan el desarrollo integral de la comunidad educativa y promueven una educación de alta
                         calidad. <br>
                         <br>
-                        <a href="https://wa.me/573016280574?text=Hola,%20Estoy%20interesado%20en%20el%20servicio%20de%20Diseño%20PEI." class="btn btn-warning btn-sm" target="_blank"
+                        <a href="https://wa.me/573016280574?text=Hola,%20Estoy%20interesado%20en%20el%20servicio%20de%20Diseño%20PEI." class="btn btn-warning btn-sm"
                             rel="noopener noreferrer">
                             Conozca más
                         </a>
@@ -114,7 +114,7 @@
                         calidad educativa establecidos por el gobierno. Nuestro objetivo es facilitar el aprendizaje
                         significativo y preparar a los estudiantes para los retos del siglo XXI.<br>
                         <br>
-                        <a href="https://wa.me/573016280574?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20Mallas%20curriculares." class="btn btn-warning btn-sm" target="_blank"
+                        <a href="https://wa.me/573016280574?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20Mallas%20curriculares." class="btn btn-warning btn-sm"
                             rel="noopener noreferrer">
                             Conozca más
                         </a>
@@ -136,7 +136,7 @@
                         seguridad, sino que también impulsan el desarrollo profesional de tu equipo, fortaleciendo la
                         cultura de seguridad en el trabajo. <br>
                         <br>
-                        <a href="{{ route('ruta_formacion_continua')}}" class="btn btn-warning btn-sm" target="_blank"
+                        <a href="{{ route('ruta_formacion_continua')}}" class="btn btn-warning btn-sm"
                             rel="noopener noreferrer">
                             Conozca más
                         </a>

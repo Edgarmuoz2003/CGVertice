@@ -27,8 +27,8 @@
                     <p class="text-black">
                         Si necesitas diseñar, implementar o actualizar tu sistema de seguridad y salud en el trabajo, CG
                         Vértice está aquí para asistirte. Comenzaremos el proceso contigo o con la persona que designes
-                        como responsable del SG-SST en tu empresa, siguiendo los lineamientos del Decreto 1072 de 2015 y
-                        la resolución 0312 de 2019.
+                        al interior de tu empresa, siguiendo los lineamientos del Decreto 1072 de 2015,
+                        la resolución 0312 de 2019 y todas aquellas que las sustituyan o modifiquen.
                         <br><br>
                         <strong>Actividades Presenciales:</strong>
                         
