@@ -98,7 +98,6 @@
                 <div class="col-lg-2 col-md-6 mb-lg-0 text-center">
                     <h6 class="text-uppercase font-weight-bold mb-4" style="color: #b8860b">Dirección</h6>
                     <a style="color:rgb(121, 121, 121)"> Cra. 71 #46-28, <br>  Laureles, Medellín, Antioquia
-                        Antioquia
                 </div>
             </div>
         </div>
