@@ -57,7 +57,7 @@
     <div class="container py-1">
         <hr>
     </div>
-    
+
     <footer class="container-fluid">
         <div class="container">
             <div class="row">
@@ -107,28 +107,32 @@
         <div class="container text-center pt-3">
             <div class="row">
                 <div class="col">
-                    <a href="mailto:Soluciones.vertice@gmail.com" class="mb-0 py-2"
-                    title="Atención general" style="color:#b8860b">Soluciones.vertice@gmail.com</a>
+                    <a href="mailto:Soluciones.vertice@gmail.com" class="mb-0 py-2" title="Atención general"
+                        style="color:#b8860b">Soluciones.vertice@gmail.com</a>
                 </div>
                 <br>
                 <div class="col">
                     <a href="mailto:Mercadeo.vertice@gmail.com" class="mb-0 py-2"
-                    title="Línea única de atención al servicio" style="color:#b8860b">Mercadeo.vertice@gmail.com</a>
+                        title="Línea única de atención al servicio"
+                        style="color:#b8860b">Mercadeo.vertice@gmail.com</a>
                 </div>
                 <br>
                 <div class="col">
                     <a href="mailto:profesionales.vertice@gmail.com" class="mb-0 py-2 correos"
-                    title="Adquirir servicios o productos" style="color:#b8860b">profesionalesvertice@gmail.com</a>
+                        title="Adquirir servicios o productos"
+                        style="color:#b8860b">profesionalesvertice@gmail.com</a>
                 </div>
                 <br>
                 <div class="col">
                     <a href="https://api.whatsapp.com/send/?phone=573332371006&text=Quiero+más+información+.&type=phone_number&app_absent=0"
-                        class="mb-0 py-2" style="color:#b8860b" target="blank" title="Línea de atención general">(+57)3332371006</a>
+                        class="mb-0 py-2" style="color:#b8860b" target="blank"
+                        title="Línea de atención general">(+57)3332371006</a>
                 </div>
                 <br>
                 <div class="col">
                     <a href="https://api.whatsapp.com/send/?phone=573016280574&text=Quiero+más+información+.&type=phone_number&app_absent=0"
-                        class="mb-0 py-2" style="color:#b8860b" target="blank" title="Línea única de atención al servicio">(+57)3016280574</a>
+                        class="mb-0 py-2" style="color:#b8860b" target="blank"
+                        title="Línea única de atención al servicio">(+57)3016280574</a>
                 </div>
             </div>
         </div>

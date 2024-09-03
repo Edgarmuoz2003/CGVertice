@@ -35,8 +35,10 @@ a {
 
 .btn-wsp {
     position: fixed;
-    width: 60px; /* Tamaño del botón */
-    height: 60px; /* Tamaño del botón */
+    width: 60px;
+    /* Tamaño del botón */
+    height: 60px;
+    /* Tamaño del botón */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,8 +49,10 @@ a {
 
 .btn-wsp2 {
     position: fixed;
-    width: 60px; /* Tamaño del botón */
-    height: 60px; /* Tamaño del botón */
+    width: 60px;
+    /* Tamaño del botón */
+    height: 60px;
+    /* Tamaño del botón */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,16 +69,20 @@ a {
 
 .btn-wsp2 {
     border-radius: 50%;
-    bottom: 110px; /* Ajuste de la separación entre los botones */
+    bottom: 110px;
+    /* Ajuste de la separación entre los botones */
     left: 15px;
 }
 
 /* Estilos para el texto que aparecerá al hacer hover */
-.btn-wsp::after, .btn-wsp2::after {
+.btn-wsp::after,
+.btn-wsp2::after {
     content: attr(data-text);
     position: absolute;
-    left: 58px; /* Ajusta para que el texto aparezca a la derecha del botón */
-    bottom: 50%; /* Centra el texto verticalmente con respecto al botón */
+    left: 58px;
+    /* Ajusta para que el texto aparezca a la derecha del botón */
+    bottom: 50%;
+    /* Centra el texto verticalmente con respecto al botón */
     transform: translateY(50%);
     background-color: #d1d1d1;
     color: #000;
@@ -86,14 +94,17 @@ a {
     transition: opacity 0.3s ease;
     z-index: 101;
 }
-.btn-wsp::after{
+
+.btn-wsp::after {
     background-color: #0df0558c;
     color: #000;
 }
 
-.btn-wsp:hover::after, .btn-wsp2:hover::after {
+.btn-wsp:hover::after,
+.btn-wsp2:hover::after {
     opacity: 1;
 }
+
 /* --------------------------------------------------------------------------------- */
 
 /* Estilos del navbar */
@@ -904,13 +915,13 @@ ul li {
 
 /* -------------------------------------------------------------------------------------- */
 
-#botonRegresar{
-    color: black; 
+#botonRegresar {
+    color: black;
     text-decoration: overline;
 }
 
-#botonRegresar:hover{
-    color: #b8860b; 
+#botonRegresar:hover {
+    color: #b8860b;
     text-decoration: overline;
 }
 
