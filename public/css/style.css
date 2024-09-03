@@ -905,6 +905,17 @@ ul li {
 }
 
 /* -------------------------------------------------------------------------------------- */
+
+#botonRegresar{
+    color: black; 
+    text-decoration: overline;
+}
+
+#botonRegresar:hover{
+    color: #b8860b; 
+    text-decoration: overline;
+}
+
 /* -------------------------------------------------------------------------------------- */
 /* Estilos para la sección "Conózcanos" */
 .section-about {

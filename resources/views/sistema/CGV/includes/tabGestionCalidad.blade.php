@@ -1,6 +1,7 @@
 <section class="container">
     <div id="bodytabsQuienessomos">
         <div class="maintabsQuienessomos">
+            <a id="botonRegresar" href="{{ route('ruta_services') }}">Regresar</a>
             <div class="logo-vertice">
                 <h3 class="titulo" style="color: #b8860b">Gestion de calidad</h3>
             </div>
@@ -46,7 +47,8 @@
                             satisfacción del cliente.</li>
                         <li><strong>Ventaja Competitiva:</strong> Destaca en el mercado al cumplir con estándares
                             internacionales reconocidos.</li>
-                        <li><strong>Ventaja en Licitaciones:</strong> Mejoras en lo puntajes de licitacion empresarial.</li>
+                        <li><strong>Ventaja en Licitaciones:</strong> Mejoras en lo puntajes de licitacion empresarial.
+                        </li>
                     </ul>
                 </div>
 
