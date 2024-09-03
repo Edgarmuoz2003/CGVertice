@@ -20,9 +20,9 @@
                 <div class="container" style="padding-right:5%;">
                     <div class="MainTittle">
                         <p id="MainTittle">
-                            <span style="color: #bf943a">Protegemos</span> y
-                            <span style="color: #bf943a">trabajamos</span> por lo que <span style="color: #bf943a">más</span>  te 
-                            <span style="color: #bf943a">Importa</span>
+                            <span style="color: #bf943a">Trabajamos</span> y
+                            <span style="color: #bf943a">protegemos</span> lo que <span style="color: #bf943a">más</span>  te 
+                            <span style="color: #bf943a">Importa.</span>
                         </p>
                     </div>
                     <div class="TextoInicio">
