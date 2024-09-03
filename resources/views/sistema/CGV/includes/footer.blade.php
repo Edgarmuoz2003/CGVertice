@@ -123,12 +123,12 @@
                 <br>
                 <div class="col">
                     <a href="https://api.whatsapp.com/send/?phone=573332371006&text=Quiero+más+información+.&type=phone_number&app_absent=0"
-                        class="mb-0 py-2" style="color:#b8860b" target="blank">(+57)3332371006</a>
+                        class="mb-0 py-2" style="color:#b8860b" target="blank" title="Línea de atención general">(+57)3332371006</a>
                 </div>
                 <br>
                 <div class="col">
                     <a href="https://api.whatsapp.com/send/?phone=573016280574&text=Quiero+más+información+.&type=phone_number&app_absent=0"
-                        class="mb-0 py-2" style="color:#b8860b" target="blank">(+57)3016280574</a>
+                        class="mb-0 py-2" style="color:#b8860b" target="blank" title="Línea única de atención al servicio">(+57)3016280574</a>
                 </div>
             </div>
         </div>
