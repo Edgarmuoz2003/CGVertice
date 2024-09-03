@@ -9,7 +9,7 @@
     <title>{{ $producto->nombre }} || Corporate Group Vértice</title>
 
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="shortcut icon" href="../img/V2logoSinFondo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../img/v2.png" type="image/x-icon" />
     @include('sistema.CGV.includes.head')
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -38,7 +38,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" aria-disabled="true">
-                    <img src="../img/V2logoSinFondo.png" alt="V2 Suministros" class="img-fluid me-5" width="50"
+                    <img src="../img/v2.png" alt="V2 Suministros" class="img-fluid me-5" width="50"
                         height="auto">
                 </a>
 

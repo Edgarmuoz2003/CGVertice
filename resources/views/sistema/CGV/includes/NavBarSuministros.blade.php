@@ -2,7 +2,7 @@
     <div class="container">
         <!-- Logo -->
         <a id="logoInicio">
-            <img class="logo-cgv" src="{{ asset('img/V2logoSinFondo.png') }}" alt="Logo de Vértice" style="height: 80px">
+            <img class="logo-cgv" src="{{ asset('img/v2.png') }}" alt="Logo de Vértice" style="height: 80px" width="80px">
         </a>
         <!-- Botón del menú Offcanvas para pantallas pequeñas -->
         <button class="navbar-toggler custom-toggler bg-dark" type="button" data-bs-toggle="offcanvas"
