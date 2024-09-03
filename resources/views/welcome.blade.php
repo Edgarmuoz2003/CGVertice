@@ -20,20 +20,14 @@
                 <div class="container" style="padding-right:5%;">
                     <div class="MainTittle">
                         <p id="MainTittle">
-                            <span style="color: #bf943a">Trabajamos</span> por
-                            <br>la <span style="color: #bf943a">tranquilidad</span> de los 
-                            <span style="color: #bf943a">empresarios</span>
+                            <span style="color: #bf943a">Protegemos</span> y
+                            <span style="color: #bf943a">trabajamos</span> por lo que <span style="color: #bf943a">más</span>  te 
+                            <span style="color: #bf943a">Importa</span>
                         </p>
                     </div>
                     <div class="TextoInicio">
                         <p>
-                            En Vértice, nos dedicamos a salvaguardar la tranquilidad de los empresarios. Nuestro
-                            compromiso se centra en brindar soluciones que alivien las preocupaciones diarias de quienes
-                            dirigen empresas. Desde asesoramiento estratégico hasta servicios especializados, trabajamos
-                            incansablemente para crear un entorno empresarial donde la paz mental y la confianza sean la
-                            norma. Tu tranquilidad es nuestra prioridad, porque sabemos que cuando los empresarios se
-                            sienten seguros, pueden alcanzar su máximo potencial y hacer crecer sus negocios con
-                            confianza y serenidad.
+                            En Vértice, nos enfocamos en ofrecer soluciones que alivian las preocupaciones diarias de quienes lideran empresas, propiedades horizontales, instituciones educativas y demás organizaciones. Desde el asesoramiento estratégico hasta servicios especializados, nos dedicamos a crear un entorno seguro y confiable, donde la paz mental y la confianza sean la norma. Tu tranquilidad y bienestar son nuestra prioridad, porque sabemos que cuando lo que te importa está protegido, puedes alcanzar tu máximo potencial con confianza y serenidad.
                         </p>
                     </div>
                 </div>

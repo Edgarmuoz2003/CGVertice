@@ -38,8 +38,8 @@
                 </div>
                 <br>
                 <div class="content">
-                    <p>En CG VERTICE, diseñamos e implementamos Programas de Manejo Integral de Residuos Sólidos,
-                        enfocados en la gestión eficiente y responsable de los residuos generados en tu empresa. Nuestro
+                    <p>En CG VERTICE, diseñamos e implementamos Planes de Manejo Integral de Residuos Sólidos,
+                        enfocados en la gestión eficiente y responsable de los residuos generados en tu organizacion. Nuestro
                         objetivo es promover prácticas sostenibles que minimicen el impacto ambiental y cumplan con las
                         normativas vigentes. <br>
                         <br>
@@ -56,13 +56,13 @@
             <div class="card">
                 <div class="imgBx">
                     <img src={{ asset('img/PBR.jpeg') }} alt="Bateria de riesgo psicosocial">
-                    <h5 class="text-center">BRP</h5>
+                    <h5 class="text-center">Riesgo Psicosocial</h5>
                 </div>
                 <br>
                 <div class="content">
-                    <p>La Batería de Riesgo Psicosocial es un conjunto estructurado de herramientas y metodologías que
+                    <p>El Analisis de Riesgo Psicosocial es un conjunto estructurado de herramientas y metodologías que
                         permiten evaluar diversos factores psicosociales que afectan la salud mental y el rendimiento en
-                        el trabajo. A través de la recopilación y análisis de datos, esta herramienta proporciona una
+                        el trabajo. A través de la recopilación y análisis de datos, estas herramientas proporcionan una
                         visión detallada sobre el impacto de estos factores en el ambiente laboral.<br>
                         <br>
                         <a href="{{ route('ruta_gestion_desarrollo', ['tab' => '6']) }}" class="btn btn-warning btn-sm" target="_blank"
