@@ -15,7 +15,7 @@
                 </div>
                 <br>
                 <div class="content">
-                    <p>La seguridad y salud en el trabajo son aspectos cruciales en cualquier empresa. Con
+                    <p>La seguridad y salud en el trabajo son aspectos cruciales en cualquier organizacion. Con
                         nuestro servicio SG - SST, puedes garantizar el cumplimiento de todas las normativas de
                         seguridad, reducir riesgos y proteger a tus empleados. La seguridad en el trabajo es
                         nuestra prioridad. <br>
