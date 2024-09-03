@@ -3,15 +3,10 @@
         <div class="maintabsQuienessomos">
             <a id="botonRegresar" href="{{ route('ruta_services') }}">Regresar</a>
             <div class="logo-vertice">
-                <img src={{ asset('img/LogoAgosto.png') }} alt="Logo de Vértice">
+                <img src={{ asset('img/LogoVertice200x177.png') }} alt="Logo de Vértice">
+                <h2 class="text titulo" styles="text-aling: center">Gestion de Desarrollo Empresarial</h2>
             </div>
-
-            <br>
-            <h2 class="text titulo" styles="text-aling: center">Gestion de Desarrollo Empresarial</h2>
-            <br>
-
-            <!-- opciones del tab -->
-
+            
             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="1-tab" data-bs-toggle="tab" data-bs-target="#one-tab-pane"
@@ -324,7 +319,6 @@
                         asegurando que se cumplan con las normativas legales y se promueva un ambiente de trabajo seguro
                         y saludable, reduciendo posibles accidentes, enfermedades ocupacionales, y contribuyendo a la
                         sostenibilidad.
-
                         Para el acompañamiento del Plan de Manejo Integral de Residuos Sólidos se desarrollan las
                         siguientes actividades:
                     <ul class="check-list">
@@ -361,6 +355,13 @@
                     <br>
                     <h3 class="text-center titulo" styles="text-aling: center color: #b8860d">Riesgo psicosocial
                     </h3>
+                    <div class="gestionD_P">
+                        <p>
+                            Licencia SG-SST No S2017060095482 de 2017 y S2018060230500 de 2018, por
+                            medio de las cuales la secretaria de Salud del Departamento de Antioquia concede licencia
+                            para ofertar servicios de seguridad y salud en el trabajo a Nivel nacional a persona jurídica.
+                        </p>
+                    </div>
                     <p id="pmaintabsQuienessomos">
                         El Ministerio de la Protección Social (ahora Ministerio de Trabajo) y la Universidad Javeriana
                         desarrollaron los
@@ -370,20 +371,35 @@
                         lapicero y papel, de manera presencial. Bajo ninguna circunstancia puede realizarse la medición
                         del riesgo psicosocial utilizando medios virtuales como páginas web, cuestionarios magnéticos ni
                         otros métodos.
-                        Recuerda que la única persona autorizada en Colombia para realizar la evaluación y generar
-                        diagnósticos para la prevención y el control de enfermedades generadas por los riesgos
-                        psicosociales, es un Psicólogo graduado como Especialista en Seguridad y Salud en el Trabajo.
                     </p>
-
                     <br>
-                    <br>
-
                     <p>
-                        En CG-Vertice como parte de Nuestro servicio de Baterias de Riesgo Psicosocial se Obtiene
-                        mediante pruebas y formularios, una medición Interna - externa de los niveles de estres que a su
-                        vez servirán para hacer un Analisis Psicosocial y/o la busqueda de una alternativa viable.
+                        Nuestra empresa se especializa en la identificación, evaluación y prevención de riesgos
+                        psicosociales en el trabajo. Entendemos que los factores psicosociales pueden afectar
+                        negativamente la salud mental y física de los trabajadores, así como la productividad y el
+                        bienestar de las organizaciones.
+                        Nuestros servicios abarcan la evaluación de los siguientes factores de riesgo psicosocial:
                     </p>
                     <br>
+                    <ul class="check-list">
+                        <li><strong>Factores intralaborales:</strong> demanda de trabajo, control y apoyo social en el
+                            trabajo, claridad de rol y expectativas, entre otros. </li>
+                        <li><strong>Factores extralaborales:</strong> apoyo social fuera del trabajo, equilibrio entre
+                            la vida laboral y personal, entre otros.</li>
+                        <li><strong>Estrés:</strong> identificamos las fuentes de estrés laboral y sus efectos en la
+                            salud y el bienestar.</li>
+                    </ul>
+                    <br>
+                    <p>Nuestros servicios incluye:</p>
+                    <br>
+                    <ul class="check-list">
+                        <li>Evaluación de los factores de riesgo psicosocial mediante baterías de instrumentos
+                            validados.</li>
+                        <li>Análisis de los resultados y recomendaciones para la implementación de medidas de prevención
+                            y control.</li>
+                        <li>Diseño y ejecución de programas de intervención para la promoción de la salud mental y el
+                            bienestar en el trabajo.</li>
+                    </ul>
                     <div class="gestionD_P">
                         <strong style="font-size: 50px; color:#b8860b">Importante</strong>
                         <br>
@@ -393,11 +409,12 @@
                         que la Resolución 1111 de 2017 establece los Estándares Minimo de obligatorio cumplimiento en
                         Seguridad y Salud en el Trabajo, con los cuales la empresa vela por el bienestar fisico y mental
                         del empleado.
+                        <br>
+                        <br>
+                        Recuerda que la única persona autorizada en Colombia para realizar la evaluación y generar
+                        diagnósticos para la prevención y el control de enfermedades generadas por los riesgos
+                        psicosociales, es un Psicólogo graduado como Especialista en Seguridad y Salud en el Trabajo.
                     </div>
-
-
-
-
                 </div>
 
                 <div class="tab-pane fade text-black" id="seven-tab-pane" role="tabpanel" aria-labelledby="7-tab"
@@ -521,11 +538,8 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // Obtener el parámetro 'tab' de la URL
         var urlParams = new URLSearchParams(window.location.search);
         var tab = urlParams.get('tab');
-
-        // Si hay un tab especificado en la URL, activarlo
         if (tab) {
             var selectedTab = new bootstrap.Tab(document.getElementById(tab + '-tab'));
             selectedTab.show();

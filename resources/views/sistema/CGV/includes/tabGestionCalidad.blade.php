@@ -3,7 +3,9 @@
         <div class="maintabsQuienessomos">
             <a id="botonRegresar" href="{{ route('ruta_services') }}">Regresar</a>
             <div class="logo-vertice">
-                <h3 class="titulo" style="color: #b8860b">Gestion de calidad</h3>
+                <img src={{ asset('img/LogoVertice200x177.png') }} alt="Logo de Vértice">
+                <br>
+                <h2 class="titulo" style="color: #b8860b">Gestion de calidad</h2>
             </div>
             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
