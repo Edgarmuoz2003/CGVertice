@@ -56,51 +56,54 @@
                     @endcan
                     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
                 </ul>
-                <a id="btnInicio" class="nav-link" aria-current="page"
+                <a href={{ route('inicio') }} class="nav-link" aria-current="page"
                     style="color: #bf943a; font-weight: 500; text-decoration: none; cursor: pointer;">Inicio</a>
-                <script>
-                    // Script para el logo
-                    document.getElementById('logoInicio').addEventListener('click', function() {
-                        window.location.href = "{{ route('inicio') }}";
-                    });
 
-                    // Script para el botón de inicio
-                    document.getElementById('btnInicio').addEventListener('click', function() {
-                        window.location.href = "{{ route('inicio') }}";
-                    });
-                </script>
-
-                <a class="nav-link" id="VerNosotrosbtn"
+                <a class="nav-link" href={{ route('nosotros') }}
                     style="color: #bf943a;font-weight: 400;margin-left: 30px;text-decoration: none;cursor: pointer;">Nosotros</a>
-                <script>
-                    document.getElementById('VerNosotrosbtn').addEventListener('click', function() {
-                        window.location.href = "{{ route('nosotros') }}";
-                    });
-                </script>
 
-                <a class="nav-link" id="VerBlogbtn"
+
+                <a class="nav-link" href={{ route('ruta_blog') }}
                     style="color: #bf943a;font-weight: 400;margin-left: 30px;text-decoration: none;cursor: pointer;">Converge</a>
-                <script>
-                    document.getElementById('VerBlogbtn').addEventListener('click', function() {
-                        window.location.href = "{{ route('ruta_blog') }}";
-                    });
-                </script>
 
-                <a class="nav-link" id="VerV2btn"
+
+                <a class="nav-link" href={{ route('ruta_V2') }}
                     style="color: #bf943a;font-weight: 400;margin-left: 30px;text-decoration: none;cursor: pointer;">V2suministros</a>
-                <script>
-                    document.getElementById('VerV2btn').addEventListener('click', function() {
-                        window.location.href = "{{ route('ruta_V2') }}";
-                    });
-                </script>
 
-                <a class="nav-link active" id="VerServicesbtn"
+
+                {{-- <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href={{ route('ruta_services') }}
+                    role="button" aria-expanded="false"
                     style="color: #bf943a;font-weight: 400;margin-left: 30px;text-decoration: none;cursor: pointer;">Servicios</a>
-                <script>
-                    document.getElementById('VerServicesbtn').addEventListener('click', function() {
-                        window.location.href = "{{ route('ruta_services') }}";
-                    });
-                </script>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul> --}}
+
+
+
+                <a class="nav-link active menu-servicios" href={{ route('ruta_services') }}
+                    style="color: #bf943a;font-weight: 400;margin-left: 30px;text-decoration: none;cursor: pointer;">Servicios</a>
+
+                <ul class="item-menu-servicios">
+                    <li>Gestion De Empresas
+                        <ul class="item-gestionDeEmpresas">
+                            <li>Gestion de la calidad</li>
+                            <li>Gestion de Desarrollo Empresarial</li>
+                        </ul>
+                    </li>
+                    <li>Gestion De Instituciones Educativas
+                        <ul class="item-gestionDeEmpresas">
+                            <li>Gestion de la calidad</li>
+                            <li>Gestion de Desarrollo Empresarial</li>
+                        </ul>
+                    </li>
+                </ul>
+
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
                 <div class="nav-item dropdown">

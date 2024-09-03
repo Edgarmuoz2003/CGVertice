@@ -39,6 +39,9 @@
         </section>
     </div>
 
+    <br><br>
+    @include('sistema.CGV.includes.sliderGrandClientes')
+
     <section class="section-about-video">
         <div class="container col-xxl-12 ">
             <div class="row flex-lg-row-reverse">
@@ -75,6 +78,8 @@
         </div>
     </section>
 
+   
+
     @include('sistema.CGV.includes.serviciosTeaser')
 
     <br><br>
@@ -85,8 +90,7 @@
 
     @include('sistema.CGV.includes.noticiasBlogCartasSticky')
 
-    <br><br>
-    @include('sistema.CGV.includes.sliderGrandClientes')
+    
     <br><br>
 
     @include('sistema.CGV.includes.mapa')
