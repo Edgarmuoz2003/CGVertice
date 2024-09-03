@@ -76,7 +76,7 @@ a {
 .btn-wsp::after, .btn-wsp2::after {
     content: attr(data-text);
     position: absolute;
-    left: 70px; /* Ajusta para que el texto aparezca a la derecha del botón */
+    left: 58px; /* Ajusta para que el texto aparezca a la derecha del botón */
     bottom: 50%; /* Centra el texto verticalmente con respecto al botón */
     transform: translateY(50%);
     background-color: #d1d1d1;
@@ -98,6 +98,7 @@ a {
     opacity: 1;
 }
 /* --------------------------------------------------------------------------------- */
+
 /* Estilos del navbar */
 .navbar {
     display: flex;
@@ -808,7 +809,7 @@ ul li {
 
 #backToTopBtn {
     position: fixed;
-    bottom: 10%;
+    bottom: -1%;
     left: 48.4%;
     /* Cambiado a la izquierda */
     display: none;
@@ -817,7 +818,7 @@ ul li {
     /* Para que esté sobre otros elementos */
     cursor: pointer;
     background-color: transparent;
-    padding: 1%;
+    padding: 0.5%;
     border: none;
 }
 

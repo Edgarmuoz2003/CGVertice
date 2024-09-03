@@ -21,13 +21,18 @@
                     <div class="MainTittle">
                         <p id="MainTittle">
                             <span style="color: #bf943a">Trabajamos</span> y
-                            <span style="color: #bf943a">protegemos</span> lo que <span style="color: #bf943a">más</span>  te 
-                            <span style="color: #bf943a">Importa.</span>
+                            <span style="color: #bf943a">protegemos</span> lo que más te
+                            <span style="color: #bf943a">importa.</span>
                         </p>
                     </div>
                     <div class="TextoInicio">
                         <p>
-                            En Vértice, nos enfocamos en ofrecer soluciones que alivian las preocupaciones diarias de quienes lideran empresas, propiedades horizontales, instituciones educativas y demás organizaciones. Desde el asesoramiento estratégico hasta servicios especializados, nos dedicamos a crear un entorno seguro y confiable, donde la paz mental y la confianza sean la norma. Tu tranquilidad y bienestar son nuestra prioridad, porque sabemos que cuando lo que te importa está protegido, puedes alcanzar tu máximo potencial con confianza y serenidad.
+                            En Vértice, nos enfocamos en ofrecer soluciones que alivian las preocupaciones diarias de
+                            quienes lideran empresas, propiedades horizontales, instituciones educativas y demás
+                            organizaciones. Desde el asesoramiento estratégico hasta servicios especializados, nos
+                            dedicamos a crear un entorno seguro y confiable. Tu tranquilidad y bienestar son nuestra
+                            prioridad, porque sabemos que cuando lo que
+                            te importa está protegido, puedes alcanzar tu máximo potencial con confianza y serenidad.
                         </p>
                     </div>
                 </div>
@@ -44,8 +49,8 @@
             <div class="row flex-lg-row-reverse">
                 <div class="col-12 col-sm-12 col-lg-9 align-items-center">
                     <div class="ratio ratio-16x9">
-                        <iframe width="100%" height="100%" src={{ asset('/videos/VideoInicio.mp4') }} title="YouTube video player"
-                            frameborder="0"
+                        <iframe width="100%" height="100%" src={{ asset('/videos/VideoInicio.mp4') }}
+                            title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen>
                         </iframe>

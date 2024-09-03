@@ -2,7 +2,7 @@
     <div id="bodytabsQuienessomos">
         <div class="maintabsQuienessomos">
             <div class="logo-vertice">
-                <img src={{ asset('img/LogoAgosto.png') }} alt="Logo de Vértice">
+                <img src={{ asset('img/LogoVertice200x177.png') }} alt="Logo de Vértice">
             </div>
             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">

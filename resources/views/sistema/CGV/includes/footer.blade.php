@@ -57,6 +57,7 @@
     <div class="container py-1">
         <hr>
     </div>
+    
     <footer class="container-fluid">
         <div class="container">
             <div class="row">
@@ -97,7 +98,7 @@
                 <!-- Sección "Dirección" -->
                 <div class="col-lg-2 col-md-6 mb-lg-0 text-center">
                     <h6 class="text-uppercase font-weight-bold mb-4" style="color: #b8860b">Dirección</h6>
-                    <a style="color:rgb(121, 121, 121)"> Cra. 71 #46-28, <br>  Laureles, Medellín, Antioquia
+                    <a style="color:rgb(121, 121, 121)"> Cra. 71 #46-28, <br> Laureles, Medellín, Antioquia
                 </div>
             </div>
         </div>
@@ -107,12 +108,17 @@
             <div class="row">
                 <div class="col">
                     <a href="mailto:Soluciones.vertice@gmail.com" class="mb-0 py-2"
-                        style="color:#b8860b">Soluciones.vertice@gmail.com</a>
+                    title="Atención general" style="color:#b8860b">Soluciones.vertice@gmail.com</a>
                 </div>
                 <br>
                 <div class="col">
                     <a href="mailto:Mercadeo.vertice@gmail.com" class="mb-0 py-2"
-                        style="color:#b8860b">Mercadeo.vertice@gmail.com</a>
+                    title="Línea única de atención al servicio" style="color:#b8860b">Mercadeo.vertice@gmail.com</a>
+                </div>
+                <br>
+                <div class="col">
+                    <a href="mailto:profesionales.vertice@gmail.com" class="mb-0 py-2 correos"
+                    title="Adquirir servicios o productos" style="color:#b8860b">profesionalesvertice@gmail.com</a>
                 </div>
                 <br>
                 <div class="col">
