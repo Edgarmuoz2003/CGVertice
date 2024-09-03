@@ -86,6 +86,8 @@
     @include('sistema.CGV.includes.noticiasBlogCartasSticky')
 
     <br><br>
+    @include('sistema.CGV.includes.sliderGrandClientes')
+    <br><br>
 
     @include('sistema.CGV.includes.mapa')
 

@@ -2,7 +2,7 @@
 padding-bottom: 1%; 
 padding-top: 1%;">
 
-    <h2>Aliados estratégicos</h2>
+    <h2>Algunos de nuestros clientes</h2>
 
 </div>
 <div style="padding-bottom: 2%">
@@ -10,16 +10,16 @@ padding-top: 1%;">
     <div class="slider">
         <div class="slide-track">
             <div class="slide">
-                <a href="/Blog"><img src={{ asset('./img/Converge.png') }} class="img-slider" alt="" /></a>
+                <a href="/Blog"><img src={{ asset('./img/Converge.png') }} class="img-slider" alt="logo Converge" /></a>
             </div>
             <div class="slide">
-                <a href={{ route('inicio') }}><img src={{ asset('img/logoo.png') }} class="img-slider" alt="" /></a>
+                <a href={{ route('inicio') }}><img src={{ asset('img/logoo.png') }} class="img-slider" alt="logo vertice" /></a>
             </div>
             <div class="slide">
-                <a href="/V2"><img src={{ asset('./img/v2.png') }} class="img-slider" alt="" /></a>
+                <a href="/V2"><img src={{ asset('./img/v2.png') }} class="img-slider" alt="logo V2 Suministros" /></a>
             </div>
             <div class="slide">
-                <img src={{ asset('./img/ceet.png') }} class="img-slider" alt="" />
+                <img src={{ asset('./img/ceet.png') }} class="img-slider" alt="logo ceet" />
             </div>
             <div class="slide">
                 <a href="/Blog"><img src={{ asset('./img/Converge.png') }} class="img-slider" alt="" /></a>
