@@ -1,7 +1,7 @@
 <section class="container">
     <div id="bodytabsQuienessomos">
         <div class="maintabsQuienessomos">
-            <a style="color: black; text-decoration: bold" href="{{ route('ruta_services')}}"><</a>
+            <a id="botonRegresar" href="{{ route('ruta_services')}}">Regresar</a>
             <div class="logo-vertice">
                 <h3 style="color: #B8860D">IPS GERENCIAL </h3>
             </div>

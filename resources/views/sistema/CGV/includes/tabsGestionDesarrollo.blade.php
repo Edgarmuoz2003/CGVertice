@@ -1,6 +1,7 @@
 <section class="container">
     <div id="bodytabsQuienessomos">
         <div class="maintabsQuienessomos">
+            <a id="botonRegresar" href="{{ route('ruta_services') }}">Regresar</a>
             <div class="logo-vertice">
                 <img src={{ asset('img/LogoAgosto.png') }} alt="Logo de Vértice">
             </div>
@@ -14,9 +15,9 @@
             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="1-tab" data-bs-toggle="tab" data-bs-target="#one-tab-pane"
-                        type="button" role="tab" aria-controls="1-tab-pane" aria-selected="true" > RIT</button>
+                        type="button" role="tab" aria-controls="1-tab-pane" aria-selected="true"> RIT</button>
                 </li>
-                <li class="nav-item" role="presentation" >
+                <li class="nav-item" role="presentation">
                     <button class="nav-link" id="2-tab" data-bs-toggle="tab" data-bs-target="#two-tab-pane" type
                         of="button" role="tab" aria-controls="2-tab-pane"
                         aria-selected="false">Vinculación</button>
@@ -65,7 +66,8 @@
                     aria-labelledby="1-tab" tabindex="0">
                     <br>
                     <br>
-                    <h3 class="text-center titulo" styles="text-aling: center color: #b8860b">Reglamento Interno de Trabajo
+                    <h3 class="text-center titulo" styles="text-aling: center color: #b8860b">Reglamento Interno de
+                        Trabajo
                     </h3>
                     <br>
                     <br>
@@ -167,7 +169,8 @@
                 <div class="tab-pane fade text-black" id="three-tab-pane" role="tabpanel" aria-labelledby="3-tab"
                     tabindex="0">
 
-                    <h4 class="text-center titulo" styles="text-align: center color:#b8860d">Diseño de estructura Interna
+                    <h4 class="text-center titulo" styles="text-align: center color:#b8860d">Diseño de estructura
+                        Interna
                     </h4>
                     <br>
                     <div class="gestionD_P">
@@ -309,7 +312,8 @@
                 <div class="tab-pane fade text-black" id="five-tab-pane" role="tabpanel" aria-labelledby="5-tab"
                     tabindex="0">
                     <br>
-                    <h3 class="text-center titulo" styles="text-aling: center color: #b8860d">Plan de Manejo Integral de
+                    <h3 class="text-center titulo" styles="text-aling: center color: #b8860d">Plan de Manejo Integral
+                        de
                         Residuos Sólidos</h3>
                     <br>
                     <p id="pmaintabsQuienessomos">
@@ -361,7 +365,8 @@
                         El Ministerio de la Protección Social (ahora Ministerio de Trabajo) y la Universidad Javeriana
                         desarrollaron los
                         únicos formatos autorizados que cumplen con los criterios técnicos establecidos por la
-                        Resolución 2764 del 2022, para el uso en territorio colombiano. Hasta la fecha los cuestionarios de la batería de medición de riesgo psicosocial deben aplicarse utilizando
+                        Resolución 2764 del 2022, para el uso en territorio colombiano. Hasta la fecha los cuestionarios
+                        de la batería de medición de riesgo psicosocial deben aplicarse utilizando
                         lapicero y papel, de manera presencial. Bajo ninguna circunstancia puede realizarse la medición
                         del riesgo psicosocial utilizando medios virtuales como páginas web, cuestionarios magnéticos ni
                         otros métodos.
@@ -398,7 +403,8 @@
                 <div class="tab-pane fade text-black" id="seven-tab-pane" role="tabpanel" aria-labelledby="7-tab"
                     tabindex="0">
                     <br>
-                    <h3 class="text-center" style="text-align: center; color: #b8860d">Tratamiento de Bases de datos</h3>
+                    <h3 class="text-center" style="text-align: center; color: #b8860d">Tratamiento de Bases de datos
+                    </h3>
                     <br>
                     <p id="pmaintabsQuienessomos">
                         La gestión de bases de datos en Colombia está regulada principalmente por la Ley 1581 de 2012
@@ -470,25 +476,36 @@
                     <h3 class="text-center" style="text-align: center; color: #b8860d">Planes de emergencia</h3>
                     <br>
                     <p id="pmaintabsQuienessomos">
-                        Un Plan de Emergencia es un conjunto de procedimientos y directrices diseñados para manejar situaciones imprevistas o crisis de manera efectiva. Este plan tiene como objetivo minimizar el impacto de emergencias, garantizar la seguridad de las personas y proteger los activos de la organización. Un plan de emergencia bien elaborado permite una respuesta organizada y eficiente ante eventos como incendios, desastres naturales, accidentes graves, fallos de infraestructura o cualquier otra situación de emergencia que pueda afectar a una organización o comunidad.
+                        Un Plan de Emergencia es un conjunto de procedimientos y directrices diseñados para manejar
+                        situaciones imprevistas o crisis de manera efectiva. Este plan tiene como objetivo minimizar el
+                        impacto de emergencias, garantizar la seguridad de las personas y proteger los activos de la
+                        organización. Un plan de emergencia bien elaborado permite una respuesta organizada y eficiente
+                        ante eventos como incendios, desastres naturales, accidentes graves, fallos de infraestructura o
+                        cualquier otra situación de emergencia que pueda afectar a una organización o comunidad.
                     </p>
                     <strong style="font-size: 24px; color:#b8860b; text-align: center">Te ofrecemos:</strong>
                     <ul class="check-list">
-                        <li><strong>Identificación de Riesgos:</strong> Evaluación y análisis de los riesgos potenciales que podrían afectar a la organización o comunidad.
+                        <li><strong>Identificación de Riesgos:</strong> Evaluación y análisis de los riesgos potenciales
+                            que podrían afectar a la organización o comunidad.
                             Clasificación de riesgos según su probabilidad y severidad.</li>
-                            
-                        <li><strong>
-                            Procedimientos de Evacuación:</strong> Diseño de rutas de evacuación claras y señalizadas.
-                            Establecimiento de puntos de reunión seguros para todos los ocupantes.</li>
-                            
-                        <li><strong>Roles y Responsabilidades:</strong>Definición de roles y responsabilidades para el personal clave durante una emergencia.
-                            Designación de un equipo de respuesta a emergencias, que incluye líderes y coordinadores.</li>
 
-                        <li><strong>Procedimientos de Primeros Auxilios:</strong>Instrucciones para proporcionar primeros auxilios básicos y manejo de lesiones.
+                        <li><strong>
+                                Procedimientos de Evacuación:</strong> Diseño de rutas de evacuación claras y
+                            señalizadas.
+                            Establecimiento de puntos de reunión seguros para todos los ocupantes.</li>
+
+                        <li><strong>Roles y Responsabilidades:</strong>Definición de roles y responsabilidades para el
+                            personal clave durante una emergencia.
+                            Designación de un equipo de respuesta a emergencias, que incluye líderes y coordinadores.
+                        </li>
+
+                        <li><strong>Procedimientos de Primeros Auxilios:</strong>Instrucciones para proporcionar
+                            primeros auxilios básicos y manejo de lesiones.
                             Ubicación de kits de primeros auxilios y equipos de emergencia.</li>
 
                         <li><strong>Plan de Recuperación:</strong>
-                            Estrategias para la recuperación y restauración de operaciones normales después de la emergencia.
+                            Estrategias para la recuperación y restauración de operaciones normales después de la
+                            emergencia.
                             Procedimientos para evaluar los daños y gestionar la reconstrucción.</li>
 
                         <li><strong>Capacitación y Simulacros:</strong>
@@ -503,11 +520,11 @@
 </section>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         // Obtener el parámetro 'tab' de la URL
         var urlParams = new URLSearchParams(window.location.search);
         var tab = urlParams.get('tab');
-        
+
         // Si hay un tab especificado en la URL, activarlo
         if (tab) {
             var selectedTab = new bootstrap.Tab(document.getElementById(tab + '-tab'));

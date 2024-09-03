@@ -1,6 +1,7 @@
 <section class="container">
     <div id="bodytabsQuienessomos">
         <div class="maintabsQuienessomos">
+            <a id="botonRegresar" href="{{ route('ruta_services')}}">Regresar</a>
             <div class="logo-vertice">
                 <h3 style="color: #B8860D">Servicios de gestión Instituciones Educativas</h3>
             </div>
