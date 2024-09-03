@@ -30,24 +30,22 @@
                     <p class="text-black">
                         Si necesitas diseñar, implementar o actualizar tu sistema de seguridad y salud en el trabajo, CG
                         Vértice está aquí para asistirte. Comenzaremos el proceso contigo o con la persona que designes
-                        al interior de tu empresa, siguiendo los lineamientos del Decreto 1072 de 2015,
-                        la resolución 0312 de 2019 y todas aquellas que las sustituyan o modifiquen.
+                        al interior de tu entidad, siguiendo los lineamientos del Decreto 1072 de 2015,
+                        la resolución 0312 de 2019 y todas normas aquellas que las sustituyan o modifiquen.
                         <br><br>
                         <strong>Actividades Presenciales:</strong>
 
                     <ul class="check-list text-black">
-                        <li>Levantamiento de información para planes de emergencia, inspección de equipos de seguridad,
-                            y elaboración de inventarios.</li>
-                        <li>Capacitaciones en primeros auxilios, evacuaciones y gestión del riesgo para residentes y
-                            empleados.</li>
+                        <li>Levantamiento de información para planes de emergencia, inspección de equipos de seguridad y elaboración de inventarios.</li>
+                        <li>Capacitaciones en primeros auxilios y evacuaciones</li>
+                        <li>Gestión del riesgo para residentes y empleados.</li>
                         <li>Evaluación de señaléticas de emergencia, demarcaciones y guías.</li>
                         <li>Análisis integral de puestos de trabajo </li>
                         <li>seguimiento de proveedores y contratistas.</li>
                         <li>Acompañamiento en visitas y revisiones de entidades de regulación.</li>
-                        <li>Simulacro anual con cámara de humo e intervención de accidentados.</li>
+                        <li>Simulación de eventos e intervención de accidentados.</li>
                         <li>Jornada de salud con actividades de promoción, prevención y diagnóstico.</li>
-                        <li>Inspecciones locativas y levantamiento de perfiles sociodemográficos laborales y
-                            habitacionales.</li>
+                        <li>Inspecciones locativas y levantamiento de perfiles sociodemográficos laborales y habitacionales.</li>
                         <li>Reuniones informativas y de gestión, tanto virtuales como presenciales.</li>
                     </ul>
                     <br>
@@ -59,8 +57,7 @@
                         <li>Capacitación virtual para residentes, empleados y administradores.</li>
                         <li>Gestión documental</li>
                         <li>Elaboración de sistemas de vigilancia epidemiológica (SVE).</li>
-                        <li>Elaboración de informes detallados de inspecciones y análisis de perfiles sociodemográficos.
-                        </li>
+                        <li>Elaboración de informes detallados de inspecciones y análisis de perfiles sociodemográficos. </li>
                         <li>Certificación y registro del sistema ante el fondo de riesgos laborales y la ARL.</li>
                     </ul>
                     <br>
@@ -75,7 +72,7 @@
                         </p>
                     </span>
                     <div class="gestionD_P">
-                        <p>
+                        <p class="text-black">
                             Licencia SG-SST No S2017060095482 de 2017 y S2018060230500 de 2018, por
                             medio de las cuales la secretaria de Salud del Departamento de Antioquia concede licencia
                             para ofertar servicios de seguridad y salud en el trabajo a Nivel nacional a persona jurídica.

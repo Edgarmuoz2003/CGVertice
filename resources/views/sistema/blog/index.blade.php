@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es" data-bs-theme="auto">
+
 <head>
     <meta charset="utf-8" />
     <!-- Seccion de la Configuración y Metadatos -->
@@ -19,15 +20,16 @@
     <br>
     <br>
 
-    @include("sistema.CGV.includes.boton")
+    @include('sistema.CGV.includes.boton')
     @include('sistema.CGV.includes.regresarArriba')
 
     <main class="container">
         <!-- Div del Bienvenidos y la imagen -->
-        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary" style="display: flex; flex-direction:row; ">
+        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary"
+            style="display: flex; flex-direction:row; ">
             <div class="col-lg-6 px-0">
-                <h1 class="display-4 fst-italic" style="color:#b8860b">¡Bienvenidos a Converge!</h1>
-                <p class="lead my-3">
+                <h1 class="display-4" style="color:#b8860b">¡Bienvenidos a Converge!</h1>
+                <p class="my-3">
                     Nos alegra que te unas a nuestra comunidad de información. En Converge, estamos comprometidos a
                     ofrecerte las noticias más actuales, relevantes y confiables del panorama global. Ya sea política,
                     economía, tecnología, entretenimiento o deportes, nuestro objetivo es mantenerte bien informado y al
@@ -40,10 +42,8 @@
                     conocimiento!.
                 </p>
             </div>
-            <div class="col-lg-4 col-md-6 col-4 text-center" style="margin-left:10%; margin-top:10%; height:200px;">
-                <div class="Converge-div-logo">
-                    <img id="VerIniciobtn" src={{ asset('../img/Converge.png') }} alt="Logotipo Converge" class="img-fluid" />
-                </div>
+            <div class="col-lg-6 col-md-6 col-4 text-center">
+                <img src={{ asset('../img/Converge.png') }} alt="Logotipo Converge" class="img-fluid" />
             </div>
         </div>
         <br>
@@ -51,13 +51,13 @@
             <hr>
         </div>
         <!-- Card-slider Recomendados -->
-        <h3 class="display-4 fst-italic">Tendencia</h3>
+        <h3 class="display-4">Tendencia</h3>
 
         <!-- Botón para crear noticia -->
         @can('Crear Noticias')
             <div class="container text-center">
-                <button type="button" class="btn btn btn-outline-warning m-4"
-                    data-bs-toggle="modal" data-bs-target="#create">
+                <button type="button" class="btn btn btn-outline-warning m-4" data-bs-toggle="modal"
+                    data-bs-target="#create">
                     Crear Noticia
                 </button>
             </div>
@@ -86,7 +86,8 @@
                                             id="dropdownMenuButton{{ $blogg->id }}" data-bs-toggle="dropdown">
                                             Editar<i class="fas fa-ellipsis-v"></i>
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton{{ $blogg->id }}">
+                                        <ul class="dropdown-menu"
+                                            aria-labelledby="dropdownMenuButton{{ $blogg->id }}">
                                             @can('Editar Noticias')
                                                 <li>
                                                     <button type="button" class="dropdown-item" data-bs-toggle="modal"
@@ -111,8 +112,10 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">{{ $blogg->nombre_noticia }}</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"aria-label="Close"></button>
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">{{ $blogg->nombre_noticia }}
+                                    </h1>
+                                    <button type="button" class="btn-close"
+                                        data-bs-dismiss="modal"aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <div class="mb-3">
@@ -123,22 +126,23 @@
                                                 Tu navegador no soporta el elemento de video.
                                             </video>
                                         @else
-                                            <img src="{{ asset('imagenesBlog/img/' . $blogg->foto) }}" alt="Imagen actual"
-                                                style="max-width: 100%;">
+                                            <img src="{{ asset('imagenesBlog/img/' . $blogg->foto) }}"
+                                                alt="Imagen actual" style="max-width: 100%;">
                                         @endif
                                     </div>
                                     <hr>
                                     <p> Descripcion: <br> {{ $blogg->descripcion_noticia }}</p>
                                     <p>Fecha de publicación: {{ $blogg->created_at }}</p>
                                 </div>
-    
+
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-    
+
                     <script>
                         // Función para manejar errores de carga de video
                         document.addEventListener('DOMContentLoaded', function() {
@@ -152,7 +156,7 @@
                             }
                         });
                     </script>
-    
+
                     @include('sistema.blog.editar')
                 @endforeach
             </div>
@@ -167,7 +171,8 @@
             <div class="row py-5">
                 <div class="col-lg-12 text-center">
                     <h1 class="display-3" style="color:#b8860b">Explora más</h1>
-                    <p class="lead mb-0">Descubre contenido fascinante en nuestro <a href="#" id="btnNosotros">blog.</a></p>
+                    <p class="lead mb-0">Descubre contenido fascinante en nuestro <a href="#"
+                            id="btnNosotros">blog.</a></p>
                     <script>
                         document.getElementById('btnNosotros').addEventListener('click', function() {
                             window.location.href = "{{ route('nosotros') }}";
