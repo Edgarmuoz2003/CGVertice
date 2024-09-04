@@ -37,8 +37,8 @@ padding-top: 1%;">
         </div>
     </div>
     <div class="btnClientes">
-        
-        <a href="{{ route('nosotros') }}#pe" class="btn btn-primary">Ir a Messages</a>
+
+        <a href="{{ route('nosotros') }}#pe" class="btn btn-primary">¿Que dicen nuestros Clientes?</a>
 
 
     </div>
