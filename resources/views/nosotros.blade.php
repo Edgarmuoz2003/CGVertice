@@ -307,18 +307,18 @@
 </script>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // Obtener el parámetro "tab" de la URL
-        let urlParams = new URLSearchParams(window.location.search);
-        let tab = urlParams.get('tab');
+    document.addEventListener('DOMContentLoaded', function () {
+        // Obtener el hash de la URL
+        var hash = window.location.hash;
 
-        // Si existe el parámetro "tab", activamos el tab correspondiente
-        if (tab) {
-            let tabToShow = document.getElementById(`three-tab-pane`);
-            if (tabToShow) {
-                // Activar el tab
-                let tabElement = new bootstrap.Tab(tabToShow);
-                tabElement.show();
+        if (hash) {
+            // Encuentra el botón que corresponde a la pestaña
+            var tabTriggerEl = document.querySelector('button[data-bs-target="' + hash + '"]');
+
+            // Si existe un botón que corresponde al hash, activa la pestaña
+            if (tabTriggerEl) {
+                var tab = new bootstrap.Tab(tabTriggerEl);
+                tab.show();
             }
         }
     });

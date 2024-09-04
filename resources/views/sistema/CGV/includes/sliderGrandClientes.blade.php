@@ -38,7 +38,8 @@ padding-top: 1%;">
     </div>
     <div class="btnClientes">
         
-        <a href="{{ route('nosotros') }}#3-tab" class="btn btn-primary">Ir a ¿Por qué Elegirnos?</a>
+        <a href="{{ route('nosotros') }}#pe" class="btn btn-primary">Ir a Messages</a>
+
 
     </div>
 </div>
