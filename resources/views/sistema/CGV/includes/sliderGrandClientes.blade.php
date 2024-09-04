@@ -25,7 +25,7 @@ padding-top: 1%;">
                 <img src={{ asset('img/lima.png') }} class="img-slider" alt="logo cultivos lima" />
             </div>
             <div class="slide">
-                <img src={{ asset('img/finito.png') }} class="img-slider" alt="logo finito apartamentos" />
+                <img src={{ asset('img/finito.jpg') }} class="img-slider" alt="logo finito apartamentos" />
             </div>
             <div class="slide">
                 <img src={{ asset('img/renos.png') }} class="img-slider" alt="logo bolsos reno" />
