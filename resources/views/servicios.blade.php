@@ -53,7 +53,7 @@
                 {{-- Área de servicio al cliente --}}
                 <div class="timeline-2 left-2" id="EduYFor">
                     <div class="card">
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
+                        <a id="PrimerServicio" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
                             <img src={{ asset('img/GestionEmpresas.png') }} class="card-img-top"
                                 style="width: 600px; height: 400px;" alt="Imagen 1">
                         </a>
@@ -164,7 +164,7 @@
                 {{-- Espacio de SST-SG --}}
                 <div class="timeline-2 right-2" id="GestionE">
                     <div class="card">
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
+                        <a id="SegundoServicio" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
                             <img src={{ asset('img/gestionIE.jpg') }} class="card-img-top"
                                 style="width: 100%; height: auto;" alt="Imagen de gestión empresarial">
                         </a>

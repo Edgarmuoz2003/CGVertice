@@ -37,14 +37,14 @@
                             <ul class="name">
                             <li><a href="">Gestión empresas</a>
                                 <ul class="topic">
-                                    <li><a href="">Gestión de calidad de su empresa</a></li>
-                                    <li><a href="">Gestión de desarrollo empresarial</a></li>
-                                    <li><a href="">IPS Gerencial</a></li>
+                                    <li><a href="/GestionCalidad">Gestión de calidad de su empresa</a></li>
+                                    <li><a href="/gestionDesarrollo">Gestión de desarrollo empresarial</a></li>
+                                    <li><a href="/GestionIps">IPS Gerencial</a></li>
                                 </ul>
                             </li>
-                            <li><a href="">Gestión I.E.</a>
+                            <li><a href="/servicios#SegundoServicio">Gestión I.E.</a>
                                 <ul class="topic">
-                                    <li><a href="">Manuales de Convivencia</a></li>
+                                    <li><a href="/servicios#SegundoServicio">Manuales de Convivencia</a></li>
                                     <li><a href="">Diseño de PEI</a></li>
                                     <li><a href="">Mallas Curriculares</a></li>
                                     <li><a href="">Evaluación Docentes</a></li>
