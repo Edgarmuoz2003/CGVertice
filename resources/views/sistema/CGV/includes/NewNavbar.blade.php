@@ -3,7 +3,7 @@
 </head>
 <body style="width: 100%">
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
-        <div class="container">
+        <div class="container MainNavbar">
             <!-- Logo -->
             <a id="logoInicio" href="{{ route('inicio') }}">
                 <img class="logo-cgv" src="{{ asset('img/logoo.png') }}" alt="Logo de Vértice">
@@ -29,11 +29,11 @@
                         </li>
                     @endcan
                     
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="">Nosotros</a></li>
-                        <li><a href="">Converge</a></li>
-                        <li><a href="">V2suministros</a></li>
-                        <li><a href="">Servicios</a>
+                    <li><a href="{{ route('inicio') }}">Inicio</a></li>
+                    <li><a href="{{ route('nosotros') }}">Nosotros</a></li>
+                    <li><a href="{{ route('ruta_blog') }}">Converge</a></li>
+                    <li><a href="{{ route('ruta_V2') }}">V2suministros</a></li>
+                        <li><a href="{{ route('ruta_services') }}">Servicios</a>
                             <ul class="name">
                             <li><a href="">Gestión empresas</a>
                                 <ul class="topic">

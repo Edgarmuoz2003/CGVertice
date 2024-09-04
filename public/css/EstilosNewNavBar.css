@@ -1,6 +1,11 @@
+.MainNavbar{
+    /* border: #b8860b 2px solid; */
+    margin-left: 10%;
+}
+
 .navbar{
     padding-top: 1%;
-    padding-right: 8%;
+    padding-right: 10%;
 }
 
 ul{
