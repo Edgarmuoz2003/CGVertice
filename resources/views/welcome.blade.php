@@ -10,7 +10,7 @@
 
 <body>
 
-    @include('sistema.CGV.includes.navbar')
+    @include('sistema.CGV.includes.NewNavbar')
     @include('sistema.CGV.includes.boton')
 
     <div class="container-fluid">
@@ -108,6 +108,7 @@
     @include('sistema.CGV.includes.sliderGrandAliados')
     @include('sistema.CGV.includes.footer')
     @include('sistema.CGV.includes.botonWhatsapp')
+
 
 </body>
 
