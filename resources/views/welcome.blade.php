@@ -46,6 +46,7 @@
 
     <br><br>
     @include('sistema.CGV.includes.sliderGrandClientes')
+   
 
     <section class="section-about-video">
         <div class="container col-xxl-12 ">

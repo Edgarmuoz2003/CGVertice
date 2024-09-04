@@ -205,6 +205,9 @@
 
     @include('sistema.CGV.includes.tabsQuienessomos')
 
+
+    
+
     <br>
     <br>
     <br>
@@ -302,5 +305,24 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
 </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Obtener el parámetro "tab" de la URL
+        let urlParams = new URLSearchParams(window.location.search);
+        let tab = urlParams.get('tab');
+
+        // Si existe el parámetro "tab", activamos el tab correspondiente
+        if (tab) {
+            let tabToShow = document.getElementById(`three-tab-pane`);
+            if (tabToShow) {
+                // Activar el tab
+                let tabElement = new bootstrap.Tab(tabToShow);
+                tabElement.show();
+            }
+        }
+    });
+</script>
+
 
 </html>

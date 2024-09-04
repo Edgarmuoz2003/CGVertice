@@ -10,29 +10,35 @@ padding-top: 1%;">
     <div class="slider">
         <div class="slide-track">
             <div class="slide">
-                <a href="/Blog"><img src={{ asset('./img/Converge.png') }} class="img-slider" alt="logo Converge" /></a>
+                <img src={{ asset('img/carbon.jpg') }} class="img-slider" alt="logo San Carbon" />
             </div>
             <div class="slide">
-                <a href={{ route('inicio') }}><img src={{ asset('img/logoo.png') }} class="img-slider" alt="logo vertice" /></a>
+                <img src={{ asset('img/pampa.png') }} class="img-slider" alt="logo carnes la pampa" />
             </div>
             <div class="slide">
-                <a href="/V2"><img src={{ asset('./img/v2.png') }} class="img-slider" alt="logo V2 Suministros" /></a>
+                <img src={{ asset('img/jac.jpg') }} class="img-slider" alt="logo jac producciones" />
             </div>
             <div class="slide">
-                <img src={{ asset('./img/ceet.png') }} class="img-slider" alt="logo ceet" />
+                <img src={{ asset('img/oxivital.png') }} class="img-slider" alt="logo oxivital" />
             </div>
             <div class="slide">
-                <a href="/Blog"><img src={{ asset('./img/Converge.png') }} class="img-slider" alt="" /></a>
+                <img src={{ asset('img/lima.png') }} class="img-slider" alt="logo cultivos lima" />
             </div>
             <div class="slide">
-                <a href={{ route('inicio') }}><img src={{ asset('img/logoo.png') }} class="img-slider" alt="" /></a>
+                <img src={{ asset('img/finito.png') }} class="img-slider" alt="logo finito apartamentos" />
             </div>
             <div class="slide">
-                <a href="/V2"><img src={{ asset('./img/v2.png') }} class="img-slider" alt="" /></a>
+                <img src={{ asset('img/renos.png') }} class="img-slider" alt="logo bolsos reno" />
             </div>
             <div class="slide">
-                <img src={{ asset('./img/ceet.png') }} class="img-slider" alt="" />
+                <img src={{ asset('img/chava.jpg') }} class="img-slider" alt="logo chava" />
             </div>
+            
         </div>
     </div>
+    <div class="btnClientes">
+        <a href="{{ route('nosotros', ['tab' => '3']) }}" class="btn btn-info">Que dicen nuestros clientes</a>
+    </div>
 </div>
+
+
