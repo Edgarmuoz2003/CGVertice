@@ -400,3 +400,31 @@
         </div>
     </div>
 </section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var hash = window.location.hash;
+        if (hash) {
+            var tabToShow = document.querySelector('button' + hash);
+            if (tabToShow) {
+                // Desactivar todas las pestañas
+                document.querySelectorAll('.nav-link').forEach(function(tab) {
+                    tab.classList.remove('active');
+                });
+
+                // Ocultar todo el contenido de las pestañas
+                document.querySelectorAll('.tab-pane').forEach(function(tabContent) {
+                    tabContent.classList.remove('show', 'active');
+                });
+
+                // Activar la pestaña correspondiente
+                tabToShow.classList.add('active');
+                var contentToShow = document.querySelector(tabToShow.getAttribute('data-bs-target'));
+                if (contentToShow) {
+                    contentToShow.classList.add('show', 'active');
+                }
+            }
+        }
+    });
+</script>
+

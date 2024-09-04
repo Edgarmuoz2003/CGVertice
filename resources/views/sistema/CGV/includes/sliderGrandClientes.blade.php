@@ -33,12 +33,12 @@ padding-top: 1%;">
             <div class="slide">
                 <img src={{ asset('img/chava.jpg') }} class="img-slider" alt="logo chava" />
             </div>
-            
+
         </div>
     </div>
     <div class="btnClientes">
-        <a href="{{ route('nosotros', ['tab' => '3']) }}" class="btn btn-info">Que dicen nuestros clientes</a>
+        
+        <a href="{{ route('nosotros') }}#3-tab" class="btn btn-primary">Ir a ¿Por qué Elegirnos?</a>
+
     </div>
 </div>
-
-
