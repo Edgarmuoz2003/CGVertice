@@ -17,9 +17,9 @@
             <div class="collapse navbar-collapse navbar">
                 <ul class="navbar-nav ms-auto">
                     @can('Admin Configuracion')
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown configadmin">
                             <a id="adminDropdown" class="nav-link dropdown-toggle" style="color: #bf943a" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Admin Configuración
+                                Admin
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="adminDropdown">
                                 <li><a class="dropdown-item" href="{{ route('ruta_Users') }}"><i class="fas fa-users ml-2"></i> Usuarios</a></li>
@@ -78,7 +78,7 @@
                             Bienvenido, {{ Auth::user()->name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Cerrar sesión</a></li>
+                            <li><a class="dropdown-item" href="#" id="logoutBtn"><i class="fas fa-sign-out-alt"></i>Salir</a></li>
                         </ul>
                     @else
                         <div class="nav-link" style="color: #bf943a; display: inline-block;">
@@ -117,7 +117,7 @@
                             Bienvenido, {{ Auth::user()->name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownOffcanvas">
-                            <li><a class="dropdown-item" href="#" id="logoutOffcanvasBtn">Cerrar sesión</a></li>
+                            <li><a class="dropdown-item" href="#" id="logoutOffcanvasBtn">Salir</a></li>
                         </ul>
                     @else
                         <div class="nav-link" style="color: #bf943a;">
@@ -136,3 +136,11 @@
         </div>
     </div>
 </body>
+
+<script>
+    // Manejar clic en el botón de cerrar sesión
+    document.getElementById('logoutBtn').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+        document.getElementById('logoutForm').submit(); // Enviar el formulario de cierre de sesión
+    });
+</script>

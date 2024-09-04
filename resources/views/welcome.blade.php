@@ -10,7 +10,7 @@
 
 <body>
 
-    @include('sistema.CGV.includes.NewNavbar')
+    @include('sistema.CGV.includes.newNavbar')
     @include('sistema.CGV.includes.boton')
 
     <div class="container-fluid">

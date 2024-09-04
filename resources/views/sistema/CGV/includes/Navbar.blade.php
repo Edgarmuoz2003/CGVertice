@@ -107,3 +107,11 @@
         </div>
     </div>
 </body>
+
+<script>
+    // Manejar clic en el botón de cerrar sesión
+    document.getElementById('logoutBtn').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+        document.getElementById('logoutForm').submit(); // Enviar el formulario de cierre de sesión
+    });
+</script>
