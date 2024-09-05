@@ -152,12 +152,15 @@ class ConvergeController extends Controller
         }
 
         // Obtiene el nombre del archivo de la noticia (o rutas)
-        $imagenRuta = public_path('imagenesBlog/img/' . $blog->foto); // Ajusta el nombre del campo según tu base de datos
-        $imagenVideo = public_path('imagenesBlog/img/' . $blog->foto); // Ajusta el nombre del campo según tu base de datos
+        $imagenRuta = public_path('imagenesBlog/img/' . $blog->foto);
+        $imagenVideo = public_path('videos/videos/' . $blog->video); 
 
         // Elimina la imagen del directorio
         if ($blog->foto && file_exists($imagenRuta)) {
             unlink($imagenRuta);
+        }
+        if ($blog->video && file_exists($imagenVideo)) {
+            unlink($imagenVideo);
         }
 
         // Elimina la noticia de la base de datos
