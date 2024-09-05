@@ -62,9 +62,9 @@
             </div>
         @endcan
         <div class="ContainerBlogSecond">
-            <div class="row">
+            <div class="row justify-content-center">
                 @foreach ($Blog as $blogg)
-                    <div class="col-lg-3 m-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                         {{-- cardBlog (Buscar así tal cual en el archivo de css) --}}
                         <div class="cardBlog">
                             <div class="CardNoticias">

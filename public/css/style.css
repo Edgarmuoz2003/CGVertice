@@ -367,10 +367,9 @@ ul li {
 /* cardBlog */
 
 .ContainerBlogSecond {
-    justify-content: center;
-    align-items: center;
-    display: flex;
     padding-left: 15%;
+    padding-right: 15%;
+    /* Quitamos justify-content y display flex */
 }
 
 .cardBlog {
@@ -378,10 +377,12 @@ ul li {
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 90%;
+    width: 100%;
+    max-width: 300px;
     border: #b8860b 1px solid;
     border-radius: 5%;
     box-shadow: 0 2px 15px #b8860b;
+    margin-bottom: 20px; /* Aseguramos margen inferior para separar las tarjetas */
 }
 
 .imgcontainer {
