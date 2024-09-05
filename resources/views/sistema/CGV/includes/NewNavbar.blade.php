@@ -42,9 +42,11 @@
                                     <li><a href="/GestionIps">IPS Gerencial</a></li>
                                 </ul>
                             </li>
-                            <li><a href="/servicios#SegundoServicio">Gestión I.E.</a>
+                            <li><a href="/servicios">Gestión I.E.</a>
                                 <ul class="topic">
-                                    <li><a href="/servicios#SegundoServicio">Manuales de Convivencia</a></li>
+                                    <li>
+                                        <a href="/servicios#SegundoServicio" data-bs-toggle="modal" data-bs-target="#exampleModal2">Manuales de Convivencia</a>
+                                    </li>
                                     <li><a href="">Diseño de PEI</a></li>
                                     <li><a href="">Mallas Curriculares</a></li>
                                     <li><a href="">Evaluación Docentes</a></li>

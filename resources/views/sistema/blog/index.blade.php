@@ -15,8 +15,7 @@
 </head>
 
 <body>
-    @include('sistema.CGV.includes.navbar')
-
+    @include('sistema.CGV.includes.newnavbar')
     <br>
     <br>
 

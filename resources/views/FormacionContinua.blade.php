@@ -11,7 +11,7 @@
     </head>
 
     <body>
-        @include('sistema.CGV.includes.Navbar')
+        @include('sistema.CGV.includes.newnavbar')
         <section class="section-GestionD">
             <div class="content-Conózcanos">
             @include('sistema.CGV.includes.tabsformacioncontinua')

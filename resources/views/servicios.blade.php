@@ -9,7 +9,7 @@
 
 <body>
     @include('sistema.CGV.includes.boton')
-    @include('sistema.CGV.includes.navbar')
+    @include('sistema.CGV.includes.newnavbar')
     @include('sistema.CGV.includes.regresarArriba')
 
     <section class="section-abouts">

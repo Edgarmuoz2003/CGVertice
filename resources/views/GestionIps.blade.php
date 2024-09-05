@@ -14,7 +14,7 @@
 
 </head>
 <body>
-@include('sistema.CGV.includes.Navbar')
+    @include('sistema.CGV.includes.newnavbar')
 <section class="section-aboutips">
         <div class="content-Conózcanos">
          @include('sistema.CGV.includes.tabsIpsGerencial')
