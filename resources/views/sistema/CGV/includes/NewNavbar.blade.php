@@ -5,7 +5,7 @@
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
         <div class="container MainNavbar">
             <!-- Logo -->
-            <a id="logoInicio" href="{{ route('inicio') }}">
+            <a id="logoInicio">
                 <img class="logo-cgv" src="{{ asset('img/logoo.png') }}" alt="Logo de Vértice">
             </a>
             <!-- Botón del menú Offcanvas para pantallas pequeñas -->
@@ -35,14 +35,14 @@
                     <li><a href="{{ route('ruta_V2') }}">V2suministros</a></li>
                         <li><a href="{{ route('ruta_services') }}">Servicios</a>
                             <ul class="name">
-                            <li><a href="">Gestión empresas</a>
+                            <li><a href="/servicios#GestioenEmpresas">Gestión empresas</a>
                                 <ul class="topic">
                                     <li><a href="/GestionCalidad">Gestión de calidad de su empresa</a></li>
                                     <li><a href="/gestionDesarrollo">Gestión de desarrollo empresarial</a></li>
                                     <li><a href="/GestionIps">IPS Gerencial</a></li>
                                 </ul>
                             </li>
-                            <li><a href="/servicios">Gestión I.E.</a>
+                            <li><a href="/servicios#GestionE">Gestión I.E.</a>
                                 <ul class="topic">
                                     <li>
                                         <a href="/servicios#SegundoServicio" data-bs-toggle="modal" data-bs-target="#exampleModal2">Manuales de Convivencia</a>
@@ -53,13 +53,13 @@
                                     <li><a href="">Evaluación Institucional</a></li>
                                 </ul>
                             </li>
-                            <li><a href="">Educación y formación</a>
+                            <li><a href="/servicios#GestionEdu">Educación y formación</a>
                                 <ul class="topic">
                                     <li><a href="">Formación continua</a></li>
                                     <li><a href="">Formación a la medida</a></li>
                                 </ul>
                             </li>
-                            <li><a href="">Propiedades Horizontales</a>
+                            <li><a href="/servicios#PH">Propiedades Horizontales</a>
                                 <ul class="topic">
                                     <li><a href="">SST</a></li>
                                     <li><a href="">PMIRS</a></li>

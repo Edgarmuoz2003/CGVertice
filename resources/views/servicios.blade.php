@@ -51,8 +51,8 @@
         <div class="container py-4" style="pointer:default;">
             <div class="main-timeline-2">
                 {{-- Área de servicio al cliente --}}
-                <div class="timeline-2 left-2" id="EduYFor">
-                    <div class="card">
+                <div class="timeline-2 left-2" id="GestioenEmpresas">
+                    <div class="card" >
                         <a id="PrimerServicio" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
                             <img src={{ asset('img/GestionEmpresas.png') }} class="card-img-top"
                                 style="width: 600px; height: 400px;" alt="Imagen 1">
@@ -476,7 +476,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="timeline-2 right-2" id="GestionE">
+                <div class="timeline-2 right-2" id="PH">
                     <div class="card">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
                             <img src={{ asset('img/ph.jpeg') }} class="card-img-top"
