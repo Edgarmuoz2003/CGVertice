@@ -15,7 +15,7 @@ class ConvergeController extends Controller
     public function index()
     {
         $Blog = Converge::all();
-        
+
         return view('sistema.blog.index', compact('Blog'));
     }
 
@@ -141,27 +141,31 @@ class ConvergeController extends Controller
     /**
      * Remove the specified resource from storage.
      */
- public function destroy($idNoticia)
-{
-    // Encuentra la noticia por ID
-    $blog = Converge::find($idNoticia);
+    public function destroy($idNoticia)
+    {
+        // Encuentra la noticia por ID
+        $blog = Converge::find($idNoticia);
 
-    // Verifica si la noticia existe
-    if (!$blog) {
-        return redirect()->back()->with('error', 'Noticia no encontrada.');
+        // Verifica si la noticia existe
+        if (!$blog) {
+            return redirect()->back()->with('error', 'Noticia no encontrada.');
+        }
+
+        // Obtiene el nombre del archivo de la noticia (o rutas)
+        $imagenRuta = public_path('imagenesBlog/img/' . $blog->foto);
+        $imagenVideo = public_path('videos/videos/' . $blog->video); 
+
+        // Elimina la imagen del directorio
+        if ($blog->foto && file_exists($imagenRuta)) {
+            unlink($imagenRuta);
+        }
+        if ($blog->video && file_exists($imagenVideo)) {
+            unlink($imagenVideo);
+        }
+
+        // Elimina la noticia de la base de datos
+        $blog->delete();
+
+        return redirect()->back()->with('success', 'Noticia eliminada exitosamente.');
     }
-
-    // Obtiene el nombre del archivo de la noticia (o rutas)
-    $imagenRuta = public_path('imagenesBlog/img' . $blog->foto); // Ajusta el nombre del campo según tu base de datos
-
-    // Elimina la imagen del directorio
-    if (file_exists($imagenRuta)) {
-        unlink($imagenRuta);
-    }
-
-    // Elimina la noticia de la base de datos
-    $blog->delete();
-
-    return redirect()->back()->with('success', 'Noticia eliminada exitosamente.');
-}
 }
