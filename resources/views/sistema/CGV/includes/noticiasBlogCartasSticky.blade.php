@@ -2,13 +2,6 @@
     <h3 class="text" style="color:#b8860b">Converge Noticias</h3>
     <hr>
     <!-- Div del carrusel con las noticias Destacado -->
-    @can('Crear Noticias')
-        <div class="container text-center">
-            <button type="button" class="btn btn btn-outline-warning m-4" data-bs-toggle="modal" data-bs-target="#create">
-                Crear Noticia
-            </button>
-        </div>
-    @endcan
     <div class="ContainerBlogSecond">
         <div class="row">
             @foreach ($mainBlog as $blogg)
@@ -27,29 +20,6 @@
                                 data-bs-target="#exampleModal{{ $blogg->id }}">
                                 Más información
                             </button>
-                            <div class="btndropdown">
-                                @if (Auth::check() && (Auth::user()->can('Editar Noticias') || Auth::user()->can('Eliminar Noticias')))
-                                    <button class="btn btn-warning" type="button"
-                                        id="dropdownMenuButton{{ $blogg->id }}" data-bs-toggle="dropdown">
-                                        Editar<i class="fas fa-ellipsis-v"></i>
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton{{ $blogg->id }}">
-                                        @can('Editar Noticias')
-                                            <li>
-                                                <button type="button" class="dropdown-item" data-bs-toggle="modal"
-                                                    data-bs-target="#edit{{ $blogg->id }}">Editar</button>
-                                            </li>
-                                        @endcan
-                                        @can('Eliminar Noticias')
-                                            <li>
-                                                <button type="button" class="dropdown-item"
-                                                    data-noticia-id="{{ $blogg->id }}"
-                                                    onclick="eliminarNoticia('{{ $blogg->id }}')">Eliminar</button>
-                                            </li>
-                                        @endcan
-                                    </ul>
-                                @endif
-                            </div>
                         </div>
                     </div>
                 </div>
