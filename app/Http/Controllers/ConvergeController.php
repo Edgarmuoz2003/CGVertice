@@ -141,12 +141,27 @@ class ConvergeController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy($idNoticia)
-    {
-        $blogs = Converge::find($idNoticia);
+ public function destroy($idNoticia)
+{
+    // Encuentra la noticia por ID
+    $blog = Converge::find($idNoticia);
 
-        $blogs->delete();
-
-        return redirect()->back()->with('success', 'Noticia eliminada exitosamente.');
+    // Verifica si la noticia existe
+    if (!$blog) {
+        return redirect()->back()->with('error', 'Noticia no encontrada.');
     }
+
+    // Obtiene el nombre del archivo de la noticia (o rutas)
+    $imagenRuta = public_path('imagenesBlog/img' . $blog->foto); // Ajusta el nombre del campo según tu base de datos
+
+    // Elimina la imagen del directorio
+    if (file_exists($imagenRuta)) {
+        unlink($imagenRuta);
+    }
+
+    // Elimina la noticia de la base de datos
+    $blog->delete();
+
+    return redirect()->back()->with('success', 'Noticia eliminada exitosamente.');
+}
 }

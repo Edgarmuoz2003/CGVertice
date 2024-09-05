@@ -17,7 +17,7 @@
         <section>
             {{-- PrimerContenedor (Buscar tal cual en el css) --}}
             <div class="content">
-                <div class="container" style="padding-right:5%;">
+                <div class="container">
                     <div class="MainTittle">
                         <p id="MainTittle">
                             <span style="color: #bf943a">Trabajamos</span> y

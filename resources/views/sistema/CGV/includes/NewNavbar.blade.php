@@ -28,7 +28,6 @@
                             </ul>
                         </li>
                     @endcan
-                    
                     <li><a href="{{ route('inicio') }}">Inicio</a></li>
                     <li><a href="{{ route('nosotros') }}">Nosotros</a></li>
                     <li><a href="{{ route('ruta_blog') }}">Converge</a></li>
@@ -70,10 +69,7 @@
                             </ul>
                         </li>
                     </div>
-                        
-                    
                 </ul>
-
                 <div class="nav-item dropdown">
                     @auth
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" style="color: #bf943a" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -90,7 +86,6 @@
                         </div>
                     @endauth
                 </div>
-
                 <!-- Formulario de cierre de sesión -->
                 <form id="logoutForm" action="{{ route('logout') }}" method="POST" style="display: none;">
                     @csrf
@@ -98,7 +93,6 @@
             </div>
         </div>
     </nav>
-
     <!-- Rutas para las otras páginas del sitio web -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
         <div class="offcanvas-header">
@@ -112,7 +106,6 @@
                 <li><a href="{{ route('ruta_blog') }}">Converge</a></li>
                 <li><a href="{{ route('ruta_V2') }}">V2suministros</a></li>
                 <li><a href="{{ route('ruta_services') }}">Servicios</a></li>
-
                 <div class="nav-item dropdown">
                     @auth
                         <a id="navbarDropdownOffcanvas" class="nav-link active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -129,7 +122,6 @@
                         </div>
                     @endauth
                 </div>
-
                 <!-- Formulario de cierre de sesión -->
                 <form id="logoutFormOffcanvas" action="{{ route('logout') }}" method="POST" style="display: none;">
                     @csrf
