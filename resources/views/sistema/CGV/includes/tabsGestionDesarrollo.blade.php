@@ -5,8 +5,10 @@
             <div class="logo-vertice">
                 <img src={{ asset('img/LogoVertice200x177.png') }} alt="Logo de Vértice">
                 <h2 class="text titulo" styles="text-aling: center">Gestion de Desarrollo Empresarial</h2>
+                <br><br>
+                <p class="text-black">Ofrecemos soluciones integrales para optimizar la administración y operación de tu empresa, enfocándonos en el desarrollo estratégico, eficiencia operativa y cumplimiento normativo para impulsar el crecimiento sostenible y el éxito empresarial.</p>
             </div>
-            
+            <br><br>
             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="1-tab" data-bs-toggle="tab" data-bs-target="#one-tab-pane"
