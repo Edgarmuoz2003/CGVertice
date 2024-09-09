@@ -91,48 +91,48 @@
                         Principales Beneficios de los Talleres Personalizados:
                     </p>
                     <ul class="check-list">
-                        <li> <strong style="color: #B8860D"><p class="text-black">Alineación con Necesidades Específicas:</strong> Cada
+                        <li> <strong style="color: #B8860D">Alineación con Necesidades Específicas:</strong><p class="text-black"> Cada
                             taller se adapta a las necesidades y
                             desafíos particulares de la empresa, garantizando que el contenido y las actividades
                             sean directamente aplicables a su contexto y objetivos.</p></li> <br>
 
-                        <li><strong style="color: #B8860D"><p class="text-black">Desarrollo de Habilidades Relevantes:</strong> Se enfocan
+                        <li><strong style="color: #B8860D">Desarrollo de Habilidades Relevantes:</strong><p class="text-black"> Se enfocan
                             en desarrollar habilidades que son
                             críticas para el éxito de la organización, como liderazgo, comunicación, gestión de
                             proyectos o innovación, basándose en las áreas que requieren mayor atención.</p></li><br>
 
-                        <li><strong style="color: #B8860D"><p class="text-black">Cohesión y Dinámicas de Equipo:</strong> Ofrecen
+                        <li><strong style="color: #B8860D">Cohesión y Dinámicas de Equipo:</strong><p class="text-black"> Ofrecen
                             actividades y estrategias diseñadas para mejorar
                             la dinámica del equipo y fortalecer las relaciones laborales, ajustándose a la
                             estructura y cultura específica de la empresa.</p></li><br>
 
-                        <li><strong style="color: #B8860D"><p class="text-black">Solución de Problemas Concretos:</strong> Permiten
+                        <li><strong style="color: #B8860D">Solución de Problemas Concretos:</strong><p class="text-black"> Permiten
                             abordar problemas específicos identificados
                             por la empresa, proporcionando soluciones y estrategias prácticas que se pueden
                             implementar de inmediato.</p></li><br>
 
-                        <li><strong style="color: #B8860D"><p class="text-black">Fomento de la Innovación:</strong> Estimulan la
+                        <li><strong style="color: #B8860D">Fomento de la Innovación:</strong><p class="text-black"> Estimulan la
                             creatividad y la generación de ideas dentro del
                             contexto particular de la empresa, facilitando la búsqueda de soluciones innovadoras
                             adaptadas a sus desafíos y oportunidades.</p></li><br>
 
-                        <li><strong style="color: #B8860D"><p class="text-black">Optimización de Procesos:</strong> Revisan y mejoran
+                        <li><strong style="color: #B8860D">Optimización de Procesos:</strong><p class="text-black"> Revisan y mejoran
                             procesos internos de manera personalizada,
                             adaptando las recomendaciones a las particularidades de la empresa para aumentar la
                             eficiencia y efectividad.</p></li><br>
 
-                        <li> <strong style="color: #B8860D"><p class="text-black">Incremento de la Motivación:</strong> Al estar alineados
+                        <li> <strong style="color: #B8860D">Incremento de la Motivación:</strong><p class="text-black"> Al estar alineados
                             con las metas y valores de la empresa,
                             estos talleres refuerzan el compromiso y la motivación de los empleados al demostrar que
                             se valoran sus necesidades y se invierte en su desarrollo.</p></li><br>
 
-                        <li> <strong style="color: #B8860D"><p class="text-black">Adaptación al Cambio:</strong> Preparan al personal para
+                        <li> <strong style="color: #B8860D">Adaptación al Cambio:</strong><p class="text-black"> Preparan al personal para
                             enfrentar cambios organizacionales o
                             del mercado de manera específica, proporcionando herramientas adaptadas a la realidad de
                             la empresa.</p></li><br>
 
-                        <li><strong style="color: #B8860D"><p class="text-black">Evaluación y Retroalimentación Personalizada:</strong>
-                            Ofrecen un espacio para recibir
+                        <li><strong style="color: #B8860D">Evaluación y Retroalimentación Personalizada:</strong>
+                            <p class="text-black">Ofrecen un espacio para recibir
                             retroalimentación específica y evaluar el progreso según las metas establecidas por la
                             empresa, facilitando una mejora continua y adaptada.</p></li>
                     </ul>
