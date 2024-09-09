@@ -24,16 +24,21 @@
             <div class="col-lg-12 text-center">
                 <h1 class="display-4" style="color:#b8860b">¡Bienvenidos a V2!</h1>
                 <p class="my-3">
-                    Nos alegra que te unas a nuestra comunidad de información. En Converge, estamos comprometidos a
-                    ofrecerte las noticias más actuales, relevantes y confiables del panorama global. Ya sea política,
-                    economía, tecnología, entretenimiento o deportes, nuestro objetivo es mantenerte bien informado y al
-                    tanto de los acontecimientos más importantes del momento.
+                    En CG Vértice, nos enorgullece ofrecer una experiencia de compra en línea fácil y segura, con un
+                    catálogo actualizado que responde a las necesidades de nuestros clientes. Nuestro compromiso es
+                    proporcionar productos de calidad, respaldados por un servicio al cliente excepcional, para que
+                    puedas encontrar todo lo que necesitas en un solo lugar. Ya sea que busques mejorar la seguridad en
+                    tu empresa o adquirir suministros esenciales para tu hogar o negocio, CG Vértice es tu socio
+                    confiable en cada paso del camino.
 
-                    Aquí, no solo reportamos noticias, también fomentamos el diálogo y la reflexión. Queremos ser tu
-                    fuente de información confiable y tu espacio para el intercambio de ideas.
+                    <br>
+                    <br>
 
-                    Gracias por confiar en nosotros para mantenerte informado. ¡Vamos a converger en la verdad y el
-                    conocimiento!.
+                    V2 suministros es una tienda virtual innovadora y versátil que ofrece una amplia gama de productos y
+                    soluciones para la seguridad y salud en el trabajo, así como para otras áreas esenciales de tu vida
+                    y negocio. Con una sólida especialización en implementos de seguridad y equipos de protección
+                    personal, CG Vértice se dedica a proporcionar artículos de alta calidad que cumplen con los más
+                    estrictos estándares de seguridad industrial y laboral.
                 </p>
             </div>
         </div>
