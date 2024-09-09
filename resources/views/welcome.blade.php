@@ -19,27 +19,24 @@
             <div class="content">
                 <div class="container">
                     <div class="MainTittle">
-                        <p id="MainTittle">
-                            <span style="color: #bf943a">Trabajamos</span> y
-                            <span style="color: #bf943a">protegemos</span> lo que más te
-                            <span style="color: #bf943a">importa.</span>
-                        </p>
-                    </div>
-                    <div class="TextoInicio">
-                        <p>
-                            En Vértice, nos enfocamos en ofrecer soluciones que alivian las preocupaciones diarias de
-                            quienes lideran empresas, propiedades horizontales, instituciones educativas y demás
-                            organizaciones. Desde el asesoramiento estratégico hasta servicios especializados, nos
-                            dedicamos a crear un entorno seguro y confiable. Tu tranquilidad y bienestar son nuestra
-                            prioridad, porque sabemos que cuando lo que
-                            te importa está protegido, puedes alcanzar tu máximo potencial con confianza y serenidad.
-                        </p>
+                        <img src={{ asset('/img/Slogan.png') }} alt="Imagn"
+                        width="auto" height="450px" class="img-fluid" />
                     </div>
                 </div>
-                <div class="mt-5 mb-4 zoom-effect">
+                <div class="mt-5 mb-4 zoom-effect ImgMain">
                     <img src={{ asset('/img/DD.jpg') }} class="rounded-circle img-fluid shadow-1-strong" alt="Imagn"
                         width="800px" height="600px" />
                 </div>
+            </div>
+            <div class="TextoInicio">
+                <p>
+                    En Vértice, nos enfocamos en ofrecer soluciones que alivian las preocupaciones diarias de
+                    quienes lideran empresas, propiedades horizontales, instituciones educativas y demás
+                    organizaciones. Desde el asesoramiento estratégico hasta servicios especializados, nos
+                    dedicamos a crear un entorno seguro y confiable. Tu tranquilidad y bienestar son nuestra
+                    prioridad, porque sabemos que cuando lo que
+                    te importa está protegido, puedes alcanzar tu máximo potencial con confianza y serenidad.
+                </p>
             </div>
         </section>
     </div>

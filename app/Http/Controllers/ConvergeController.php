@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use App\Models\Converge;
@@ -26,7 +25,6 @@ class ConvergeController extends Controller
     {
         //
     }
-
     /**
      * Store a newly created resource in storage.
      */
@@ -98,8 +96,8 @@ class ConvergeController extends Controller
         $request->validate([
             'NombreE' => 'required',
             'DescripcionE' => 'required',
-            'ImagenE' => $request->hasFile('ImagenE') ? 'image|mimes:jpeg,png,jpg|max:2048' : '',
-            'VideoE' => $request->hasFile('VideoE') ? 'mimetypes:video/avi,video/mp4,video/mpeg,video/quicktime|max:50000' : '',
+            'ImagenE' => $request->hasFile('ImagenE') ? 'image|mimes:jpeg,png,jpg' : '',
+            'VideoE' => $request->hasFile('VideoE') ? 'mimetypes:video/avi,video/mp4,video/mpeg,video/' : '',
             'OpcionE' => 'required',
         ]);
 
@@ -137,33 +135,37 @@ class ConvergeController extends Controller
         return redirect()->back()->with('success', 'Noticia actualizada exitosamente.');
     }
 
-
     /**
      * Remove the specified resource from storage.
      */
     public function destroy($idNoticia)
     {
-        // Encuentra la noticia por ID
         $blog = Converge::find($idNoticia);
 
-        // Verifica si la noticia existe
         if (!$blog) {
             return redirect()->back()->with('error', 'Noticia no encontrada.');
         }
 
-        // Obtiene el nombre del archivo de la noticia (o rutas)
+        // Construcción de rutas
         $imagenRuta = public_path('imagenesBlog/img/' . $blog->foto);
-        $imagenVideo = public_path('videos/videos/' . $blog->video); 
+        $videoRuta = public_path('public/videos/videos/' . $blog->video);
 
-        // Elimina la imagen del directorio
         if ($blog->foto && file_exists($imagenRuta)) {
-            unlink($imagenRuta);
-        }
-        if ($blog->video && file_exists($imagenVideo)) {
-            unlink($imagenVideo);
+            if (unlink($imagenRuta)) {
+                echo 'Imagen eliminada exitosamente.';
+            } else {
+                echo 'Error al eliminar la imagen.';
+            }
         }
 
-        // Elimina la noticia de la base de datos
+        if ($blog->video && file_exists($videoRuta)) {
+            if (unlink($videoRuta)) {
+                echo 'Imagen eliminada exitosamente.';
+            } else {
+                echo 'Error al eliminar la imagen.';
+            }
+        }
+
         $blog->delete();
 
         return redirect()->back()->with('success', 'Noticia eliminada exitosamente.');

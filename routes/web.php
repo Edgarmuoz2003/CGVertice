@@ -63,7 +63,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/V2/detalles/{id}', [DetalleProductoController::class, 'showDetallesModal'])->name('producto.detalles.modal');
     Route::delete('/V2/{id}', [ProductoController::class, 'destroy']);
     Route::delete('/eliminar-detalle/{idDetalle}', [DetalleProductoController::class, 'eliminarDetalle'])->name('eliminar.detalle');
-    Route::delete('/noticias/{id}', [ConvergeController::class, 'destroy'])->name('noticias.destroy');
+    // Route::delete('/noticias/{id}', [ConvergeController::class, 'destroy'])->name('noticias.destroy');
+    // Route::delete('/noticias/{id}', [ConvergeController::class, 'destroyV'])->name('noticias.destroyV');
 }); 
 
 Route::post('password/email', [ForgotPasswordController::class, 'sendResetLinkEmail'])->name('password.email');

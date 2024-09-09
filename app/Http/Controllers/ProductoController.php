@@ -110,7 +110,7 @@ class ProductoController extends Controller
             'Descripcion' => 'required',
             'InformacionA' => 'required',
             'Opcion' => 'required',
-            'Imagen' => $request->hasFile('Imagen') ? 'image|mimes:jpeg,png,jpg,gif|max:2048' : '',
+            'Imagen' => $request->hasFile('Imagen')
         ]);
 
         $producto = Producto::find($id);
@@ -147,6 +147,17 @@ class ProductoController extends Controller
         if ($totalProductos >= 1) {
             $producto = Producto::findOrFail($id);
             $producto->delete();
+
+        // Construcción de rutas
+        $imagenRuta = public_path('imagenesProducto/img/' . $producto->imagen);
+
+        if ($producto->imagen && file_exists($imagenRuta)) {
+            if (unlink($imagenRuta)) {
+                echo 'Imagen eliminada exitosamente.';
+            } else {
+                echo 'Error al eliminar la imagen.';
+            }
+        }
 
             return response()->json(['message' => 'Producto eliminado correctamente']);
         } else {

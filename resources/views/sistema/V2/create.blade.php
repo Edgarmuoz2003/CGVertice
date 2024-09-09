@@ -50,7 +50,7 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cerrar</button>
                     <!-- Cambia el tipo de botón para activar la validación del formulario -->
-                    <button type="button" class="btn btn-outline-primary" id="Guardar" onclick="validarFormularioCliente()">Guardar</button>
+                    <button type="button" class="btn btn-outline-warning" id="Guardar" onclick="validarFormularioCliente()">Guardar</button>
                 </div>
             </form>
         </div>

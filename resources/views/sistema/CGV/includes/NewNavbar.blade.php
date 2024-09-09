@@ -106,27 +106,25 @@
                 <li><a href="{{ route('ruta_blog') }}">Converge</a></li>
                 <li><a href="{{ route('ruta_V2') }}">V2suministros</a></li>
                 <li><a href="{{ route('ruta_services') }}">Servicios</a></li>
-                <div class="nav-item dropdown">
-                    @auth
-                        <a id="navbarDropdownOffcanvas" class="nav-link active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Bienvenido, {{ Auth::user()->name }}
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownOffcanvas">
-                            <li><a class="dropdown-item" href="#" id="logoutOffcanvasBtn">Salir</a></li>
-                        </ul>
-                    @else
-                        <div class="nav-link" style="color: #bf943a;">
-                            <a href="{{ route('login') }}" style="color: white;">Iniciar sesión</a>
-                            <span style="margin: 0 5px; color: white;">|</span>
-                            <a href="{{ route('register') }}" style="color: white;">Registrarme</a>
-                        </div>
-                    @endauth
-                </div>
-                <!-- Formulario de cierre de sesión -->
-                <form id="logoutFormOffcanvas" action="{{ route('logout') }}" method="POST" style="display: none;">
-                    @csrf
-                </form>
             </ul>
+            <div class="offcanvas-body">
+                @auth
+                    <a id="navbarDropdown" class="nav-link" style="color: #bf943a" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Bienvenido, {{ Auth::user()->name }}
+                    </a>
+
+                @else
+                    <div class="nav-link" style="color: #bf943a; display: inline-block;">
+                        <a href="{{ url('/login') }}" style="color: #bf943a;">Iniciar sesión</a>
+                        <span style="margin: 0 5px;">|</span>
+                        <a href="{{ url('/register') }}" style="color: #bf943a;">Registrarme</a>
+                    </div>
+                @endauth
+            </div>
+            <!-- Formulario de cierre de sesión -->
+            <form id="logoutForm" action="{{ route('logout') }}" method="POST" style="display: none;">
+                @csrf
+            </form>
         </div>
     </div>
 </body>

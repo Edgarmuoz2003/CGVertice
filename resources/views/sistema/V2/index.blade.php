@@ -1,11 +1,8 @@
 <head>
     <meta charset="utf-8" />
-    <!-- Seccion de la Configuración y Metadatos -->
     <script src={{ asset('../js/color-modes.js') }}></script>
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>V2 Suministros || Corporate Group Vértice</title>
-
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="shortcut icon" href="../img/V2logo.jpeg" type="image/x-icon" />
     @include('sistema.CGV.includes.head')
@@ -15,11 +12,31 @@
 
 <body>
 
-
     @include('sistema.CGV.includes.newnavbar')
     @include('sistema.CGV.includes.regresarArriba')
 
     <main class="container-just">
+
+        <div class="p-4 rounded bg-body-secondary" style="display: flex; flex-direction:column; ">
+            <div class="col-lg-12 text-center">
+                <img src={{ asset('../img/v2.png') }} alt="Logotipo Converge" class="img-fluid" />
+            </div>
+            <div class="col-lg-12 text-center">
+                <h1 class="display-4" style="color:#b8860b">¡Bienvenidos a V2!</h1>
+                <p class="my-3">
+                    Nos alegra que te unas a nuestra comunidad de información. En Converge, estamos comprometidos a
+                    ofrecerte las noticias más actuales, relevantes y confiables del panorama global. Ya sea política,
+                    economía, tecnología, entretenimiento o deportes, nuestro objetivo es mantenerte bien informado y al
+                    tanto de los acontecimientos más importantes del momento.
+
+                    Aquí, no solo reportamos noticias, también fomentamos el diálogo y la reflexión. Queremos ser tu
+                    fuente de información confiable y tu espacio para el intercambio de ideas.
+
+                    Gracias por confiar en nosotros para mantenerte informado. ¡Vamos a converger en la verdad y el
+                    conocimiento!.
+                </p>
+            </div>
+        </div>
 
         <div class="container mt-4">
             <div class="col-xxl-12 px-4 py-3 mt-4">
@@ -78,7 +95,6 @@
             </form>
             <div class="album mt-4">
                 <div class="container">
-
                     <div class="container text-center mt-3">
                         <div class="container-just py-4">
                             <h1 class="display-5" style="color: #b8860b">¡ Soluciones Integrales para la Seguridad y el
@@ -92,10 +108,9 @@
                                 mantener un entorno seguro y conforme a las normativas vigentes.</p>
                         </div>
                     </div>
-
                     @can('Crear Productos')
                         <div class="container text-center">
-                            <button type="button" class="btn btn-outline-primary p-2" style="--bs-bg-opacity: .5;"
+                            <button type="button" class="btn btn-outline-warning p-2" style="--bs-bg-opacity: .5;"
                                 data-bs-toggle="modal" data-bs-target="#create">
                                 Registrar Producto
                             </button>
@@ -134,7 +149,6 @@
                         @endforeach
                     </div>
                 </div>
-
                 @include('sistema.V2.create')
             </div>
         </div>
@@ -157,20 +171,16 @@
                         <a href="https://wa.me/573332371006?text=¿Por%20qué%20recargar%20tu%20botiquín%20de%20primeros%20auxilios?"
                             target="_blank" rel="noopener noreferrer" class="btn btn-warning btn-lg"
                             type="button">¡Asegura tu cumplimiento Ahora!</a>
-                            <br><br>                          
-                            
+                        <br><br>
+
                     </div>
                     <br>
                     <div>
                         <p>🛡️✨ Contáctanos para proteger tu negocio contra posibles sanciones. 🚀👩‍⚕️
                             #CumpleNorma0705</p>
                     </div>
-                    
                 </div>
             </div>
-        </div>
-        </div>
-
         </div>
 
     </main>

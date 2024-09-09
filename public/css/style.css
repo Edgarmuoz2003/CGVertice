@@ -573,6 +573,10 @@ ul li {
     padding: 3% 7% 2% 7%;
 }
 
+.ImgMain{
+    margin-right: 10%;
+}
+
 
 
 #MainTittle {
@@ -2251,7 +2255,7 @@ a:link {
 }
 
 .MainTittle {
-    padding: 0% 0% 0% 10%;
+    padding: 5% 0% 0% 20%;
     justify-content: center;
 }
 
