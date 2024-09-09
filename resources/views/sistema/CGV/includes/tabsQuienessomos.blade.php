@@ -143,7 +143,7 @@
 
                 <br>
                 <div class="imgNuestrosServicios">
-                    <img src={{ asset('/img/etapas_procesos.jpeg') }} alt="imagen etapas de los procesos">
+                    <img src={{ asset('/img/etapas_procesos.png') }} alt="imagen etapas de los procesos">
                 </div>
                 <br>
                 <h4 class="text-center tituloQuienesSomos"><strong>Metodologia del Servicio</strong></h4>
