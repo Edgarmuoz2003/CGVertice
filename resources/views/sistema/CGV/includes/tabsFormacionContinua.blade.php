@@ -40,19 +40,19 @@
                         clave para el desarrollo organizacional. Sirven para diversos propósitos, y sus beneficios
                         incluyen:</p>
                     <ul class="check-list">
-                        <li><strong style="color: #B8860D"><p class="text-black">Desarrollo de Habilidades:</strong> Facilitan el
+                        <li><strong style="color: #B8860D">Desarrollo de Habilidades:</strong><p class="text-black"> Facilitan el
                             desarrollo de habilidades específicas en áreas como liderazgo, comunicación, trabajo en
                             equipo, resolución de conflictos y gestión del tiempo.</p></li> <br>
 
-                        <li><strong style="color: #B8860D"><p class="text-black">>Cohesión de Equipos:</strong> Fomentan la colaboración
+                        <li><strong style="color: #B8860D">Cohesión de Equipos:</strong><p class="text-black"> Fomentan la colaboración
                             y la cohesión entre los miembros del equipo, mejorando las dinámicas grupales y
                             fortaleciendo las relaciones laborales.</p</li><br>
 
-                        <li><strong style="color: #B8860D"><p class="text-black">Resolución de Problemas:</strong> Ayudan a identificar
+                        <li><strong style="color: #B8860D">Resolución de Problemas:</strong><p class="text-black"> Ayudan a identificar
                             y abordar problemas dentro de la organización, proporcionando estrategias y soluciones
                             prácticas para superarlos.</p></li><br>
 
-                        <li><strong style="color: #B8860D"><p class="text-black">Innovación y Creatividad:</strong> Estimulan la
+                        <li><strong style="color: #B8860D">Innovación y Creatividad:</strong> <p class="text-black">Estimulan la
                             creatividad y la innovación al ofrecer un espacio para la generación de ideas nuevas y
                             la resolución de desafíos empresariales de manera creativa.</p></li><br>
 
