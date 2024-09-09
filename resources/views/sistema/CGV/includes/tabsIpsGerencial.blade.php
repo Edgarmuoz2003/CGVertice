@@ -6,7 +6,10 @@
                 <img src={{ asset('img/LogoVertice200x177.png') }} alt="Logo de Vértice">
                 <br>
                 <h2 style="color: #B8860D">IPS GERENCIAL </h2>
+                <br><br>
+                <p class="text-black">Proveemos a su empresa con un servicio integral de consultoría gerencial para fortalecer la toma de decisiones estratégicas. A través de nuestro enfoque en la Inteligencia y Planificación Estratégica (IPS), le ayudamos a anticipar cambios en el entorno empresarial, gestionar riesgos y aprovechar oportunidades. Trabajamos de la mano con la alta dirección para diseñar y ejecutar planes que maximicen el rendimiento de su empresa.</p>
             </div>
+            <br><br>
             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="1-tab" data-bs-toggle="tab" data-bs-target="#one-tab-pane"

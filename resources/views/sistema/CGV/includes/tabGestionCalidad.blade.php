@@ -6,7 +6,15 @@
                 <img src={{ asset('img/LogoVertice200x177.png') }} alt="Logo de Vértice">
                 <br>
                 <h2 class="titulo" style="color: #b8860b">Gestion de calidad</h2>
+                <br><br>
+                <p class="text-black">En CG-VERTICE enfocamos nuestros esfuerzos para garantizar que su empresa
+                    cumpla con los más altos estándares de calidad. Implemendo sistemas de
+                    gestión de calidad personalizados que se alineen con sus objetivos y
+                    aseguren el cumplimiento normativo. Nuestra meta es mejorar la eficiencia
+                    operativa, reducir errores y aumentar la satisfacción de sus clientes,
+                    promoviendo una cultura organizacional orientada hacia la excelencia.</p>
             </div>
+            <br><br>
             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="1-tab" data-bs-toggle="tab" data-bs-target="#one-tab-pane"
