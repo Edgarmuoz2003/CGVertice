@@ -2259,6 +2259,10 @@ a:link {
     justify-content: center;
 }
 
+.imgConverge{
+    height: 100px;
+}
+
 .tabla-index {
     display: flex;
     width: 100%;

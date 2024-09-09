@@ -50,10 +50,10 @@
     <section class="Timeline">
         <div class="container py-4" style="pointer:default;">
             <div class="main-timeline-2">
-                {{-- Área de servicio al cliente --}}
+                {{-- Gestión de empresas --}}
                 <div class="timeline-2 left-2" id="GestioenEmpresas">
                     <div class="card" >
-                        <a id="PrimerServicio" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
+                        <a data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
                             <img src={{ asset('img/GestionEmpresas.png') }} class="card-img-top"
                                 style="width: 600px; height: 400px;" alt="Imagen 1">
                         </a>
@@ -161,10 +161,10 @@
                         </div>
                     </div>
                 </div>
-                {{-- Espacio de SST-SG --}}
+                {{-- Gestión de instituciones educativas --}}
                 <div class="timeline-2 right-2" id="GestionE">
                     <div class="card">
-                        <a id="SegundoServicio" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
+                        <a data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
                             <img src={{ asset('img/gestionIE.jpg') }} class="card-img-top"
                                 style="width: 100%; height: auto;" alt="Imagen de gestión empresarial">
                         </a>
@@ -352,7 +352,7 @@
                     </div>
                 </div>
 
-                {{-- Espacio de multimedia --}}
+                {{-- Educación y formación --}}
                 <div class="timeline-2 left-2" id="GestionEdu">
                     <div class="card">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
@@ -476,6 +476,7 @@
                         </div>
                     </div>
                 </div>
+                {{-- PH --}}
                 <div class="timeline-2 right-2" id="PH">
                     <div class="card">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">

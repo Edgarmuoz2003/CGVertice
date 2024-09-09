@@ -24,10 +24,12 @@
 
     <main class="container">
         <!-- Div del Bienvenidos y la imagen -->
-        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary"
-            style="display: flex; flex-direction:row; ">
-            <div class="col-lg-6 px-0">
-                <h1 class="display-4" style="color:#b8860b">¡Bienvenidos a Converge!</h1>
+        <div class="p-4 rounded bg-body-secondary" style="display: flex; flex-direction:column; ">
+            <div class="col-lg-12 text-center">
+                <img src={{ asset('../img/Converge.png') }} alt="Logotipo Converge" class="img-fluid" style="height: 350px" />
+            </div>
+            <div class="col-lg-12 text-center">
+                <h1 class="display-4" style="color:#b8860b">¡Bienvenidos a V2!</h1>
                 <p class="my-3">
                     Nos alegra que te unas a nuestra comunidad de información. En Converge, estamos comprometidos a
                     ofrecerte las noticias más actuales, relevantes y confiables del panorama global. Ya sea política,
@@ -40,9 +42,6 @@
                     Gracias por confiar en nosotros para mantenerte informado. ¡Vamos a converger en la verdad y el
                     conocimiento!.
                 </p>
-            </div>
-            <div class="col-lg-6 col-md-6 col-4 text-center">
-                <img src={{ asset('../img/Converge.png') }} alt="Logotipo Converge" class="img-fluid" />
             </div>
         </div>
         <br>

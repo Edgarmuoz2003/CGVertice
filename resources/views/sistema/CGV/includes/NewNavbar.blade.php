@@ -43,27 +43,25 @@
                             </li>
                             <li><a href="/servicios#GestionE">Gestión I.E.</a>
                                 <ul class="topic">
-                                    <li>
-                                        <a href="/servicios#SegundoServicio" data-bs-toggle="modal" data-bs-target="#exampleModal2">Manuales de Convivencia</a>
-                                    </li>
-                                    <li><a href="">Diseño de PEI</a></li>
-                                    <li><a href="">Mallas Curriculares</a></li>
-                                    <li><a href="">Evaluación Docentes</a></li>
-                                    <li><a href="">Evaluación Institucional</a></li>
+                                    <li><a href="/servicios#GestionE">Manuales de Convivencia</a></li>
+                                    <li><a href="/servicios#GestionE">Diseño de PEI</a></li>
+                                    <li><a href="/servicios#GestionE">Mallas Curriculares</a></li>
+                                    <li><a href="/servicios#GestionE">Evaluación Docentes</a></li>
+                                    <li><a href="/servicios#GestionE">Evaluación Institucional</a></li>
                                 </ul>
                             </li>
                             <li><a href="/servicios#GestionEdu">Educación y formación</a>
                                 <ul class="topic">
-                                    <li><a href="">Formación continua</a></li>
-                                    <li><a href="">Formación a la medida</a></li>
+                                    <li><a href="/servicios#GestionEdu">Formación continua</a></li>
+                                    <li><a href="/FormacionContinua">Formación a la medida</a></li>
                                 </ul>
                             </li>
                             <li><a href="/servicios#PH">Propiedades Horizontales</a>
                                 <ul class="topic">
-                                    <li><a href="">SST</a></li>
-                                    <li><a href="">PMIRS</a></li>
-                                    <li><a href="">BD</a></li>
-                                    <li><a href="">Planes de Emergencia</a></li>
+                                    <li><a href="/GestionIps">SST</a></li>
+                                    <li><a href="/gestionDesarrollo">PMIRS</a></li>
+                                    <li><a href="/gestionDesarrollo">Tratamiento Datos (TD)</a></li>
+                                    <li><a href="/gestionDesarrollo">Planes de Emergencia</a></li>
                                 </ul>
                             </li>
                             </ul>
