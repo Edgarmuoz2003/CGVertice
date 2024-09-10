@@ -1,7 +1,7 @@
 <section class="container">
     <div id="bodytabsQuienessomos">
         <div class="maintabsQuienessomos">
-            <a id="botonRegresar" href="{{ route('ruta_services')}}">Regresar</a>
+            <a id="botonRegresar" href="/servicios#GestioenEmpresas">Regresar</a>
             <div class="logo-vertice">
                 <img src={{ asset('img/LogoVertice200x177.png') }} alt="Logo de Vértice">
                 <br>
@@ -17,7 +17,7 @@
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="2-tab" data-bs-toggle="tab" data-bs-target="#two-tab-pane" type
-                        of="button" role="tab" aria-controls="2-tab-pane" aria-selected="false">ADMINISTRACION
+                        of="button" role="tab" aria-controls="2-tab-pane" aria-selected="false">ADMINISTRACIÓN
                         ASISTIDA</button>
                 </li>
                 <li class="nav-item" role="presentation">

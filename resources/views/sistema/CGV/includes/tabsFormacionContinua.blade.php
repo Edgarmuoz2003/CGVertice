@@ -1,7 +1,7 @@
 <section class="container">
     <div id="bodytabsQuienessomos">
         <div class="maintabsQuienessomos">
-            <a id="botonRegresar" href="{{ route('ruta_services') }}">Regresar</a>
+            <a id="botonRegresar" href="/servicios#GestionEdu">Regresar</a>
             <div class="logo-vertice">
                 <img src={{ asset('img/LogoVertice200x177.png') }} alt="Logo de Vértice">
                 <br>

@@ -52,7 +52,7 @@
             <div class="main-timeline-2">
                 {{-- Gestión de empresas --}}
                 <div class="timeline-2 left-2" id="GestioenEmpresas">
-                    <div class="card" >
+                    <div class="card">
                         <a data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
                             <img src={{ asset('img/GestionEmpresas.png') }} class="card-img-top"
                                 style="width: 600px; height: 400px;" alt="Imagen 1">
@@ -264,7 +264,7 @@
 
                                             <button type="button" class="btn btn-warning">
                                                 <a href="https://wa.me/573016280574?text=Hola,%20Estoy%20interesado%20en%20el%20servicio%20de%20Diseño%20de%20PEI."
-                                                    style="color: black" target="blank" >Cotizar</a>
+                                                    style="color: black" target="blank">Cotizar</a>
                                             </button>
                                         </div>
                                         <div class="container py-1">
@@ -297,7 +297,7 @@
 
                                             <button type="button" class="btn btn-warning">
                                                 <a href="https://wa.me/573016280574?text=Hola,%20Estoy%20interesado%20en%20el%20servicio%20de%20Mallas%20Curriculares."
-                                                    style="color: black" target="blank" >Cotizar</a>
+                                                    style="color: black" target="blank">Cotizar</a>
                                             </button>
                                         </div>
                                         <div class="container py-1">
@@ -342,6 +342,29 @@
 
                                             <button type="button" class="btn btn-warning">
                                                 <a href="https://wa.me/573016280574?text=Hola,%20Estoy%20interesado%20en%20el%20servicio%20de%20Evaluación%20Institucional."
+                                                    style="color: black" target="blank">Cotizar</a>
+                                            </button>
+                                        </div>
+                                        <div class="container py-1">
+                                            <hr>
+                                        </div>
+                                        <div>
+                                            <b style="color: #b8860b">
+                                                Instituciones Educativas
+                                            </b>
+                                            <br><br>
+                                            En Corporate Group vértice ofrecemos servicios para el correcto
+                                            funcionamiento de instituciones educativas,
+                                            Instuciones Educaticas Superiores, Instituciones de formación y desarrollo
+                                            humano e instituciones de educación formal integral.
+                                            Incluimos programas de conocimiento académicos, contenidos de pregrados y
+                                            postgrados. Asesoramos tu institución con diseño y
+                                            contenido para plataformas virtuales tales como videos, infografías, flyers,
+                                            evaluaciones, etc.
+                                            <br><br>
+
+                                            <button type="button" class="btn btn-warning">
+                                                <a href="https://wa.me/573016280574?text=Hola,%20Estoy%20interesado%20en%20el%20servicio%20de%20Instituciones%20Educativas."
                                                     style="color: black" target="blank">Cotizar</a>
                                             </button>
                                         </div>
@@ -550,7 +573,7 @@
                                             trabajadores y residentes.
                                             <br><br>
                                             <button type="button" class="btn btn-warning">
-                                                <a style="color: black" href="{{ route('ruta_gestion_Ips')}}">Ver</a>
+                                                <a style="color: black" href="{{ route('ruta_gestion_Ips') }}">Ver</a>
                                             </button>
                                         </div>
                                         <div class="container py-1">
@@ -569,7 +592,8 @@
                                             <br><br>
 
                                             <button type="button" class="btn btn-warning">
-                                                <a style="color: black" href="{{ route('ruta_gestion_desarrollo', ['tab' => '5']) }}">Ver</a>
+                                                <a style="color: black"
+                                                    href="{{ route('ruta_gestion_desarrollo', ['tab' => '5']) }}">Ver</a>
                                             </button>
                                         </div>
                                         <div class="container py-1">
@@ -586,9 +610,10 @@
                                             administrativos. Este servicio asegura que la información esté bien
                                             organizada y sea fácilmente accesible para la administración.
                                             <br><br>
-                                                <button type="button" class="btn btn-warning">
-                                                    <a style="color: black" href="{{ route('ruta_gestion_desarrollo', ['tab' => '7']) }}">Ver</a>
-                                                </button>
+                                            <button type="button" class="btn btn-warning">
+                                                <a style="color: black"
+                                                    href="{{ route('ruta_gestion_desarrollo', ['tab' => '7']) }}">Ver</a>
+                                            </button>
                                         </div>
                                         <div class="container py-1">
                                             <hr>
@@ -606,7 +631,8 @@
                                             <br><br>
 
                                             <button type="button" class="btn btn-warning">
-                                                <a style="color: black" href="{{ route('ruta_gestion_desarrollo', ['tab' => '8']) }}">Ver</a>
+                                                <a style="color: black"
+                                                    href="{{ route('ruta_gestion_desarrollo', ['tab' => '8']) }}">Ver</a>
                                             </button>
                                         </div>
                                         <div class="container py-1">

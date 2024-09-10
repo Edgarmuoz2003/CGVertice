@@ -2300,11 +2300,6 @@ a:link {
     margin: 30px 0px 10px 0px;
 }
 
-.btnClientes a{
-    background-color: #b8860b;
-    font-weight: bold;
-}
-
 /* Estilos de tabquinessomos cuando se rediseñó */
 .tituloQuienesSomos{
     font-size: 2rem;
