@@ -55,7 +55,7 @@
                     <div class="card">
                         <a data-bs-toggle="modal" data-bs-target="#modalImageTimeline1">
                             <img src={{ asset('img/GestionEmpresas.png') }} class="card-img-top"
-                                style="width: 600px; height: 400px;" alt="Imagen 1">
+                                style="width: 100%; height: auto;" alt="Imagen de gestión empresarial">
                         </a>
                         <br>
                         <h3 class="fw-bold mb-4 " style="font-family: 'Swiss', sans-serif; color:#b8860b">
