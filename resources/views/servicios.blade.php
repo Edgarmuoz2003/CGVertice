@@ -345,29 +345,6 @@
                                                     style="color: black" target="blank">Cotizar</a>
                                             </button>
                                         </div>
-                                        <div class="container py-1">
-                                            <hr>
-                                        </div>
-                                        <div>
-                                            <b style="color: #b8860b">
-                                                Instituciones Educativas
-                                            </b>
-                                            <br><br>
-                                            En Corporate Group vértice ofrecemos servicios para el correcto
-                                            funcionamiento de instituciones educativas,
-                                            Instuciones Educaticas Superiores, Instituciones de formación y desarrollo
-                                            humano e instituciones de educación formal integral.
-                                            Incluimos programas de conocimiento académicos, contenidos de pregrados y
-                                            postgrados. Asesoramos tu institución con diseño y
-                                            contenido para plataformas virtuales tales como videos, infografías, flyers,
-                                            evaluaciones, etc.
-                                            <br><br>
-
-                                            <button type="button" class="btn btn-warning">
-                                                <a href="https://wa.me/573016280574?text=Hola,%20Estoy%20interesado%20en%20el%20servicio%20de%20Instituciones%20Educativas."
-                                                    style="color: black" target="blank">Cotizar</a>
-                                            </button>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -491,6 +468,29 @@
                                             </ul>
                                             <button type="button" class="btn btn-warning">
                                                 <a href="FormacionContinua" style="color: black">Ver</a>
+                                            </button>
+                                        </div>
+                                        <div class="container py-1">
+                                            <hr>
+                                        </div>
+                                        <div>
+                                            <b style="color: #b8860b">
+                                                Instituciones Educativas
+                                            </b>
+                                            <br><br>
+                                            En Corporate Group vértice ofrecemos servicios para el correcto
+                                            funcionamiento de instituciones educativas,
+                                            Instuciones Educaticas Superiores, Instituciones de formación y desarrollo
+                                            humano e instituciones de educación formal integral.
+                                            Incluimos programas de conocimiento académicos, contenidos de pregrados y
+                                            postgrados. Asesoramos tu institución con diseño y
+                                            contenido para plataformas virtuales tales como videos, infografías, flyers,
+                                            evaluaciones, etc.
+                                            <br><br>
+
+                                            <button type="button" class="btn btn-warning">
+                                                <a href="https://wa.me/573016280574?text=Hola,%20Estoy%20interesado%20en%20el%20servicio%20de%20Instituciones%20Educativas."
+                                                    style="color: black" target="blank">Cotizar</a>
                                             </button>
                                         </div>
                                     </div>

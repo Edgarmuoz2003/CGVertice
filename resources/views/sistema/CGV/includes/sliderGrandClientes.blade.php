@@ -16,7 +16,7 @@ padding-top: 1%;">
                 <img src={{ asset('img/pampa.png') }} class="img-slider" alt="logo carnes la pampa" />
             </div>
             <div class="slide">
-                <img src={{ asset('img/jac.jpg') }} class="img-slider" alt="logo jac producciones" />
+                <img src={{ asset('img/jac.jpg') }} class="img-slider" alt="logo jac producciones" style="padding-top: 8%"/>
             </div>
             <div class="slide">
                 <img src={{ asset('img/oxivital.png') }} class="img-slider" alt="logo oxivital" />
@@ -25,7 +25,7 @@ padding-top: 1%;">
                 <img src={{ asset('img/lima.png') }} class="img-slider" alt="logo cultivos lima" />
             </div>
             <div class="slide">
-                <img src={{ asset('img/finito.jpg') }} class="img-slider" alt="logo finito apartamentos" />
+                <img src={{ asset('img/finito.jpg') }} class="img-slider" alt="logo finito apartamentos" style="padding-top: 2%" />
             </div>
             <div class="slide">
                 <img src={{ asset('img/renos.png') }} class="img-slider" alt="logo bolsos reno" />
