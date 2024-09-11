@@ -147,17 +147,19 @@ function validarOpcionE() {
     }
 
     function validarUrlE() {
-        var url = document.getElementById('UrlE').value.trim();
-        var errorUrl = document.getElementById('errorUrl');
-        var regexUrl = /^(https?:\/\/)?([\w\-])+\.{1}([a-zA-Z]{2,63})([\w\-\._~:/?#[\]@!$&'()*+,;=.]+)?$/;
-        if (url.length === 0) {
-            errorUrl.textContent = 'La URL es obligatoria';
-        } else if (!regexUrl.test(url)) {
-            errorUrl.textContent = 'Debes ingresar una URL válida';
-        } else {
-            errorUrl.textContent = '';
-        }
+    var url = document.getElementById('UrlE').value.trim();
+    var errorUrl = document.getElementById('errorUrl');
+    // Nueva expresión regular más flexible
+    var regexUrl = /^(https?:\/\/)?([^\s$.?#].[^\s]*)$/i;
+
+    if (url.length === 0) {
+        errorUrl.textContent = 'La URL es obligatoria';
+    } else if (!regexUrl.test(url)) {
+        errorUrl.textContent = 'Debes ingresar una URL válida';
+    } else {
+        errorUrl.textContent = '';
     }
+}
 
     function validarFormularioEdicion(id) {
     validarNombreE();

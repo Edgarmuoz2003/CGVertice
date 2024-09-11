@@ -115,11 +115,11 @@
     }
 
     function validarUrl() {
-        var url = document.getElementById('Url').value;
-        var urlValida = !url || /^(https?:\/\/)?([\da-z.-]+)\.([a-z.]{2,6})([\/\w.-]*)*\/?$/.test(url); // Verifica formato de URL
-        document.getElementById('errorUrl').innerText = url ? (urlValida ? '' : 'La URL no es válida') : '';
-        return urlValida;
-    }
+    var url = document.getElementById('Url').value;
+    var urlValida = !url || /^(https?:\/\/)?([^\s$.?#].[^\s]*)$/i.test(url); // Nueva expresión regular
+    document.getElementById('errorUrl').innerText = url ? (urlValida ? '' : 'La URL no es válida') : '';
+    return urlValida;
+}
 
     function validarOpcion() {
         var opcion = document.getElementById('Opcion').value;
