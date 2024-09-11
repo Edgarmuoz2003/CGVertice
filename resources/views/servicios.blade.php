@@ -132,7 +132,6 @@
                                                 "
                                                     style="color: black;">Ver</a>
                                             </button>
-
                                         </div>
                                         <div class="container py-1">
                                             <hr>

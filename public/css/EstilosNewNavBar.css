@@ -2,13 +2,21 @@
     /* border: #b8860b 2px solid; */
     margin-left: 10%;
 
-    .configadmin{
-        margin-right: 10%;
+    .configadmin a{
+        color: #b8860b;
+    }
+    
+    .configadmin a:hover{
+        color: #fff;
     }
 
     .navbar{
         padding-top: 1%;
         padding-right: 10%;
+    }
+
+    .servicios{
+        margin-left: 2%;
     }
     
     ul{
@@ -23,9 +31,8 @@
         display: inline-block;
         position: relative;
         line-height: 20px;
-        text-align: left;
         width: 120px;
-        text-align: center;
+        text-align: left;
     }
     
     ul li ul li{

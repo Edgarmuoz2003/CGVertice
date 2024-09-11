@@ -18,11 +18,11 @@
                 <ul class="navbar-nav ms-auto">
                     @can('Admin Configuracion')
                         <li class="nav-item dropdown configadmin">
-                            <a id="adminDropdown" class="nav-link dropdown-toggle" style="color: #bf943a" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a id="adminDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Admin
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="adminDropdown">
-                                <li><a class="dropdown-item" href="{{ route('ruta_Users') }}"><i class="fas fa-users ml-2"></i> Usuarios</a></li>
+                                <li><a href="{{ route('ruta_Users') }}"><i class="fas fa-users ml-2"></i> Usuarios</a></li>
                                 <li><a class="dropdown-item" href="{{ route('ruta_Roles') }}"><i class="fas fa-user-tag"></i> Roles</a></li>
                                 <li><a class="dropdown-item" href="{{ route('ruta_Perm') }}"><i class="fas fa-key"></i> Permisos</a></li>
                             </ul>
@@ -32,7 +32,7 @@
                     <li><a href="{{ route('nosotros') }}">Nosotros</a></li>
                     <li><a href="{{ route('ruta_blog') }}">Converge</a></li>
                     <li><a href="{{ route('ruta_V2') }}">V2suministros</a></li>
-                        <li><a href="{{ route('ruta_services') }}">Servicios</a>
+                        <li class="servicios"><a href="{{ route('ruta_services') }}">Servicios</a>
                             <ul class="name">
                             <li><a href="/servicios#GestioenEmpresas">Gestión empresas</a>
                                 <ul class="topic">
@@ -54,6 +54,7 @@
                                 <ul class="topic">
                                     <li><a href="/servicios#GestionEdu">Formación continua</a></li>
                                     <li><a href="/FormacionContinua">Formación a la medida</a></li>
+                                    <li><a href="/servicios#GestionEdu">Instituciones Educativas</a></li>
                                 </ul>
                             </li>
                             <li><a href="/servicios#PH">Propiedades Horizontales</a>
