@@ -29,7 +29,7 @@
                 <img src={{ asset('../img/Converge.png') }} alt="Logotipo Converge" class="img-fluid" style="height: 350px" />
             </div>
             <div class="col-lg-12 text-center">
-                <h1 class="display-4" style="color:#b8860b">¡Bienvenidos a V2!</h1>
+                <h1 class="display-4" style="color:#b8860b">¡Bienvenidos a Converge!</h1>
                 <p class="my-3">
                     Nos alegra que te unas a nuestra comunidad de información. En Converge, estamos comprometidos a
                     ofrecerte las noticias más actuales, relevantes y confiables del panorama global. Ya sea política,
@@ -130,7 +130,11 @@
                                     </div>
                                     <hr>
                                     <p> Descripcion: <br> {{ $blogg->descripcion_noticia }}</p>
-                                    <p>Fecha de publicación: {{ $blogg->created_at }}</p>
+                                    <p><strong>Autor:</strong> {{ $blogg->author }}</p>
+                                    @if($blogg->url)
+                                        <p><strong>Enlace:</strong> <a href="{{ $blogg->url }}" target="_blank">Visitar página</a></p>
+                                    @endif
+                                    <p>Fecha de publicación: {{ \Carbon\Carbon::parse($blogg->created_at)->format('d/m/Y') }}</p>
                                 </div>
 
                                 <div class="modal-footer">

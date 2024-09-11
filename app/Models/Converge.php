@@ -15,10 +15,13 @@ class Converge extends Model
 	protected $table = 'converge';
 
 	protected $fillable = [
-		'nombre_noticia',
-		'descripcion_noticia',
-		'foto',
-		'video',
-		'opcion'
+		'nombre_noticia', 
+		'descripcion_noticia', 
+		'foto', 
+		'video', 
+		'opcion', 
+		'author', 
+		'url'
 	];
+	
 }

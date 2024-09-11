@@ -59,6 +59,16 @@
                             <input type="file" class="form-control" name="VideoE" id="VideoE" accept="video/mp4,video/mpeg,video/quicktime">
                             <small class="text-danger" id="errorVideo"></small>
                         </div>
+                        <div class="mb-3">
+                            <label for="AutorE" class="form-label">Autor</label>
+                            <input type="text" class="form-control" name="AutorE" id="AutorE" aria-describedby="helpId" value="{{ $blogg->autor }}" required maxlength="255" oninput="validarAutorE()">
+                            <small class="text-danger" id="errorAutor"></small>
+                        </div>
+                        <div class="mb-3">
+                            <label for="UrlE" class="form-label">URL</label>
+                            <input type="url" class="form-control" name="UrlE" id="UrlE" aria-describedby="helpId" value="{{ $blogg->url }}" required oninput="validarUrlE()">
+                            <small class="text-danger" id="errorUrl"></small>
+                        </div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -72,72 +82,47 @@
 
 
 <script>
-    function validarNombreE() {
-        var nombre = document.getElementById('NombreE').value.trim();
-        var errorNombre = document.getElementById('errorNombre');
-        if (nombre.length === 0) {
-            errorNombre.textContent = 'El nombre de la noticia es obligatorio';
+    function validarAutorE() {
+        var autor = document.getElementById('AutorE').value.trim();
+        var errorAutor = document.getElementById('errorAutor');
+        if (autor.length === 0) {
+            errorAutor.textContent = 'El nombre del autor es obligatorio';
         } else {
-            errorNombre.textContent = '';
+            errorAutor.textContent = '';
         }
     }
 
-    function validarImagenE() {
-        var imagen = document.getElementById('ImagenE');
-        var errorImagen = document.getElementById('errorImagen');
-        if (imagen.files.length > 0 && !imagen.files[0].type.match('image.*')) {
-            errorImagen.textContent = 'Debe seleccionar una imagen válida';
+    function validarUrlE() {
+        var url = document.getElementById('UrlE').value.trim();
+        var errorUrl = document.getElementById('errorUrl');
+        var regexUrl = /^(https?:\/\/)?([\w\-])+\.{1}([a-zA-Z]{2,63})([\w\-\._~:/?#[\]@!$&'()*+,;=.]+)?$/;
+        if (url.length === 0) {
+            errorUrl.textContent = 'La URL es obligatoria';
+        } else if (!regexUrl.test(url)) {
+            errorUrl.textContent = 'Debes ingresar una URL válida';
         } else {
-            errorImagen.textContent = '';
-        }
-    }
-
-    // Agregar validación de videoE
-    function validarVideoE() {
-        var video = document.getElementById('VideoE');
-        var errorVideo = document.getElementById('errorVideo');
-        if (video.files.length > 0 && !video.files[0].type.match('video.*')) {
-            errorVideo.textContent = 'Debe seleccionar un video válido';
-        } else {
-            errorVideo.textContent = '';
-        }
-    }
-
-    function validarDescripcionE() {
-        var descripcion = document.getElementById('DescripcionE').value.trim();
-        var errorDescripcion = document.getElementById('errorDescripcion');
-        if (descripcion.length === 0) {
-            errorDescripcion.textContent = 'La descripción es obligatoria';
-        } else {
-            errorDescripcion.textContent = '';
-        }
-    }
-
-    function validarOpcionE() {
-        var opcion = document.getElementById('OpcionE').value;
-        var errorOpcion = document.getElementById('errorOpcion');
-        if (opcion === '') {
-            errorOpcion.textContent = 'Debes seleccionar una opción';
-        } else {
-            errorOpcion.textContent = '';
+            errorUrl.textContent = '';
         }
     }
 
     function validarFormularioEdicion(id) {
         validarNombreE();
         validarImagenE();
-        validarVideoE(); // Agregar validación de videoE
+        validarVideoE();
         validarDescripcionE();
         validarOpcionE();
+        validarAutorE();  // Validar Autor
+        validarUrlE();     // Validar URL
 
-        // Si no hay errores, enviar el formulario
         var errorNombre = document.getElementById('errorNombre').textContent;
         var errorImagen = document.getElementById('errorImagen').textContent;
-        var errorVideo = document.getElementById('errorVideo').textContent; // Agregar errorVideo
+        var errorVideo = document.getElementById('errorVideo').textContent;
         var errorDescripcion = document.getElementById('errorDescripcion').textContent;
         var errorOpcion = document.getElementById('errorOpcion').textContent;
+        var errorAutor = document.getElementById('errorAutor').textContent;
+        var errorUrl = document.getElementById('errorUrl').textContent;
 
-        if (errorNombre === '' && errorImagen === '' && errorVideo === '' && errorDescripcion === '' && errorOpcion === '') {
+        if (errorNombre === '' && errorImagen === '' && errorVideo === '' && errorDescripcion === '' && errorOpcion === '' && errorAutor === '' && errorUrl === '') {
             document.getElementById('editarNoticiaForm' + id).submit();
         }
     }
