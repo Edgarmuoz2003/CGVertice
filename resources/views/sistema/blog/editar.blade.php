@@ -74,6 +74,7 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cerrar</button>
                     <button type="button" class="btn btn-outline-warning" onclick="validarFormularioEdicion('{{ $blogg->id }}')">Guardar</button>
+
                 </div>
             </form>
         </div>
@@ -82,6 +83,59 @@
 
 
 <script>
+
+function validarNombreE() {
+    var nombre = document.getElementById('NombreE').value.trim();
+    var errorNombre = document.getElementById('errorNombre');
+    if (nombre.length === 0) {
+        errorNombre.textContent = 'El nombre de la noticia es obligatorio';
+    } else {
+        errorNombre.textContent = '';
+    }
+}
+
+function validarImagenE() {
+    var imagen = document.getElementById('ImagenE').files[0];
+    var errorImagen = document.getElementById('errorImagen');
+    if (!imagen) {
+        errorImagen.textContent = 'Seleccionar una nueva imagen es obligatorio';
+    } else {
+        errorImagen.textContent = '';
+    }
+}
+
+function validarVideoE() {
+    var video = document.getElementById('VideoE').files[0];
+    var errorVideo = document.getElementById('errorVideo');
+    if (video && !/video\/(mp4|mpeg|quicktime)/.test(video.type)) {
+        errorVideo.textContent = 'El formato de video no es válido. Solo se permiten MP4, MPEG, y QuickTime';
+    } else {
+        errorVideo.textContent = '';
+    }
+}
+
+function validarDescripcionE() {
+    var descripcion = document.getElementById('DescripcionE').value.trim();
+    var errorDescripcion = document.getElementById('errorDescripcion');
+    if (descripcion.length === 0) {
+        errorDescripcion.textContent = 'La descripción es obligatoria';
+    } else {
+        errorDescripcion.textContent = '';
+    }
+}
+
+function validarOpcionE() {
+    var opcion = document.getElementById('OpcionE').value;
+    var errorOpcion = document.getElementById('errorOpcion');
+    if (opcion === '') {
+        errorOpcion.textContent = 'Seleccionar una opción es obligatorio';
+    } else {
+        errorOpcion.textContent = '';
+    }
+}
+
+
+
     function validarAutorE() {
         var autor = document.getElementById('AutorE').value.trim();
         var errorAutor = document.getElementById('errorAutor');
@@ -106,24 +160,26 @@
     }
 
     function validarFormularioEdicion(id) {
-        validarNombreE();
-        validarImagenE();
-        validarVideoE();
-        validarDescripcionE();
-        validarOpcionE();
-        validarAutorE();  // Validar Autor
-        validarUrlE();     // Validar URL
+    validarNombreE();
+    validarImagenE();
+    validarVideoE();
+    validarDescripcionE();
+    validarOpcionE();
+    validarAutorE();
+    validarUrlE();
 
-        var errorNombre = document.getElementById('errorNombre').textContent;
-        var errorImagen = document.getElementById('errorImagen').textContent;
-        var errorVideo = document.getElementById('errorVideo').textContent;
-        var errorDescripcion = document.getElementById('errorDescripcion').textContent;
-        var errorOpcion = document.getElementById('errorOpcion').textContent;
-        var errorAutor = document.getElementById('errorAutor').textContent;
-        var errorUrl = document.getElementById('errorUrl').textContent;
+    var errorNombre = document.getElementById('errorNombre').textContent;
+    var errorImagen = document.getElementById('errorImagen').textContent;
+    var errorVideo = document.getElementById('errorVideo').textContent;
+    var errorDescripcion = document.getElementById('errorDescripcion').textContent;
+    var errorOpcion = document.getElementById('errorOpcion').textContent;
+    var errorAutor = document.getElementById('errorAutor').textContent;
+    var errorUrl = document.getElementById('errorUrl').textContent;
 
-        if (errorNombre === '' && errorImagen === '' && errorVideo === '' && errorDescripcion === '' && errorOpcion === '' && errorAutor === '' && errorUrl === '') {
-            document.getElementById('editarNoticiaForm' + id).submit();
-        }
+    // Si no hay errores, enviar el formulario
+    if (errorNombre === '' && errorImagen === '' && errorVideo === '' && errorDescripcion === '' && errorOpcion === '' && errorAutor === '' && errorUrl === '') {
+        document.getElementById('editarNoticiaForm' + id).submit();
     }
+}
+
 </script>

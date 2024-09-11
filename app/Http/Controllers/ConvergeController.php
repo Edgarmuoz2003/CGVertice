@@ -78,8 +78,8 @@ class ConvergeController extends Controller
             'ImagenE' => $request->hasFile('ImagenE') ? 'image|mimes:jpeg,png,jpg' : '',
             'VideoE' => $request->hasFile('VideoE') ? 'mimetypes:video/avi,video/mp4,video/mpeg' : '',
             'OpcionE' => 'required',
-            'AutorE' => 'required|string|max:255', // Validar autor
-            'URLE' => 'nullable|url' // URL opcional
+            'AutorE' => 'required|string|max:255', 
+            'UrlE' => 'nullable|url'
         ]);
 
         $blogs = Converge::find($id);
@@ -102,7 +102,7 @@ class ConvergeController extends Controller
         $blogs->descripcion_noticia = $request->input('DescripcionE');
         $blogs->opcion = $request->input('OpcionE');
         $blogs->author = $request->input('AutorE');
-        $blogs->url = $request->input('URLE');
+        $blogs->url = $request->input('UrlE');
 
         $blogs->save();
 
