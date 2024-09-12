@@ -2,7 +2,7 @@
     <div id="bodytabsQuienessomos">
         <div class="maintabsQuienessomos">
             <a id="botonRegresar" href="/servicios#GestioenEmpresas">Regresar</a>
-            <div class="logo-vertice">
+            <div class="logo-vertice img-fluid">
                 <img src={{ asset('img/LogoVertice200x177.png') }} alt="Logo de Vértice">
                 <h2 class="text titulo" styles="text-aling: center">Gestion de Desarrollo Empresarial</h2>
                 <br><br>
