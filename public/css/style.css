@@ -855,12 +855,6 @@ ul li {
     align-items: center;
 }
 
-@media (max-width: 991px) {
-    #bodytabsQuienessomos {
-        margin-top: 110vh;
-    }
-}
-
 .maintabsQuienessomos {
     width: 100%;
     height: auto;
