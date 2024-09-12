@@ -9,7 +9,7 @@
                 <img class="logo-cgv" src="{{ asset('img/logoo.png') }}" alt="Logo de Vértice">
             </a>
             <!-- Botón del menú Offcanvas para pantallas pequeñas -->
-            <button class="navbar-toggler custom-toggler bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav">
+            <button class="navbar-toggler custom-toggler bg-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
