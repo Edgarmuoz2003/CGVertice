@@ -18,7 +18,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="ImagenE" class="form-label">Imagen actual</label>
-                            <img src="{{ asset('imagenesBlog/img/' . $blogg->foto) }}" alt="Imagen actual" style="max-width: 100%;">
+                            <img  src="{{ asset($blogg->foto) }}" alt="Imagen actual" style="max-width: 100%;">
                         </div>
                         <div class="mb-3">
                             <label for="ImagenE" class="form-label">Seleccionar nueva imagen</label>
@@ -97,8 +97,9 @@ function validarNombreE() {
 function validarImagenE() {
     var imagen = document.getElementById('ImagenE').files[0];
     var errorImagen = document.getElementById('errorImagen');
-    if (!imagen) {
-        errorImagen.textContent = 'Seleccionar una nueva imagen es obligatorio';
+    // Si no se selecciona nueva imagen, no mostrar error
+    if (imagen && !/image\/(jpeg|png|jpg)/.test(imagen.type)) {
+        errorImagen.textContent = 'El formato de imagen no es válido. Solo se permiten JPEG, PNG y JPG';
     } else {
         errorImagen.textContent = '';
     }
@@ -152,11 +153,11 @@ function validarOpcionE() {
     // Nueva expresión regular más flexible
     var regexUrl = /^(https?:\/\/)?([^\s$.?#].[^\s]*)$/i;
 
-    if (!regexUrl.test(url)) {
-        errorUrl.textContent = 'Debes ingresar una URL válida';
-    } else {
-        errorUrl.textContent = '';
-    }
+    // if (!regexUrl.test(url)) {
+    //     errorUrl.textContent = 'Debes ingresar una URL válida';
+    // } else {
+    //     errorUrl.textContent = '';
+    // }
 }
 
     function validarFormularioEdicion(id) {
