@@ -70,8 +70,9 @@
                                 <strong class="CategoriaNoticias">{{ $blogg->opcion }}</strong>
                             </div>
                             <div class="imgcontainer">
-                                <img src="{{ asset('imagenesBlog/img/' . $blogg->foto) }}" class="img-fluid rounded">
+                                <img src="{{ asset($blogg->foto) }}" class="img-fluid rounded">
                             </div>
+                            
                             <p class="NombreNoticias">{{ $blogg->nombre_noticia }}</p>
                             <div class="CardBlogBtn">
                                 <button type="button" class="btn btn-warning mt-3" data-bs-toggle="modal"
@@ -124,8 +125,7 @@
                                                 Tu navegador no soporta el elemento de video.
                                             </video>
                                         @else
-                                            <img src="{{ asset('imagenesBlog/img/' . $blogg->foto) }}"
-                                                alt="Imagen actual" style="max-width: 100%;">
+                                        <img src="{{ asset($blogg->foto) }}" alt="Imagen actual" style="max-width: 100%;">
                                         @endif
                                     </div>
                                     <hr>
