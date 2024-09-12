@@ -152,9 +152,7 @@ function validarOpcionE() {
     // Nueva expresión regular más flexible
     var regexUrl = /^(https?:\/\/)?([^\s$.?#].[^\s]*)$/i;
 
-    if (url.length === 0) {
-        errorUrl.textContent = 'La URL es obligatoria';
-    } else if (!regexUrl.test(url)) {
+    if (!regexUrl.test(url)) {
         errorUrl.textContent = 'Debes ingresar una URL válida';
     } else {
         errorUrl.textContent = '';
