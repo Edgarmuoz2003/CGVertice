@@ -61,7 +61,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="AutorE" class="form-label">Autor</label>
-                            <input type="text" class="form-control" name="AutorE" id="AutorE" aria-describedby="helpId" value="{{ $blogg->autor }}" required maxlength="255" oninput="validarAutorE()">
+                            <input type="text" class="form-control" name="AutorE" id="AutorE" aria-describedby="helpId" value="{{ $blogg->author }}" required maxlength="255" oninput="validarAutorE()">
                             <small class="text-danger" id="errorAutor"></small>
                         </div>
                         <div class="mb-3">
