@@ -12,6 +12,39 @@
 
     @include('sistema.CGV.includes.newNavbar')
     @include('sistema.CGV.includes.boton')
+    <ul class="name">
+        <li><a href="/servicios#GestioenEmpresas">Gestión empresas</a>
+            <ul class="topic">
+                <li><a href="/GestionCalidad">Gestión de calidad de su empresa</a></li>
+                <li><a href="/gestionDesarrollo">Gestión de desarrollo empresarial</a></li>
+                <li><a href="/GestionIps">IPS Gerencial</a></li>
+            </ul>
+        </li>
+        <li><a href="/servicios#GestionE">Gestión I.E.</a>
+            <ul class="topic">
+                <li><a href="/servicios#GestionE">Manuales de Convivencia</a></li>
+                <li><a href="/servicios#GestionE">Diseño de PEI</a></li>
+                <li><a href="/servicios#GestionE">Mallas Curriculares</a></li>
+                <li><a href="/servicios#GestionE">Evaluación Docentes</a></li>
+                <li><a href="/servicios#GestionE">Evaluación Institucional</a></li>
+            </ul>
+        </li>
+        <li><a href="/servicios#GestionEdu">Educación y formación</a>
+            <ul class="topic">
+                <li><a href="/servicios#GestionEdu">Formación continua</a></li>
+                <li><a href="/FormacionContinua">Formación a la medida</a></li>
+                <li><a href="/servicios#GestionEdu">Instituciones Educativas</a></li>
+            </ul>
+        </li>
+        <li><a href="/servicios#PH">Propiedades Horizontales</a>
+            <ul class="topic">
+                <li><a href="/GestionIps">SST</a></li>
+                <li><a href="/gestionDesarrollo">PMIRS</a></li>
+                <li><a href="/gestionDesarrollo">Tratamiento Datos (TD)</a></li>
+                <li><a href="/gestionDesarrollo">Planes de Emergencia</a></li>
+            </ul>
+        </li>
+    </ul>
 
     <div class="container-fluid">
         <section>
@@ -19,8 +52,8 @@
             <div class="content">
                 <div class="container">
                     <div class="MainTittle">
-                        <img src={{ asset('/img/Slogan.png') }} alt="Imagn"
-                        width="auto" height="450px" class="img-fluid" />
+                        <img src={{ asset('/img/Slogan.png') }} alt="Imagn" width="auto" height="450px"
+                            class="img-fluid" />
                     </div>
                 </div>
                 <div class="mt-5 mb-4 zoom-effect ImgMain">
@@ -43,7 +76,7 @@
 
     <br><br>
     @include('sistema.CGV.includes.sliderGrandClientes')
-   
+
 
     <section class="section-about-video">
         <div class="container col-xxl-12 ">
@@ -81,7 +114,7 @@
         </div>
     </section>
 
-   
+
 
     @include('sistema.CGV.includes.serviciosTeaser')
 
@@ -93,7 +126,7 @@
 
     @include('sistema.CGV.includes.noticiasBlogCartasSticky')
 
-    
+
     <br><br>
 
     @include('sistema.CGV.includes.mapa')
