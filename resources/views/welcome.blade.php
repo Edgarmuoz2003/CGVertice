@@ -13,14 +13,22 @@
     @include('sistema.CGV.includes.newNavbar')
     @include('sistema.CGV.includes.boton')
 
-    <section class="navbarServicios">
-        <h4 class="TituloNavServicios">Buscas un Servicio?</h4>
+    <div class="containerTitulo">
+        <h4 class="TituloNavServicios titulo-con-animacion" id="tituloServicio">
+            ¿Buscas un Servicio?
+            <i class="fas fa-hand-pointer mano-clic"></i> <!-- Mano haciendo clic -->
+        </h4>
+    </div>
 
+    
+
+    <section class="navbarServicios" id="contenidoServicios">
         <div class="parrafoServicios">
-            <p>En GC-Vertice nos importa tu tiempo, por eso diseñamos este espacio para que ubiques de manera agil el servicio que estas buscando, navegando a la seccion sevicios y buscando el sub-grupo que contiene el la informacion del servicio de tu interes <strong>!Bienvenido!!</strong>
+            <p>En GC-Vertice nos importa tu tiempo, por eso diseñamos este espacio para que ubiques de manera agil el
+                servicio que estas buscando, navegando a la seccion sevicios y buscando el sub-grupo que contiene el la
+                informacion del servicio de tu interes <strong>!Bienvenido!!</strong>
             </p>
         </div>
-        
 
         <div class="row">
             <div class="col subTituloServicios">
@@ -155,6 +163,23 @@
     @include('sistema.CGV.includes.sliderGrandAliados')
     @include('sistema.CGV.includes.footer')
     @include('sistema.CGV.includes.botonWhatsapp')
+
+    <script>
+        const tituloServicio = document.getElementById('tituloServicio');
+        const contenidoServicio = document.getElementById('contenidoServicios');
+    
+        // Añadimos el evento de click al elemento h4
+        tituloServicio.addEventListener('click', function() {
+            // Verificamos el estado actual de visibilidad y lo alternamos
+            if (contenidoServicio.style.display === 'none' || contenidoServicio.style.display === '') {
+                contenidoServicio.style.display = 'block'; 
+            } else {
+                contenidoServicio.style.display = 'none'; 
+            }
+        });
+    </script>
+
+
 
 
 </body>

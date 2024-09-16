@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @font-face {
-    font-family: 'titulo';
+    font-family: "titulo";
     src: url(../font/Jost-VariableFont_wght.ttf);
 }
 
 @font-face {
-    font-family: 'parrafos';
+    font-family: "parrafos";
     src: url(../font/Moderustic-VariableFont_wght.ttf);
 }
 
@@ -16,14 +16,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'titulo';
+    font-family: "titulo";
     font-size: 100px;
 }
 
 p,
 li,
 a {
-    font-family: 'parrafos';
+    font-family: "parrafos";
 }
 
 .fondo {
@@ -31,7 +31,6 @@ a {
 }
 
 /* Botón de whatsapp */
-
 
 .btn-wsp {
     position: fixed;
@@ -133,8 +132,6 @@ ul li {
     border: 0px;
 }
 
-
-
 /* Esta animación gradua el tamaño del elemento */
 /* !!!!!!!!!!!!!!!!!!!!!IMPORTANTE: NO MOVER¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ */
 /* // Animation */
@@ -179,9 +176,11 @@ ul li {
 
     &::before,
     &::after {
-        background: linear-gradient(to right,
-                rgba(255, 255, 255, 1) 0%,
-                #1a1a1a 100%);
+        background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 1) 0%,
+            #1a1a1a 100%
+        );
         content: "";
         height: 100px;
         position: absolute;
@@ -230,7 +229,6 @@ ul li {
 /* Pantallas Pequeñas (Móviles) */
 
 @media (max-width: 767px) {
-
     /* // Animation */
     @keyframes scroll {
         0% {
@@ -274,12 +272,10 @@ ul li {
     }
 }
 
-
 /* Este es el slider de los aliados que aparecen en la parte inferior del inicio (y otrás pestañas)*/
 /* Tablets en Modo Retrato */
 
 @media (min-width: 768px) and (max-width: 1023px) {
-
     /* // Animation */
     @keyframes scroll {
         0% {
@@ -323,10 +319,6 @@ ul li {
     }
 }
 
-
-
-
-
 /* ------------------------------------------------------------- */
 /* Contenedor del la imagen y texto inductivo acerca de la empresa. Es el primero contenedor en la pagina de inicio */
 /* PrimerContenedor */
@@ -352,10 +344,7 @@ ul li {
     .content .imgBox img {
         max-width: 250px;
     }
-
 }
-
-
 
 /* Este es el código css para la modificación de las cards en la linea de tiempo en la pestaña "Nosotros" */
 /* CardsNosotros */
@@ -419,7 +408,6 @@ ul li {
     flex-wrap: wrap;
     padding: 30px;
     margin: 0 auto;
-
 }
 
 .contenedorst .card {
@@ -514,7 +502,6 @@ ul li {
 /* Estilos de la parte de los CEOS ubicada en la pestaña nosotros */
 /* CEOSStyle */
 
-
 .imgCEOS img {
     border: #b8860b 1px solid;
     transition: all ease 0.3s;
@@ -548,11 +535,9 @@ ul li {
     padding: 2% 4% 2% 4%;
 }
 
-
 /* VideoTestimonio */
 #TextoTestimonio {
     padding-top: 3%;
-
 }
 
 #ContainerTestimonios {
@@ -573,17 +558,14 @@ ul li {
     padding: 3% 7% 2% 7%;
 }
 
-.ImgMain{
+.ImgMain {
     margin-right: 10%;
 }
-
-
 
 #MainTittle {
     font-size: 75px;
     font-weight: 500;
 }
-
 
 /* -------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------- */
@@ -707,7 +689,7 @@ ul li {
     display: none;
 }
 
-.lSAction>a {
+.lSAction > a {
     background-color: #000;
     width: 50px;
     height: 50px;
@@ -719,7 +701,7 @@ ul li {
     position: relative;
 }
 
-.lSAction>.lSNext::before {
+.lSAction > .lSNext::before {
     content: ">";
     /* Utiliza el carácter ">" para la flecha siguiente */
     font-size: 3rem;
@@ -730,7 +712,7 @@ ul li {
     /* Ajusta la posición vertical hacia arriba */
 }
 
-.lSAction>.lSPrev::before {
+.lSAction > .lSPrev::before {
     content: "<";
     /* Utiliza el carácter "<" para la flecha anterior */
     font-size: 3rem;
@@ -742,8 +724,8 @@ ul li {
 }
 
 /* Añade un espacio entre el contenido y el borde del botón */
-.lSAction>a::before,
-.lSAction>a::after {
+.lSAction > a::before,
+.lSAction > a::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -773,7 +755,7 @@ ul li {
         font-size: 21px;
     }
 
-    .lSAction>a {
+    .lSAction > a {
         display: none;
     }
 
@@ -838,7 +820,6 @@ ul li {
 #backToTopBtn:hover {
     border: 1px solid #b8860b;
     /* Cambiar el color al pasar el mouse */
-
 }
 
 #backToTopBtn i {
@@ -1149,7 +1130,6 @@ ul li {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-
     /* Place the timelime to the left */
     .main-timeline-2::after {
         left: 31px;
@@ -1218,7 +1198,6 @@ ul li {
 
 /* Animación de cambio de colores */
 @keyframes colorChange {
-
     0%,
     100% {
         color: #b8860b;
@@ -1242,7 +1221,9 @@ a.cgv {
     /* Cambié el color del texto a un tono de azul */
     background-color: #f9f9f9;
     /* Fondo más claro y neutro */
-    transition: background-color 0.3s, color 0.3s;
+    transition:
+        background-color 0.3s,
+        color 0.3s;
     /* Transiciones para el color y el fondo */
 }
 
@@ -1258,11 +1239,9 @@ a.cgv:hover {
 /* --------------------------------------------------------------------------------------------------------------------------------- */
 /* stylelint-disable stylistic/selector-list-comma-newline-after */
 
-
 .blog-header-logo:hover {
     text-decoration: none;
 }
-
 
 .flex-auto {
     flex: 0 0 auto;
@@ -1305,7 +1284,8 @@ a.cgv:hover {
     background-color: rgba(0, 0, 0, 0.1);
     border: solid rgba(0, 0, 0, 0.15);
     border-width: 1px 0;
-    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    box-shadow:
+        inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
         inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
@@ -1367,7 +1347,6 @@ a.cgv:hover {
     display: block !important;
 }
 
-
 /* Efecctos en las cartas inicio. El modulo de estas carta es: C:\xampp\htdocs\CGVertice\resources\views\sistema\CGV\includes\serviciosTeaser.blade.php  */
 /* CardServiciosTeaser */
 
@@ -1380,7 +1359,9 @@ a.cgv:hover {
     opacity: 0;
     max-height: 0;
     overflow: hidden;
-    transition: opacity 1s ease-in-out, max-height 1s ease-in-out;
+    transition:
+        opacity 1s ease-in-out,
+        max-height 1s ease-in-out;
 }
 
 .card:hover .content {
@@ -1393,7 +1374,6 @@ a.cgv:hover {
     width: 100%;
     transition: transform 1s ease-in-out;
 }
-
 
 .search {
     display: flex;
@@ -1434,7 +1414,7 @@ a.cgv:hover {
     /* Utiliza el espacio disponible */
 }
 
-.search:hover>.search-icon {
+.search:hover > .search-icon {
     background: #1a237e;
     color: #fff;
 }
@@ -1496,7 +1476,7 @@ a:link {
     display: none;
 }
 
-.lSAction>a {
+.lSAction > a {
     background-color: #000;
     width: 50px;
     height: 50px;
@@ -1508,22 +1488,22 @@ a:link {
     position: relative;
 }
 
-.lSAction>.lSNext::before {
+.lSAction > .lSNext::before {
     content: ">";
     font-size: 3rem;
     color: #fff;
     top: -25px;
 }
 
-.lSAction>.lSPrev::before {
+.lSAction > .lSPrev::before {
     content: "<";
     font-size: 3rem;
     color: #fff;
     top: -25px;
 }
 
-.lSAction>a::before,
-.lSAction>a::after {
+.lSAction > a::before,
+.lSAction > a::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -1569,8 +1549,6 @@ i {
     text-decoration: none;
 }
 
-
-
 .flex-auto {
     flex: 0 0 auto;
 }
@@ -1612,7 +1590,8 @@ i {
     background-color: rgba(0, 0, 0, 0.1);
     border: solid rgba(0, 0, 0, 0.15);
     border-width: 1px 0;
-    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    box-shadow:
+        inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
         inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
@@ -1703,7 +1682,6 @@ a:link {
 
 /* -------------------------------------------------------------------------------------- */
 @keyframes button-bounce {
-
     0%,
     30%,
     60%,
@@ -1758,7 +1736,7 @@ a:link {
     display: none;
 }
 
-.lSAction>a {
+.lSAction > a {
     background-color: #000;
     width: 50px;
     height: 50px;
@@ -1770,22 +1748,22 @@ a:link {
     position: relative;
 }
 
-.lSAction>.lSNext::before {
+.lSAction > .lSNext::before {
     content: ">";
     font-size: 3rem;
     color: #fff;
     top: -25px;
 }
 
-.lSAction>.lSPrev::before {
+.lSAction > .lSPrev::before {
     content: "<";
     font-size: 3rem;
     color: #fff;
     top: -25px;
 }
 
-.lSAction>a::before,
-.lSAction>a::after {
+.lSAction > a::before,
+.lSAction > a::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -2049,10 +2027,7 @@ a:link {
 /* Estilos para el contenido de "Servicios" */
 .section-aboutx .content-GC {
     /* Agrega un fondo casi transparente al contenido */
-    background-color: rgba(255,
-            255,
-            255,
-            0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     /* Ajusta la transparencia según tus preferencias */
     padding: 20px;
     /* Agrega espaciado alrededor del contenido */
@@ -2171,7 +2146,7 @@ a:link {
     margin: 0 auto;
     text-align: justify;
     width: 80%;
-    font-family: 'parrafos';
+    font-family: "parrafos";
 }
 
 .gestionD_PU {
@@ -2187,7 +2162,7 @@ a:link {
     margin: 0 auto;
     text-align: justify;
     width: 80%;
-    font-family: 'parrafos';
+    font-family: "parrafos";
 }
 
 .DescipcionEstructura {
@@ -2203,7 +2178,6 @@ a:link {
 }
 
 .imgNuestrosServicios {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2251,7 +2225,7 @@ a:link {
     justify-content: center;
 }
 
-.imgConverge{
+.imgConverge {
     height: 100px;
 }
 
@@ -2289,34 +2263,44 @@ a:link {
 }
 
 /* boton dentro de l tab de clientes en la pantalla de inicio */
-.btnClientes{
+.btnClientes {
     text-align: center;
     margin: 30px 0px 10px 0px;
 }
 
 /* Estilos de tabquinessomos cuando se rediseñó */
-.tituloQuienesSomos{
+.tituloQuienesSomos {
     font-size: 2rem;
     color: #b8860b;
     margin: 20px 0px 20px 0px;
 }
 
-.parrafoQuienesSomos{
+.parrafoQuienesSomos {
     text-align: center;
     color: #000;
 }
 
 /* estilos del area de descripcion de los servicios en la vista welcome */
-.TituloNavServicios{
+.navbarServicios {
+    display: none;
+}
+
+.containerTitulo{
     text-align: center;
+}
+
+.TituloNavServicios {
     font-size: 1.8rem;
     color: #b8860b;
     margin: 20px 0px;
+    cursor: pointer;
+    position: relative; /* Necesario para que la mano se posicione en relación al h4 */
 }
+
 .parrafoServicios {
     border: 2px solid #b8860b;
     border-radius: 20px;
-    margin: 2%  5%;
+    margin: 2% 5%;
 }
 
 .parrafoServicios p {
@@ -2324,11 +2308,41 @@ a:link {
     padding: 5px;
 }
 
-.subTituloServicios p{
+.subTituloServicios p {
     text-align: center;
     color: #b8860b;
 }
 
-.subTituloServicios ul{
+.subTituloServicios ul {
     list-style-type: none;
+}
+
+.titulo-con-animacion {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+/* La mano haciendo clic */
+.mano-clic {
+    position: absolute;
+    top: 100%; /* Ajuste para que empiece más abajo */
+    right: -20px; /* Más cerca de las letras */
+    font-size: 24px;
+    color: white;
+    transform: translateY(-10px); /* Empieza un poco arriba */
+    animation: clickAnim 1.5s infinite ease-in-out;
+}
+
+/* Animación del clic de abajo hacia arriba */
+@keyframes clickAnim {
+    0%, 100% {
+        transform: translateY(0); /* Termina en la posición de inicio */
+    }
+    50% {
+        transform: translateY(-30px) scale(1.1); /* Sube y se agranda para simular el clic */
+    }
+    80% {
+        transform: translateY(-25px) scale(0.9); /* 'Presiona' hacia abajo para simular el clic */
+    }
 }
