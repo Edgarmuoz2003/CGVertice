@@ -12,39 +12,56 @@
 
     @include('sistema.CGV.includes.newNavbar')
     @include('sistema.CGV.includes.boton')
-    <ul class="name">
-        <li><a href="/servicios#GestioenEmpresas">Gestión empresas</a>
-            <ul class="topic">
-                <li><a href="/GestionCalidad">Gestión de calidad de su empresa</a></li>
-                <li><a href="/gestionDesarrollo">Gestión de desarrollo empresarial</a></li>
-                <li><a href="/GestionIps">IPS Gerencial</a></li>
-            </ul>
-        </li>
-        <li><a href="/servicios#GestionE">Gestión I.E.</a>
-            <ul class="topic">
-                <li><a href="/servicios#GestionE">Manuales de Convivencia</a></li>
-                <li><a href="/servicios#GestionE">Diseño de PEI</a></li>
-                <li><a href="/servicios#GestionE">Mallas Curriculares</a></li>
-                <li><a href="/servicios#GestionE">Evaluación Docentes</a></li>
-                <li><a href="/servicios#GestionE">Evaluación Institucional</a></li>
-            </ul>
-        </li>
-        <li><a href="/servicios#GestionEdu">Educación y formación</a>
-            <ul class="topic">
-                <li><a href="/servicios#GestionEdu">Formación continua</a></li>
-                <li><a href="/FormacionContinua">Formación a la medida</a></li>
-                <li><a href="/servicios#GestionEdu">Instituciones Educativas</a></li>
-            </ul>
-        </li>
-        <li><a href="/servicios#PH">Propiedades Horizontales</a>
-            <ul class="topic">
-                <li><a href="/GestionIps">SST</a></li>
-                <li><a href="/gestionDesarrollo">PMIRS</a></li>
-                <li><a href="/gestionDesarrollo">Tratamiento Datos (TD)</a></li>
-                <li><a href="/gestionDesarrollo">Planes de Emergencia</a></li>
-            </ul>
-        </li>
-    </ul>
+
+    <section class="navbarServicios">
+        <h4 class="TituloNavServicios">Buscas un Servicio?</h4>
+
+        <div class="parrafoServicios">
+            <p>En GC-Vertice nos importa tu tiempo, por eso diseñamos este espacio para que ubiques de manera agil el servicio que estas buscando, navegando a la seccion sevicios y buscando el sub-grupo que contiene el la informacion del servicio de tu interes <strong>!Bienvenido!!</strong>
+            </p>
+        </div>
+        
+
+        <div class="row">
+            <div class="col subTituloServicios">
+                <p>Gestión de calidad de su empresa</p>
+                <ul class="topic">
+                    <li>Nomar ISO</li>
+                    <li>Normas Tecticas Colombianas</li>
+                    <li>Normas Tecnicas Sectoriales</li>
+                </ul>
+            </div>
+            <div class="col subTituloServicios">
+                <p>Gestión de desarrollo empresarial</p>
+                <ul class="topic">
+                    <li>Reglamento Interno de Trabajo</li>
+                    <li>Vinculación</li>
+                    <li>Diseño de Estructura Interna</li>
+                    <li>Manual de Funciones</li>
+                    <li>PMIRS</li>
+                    <li>Riesgo Psicosocial</li>
+                    <li>Tratamiento de Datos</li>
+                    <li>Planes de Emergencia</li>
+                </ul>
+            </div>
+            <div class="col subTituloServicios">
+                <p>IPS Gerencial</p>
+                <ul class="topic">
+                    <li>SST</li>
+                    <li>Administración asistida</li>
+                    <li>Consultoria en Gestion RRHH</li>
+                </ul>
+            </div>
+            <div class="col subTituloServicios">
+                <p>Formación a la medida</p>
+                <ul class="topic">
+                    <li>Talleres Integracionales</li>
+                    <li>Talleres Experimentales Disruptivos</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
 
     <div class="container-fluid">
         <section>

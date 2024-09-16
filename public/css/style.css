@@ -2305,3 +2305,30 @@ a:link {
     text-align: center;
     color: #000;
 }
+
+/* estilos del area de descripcion de los servicios en la vista welcome */
+.TituloNavServicios{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #b8860b;
+    margin: 20px 0px;
+}
+.parrafoServicios {
+    border: 2px solid #b8860b;
+    border-radius: 20px;
+    margin: 2%  5%;
+}
+
+.parrafoServicios p {
+    margin: 3px;
+    padding: 5px;
+}
+
+.subTituloServicios p{
+    text-align: center;
+    color: #b8860b;
+}
+
+.subTituloServicios ul{
+    list-style-type: none;
+}
