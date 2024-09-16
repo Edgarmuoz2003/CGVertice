@@ -25,7 +25,7 @@
     <section class="navbarServicios" id="contenidoServicios">
         <div class="parrafoServicios">
             <p>En GC-Vertice nos importa tu tiempo, por eso diseñamos este espacio para que ubiques de manera agil el
-                servicio que estas buscando, navegando a la seccion sevicios y buscando el sub-grupo que contiene el la
+                servicio que estas buscando, navegando a la seccion sevicios y buscando el sub-grupo que contiene la
                 informacion del servicio de tu interes <strong>!Bienvenido!!</strong>
             </p>
         </div>
@@ -55,7 +55,7 @@
             <div class="col subTituloServicios">
                 <p>IPS Gerencial</p>
                 <ul class="topic">
-                    <li>SST</li>
+                    <li>SG-SST</li>
                     <li>Administración asistida</li>
                     <li>Consultoria en Gestion RRHH</li>
                 </ul>
